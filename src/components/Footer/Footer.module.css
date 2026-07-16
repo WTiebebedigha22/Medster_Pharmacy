@@ -1,0 +1,262 @@
+.footer {
+  background: #131A22;
+  color: #D5D9D9;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  margin-top: 40px;
+}
+
+/* Chat Button */
+#btn_area {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+}
+
+#chat_btn {
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 50px;
+  padding: 14px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #111111;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#chat_btn:hover {
+  background: #F7CA00;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.chatLabel {
+  font-size: 14px;
+}
+
+/* Inner Footer */
+#inner_footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 20px;
+}
+
+/* Back to Top */
+.backPage {
+  margin-bottom: 30px;
+}
+
+#backToTop {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #D5D9D9;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid #3A4553;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background: #232F3E;
+}
+
+#transparent {
+  opacity: 0.3;
+  margin: 0 4px;
+}
+
+/* Footer Content Grid */
+#footerContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 30px 0;
+  border-top: 1px solid #3A4553;
+  border-bottom: 1px solid #3A4553;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.columnTitle {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #FFD814;
+  display: inline-block;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerColumn li {
+  margin-bottom: 10px;
+}
+
+.footerColumn li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #D5D9D9;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  padding: 4px 0;
+}
+
+.footerColumn li a:hover {
+  color: #FFFFFF;
+  padding-left: 8px;
+}
+
+.footerColumn li a p {
+  margin: 0;
+}
+
+.footerColumn li a svg {
+  color: #FFD814;
+  font-size: 14px;
+  min-width: 18px;
+}
+
+/* Trust Badges */
+.footerBottom {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.trustBadges {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: #D5D9D9;
+  font-size: 13px;
+}
+
+.trustBadges span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #232F3E;
+  border-radius: 20px;
+  border: 1px solid #3A4553;
+}
+
+/* Copyright */
+#copyright {
+  background: #0F1111;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #3A4553;
+}
+
+#copyright p {
+  margin: 0;
+  color: #D5D9D9;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#copyright svg {
+  color: #FFD814;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  #footerContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #footerContent {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footerColumn {
+    text-align: center;
+  }
+
+  .columnTitle {
+    border-bottom: 2px solid #FFD814;
+    padding-bottom: 8px;
+  }
+
+  .footerColumn li a {
+    justify-content: center;
+  }
+
+  .trustBadges {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #chat_btn {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .chatLabel {
+    display: none;
+  }
+
+  #backToTop {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #inner_footer {
+    padding: 20px 16px;
+  }
+
+  #footerContent {
+    padding: 20px 0;
+  }
+
+  .footerColumn li a {
+    font-size: 13px;
+  }
+}
+
+/* Animation Classes (for GSAP) */
+.link {
+  opacity: 0;
+}
+
+.backPage {
+  opacity: 0;
+}
+
+.chat_btn {
+  opacity: 0;
+}
+
+.copywright {
+  opacity: 0;
+}

@@ -1,0 +1,451 @@
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EAEDED;
+  padding: 20px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.authCard {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  max-width: 520px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Back Button */
+.backButton {
+  background: none;
+  border: none;
+  color: #0066C0;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin-bottom: 20px;
+  transition: color 0.2s;
+  font-weight: 500;
+}
+
+.backButton:hover {
+  color: #C7511F;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  color: #565959;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Benefits */
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #F7F8FA;
+  border-radius: 8px;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #111111;
+}
+
+.benefit svg {
+  color: #FFD814;
+  font-size: 16px;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111111;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label svg {
+  color: #565959;
+  font-size: 14px;
+}
+
+.required {
+  color: #FF6B6B;
+  margin-left: 4px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #D5D9D9;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+  background: white;
+  color: #111111;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007185;
+  box-shadow: 0 0 0 3px rgba(0, 113, 133, 0.2);
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input.error {
+  border-color: #FF6B6B;
+}
+
+.input.error:focus {
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
+}
+
+/* Password Field */
+.passwordField {
+  position: relative;
+}
+
+.passwordField .input {
+  padding-right: 50px;
+}
+
+.showButton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #0066C0;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 12px;
+  height: 100%;
+  transition: color 0.2s;
+}
+
+.showButton:hover {
+  color: #C7511F;
+}
+
+/* Password Strength */
+.passwordStrength {
+  margin-top: 8px;
+}
+
+.strengthBar {
+  height: 4px;
+  background: #EAEDED;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.strengthFill {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.strengthLabel {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Password Rules */
+.passwordRules {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+}
+
+.passwordRules li {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  transition: color 0.3s;
+}
+
+.passwordRules li.valid {
+  color: #2E7D32;
+}
+
+.passwordRules li.valid svg {
+  color: #51CF66;
+}
+
+.passwordRules li.invalid {
+  color: #565959;
+}
+
+.passwordRules li.invalid svg {
+  color: #D5D9D9;
+}
+
+/* Error and Success Messages */
+.errorMessage {
+  color: #FF6B6B;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.successMessage {
+  color: #2E7D32;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.successMessage svg {
+  color: #51CF66;
+}
+
+.helperText {
+  color: #565959;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Terms */
+.termsGroup {
+  margin: 4px 0;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-top: 2px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.checkboxText {
+  font-size: 13px;
+  color: #111111;
+  line-height: 1.5;
+}
+
+.termsLink {
+  color: #0066C0;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.termsLink:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btnPrimary {
+  width: 100%;
+  padding: 12px;
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111111;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.btnPrimary:hover {
+  background: #F7CA00;
+  border-color: #F2C200;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 216, 20, 0.3);
+}
+
+.btnPrimary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 216, 20, 0.5);
+}
+
+.btnPrimary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btnSecondary {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btnSecondary:hover {
+  background: #F7FAFA;
+  border-color: #B3B9B9;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #D5D9D9;
+}
+
+.dividerText {
+  padding: 0 16px;
+  color: #565959;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Terms Notice */
+.termsNotice {
+  color: #565959;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #EAEDED;
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.footerLinks a {
+  color: #0066C0;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footerLinks a:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #565959;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .authCard {
+    padding: 24px 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .benefits {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .benefit {
+    font-size: 12px;
+  }
+
+  .passwordRules {
+    grid-template-columns: 1fr;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

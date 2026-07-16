@@ -1,0 +1,66 @@
+:root {
+  --secondary-color: rgb(0, 90, 192);
+  --border-color: #ddd;
+}
+
+.page {
+  width: 100%;
+}
+
+.hero {
+  padding: 40px 7%;
+  background: #f3fafc;
+}
+
+.hero h1 {
+  font-size: 34px;
+  font-weight: 900;
+  color: #0077b6;
+  margin: 0 0 8px;
+}
+
+.hero p {
+  margin: 0;
+  color: #444;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.empty {
+  padding: 28px;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #666;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 28px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+

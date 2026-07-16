@@ -1,0 +1,273 @@
+.loginContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EAEDED;
+  padding: 20px;
+}
+
+.loginCard {
+  background: white;
+  border-radius: 8px;
+  padding: 40px 40px 20px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #111111;
+  margin: 0 0 4px 0;
+}
+
+.description {
+  color: #565959;
+  font-size: 14px;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #D5D9D9;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+  background: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007185;
+  box-shadow: 0 0 0 3px rgba(0, 113, 133, 0.2);
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.passwordField {
+  position: relative;
+}
+
+.passwordField .input {
+  padding-right: 70px;
+}
+
+.showButton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #0066C0;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 12px;
+  height: 100%;
+  font-weight: 400;
+}
+
+.showButton:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.continueButton {
+  width: 100%;
+  padding: 10px;
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+.continueButton:hover {
+  background: #F7CA00;
+  border-color: #F2C200;
+}
+
+.continueButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 216, 20, 0.5);
+}
+
+.helpSection {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.helpLink {
+  color: #0066C0;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.helpLink:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.helpIcon {
+  font-size: 12px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 4px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #D5D9D9;
+}
+
+.dividerText {
+  padding: 0 16px;
+  color: #565959;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.createAccountButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.createAccountButton:hover {
+  background: #F7FAFA;
+  border-color: #B3B9B9;
+}
+
+.terms {
+  color: #565959;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 12px;
+  text-align: justify;
+}
+
+.termsLink {
+  color: #0066C0;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.termsLink:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #EAEDED;
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.footerLink {
+  color: #0066C0;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footerLink:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #565959;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+@media (max-width: 480px) {
+  .loginCard {
+    padding: 20px 20px 16px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+}

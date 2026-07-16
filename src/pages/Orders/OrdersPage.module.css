@@ -1,0 +1,29 @@
+:root {
+  --border-color: #ddd;
+  --secondary-color: rgb(0, 90, 192);
+}
+
+.page {
+  padding: 40px 20px 60px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 1000;
+  margin: 0 0 18px;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 18px;
+  font-weight: 700;
+  color: #444;
+}
+

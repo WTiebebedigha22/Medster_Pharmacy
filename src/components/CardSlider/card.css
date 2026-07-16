@@ -1,0 +1,49 @@
+.property-swiper {
+  padding: 20px;
+}
+
+.property-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.property-info {
+  padding: 15px;
+}
+
+.property-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.property-info h4 {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.details {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}

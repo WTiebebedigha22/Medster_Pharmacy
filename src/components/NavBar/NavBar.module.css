@@ -1,0 +1,394 @@
+/*
+|--------------------------------------------------------------------------
+| VARIABLES
+|--------------------------------------------------------------------------
+*/
+:root {
+  --primary-color: #333; /* Dark text/links */
+  --secondary-color: rgb(0, 90, 192);
+  --medster-green: rgb(0, 122, 27);
+  --light-gray: #f2f2f2;
+  --dark-gray: #444;
+  --border-color: #ddd;
+}
+
+/*
+|--------------------------------------------------------------------------
+| BASE CONTAINER STYLES
+|--------------------------------------------------------------------------
+*/
+.header {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  /* Mimics a fixed-width centered container for content */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Padding for edges */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+|--------------------------------------------------------------------------
+| 1. TOP BAR (Promotions/Sell/App)
+|--------------------------------------------------------------------------
+*/
+.navbar__top-bar {
+  background-color: var(--light-gray);
+  padding: 5px 0;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar__top-bar .container {
+    justify-content: flex-end; /* Push links to the right */
+}
+
+.top-bar__link {
+  text-decoration: none;
+  color: var(--dark-gray);
+  margin-left: 15px;
+  transition: color 0.2s;
+}
+
+.top-bar__link:hover {
+  color: var(--secondary-color);
+}
+
+/*
+|--------------------------------------------------------------------------
+| 2. MAIN NAVBAR (Logo, Search, Actions)
+|--------------------------------------------------------------------------
+*/
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar .container {
+  /* Set up the main row: Logo | Search | Actions */
+  display: grid;
+  grid-template-columns: 1fr 3.5fr 2fr; /* Ratio for Desktop */
+  gap: 20px;
+}
+
+.navbar__logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar__logo img {
+  height: 40px; /* Smaller logo in main bar */
+  margin-right: 8px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| 3. PROMINENT SEARCH BAR
+|--------------------------------------------------------------------------
+*/
+.navbar__search-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 45px; /* Fixed height for prominence */
+  border: 2px solid var(--secondary-color); /* Highlight the search */
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.navbar__search-input {
+  flex-grow: 1;
+  padding: 0 15px;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.navbar__search-button {
+  background-color: var(--secondary-color);
+  color: white;
+  height: 100%;
+  padding: 0 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.2s;
+}
+
+.navbar__search-button:hover {
+  background-color: darkblue; 
+}
+
+/*
+|--------------------------------------------------------------------------
+| 4. MAIN ACTIONS (Account, Help, Cart)
+|--------------------------------------------------------------------------
+*/
+.navbar__main-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Push to the right */
+  gap: 20px;
+}
+
+.action__item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px; /* Hit area padding */
+  position: relative;
+}
+
+.action__item svg {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.action__text {
+  font-weight: 600;
+}
+
+.action__icon--dropdown {
+  font-size: 12px !important;
+  margin-left: 5px;
+  margin-right: 0 !important;
+}
+
+/* Cart Specific Styling */
+.cart__count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/*
+|--------------------------------------------------------------------------
+| 5. CATEGORY/LINKS (Mobile & Desktop)
+|--------------------------------------------------------------------------
+*/
+
+/* Desktop: Keep original links visible as a separate row below main navbar (optional Jumia style)
+   For simplicity, these links will be hidden by default in desktop and only used in mobile */
+.navbar__links-mobile {
+    display: none; /* Hide link menu on desktop */
+}
+
+/* Category Toggle - Mobile/Sidebar Trigger */
+.category__toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+/* Category Sidebar (Placeholder) */
+.category__sidebar {
+    position: absolute;
+    top: 100%; /* Below the main header */
+    left: 0;
+    width: 250px;
+    background: white;
+    border: 1px solid var(--border-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.category__sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category__sidebar li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.category__sidebar li a:hover {
+    background-color: var(--light-gray);
+    color: var(--secondary-color);
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| 6. MOBILE RESPONSIVENESS
+|--------------------------------------------------------------------------
+*/
+.navbar__mobile-actions {
+  display: none; /* Hidden on Desktop */
+}
+
+@media (max-width: 1024px) {
+    /* Adjust grid layout for smaller screens */
+    .navbar .container {
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    }
+
+    .navbar__search-button span {
+        display: none; /* Hide "SEARCH" text on smaller devices */
+    }
+}
+
+@media (max-width: 768px) {
+  /* Hide the top bar */
+  .navbar__top-bar {
+    display: none;
+  }
+
+  .navbar .container {
+    /* Stack components for mobile */
+    grid-template-columns: 1fr auto auto; /* Logo | Actions | Hamburger */
+    gap: 10px;
+  }
+  
+  .navbar__search-main {
+    /* Hide search bar in the main row on mobile (it's often a separate screen/modal) */
+    display: none;
+  }
+
+  .navbar__main-actions {
+    /* Show mobile hamburger menu and search icon */
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .action__text, .action__icon--dropdown {
+    /* Hide text/dropdown arrows for Account/Help/Cart icons on mobile */
+    display: none;
+  }
+  
+  .action__item svg {
+      margin-right: 0; /* Center icons */
+  }
+
+  .navbar__mobile-actions {
+    /* Hamburger and optional search icon */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* Hamburger Menu Links (full width overlay) */
+  .navbar__links-mobile {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px; /* Adjust based on new header height */
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar__links-mobile.active {
+    display: flex;
+  }
+
+  .navbar__links-mobile li {
+    width: 100%;
+    border-bottom: 1px dashed var(--light-gray);
+  }
+  
+  .navbar__links-mobile li a {
+    padding: 10px 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  .navbar__links-mobile li:last-child {
+      border-bottom: none;
+  }
+
+  /* Hide category sidebar on mobile for full screen menu */
+  .category__sidebar {
+      display: none;
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| 7. DROPDOWN MENUS (Account & Help)
+|--------------------------------------------------------------------------
+*/
+
+.dropdown {
+  position: absolute;
+  top: 40px; /* Below the action item */
+  right: 0;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 8px 0;
+  z-index: 1200;
+  min-width: 190px;
+  display: flex;
+  flex-direction: column;
+  animation: dropdownFade 0.2s ease-in-out;
+}
+
+.dropdown a {
+  padding: 10px 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: block;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdown a:hover {
+  background-color: var(--light-gray);
+  color: var(--secondary-color);
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure parent icons align with dropdown */
+.action__item {
+  position: relative; /* Keeps dropdown attached below */
+}
