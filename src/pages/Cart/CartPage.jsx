@@ -158,19 +158,19 @@ const CartPage = () => {
                 <h2>Your cart is empty</h2>
                 <p>Browse our products and add items to your cart</p>
                 <div className={styles.emptyActions}>
-                  <Link to="/products" className={styles.browseBtn}>
+                  <Link to="/shop" className={styles.browseBtn}>
                     Browse Products
                   </Link>
-                  <Link to="/prescription" className={styles.prescriptionBtn}>
+                  <Link to="/shop" className={styles.prescriptionBtn}>
                     <FontAwesomeIcon icon={faPrescription} />
                     Upload Prescription
                   </Link>
                 </div>
                 <div className={styles.featuredCategories}>
                   <span>Popular categories:</span>
-                  <Link to="/products?category=vitamins">💊 Vitamins</Link>
-                  <Link to="/products?category=devices">📱 Health Devices</Link>
-                  <Link to="/products?category=baby">👶 Baby Care</Link>
+                  <Link to="/shop?category=vitamins">💊 Vitamins</Link>
+                  <Link to="/shop?category=devices">📱 Health Devices</Link>
+                  <Link to="/shop?category=baby">👶 Baby Care</Link>
                 </div>
               </div>
             ) : (

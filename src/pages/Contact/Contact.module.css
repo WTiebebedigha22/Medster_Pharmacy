@@ -1,9 +1,9 @@
 :root {
-  --yellow-color:yellow;
-  --blue-color:blue;
-  --white-color:white;
-  --brightash-color:rgb(185, 183, 183);
-  --darkash-color:rgb(112, 109, 109);
+  --yellow-color: var(--brand-green, #007a1b);
+  --blue-color: var(--brand-blue, #005abc);
+  --white-color: white;
+  --brightash-color: rgb(185, 183, 183);
+  --darkash-color: rgb(112, 109, 109);
   --main-font: raleway;
 }
 

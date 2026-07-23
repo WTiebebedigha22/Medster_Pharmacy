@@ -1,73 +1,115 @@
-import express from "express";
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import config from './config/index.js';
+import { errorHandler, notFoundHandler } from './middleware/errorHandler.js';
+
+// Import routes
+import authRoutes from './routes/auth.js';
+import productRoutes from './routes/products.js';
+import cartRoutes from './routes/cart.js';
+import orderRoutes from './routes/orders.js';
+import prescriptionRoutes from './routes/prescriptions.js';
+import addressRoutes from './routes/addresses.js';
+import adminRoutes from './routes/admin.js';
+import webhookRoutes from './routes/webhooks.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
-app.use(express.json());
 
-// In-memory demo DB (replace with SQLite later if desired)
-let products = [];
-let orders = [];
-let users = [];
-let nextOrderId = 1;
+// =============================================
+// MIDDLEWARE
+// =============================================
 
-// Seed products from frontend data file
-import { products as seedProducts } from "../src/data/products.js";
-products = seedProducts;
+// CORS
+app.use(cors({
+  origin: config.cors.origin || 'http://localhost:5173',
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
-app.get("/api/health", (req, res) => res.json({ ok: true }));
+// Body parsing (webhooks need raw body for signature verification)
+app.use('/api/webhooks', express.raw({ type: 'application/json' }));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
 
-app.get("/api/products", (req, res) => {
-  res.json({ products });
+// Static files for prescription uploads
+app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+
+// Request logging
+if (config.nodeEnv === 'development') {
+  app.use((req, res, next) => {
+    const start = Date.now();
+    res.on('finish', () => {
+      const duration = Date.now() - start;
+      console.log(`${req.method} ${req.originalUrl} ${res.statusCode} ${duration}ms`);
+    });
+    next();
+  });
+}
+
+// =============================================
+// HEALTH CHECK
+// =============================================
+
+app.get('/api/health', (req, res) => {
+  res.json({
+    ok: true,
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    environment: config.nodeEnv,
+  });
 });
 
-app.post("/api/orders", (req, res) => {
-  const { items, shipping, paymentMethod, notes } = req.body || {};
+// =============================================
+// ROUTES
+// =============================================
 
-  if (!Array.isArray(items) || items.length === 0) {
-    return res.status(400).json({ message: "No items supplied" });
+app.use('/api/auth', authRoutes);
+app.use('/api/products', productRoutes);
+app.use('/api/cart', cartRoutes);
+app.use('/api/orders', orderRoutes);
+app.use('/api/prescriptions', prescriptionRoutes);
+app.use('/api/addresses', addressRoutes);
+app.use('/api/admin', adminRoutes);
+app.use('/api/webhooks', webhookRoutes);
+
+// =============================================
+// ERROR HANDLING
+// =============================================
+
+app.use(notFoundHandler);
+app.use(errorHandler);
+
+// =============================================
+// START SERVER
+// =============================================
+
+const startServer = async () => {
+  try {
+    // Start scheduled sync jobs
+    const { startSyncJobs } = await import('./jobs/syncScheduler.js');
+    startSyncJobs();
+
+    app.listen(config.port, () => {
+      console.log(`
+╔══════════════════════════════════════════════╗
+║         MEDSTER PHARMACY API SERVER          ║
+╠══════════════════════════════════════════════╣
+║  Status:  ✅ Running                         ║
+║  Port:    ${String(config.port).padEnd(33)}║
+║  Env:     ${config.nodeEnv.padEnd(33)}║
+║  CORS:    ${config.cors.origin.padEnd(33)}║
+╚══════════════════════════════════════════════╝
+      `);
+    });
+  } catch (error) {
+    console.error('❌ Failed to start server:', error.message);
+    process.exit(1);
   }
+};
 
-  const order = {
-    id: String(nextOrderId++),
-    status: "PLACED",
-    createdAt: new Date().toISOString(),
-    items,
-    shipping: shipping || null,
-    paymentMethod: paymentMethod || "CARD",
-    notes: notes || null,
-    userId: "demo-user",
-  };
-
-  orders.unshift(order);
-  res.status(201).json({ order });
-});
-
-app.get("/api/orders/me", (req, res) => {
-  const myOrders = orders.filter((o) => o.userId === "demo-user");
-  res.json({ orders: myOrders });
-});
-
-// Auth scaffolding (no real JWT yet)
-app.post("/api/auth/login", (req, res) => {
-  const { email } = req.body || {};
-  if (!email) return res.status(400).json({ message: "Email is required" });
-  return res.json({ token: "demo-token", user: { id: "demo-user", email } });
-});
-
-app.post("/api/auth/register", (req, res) => {
-  const { email, password, fullName } = req.body || {};
-  if (!email || !password) {
-    return res.status(400).json({ message: "Email and password are required" });
-  }
-  const existing = users.find((u) => u.email === email);
-  if (existing) return res.status(409).json({ message: "Account already exists" });
-  const user = { id: `u_${users.length + 1}`, email, fullName: fullName || "", password };
-  users.push(user);
-  return res.status(201).json({ token: "demo-token", user: { id: user.id, email: user.email } });
-});
-
-const port = 4000;
-app.listen(port, () => {
-  // eslint-disable-next-line no-console
-  console.log(`[server] listening on :${port}`);
-});
-
+startServer();

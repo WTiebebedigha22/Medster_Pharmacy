@@ -130,7 +130,7 @@ const Home = () => {
         <div className={styles.heroContent}>
           <div className={styles["hero-text"]}>
             <div className={styles.heroBadge}>
-              <span>🌟 Amazon Pharmacy</span>
+<span>🌟 Medster Pharmacy</span>
             </div>
             <h1>Your Health,<br />Made Easy</h1>
             <p>Shop quality medicines, book health services, and get care online — all from the comfort of your home.</p>
@@ -170,7 +170,7 @@ const Home = () => {
             <div className={styles.imageContainer}>
               <img 
                 src="/images/Home/medplus_banner.jpg" 
-                alt="Amazon Pharmacy Banner" 
+alt="Medster Pharmacy Banner"
               />
               <div className={styles.floatingBadge}>
                 <span>🏷️ Save 20%</span>
@@ -395,7 +395,7 @@ const Home = () => {
         <div className={styles.storesContent}>
           <div className={styles.storesInfo}>
             <h2>Our Stores</h2>
-            <p>Find Amazon Pharmacy branches near you.</p>
+<p>Find Medster Pharmacy branches near you.</p>
             <ul className={styles.storeFeatures}>
               <li>📍 Over 500 locations nationwide</li>
               <li>🕐 Open 8 AM - 10 PM daily</li>

@@ -1,0 +1,17 @@
+:root {
+  /* Brand Colors - Blue & Green */
+  --brand-blue: #005abc;
+  --brand-blue-dark: #00428a;
+  --brand-blue-light: #e8f0fe;
+  --brand-green: #007a1b;
+  --brand-green-dark: #005c14;
+  --brand-green-light: #e8f5e9;
+  
+  /* Legacy / Secondary */
+  --secondary-color: var(--brand-blue);
+  --medster-green: var(--brand-green);
+  --light-gray: #f2f2f2;
+  --dark-gray: #444;
+  --border-color: #ddd;
+}
+

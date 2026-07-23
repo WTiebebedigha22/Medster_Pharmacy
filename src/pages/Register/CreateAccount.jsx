@@ -140,13 +140,13 @@ const CreateAccount = () => {
         {/* Header */}
         <div className={styles.header}>
           <img 
-            src="https://www.amazon.com/favicon.ico" 
-            alt="Amazon Pharmacy" 
+            src="/images/logo.png" 
+            alt="Medster Pharmacy" 
             className={styles.logo}
           />
           <h1 className={styles.title}>Create Account</h1>
           <p className={styles.subtitle}>
-            Join Amazon Pharmacy and take control of your health
+            Join Medster Pharmacy and take control of your health
           </p>
         </div>
 
@@ -399,7 +399,7 @@ const CreateAccount = () => {
                 className={styles.checkbox}
               />
               <span className={styles.checkboxText}>
-                I agree to Amazon Pharmacy's 
+                I agree to Medster Pharmacy's
                 <Link to="/terms" className={styles.termsLink}> Terms of Service</Link>
                 , 
                 <Link to="/privacy" className={styles.termsLink}> Privacy Policy</Link>
@@ -444,7 +444,7 @@ const CreateAccount = () => {
             <Link to="/contact">Contact Us</Link>
           </div>
           <div className={styles.copyright}>
-            © 2026 Amazon Pharmacy. All rights reserved.
+            © 2026 Medster Pharmacy. All rights reserved.
           </div>
         </div>
       </div>

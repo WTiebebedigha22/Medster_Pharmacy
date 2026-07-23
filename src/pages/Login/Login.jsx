@@ -22,11 +22,11 @@ function Login() {
       <div className={styles.loginCard}>
         <div className={styles.header}>
           <img 
-            src="https://www.amazon.com/favicon.ico" 
-            alt="Amazon Pharmacy" 
+            src="/images/logo.png" 
+            alt="Medster Pharmacy" 
             className={styles.logo}
           />
-          <h1 className={styles.title}>Amazon Pharmacy</h1>
+          <h1 className={styles.title}>Medster Pharmacy</h1>
         </div>
 
         <h2 className={styles.subtitle}>Sign in</h2>
@@ -90,19 +90,19 @@ function Login() {
           </div>
 
           <div className={styles.divider}>
-            <span className={styles.dividerText}>New to Amazon Pharmacy?</span>
+            <span className={styles.dividerText}>New to Medster Pharmacy?</span>
           </div>
 
           <Link 
             to="/auth/register" 
             className={styles.createAccountButton}
           >
-            Create your Amazon Pharmacy account
+            Create your Medster Pharmacy account
           </Link>
 
           <div className={styles.terms}>
-            By continuing, you agree to Amazon's 
-            <a href="#" className={styles.termsLink}> Conditions of Use</a> and 
+            By continuing, you agree to Medster Pharmacy's
+            <a href="#" className={styles.termsLink}> Terms of Use</a> and 
             <a href="#" className={styles.termsLink}> Privacy Notice</a>.
           </div>
         </form>
@@ -114,7 +114,7 @@ function Login() {
             <a href="#" className={styles.footerLink}>Help</a>
           </div>
           <div className={styles.copyright}>
-            © 2026, Medster Pharmacy,
+            © 2026, Medster Pharmacy. All rights reserved.
           </div>
         </div>
       </div>

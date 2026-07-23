@@ -5,7 +5,7 @@
   justify-content: center;
   background: #EAEDED;
   padding: 20px;
-  font-family: "Amazon Ember", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .authCard {
@@ -86,7 +86,7 @@
 }
 
 .benefit svg {
-  color: #FFD814;
+  color: var(--brand-green, #007a1b);
   font-size: 16px;
 }
 
@@ -307,12 +307,12 @@
 .btnPrimary {
   width: 100%;
   padding: 12px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
-  color: #111111;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
@@ -323,15 +323,15 @@
 }
 
 .btnPrimary:hover {
-  background: #F7CA00;
-  border-color: #F2C200;
+  background: var(--brand-green-dark, #005c14);
+  border-color: var(--brand-green-darker, #004a10);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(255, 216, 20, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 122, 27, 0.3);
 }
 
 .btnPrimary:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 216, 20, 0.5);
+  box-shadow: 0 0 0 3px rgba(0, 122, 27, 0.5);
 }
 
 .btnPrimary:disabled {

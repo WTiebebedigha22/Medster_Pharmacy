@@ -5,8 +5,9 @@
 */
 :root {
   --primary-color: #333; /* Dark text/links */
-  --secondary-color: rgb(0, 90, 192);
-  --medster-green: rgb(0, 122, 27);
+  /* Using brand colors from index.css */
+  --secondary-color: var(--brand-blue, rgb(0, 90, 192));
+  --medster-green: var(--brand-green, rgb(0, 122, 27));
   --light-gray: #f2f2f2;
   --dark-gray: #444;
   --border-color: #ddd;
@@ -131,7 +132,7 @@
 }
 
 .navbar__search-button:hover {
-  background-color: darkblue; 
+  background-color: var(--brand-green, #005c14); 
 }
 
 /*

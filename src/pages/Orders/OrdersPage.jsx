@@ -6,7 +6,6 @@ import { api } from "../../lib/api";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faBox,
-  faPackage,
   faTruck,
   faCheckCircle,
   faClock,
@@ -50,7 +49,7 @@ const OrdersPage = () => {
         if (!cancelled) {
           // Sort orders by date
           const sortedOrders = (res.orders || []).sort((a, b) => 
-            new Date(b.createdAt) - new Date(a.createdAt)
+            new Date(b.created_at || b.createdAt) - new Date(a.created_at || a.createdAt)
           );
           setOrders(sortedOrders);
         }
@@ -74,7 +73,7 @@ const OrdersPage = () => {
       'shipped': { label: 'Shipped', icon: faTruck, color: '#748FFC', bg: '#EDF2FF' },
       'delivered': { label: 'Delivered', icon: faCheckCircle, color: '#51CF66', bg: '#E8F5E9' },
       'cancelled': { label: 'Cancelled', icon: faTimesCircle, color: '#FF6B6B', bg: '#FFF0F0' },
-      'returned': { label: 'Returned', icon: faPackage, color: '#FFA94D', bg: '#FFF8E1' },
+      'returned': { label: 'Returned', icon: faTruck, color: '#FFA94D', bg: '#FFF8E1' },
     };
     return statusMap[status?.toLowerCase()] || { label: status, icon: faBox, color: '#565959', bg: '#F7F8FA' };
   };
@@ -488,8 +487,8 @@ const OrdersPage = () => {
             <FontAwesomeIcon icon={faShoppingBag} />
             Continue Shopping
           </Link>
-          <Link to="/prescription" className={styles.quickAction}>
-            <FontAwesomeIcon icon={faPackage} />
+          <Link to="/shop?category=prescription" className={styles.quickAction}>
+            <FontAwesomeIcon icon={faBox} />
             Upload Prescription
           </Link>
           <Link to="/support" className={styles.quickAction}>

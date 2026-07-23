@@ -1,0 +1,209 @@
+-- =====================================================
+-- Medster Pharmacy - Database Schema
+-- =====================================================
+-- Run this in Supabase SQL Editor to set up the schema
+
+-- 1. USERS TABLE (Self-contained auth)
+CREATE TABLE IF NOT EXISTS users (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  email VARCHAR(255) UNIQUE NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,
+  full_name VARCHAR(255),
+  phone VARCHAR(50),
+  role VARCHAR(20) DEFAULT 'customer' CHECK (role IN ('customer', 'pharmacist', 'admin')),
+  is_active BOOLEAN DEFAULT true,
+  email_verified BOOLEAN DEFAULT false,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 2. USER ADDRESSES
+CREATE TABLE IF NOT EXISTS addresses (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  label VARCHAR(50) DEFAULT 'Home',
+  address_line1 TEXT NOT NULL,
+  address_line2 TEXT,
+  city VARCHAR(100) NOT NULL,
+  state VARCHAR(100) NOT NULL,
+  postal_code VARCHAR(20),
+  country VARCHAR(100) DEFAULT 'Nigeria',
+  is_default BOOLEAN DEFAULT false,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 3. PRODUCTS CACHE (Synced from iRECPlus)
+CREATE TABLE IF NOT EXISTS products (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  irec_id VARCHAR(100) UNIQUE NOT NULL,  -- ID from iRECPlus
+  name VARCHAR(500) NOT NULL,
+  description TEXT,
+  category VARCHAR(200),
+  brand VARCHAR(200),
+  price DECIMAL(12, 2) NOT NULL,
+  compare_at_price DECIMAL(12, 2),
+  currency VARCHAR(10) DEFAULT 'NGN',
+  stock_quantity INTEGER DEFAULT 0,
+  is_rx BOOLEAN DEFAULT false,  -- Prescription required
+  images TEXT[] DEFAULT '{}',
+  thumbnail_url TEXT,
+  attributes JSONB DEFAULT '{}',  -- Strength, dosage form, etc.
+  manufacturer VARCHAR(300),
+  is_active BOOLEAN DEFAULT true,
+  last_synced_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 4. CART ITEMS (Managed entirely in our DB)
+CREATE TABLE IF NOT EXISTS cart_items (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  product_id UUID REFERENCES products(id) ON DELETE CASCADE,
+  quantity INTEGER NOT NULL DEFAULT 1 CHECK (quantity > 0),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(user_id, product_id)
+);
+
+-- 5. ORDERS
+CREATE TABLE IF NOT EXISTS orders (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  order_number VARCHAR(50) UNIQUE NOT NULL,
+  status VARCHAR(30) DEFAULT 'pending' CHECK (
+    status IN ('pending', 'awaiting_payment', 'paid', 'processing', 
+               'shipped', 'delivered', 'cancelled', 'refunded')
+  ),
+  subtotal DECIMAL(12, 2) NOT NULL,
+  delivery_fee DECIMAL(12, 2) DEFAULT 0,
+  discount DECIMAL(12, 2) DEFAULT 0,
+  tax DECIMAL(12, 2) DEFAULT 0,
+  total DECIMAL(12, 2) NOT NULL,
+  currency VARCHAR(10) DEFAULT 'NGN',
+  shipping_address_id UUID REFERENCES addresses(id),
+  payment_method VARCHAR(50),
+  paystack_reference VARCHAR(100),  -- Paystack transaction ref
+  irec_order_id VARCHAR(100),       -- Order ID in iRECPlus
+  notes TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 6. ORDER ITEMS
+CREATE TABLE IF NOT EXISTS order_items (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  order_id UUID REFERENCES orders(id) ON DELETE CASCADE,
+  product_id UUID REFERENCES products(id),
+  product_name VARCHAR(500) NOT NULL,
+  price DECIMAL(12, 2) NOT NULL,
+  quantity INTEGER NOT NULL,
+  subtotal DECIMAL(12, 2) NOT NULL,
+  is_rx BOOLEAN DEFAULT false,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 7. PRESCRIPTIONS
+CREATE TABLE IF NOT EXISTS prescriptions (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  image_url TEXT NOT NULL,
+  doctor_name VARCHAR(255),
+  prescription_date DATE,
+  expiry_date DATE,
+  notes TEXT,
+  status VARCHAR(20) DEFAULT 'pending' CHECK (
+    status IN ('pending', 'approved', 'rejected', 'expired')
+  ),
+  reviewed_by UUID REFERENCES users(id),  -- Pharmacist/admin who reviewed
+  reviewed_at TIMESTAMPTZ,
+  rejection_reason TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 8. PRESCRIPTION-ORDER LINK
+CREATE TABLE IF NOT EXISTS prescription_orders (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  prescription_id UUID REFERENCES prescriptions(id) ON DELETE CASCADE,
+  order_id UUID REFERENCES orders(id) ON DELETE CASCADE,
+  UNIQUE(prescription_id, order_id)
+);
+
+-- 9. SYNC LOGS (Track iRECPlus sync status)
+CREATE TABLE IF NOT EXISTS sync_logs (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  sync_type VARCHAR(50) NOT NULL CHECK (sync_type IN ('products', 'inventory', 'orders', 'categories')),
+  status VARCHAR(20) NOT NULL CHECK (status IN ('started', 'completed', 'failed', 'partial')),
+  records_processed INTEGER DEFAULT 0,
+  records_failed INTEGER DEFAULT 0,
+  error_message TEXT,
+  started_at TIMESTAMPTZ NOT NULL,
+  completed_at TIMESTAMPTZ,
+  duration_ms INTEGER
+);
+
+-- 10. PAYMENT LOGS
+CREATE TABLE IF NOT EXISTS payment_logs (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  order_id UUID REFERENCES orders(id) ON DELETE CASCADE,
+  paystack_reference VARCHAR(100),
+  amount DECIMAL(12, 2) NOT NULL,
+  currency VARCHAR(10) DEFAULT 'NGN',
+  status VARCHAR(20) NOT NULL CHECK (status IN ('initiated', 'success', 'failed', 'pending')),
+  gateway_response JSONB DEFAULT '{}',
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 11. AUTH TOKENS (Token blacklist for logout)
+CREATE TABLE IF NOT EXISTS token_blacklist (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  token_hash VARCHAR(255) NOT NULL,
+  expires_at TIMESTAMPTZ NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- =====================================================
+-- INDEXES
+-- =====================================================
+CREATE INDEX IF NOT EXISTS idx_products_irec_id ON products(irec_id);
+CREATE INDEX IF NOT EXISTS idx_products_category ON products(category);
+CREATE INDEX IF NOT EXISTS idx_products_brand ON products(brand);
+CREATE INDEX IF NOT EXISTS idx_products_active ON products(is_active);
+CREATE INDEX IF NOT EXISTS idx_orders_user_id ON orders(user_id);
+CREATE INDEX IF NOT EXISTS idx_orders_status ON orders(status);
+CREATE INDEX IF NOT EXISTS idx_orders_paystack_ref ON orders(paystack_reference);
+CREATE INDEX IF NOT EXISTS idx_cart_items_user_id ON cart_items(user_id);
+CREATE INDEX IF NOT EXISTS idx_cart_items_product_id ON cart_items(product_id);
+CREATE INDEX IF NOT EXISTS idx_prescriptions_user_id ON prescriptions(user_id);
+CREATE INDEX IF NOT EXISTS idx_prescriptions_status ON prescriptions(status);
+CREATE INDEX IF NOT EXISTS idx_sync_logs_type ON sync_logs(sync_type);
+CREATE INDEX IF NOT EXISTS idx_payment_logs_order_id ON payment_logs(order_id);
+
+-- =====================================================
+-- FUNCTIONS & TRIGGERS
+-- =====================================================
+
+-- Auto-update updated_at timestamp
+CREATE OR REPLACE FUNCTION update_updated_at()
+RETURNS TRIGGER AS $$
+BEGIN
+  NEW.updated_at = NOW();
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER users_updated_at
+  BEFORE UPDATE ON users FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+
+CREATE TRIGGER products_updated_at
+  BEFORE UPDATE ON products FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+
+CREATE TRIGGER orders_updated_at
+  BEFORE UPDATE ON orders FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+
+CREATE TRIGGER cart_items_updated_at
+  BEFORE UPDATE ON cart_items FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+
+CREATE TRIGGER prescriptions_updated_at
+  BEFORE UPDATE ON prescriptions FOR EACH ROW EXECUTE FUNCTION update_updated_at();

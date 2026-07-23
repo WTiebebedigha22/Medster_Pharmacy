@@ -2,7 +2,7 @@
   background: #EAEDED;
   min-height: 100vh;
   padding: 20px 0 40px;
-  font-family: "Amazon Ember", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .cartContainer {
@@ -50,7 +50,7 @@
 }
 
 .title svg {
-  color: #FFD814;
+  color: var(--brand-green, #007a1b);
 }
 
 .itemCount {
@@ -107,8 +107,8 @@
 }
 
 .step.active .stepNumber {
-  background: #FFD814;
-  color: #111111;
+  background: var(--brand-green, #007a1b);
+  color: #ffffff;
 }
 
 .stepLabel {
@@ -172,17 +172,17 @@
 
 .browseBtn {
   padding: 12px 24px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 8px;
   text-decoration: none;
-  color: #111111;
+  color: #ffffff;
   font-weight: 600;
   transition: all 0.2s;
 }
 
 .browseBtn:hover {
-  background: #F7CA00;
+  background: var(--brand-green-dark, #005c14);
   transform: translateY(-2px);
 }
 
@@ -271,7 +271,7 @@
 }
 
 .deliveryMessage svg {
-  color: #FFD814;
+  color: var(--brand-green, #007a1b);
 }
 
 .deliveryMessage strong {
@@ -288,7 +288,7 @@
 
 .progressFill {
   height: 100%;
-  background: linear-gradient(90deg, #FFD814, #FCD200);
+  background: linear-gradient(90deg, var(--brand-green, #007a1b), var(--brand-green-dark, #005c14));
   border-radius: 3px;
   transition: width 0.5s ease;
 }
@@ -329,12 +329,12 @@
   position: absolute;
   top: 4px;
   left: 4px;
-  background: #FFD814;
+  background: var(--brand-green, #007a1b);
   padding: 2px 8px;
   border-radius: 4px;
   font-size: 10px;
   font-weight: 700;
-  color: #111111;
+  color: #ffffff;
 }
 
 .itemInfo {
@@ -532,17 +532,18 @@
 
 .savedItem button {
   padding: 6px 12px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
   transition: all 0.2s;
+  color: #ffffff;
 }
 
 .savedItem button:hover {
-  background: #F7CA00;
+  background: var(--brand-green-dark, #005c14);
 }
 
 /* Recommendations */
@@ -562,7 +563,7 @@
 }
 
 .recommendations h4 svg {
-  color: #FFD814;
+  color: var(--brand-green, #007a1b);
 }
 
 .recommendGrid {
@@ -614,17 +615,18 @@
 
 .addRecBtn {
   padding: 6px 12px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
   transition: all 0.2s;
+  color: #ffffff;
 }
 
 .addRecBtn:hover {
-  background: #F7CA00;
+  background: var(--brand-green-dark, #005c14);
 }
 
 /* Summary */
@@ -715,16 +717,17 @@
 
 .applyPromoBtn {
   padding: 8px 16px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  color: #ffffff;
 }
 
 .applyPromoBtn:hover:not(:disabled) {
-  background: #F7CA00;
+  background: var(--brand-green-dark, #005c14);
 }
 
 .applyPromoBtn:disabled {
@@ -773,8 +776,8 @@
 .checkoutBtn {
   width: 100%;
   padding: 14px;
-  background: #FFD814;
-  border: 1px solid #FCD200;
+  background: var(--brand-green, #007a1b);
+  border: 1px solid var(--brand-green-dark, #005c14);
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
@@ -784,12 +787,13 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  color: #ffffff;
 }
 
 .checkoutBtn:hover:not(:disabled) {
-  background: #F7CA00;
+  background: var(--brand-green-dark, #005c14);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 216, 20, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 122, 27, 0.3);
 }
 
 .checkoutBtn:disabled {

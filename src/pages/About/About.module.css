@@ -9,8 +9,8 @@
   }
   
   :root {
-    --yellow-color: rgb(252, 252, 84);
-    --blue-color: rgb(70, 70, 250);
+    --yellow-color: var(--brand-green, #007a1b);
+    --blue-color: var(--brand-blue, #005abc);
     --white-color: white;
     --brightash-color: rgb(94, 94, 94);
     --darkash-color: rgb(63, 63, 63);

@@ -33,7 +33,7 @@ const CheckoutPage = () => {
         notes: "",
       };
 
-      const res = await api.createOrder({
+      const orderResult = await api.createOrder({
         items: cartItems.map((i) => ({
           productId: i.id,
           name: i.name,
@@ -50,7 +50,7 @@ const CheckoutPage = () => {
       // clear cart
       cartItems.forEach((i) => removeFromCart(i.id));
 
-      if (res?.order?.id) navigate(`/orders`);
+      if (orderResult?.id) navigate(`/orders`);
     } catch (e) {
       setError(e?.message || "Failed to place order");
     } finally {

@@ -1,4 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
+import { useEffect } from "react";
+import ErrorBoundary from "./components/ErrorBoundary";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
@@ -13,38 +15,104 @@ import ProductPage from "./pages/Product/ProductPage";
 import CheckoutPage from "./pages/Checkout/CheckoutPage";
 import OrdersPage from "./pages/Orders/OrdersPage";
 
+import { useAuth } from "./context/AuthContext";
+import { LoadingSpinner } from "./components/LoadingSpinner";
+import { supabase } from "./lib/supabase";
+
+// Protected Route Component
+const ProtectedRoute = ({ children }) => {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
+
+  if (!user) {
+    return <Navigate to="/auth/login" replace />;
+  }
+
+  return children;
+};
+
+// Main App Routes
 function App() {
+  const { user, loading } = useAuth();
+
+  // Test Supabase connection on startup
+  useEffect(() => {
+    const checkConnection = async () => {
+      try {
+        const { error } = await supabase.from('orders').select('count', { count: 'exact', head: true });
+        if (error) {
+          console.warn('⚠️ Supabase connection warning:', error.message);
+        } else {
+          console.log('✅ Supabase connected successfully');
+        }
+      } catch (err) {
+        console.warn('⚠️ Supabase connection error:', err.message);
+      }
+    };
+    
+    // Only run in development
+    if (import.meta.env.DEV) {
+      checkConnection();
+    }
+  }, []);
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
 
   return (
-    <BrowserRouter>
-      {/* AUTH ROUTES */}
+    <ErrorBoundary>
       <Routes>
-        <Route path="/auth/login" element={<Login />} />
-        <Route path="/auth/register" element={<CreateAccount />} />
-
-        {/* MAIN ECOMMERCE ROUTES */}
-        <Route
-          path="/*"
-          element={
-            <>
-              <NavBar />
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/shop" element={<Shop />} />
-                <Route path="/product/:id" element={<ProductPage />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/checkout" element={<CheckoutPage />} />
-                <Route path="/orders" element={<OrdersPage />} />
-                <Route path="/contact-us" element={<Contact />} />
-              </Routes>
-              <Footer />
-            </>
-          }
+        {/* AUTH ROUTES (full-screen, no NavBar/Footer) */}
+        <Route 
+          path="/auth/login" 
+          element={user ? <Navigate to="/" replace /> : <Login />} 
         />
+        <Route 
+          path="/auth/register" 
+          element={user ? <Navigate to="/" replace /> : <CreateAccount />} 
+        />
+
+        {/* PUBLIC ROUTES (with NavBar & Footer) */}
+        <Route path="/" element={<><NavBar /><Home /><Footer /></>} />
+        <Route path="/shop" element={<><NavBar /><Shop /><Footer /></>} />
+        <Route path="/product/:id" element={<><NavBar /><ProductPage /><Footer /></>} />
+        <Route path="/contact-us" element={<><NavBar /><Contact /><Footer /></>} />
+
+        {/* PROTECTED ROUTES (with NavBar & Footer) */}
+        <Route 
+          path="/cart" 
+          element={
+            <ProtectedRoute>
+              <NavBar /><Cart /><Footer />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/checkout" 
+          element={
+            <ProtectedRoute>
+              <NavBar /><CheckoutPage /><Footer />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/orders" 
+          element={
+            <ProtectedRoute>
+              <NavBar /><OrdersPage /><Footer />
+            </ProtectedRoute>
+          } 
+        />
+
+        {/* 404 Redirect */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </BrowserRouter>
+    </ErrorBoundary>
   );
 }
 
 export default App;
-

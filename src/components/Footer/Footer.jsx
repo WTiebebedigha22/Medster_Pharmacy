@@ -202,7 +202,7 @@ function Footer() {
       {/* Copyright */}
       <div className='copywright' id={styles.copyright}>
         <p>
-          <FontAwesomeIcon icon={faCopyright} /> 2026 Amazon Pharmacy. All rights reserved.
+<FontAwesomeIcon icon={faCopyright} /> 2026 Medster Pharmacy. All rights reserved.
         </p>
       </div>
     </footer>
