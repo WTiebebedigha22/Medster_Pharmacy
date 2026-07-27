@@ -87,33 +87,33 @@ function Footer() {
             <h3 className={styles.columnTitle}>Quick Links</h3>
             <ul>
               <li className='link'>
-                <a href="#">
+                <a href="/">
                   <FontAwesomeIcon icon={faHome} /> 
                   <p>Home</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="/prescriptions/add">
                   <FontAwesomeIcon icon={faPrescription} />
-                  <p>Prescriptions</p>
+                  <p>Upload Prescription</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="/shop">
                   <FontAwesomeIcon icon={faPills} />
                   <p>Medications</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="/services">
                   <FontAwesomeIcon icon={faHeart} />
-                  <p>Health Resources</p>
+                  <p>Health Services</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="/consult">
                   <FontAwesomeIcon icon={faUserMd} />
-                  <p>Consult a Pharmacist</p>
+                  <p>Consult a Doctor</p>
                 </a>
               </li>
             </ul>
@@ -124,19 +124,19 @@ function Footer() {
             <h3 className={styles.columnTitle}>Our Services</h3>
             <ul>
               <li className='link'>
-                <a href="#">Prescription Refills</a>
+                <a href="/prescriptions/add">Prescription Refills</a>
               </li>
               <li className='link'>
-                <a href="#">Free Delivery</a>
+                <a href="/shop">Free Delivery</a>
               </li>
               <li className='link'>
-                <a href="#">Medication Management</a>
+                <a href="/consult">Medication Management</a>
               </li>
               <li className='link'>
-                <a href="#">Health Checkups</a>
+                <a href="/services">Health Checkups</a>
               </li>
               <li className='link'>
-                <a href="#">Immunizations</a>
+                <a href="/services">Immunizations</a>
               </li>
             </ul>
           </div>
@@ -146,19 +146,25 @@ function Footer() {
             <h3 className={styles.columnTitle}>Support</h3>
             <ul>
               <li className='link'>
-                <a href="#">
+                <a href="tel:+2348032360060">
                   <FontAwesomeIcon icon={faPhone} />
-                  <p>1-800-PHARMACY</p>
+                  <p>+234 803 236 0060</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="tel:+2348089337391">
+                  <FontAwesomeIcon icon={faPhone} />
+                  <p>+234 808 933 7391</p>
+                </a>
+              </li>
+              <li className='link'>
+                <a href="mailto:support@medsterpharmacy.com">
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <p>support@pharmacy.com</p>
+                  <p>support@medsterpharmacy.com</p>
                 </a>
               </li>
               <li className='link'>
-                <a href="#">
+                <a href="/help">
                   <FontAwesomeIcon icon={faClock} />
                   <p>24/7 Customer Support</p>
                 </a>
@@ -171,10 +177,10 @@ function Footer() {
             <h3 className={styles.columnTitle}>Company</h3>
             <ul>
               <li className='link'>
-                <a href="#">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li className='link'>
-                <a href="#">Careers</a>
+                <a href="/contact-us">Careers</a>
               </li>
               <li className='link'>
                 <a href="#">Privacy Policy</a>
@@ -183,7 +189,7 @@ function Footer() {
                 <a href="#">Terms of Service</a>
               </li>
               <li className='link'>
-                <a href="#">Blog</a>
+                <a href="/faqs">FAQs</a>
               </li>
             </ul>
           </div>

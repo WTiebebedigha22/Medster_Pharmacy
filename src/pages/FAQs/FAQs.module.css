@@ -1,0 +1,287 @@
+.page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.heroContent h1 {
+  font-size: 38px;
+  margin: 0 0 12px;
+  line-height: 1.2;
+}
+
+.heroContent > p {
+  font-size: 16px;
+  color: #475569;
+  margin: 0 0 32px;
+}
+
+.searchBox {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 14px 44px 14px 44px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 15px;
+  background: #fff;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.searchBox input:focus {
+  outline: none;
+  border-color: var(--brand-blue, #005abc);
+}
+
+.clearBtn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clearBtn:hover {
+  color: #64748b;
+}
+
+/* Content */
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.categoryBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+.categoryBtn:hover {
+  background: #f1f5f9;
+}
+
+.categoryBtn.active {
+  background: #eef2ff;
+  color: var(--brand-blue, #005abc);
+  font-weight: 600;
+}
+
+.categoryBtn svg {
+  width: 18px;
+}
+
+/* Questions */
+.questionsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.faqItem {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.faqItem:hover {
+  border-color: var(--brand-blue, #005abc);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.chevron {
+  transition: transform 0.3s;
+  color: #94a3b8;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 20px;
+}
+
+.answer.show {
+  max-height: 300px;
+  padding: 0 20px 18px;
+}
+
+.answer p {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+/* No Results */
+.noResults {
+  text-align: center;
+  padding: 48px 20px;
+  color: #94a3b8;
+}
+
+.noResults svg {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.noResults p {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.noResults button {
+  padding: 8px 20px;
+  background: var(--brand-blue, #005abc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Help CTA */
+.helpCta {
+  background: #f8fafc;
+  text-align: center;
+  padding: 64px 20px;
+}
+
+.helpCtaContent h2 {
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+
+.helpCtaContent p {
+  color: #64748b;
+  margin: 0 0 28px;
+  font-size: 16px;
+}
+
+.helpCtaBtns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.helpBtn {
+  padding: 12px 28px;
+  background: var(--brand-blue, #005abc);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.helpBtn:hover {
+  opacity: 0.9;
+}
+
+.helpBtnOutline {
+  padding: 12px 28px;
+  background: transparent;
+  color: var(--brand-blue, #005abc);
+  border: 2px solid var(--brand-blue, #005abc);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.helpBtnOutline:hover {
+  background: #eef2ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .categories {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  .categoryBtn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .heroContent h1 {
+    font-size: 28px;
+  }
+}
+

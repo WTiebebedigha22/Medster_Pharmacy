@@ -5,32 +5,87 @@ import styles from "./ProductCard.module.css";
 const ProductCard = ({ product, onAddToCart }) => {
   const navigate = useNavigate();
 
+  const { name, price, oldPrice, image, category, isRx, inStock, brand, quantity } = product;
+
+  // Format Naira price
+  const formatPrice = (val) => `₦${Number(val).toLocaleString()}`;
+
+  // Calculate discount percentage
+  const discountPercent =
+    oldPrice && price < oldPrice
+      ? Math.round(((oldPrice - price) / oldPrice) * 100)
+      : 0;
+
+  // Truncate long names
+  const displayName = name?.length > 50 ? name.slice(0, 50) + "…" : name;
+
   return (
     <div className={styles.card}>
+      {/* Badges */}
+      <div className={styles.badges}>
+        {isRx && <span className={styles.rxBadge}>Rx</span>}
+        {discountPercent > 0 && (
+          <span className={styles.saleBadge}>-{discountPercent}%</span>
+        )}
+        {!inStock && <span className={styles.oosBadge}>Out of Stock</span>}
+      </div>
+
+      {/* Image */}
       <button
         className={styles.imageBtn}
         onClick={() => navigate(`/product/${product.id}`)}
-        aria-label={`View ${product.name}`}
+        aria-label={`View ${name}`}
       >
-        <img className={styles.image} src={product.image} alt={product.name} />
+        <img
+          className={styles.image}
+          src={image}
+          alt={name}
+          onError={(e) => {
+            e.target.src = "/images/placeholder.svg";
+          }}
+        />
       </button>
 
       <div className={styles.body}>
+        {/* Meta row */}
         <div className={styles.meta}>
-          <span className={styles.category}>{product.category}</span>
-          {product.isRx && <span className={styles.rx}>Rx</span>}
+          <span className={styles.category}>{category}</span>
+          {brand && <span className={styles.brand}>{brand}</span>}
         </div>
 
-        <h3 className={styles.name}>{product.name}</h3>
+        {/* Name */}
+        <h3 className={styles.name}>{displayName}</h3>
 
-        <p className={styles.desc}>{product.description}</p>
-
-        <div className={styles.bottom}>
-          <div className={styles.price}>₦{Number(product.price).toLocaleString()}</div>
-          <button className={styles.addBtn} onClick={() => onAddToCart(product)}>
-            Add to Cart
-          </button>
+        {/* Price */}
+        <div className={styles.priceRow}>
+          <span className={styles.price}>{formatPrice(price)}</span>
+          {oldPrice && price < oldPrice && (
+            <span className={styles.oldPrice}>{formatPrice(oldPrice)}</span>
+          )}
         </div>
+
+        {/* Stock indicator */}
+        {inStock ? (
+          <div className={styles.stockInfo}>
+            <span className={styles.inStock}>✅ In Stock</span>
+            {quantity > 0 && quantity <= 5 && (
+              <span className={styles.lowStock}>Only {quantity} left</span>
+            )}
+          </div>
+        ) : (
+          <div className={styles.stockInfo}>
+            <span className={styles.outOfStock}>❌ Out of Stock</span>
+          </div>
+        )}
+
+        {/* Add to Cart */}
+        <button
+          className={`${styles.addBtn} ${!inStock ? styles.disabledBtn : ""}`}
+          onClick={() => inStock && onAddToCart(product)}
+          disabled={!inStock}
+        >
+          {inStock ? "Add to Cart" : "Notify Me"}
+        </button>
       </div>
     </div>
   );

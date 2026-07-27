@@ -55,13 +55,14 @@ const transformProduct = (product) => ({
   category: product.category || 'General',
   brand: product.brand || 'Generic',
   description: product.description || 'No description available.',
-  isRx: product.prescription_required || false,
+  isRx: product.is_rx || product.prescription_required || product.isRx || false,
   discount: product.discount_percentage || 0,
   bestseller: product.bestseller || false,
   rating: product.rating || 4.0,
-  reviews: product.reviews_count || 0,
-  inStock: product.inventory_quantity > 0,
-  quantity: product.inventory_quantity || 0,
+  reviews: product.reviews_count || product.reviews || 0,
+  // FIX: Check ALL possible stock fields from different data sources
+  inStock: product.inventory_quantity > 0 || product.quantity > 0 || product.stock_quantity > 0 || product.inStock === true,
+  quantity: product.inventory_quantity || product.quantity || product.stock_quantity || 0,
   ingredients: product.ingredients || null,
   usage: product.usage_instructions || null,
   sideEffects: product.side_effects || null,
@@ -461,7 +462,7 @@ export const api = {
                 name: product?.name || item.name,
                 price: product?.price || item.price,
                 image: product?.image || item.image,
-                inStock: product?.inStock || false
+                inStock: product?.inventory_quantity > 0 || product?.quantity > 0 || product?.stock_quantity > 0 || product?.inStock === true
               };
             } catch {
               return item;

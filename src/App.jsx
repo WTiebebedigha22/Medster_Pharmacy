@@ -14,7 +14,27 @@ import Shop from "./pages/Shop/Shop";
 import ProductPage from "./pages/Product/ProductPage";
 import CheckoutPage from "./pages/Checkout/CheckoutPage";
 import OrdersPage from "./pages/Orders/OrdersPage";
+import AddPrescription from "./pages/Prescriptions/AddPrescription";
+import Consult from "./pages/Consult/Consult";
+import FAQs from "./pages/FAQs/FAQs";
+import Help from "./pages/Help/Help";
+import Account from "./pages/Account/Account";
+import Services from "./pages/Services/Services";
+import AboutPharmacy from "./pages/AboutPharmacy/AboutPharmacy";
 
+// Admin imports
+import AdminLayout from "./pages/Admin/AdminLayout";
+import AdminDashboard from "./pages/Admin/Dashboard";
+import AdminProducts from "./pages/Admin/Products";
+import AdminOrders from "./pages/Admin/Orders";
+import AdminPrescriptions from "./pages/Admin/Prescriptions";
+import AdminUsers from "./pages/Admin/Users";
+import AdminCoupons from "./pages/Admin/Coupons";
+import AdminReports from "./pages/Admin/ReportAnalytics";
+import AdminSettings from "./pages/Admin/Settings";
+import AdminRoute from "./components/AdminRoute";
+
+import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
 import { useAuth } from "./context/AuthContext";
 import { LoadingSpinner } from "./components/LoadingSpinner";
 import { supabase } from "./lib/supabase";
@@ -75,12 +95,22 @@ function App() {
           path="/auth/register" 
           element={user ? <Navigate to="/" replace /> : <CreateAccount />} 
         />
+        <Route 
+          path="/auth/reset-password" 
+          element={<ForgotPassword />} 
+        />
 
         {/* PUBLIC ROUTES (with NavBar & Footer) */}
         <Route path="/" element={<><NavBar /><Home /><Footer /></>} />
         <Route path="/shop" element={<><NavBar /><Shop /><Footer /></>} />
         <Route path="/product/:id" element={<><NavBar /><ProductPage /><Footer /></>} />
         <Route path="/contact-us" element={<><NavBar /><Contact /><Footer /></>} />
+        <Route path="/faqs" element={<><NavBar /><FAQs /><Footer /></>} />
+        <Route path="/help" element={<><NavBar /><Help /><Footer /></>} />
+        <Route path="/services" element={<><NavBar /><Services /><Footer /></>} />
+        <Route path="/about" element={<><NavBar /><AboutPharmacy /><Footer /></>} />
+        <Route path="/consult" element={<><NavBar /><Consult /><Footer /></>} />
+        <Route path="/prescriptions/add" element={<><NavBar /><AddPrescription /><Footer /></>} />
 
         {/* PROTECTED ROUTES (with NavBar & Footer) */}
         <Route 
@@ -107,6 +137,33 @@ function App() {
             </ProtectedRoute>
           } 
         />
+        <Route 
+          path="/account" 
+          element={
+            <ProtectedRoute>
+              <NavBar /><Account /><Footer />
+            </ProtectedRoute>
+          } 
+        />
+
+        {/* ADMIN ROUTES (protected + role-based) */}
+        <Route 
+          path="/admin" 
+          element={
+            <AdminRoute>
+              <AdminLayout />
+            </AdminRoute>
+          }
+        >
+          <Route index element={<AdminDashboard />} />
+          <Route path="products" element={<AdminProducts />} />
+          <Route path="orders" element={<AdminOrders />} />
+          <Route path="prescriptions" element={<AdminPrescriptions />} />
+          <Route path="users" element={<AdminUsers />} />
+          <Route path="coupons" element={<AdminCoupons />} />
+          <Route path="reports" element={<AdminReports />} />
+          <Route path="settings" element={<AdminSettings />} />
+        </Route>
 
         {/* 404 Redirect */}
         <Route path="*" element={<Navigate to="/" replace />} />

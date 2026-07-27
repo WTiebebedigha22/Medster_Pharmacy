@@ -1,93 +1,160 @@
-.authContainer {
+.page {
   min-height: 100vh;
+  display: flex;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ── Left Brand Panel ── */
+.brandPanel {
+  flex: 1;
+  background: linear-gradient(135deg, #005abc 0%, #007a1b 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #EAEDED;
-  padding: 20px;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-
-.authCard {
-  background: white;
-  border-radius: 8px;
   padding: 40px;
-  width: 100%;
-  max-width: 520px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: relative;
+  overflow: hidden;
 }
 
-/* Back Button */
-.backButton {
-  background: none;
-  border: none;
-  color: #0066C0;
-  font-size: 14px;
-  cursor: pointer;
+.brandPanel::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.brandContent {
+  text-align: center;
+  color: #fff;
+  max-width: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.brandLogo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.brandTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  letter-spacing: -0.5px;
+}
+
+.brandTagline {
+  font-size: 16px;
+  opacity: 0.9;
+  margin: 0 0 40px;
+}
+
+.brandFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.feature {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 0;
-  margin-bottom: 20px;
-  transition: color 0.2s;
-  font-weight: 500;
+  gap: 12px;
+  font-size: 15px;
+  opacity: 0.95;
 }
 
-.backButton:hover {
-  color: #C7511F;
+.feature svg {
+  font-size: 18px;
+  min-width: 24px;
 }
 
-/* Header */
-.header {
+/* ── Right Form Panel ── */
+.formPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+  padding: 40px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.mobileLogo {
+  display: none;
   text-align: center;
   margin-bottom: 24px;
 }
 
-.logo {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-  margin-bottom: 12px;
+.mobileLogo img {
+  width: 56px;
+  height: 56px;
 }
 
-.title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin: 0 0 8px 0;
-}
-
-.subtitle {
-  color: #565959;
+.backBtn {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
   font-size: 14px;
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* Benefits */
-.benefits {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 24px;
-  padding: 16px;
-  background: #F7F8FA;
-  border-radius: 8px;
-}
-
-.benefit {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 13px;
-  color: #111111;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 500;
 }
 
-.benefit svg {
-  color: var(--brand-green, #007a1b);
-  font-size: 16px;
+.backBtn:hover {
+  color: #111827;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 24px;
+  line-height: 1.5;
+}
+
+.errorMessage {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Form */
@@ -97,59 +164,74 @@
   gap: 16px;
 }
 
+.formRow {
+  display: flex;
+  gap: 16px;
+}
+
+.formRow .formGroup {
+  flex: 1;
+}
+
 .formGroup {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.label {
-  font-size: 14px;
+.formGroup label {
+  font-size: 13px;
   font-weight: 600;
-  color: #111111;
+  color: #374151;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
-.label svg {
-  color: #565959;
-  font-size: 14px;
-}
-
-.required {
-  color: #FF6B6B;
-  margin-left: 4px;
-}
-
-.input {
+.formGroup input {
   width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #D5D9D9;
-  border-radius: 4px;
+  padding: 10px 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
   font-size: 14px;
-  transition: all 0.2s;
   box-sizing: border-box;
-  background: white;
-  color: #111111;
+  transition: all 0.2s;
+  background: #fff;
+  color: #111827;
 }
 
-.input:focus {
+.formGroup input:focus {
   outline: none;
-  border-color: #007185;
-  box-shadow: 0 0 0 3px rgba(0, 113, 133, 0.2);
+  border-color: #005abc;
+  box-shadow: 0 0 0 3px rgba(0,90,188,0.1);
 }
 
-.input::placeholder {
-  color: #999;
+.formGroup input::placeholder {
+  color: #94a3b8;
 }
 
-.input.error {
-  border-color: #FF6B6B;
+.inputError {
+  border-color: #dc2626 !important;
 }
 
-.input.error:focus {
-  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
+.inputError:focus {
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1) !important;
+}
+
+.errorMsg {
+  color: #dc2626;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.successMsg {
+  color: #059669;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* Password Field */
@@ -157,50 +239,41 @@
   position: relative;
 }
 
-.passwordField .input {
-  padding-right: 50px;
+.passwordField input {
+  padding-right: 44px;
 }
 
-.showButton {
+.showBtn {
   position: absolute;
-  right: 0;
+  right: 12px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #0066C0;
+  color: #64748b;
   font-size: 16px;
   cursor: pointer;
-  padding: 0 12px;
-  height: 100%;
-  transition: color 0.2s;
+  padding: 4px;
 }
 
-.showButton:hover {
-  color: #C7511F;
+.showBtn:hover {
+  color: #111827;
 }
 
 /* Password Strength */
-.passwordStrength {
-  margin-top: 8px;
-}
-
 .strengthBar {
-  height: 4px;
-  background: #EAEDED;
-  border-radius: 2px;
-  overflow: hidden;
-  margin-bottom: 4px;
+  margin-top: 6px;
 }
 
 .strengthFill {
-  height: 100%;
-  transition: all 0.3s ease;
+  height: 4px;
   border-radius: 2px;
+  transition: all 0.3s;
+  margin-bottom: 4px;
 }
 
 .strengthLabel {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -208,62 +281,36 @@
 .passwordRules {
   list-style: none;
   padding: 0;
-  margin: 8px 0 0 0;
+  margin: 8px 0 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4px 16px;
+  gap: 2px 12px;
 }
 
 .passwordRules li {
-  font-size: 13px;
+  font-size: 12px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 4px 0;
-  transition: color 0.3s;
+  gap: 6px;
+  padding: 2px 0;
 }
 
 .passwordRules li.valid {
-  color: #2E7D32;
+  color: #059669;
 }
 
 .passwordRules li.valid svg {
   color: #51CF66;
+  font-size: 12px;
 }
 
 .passwordRules li.invalid {
-  color: #565959;
+  color: #94a3b8;
 }
 
 .passwordRules li.invalid svg {
-  color: #D5D9D9;
-}
-
-/* Error and Success Messages */
-.errorMessage {
-  color: #FF6B6B;
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.successMessage {
-  color: #2E7D32;
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.successMessage svg {
-  color: #51CF66;
-}
-
-.helperText {
-  color: #565959;
+  color: #d1d5db;
   font-size: 12px;
-  margin: 0;
 }
 
 /* Terms */
@@ -276,176 +323,174 @@
   align-items: flex-start;
   gap: 10px;
   cursor: pointer;
-}
-
-.checkbox {
-  margin-top: 2px;
-  width: 18px;
-  height: 18px;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-
-.checkboxText {
   font-size: 13px;
-  color: #111111;
+  color: #475569;
   line-height: 1.5;
 }
 
-.termsLink {
-  color: #0066C0;
-  text-decoration: none;
-  margin: 0 2px;
+.checkboxLabel input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: #005abc;
+  flex-shrink: 0;
 }
 
-.termsLink:hover {
-  color: #C7511F;
+.checkboxLabel a {
+  color: #005abc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.checkboxLabel a:hover {
   text-decoration: underline;
 }
 
-/* Buttons */
-.btnPrimary {
+/* Submit Button */
+.submitBtn {
   width: 100%;
   padding: 12px;
-  background: var(--brand-green, #007a1b);
-  border: 1px solid var(--brand-green-dark, #005c14);
-  border-radius: 8px;
-  font-size: 16px;
+  background: linear-gradient(135deg, #005abc 0%, #007a1b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
   font-weight: 600;
-  color: #ffffff;
   cursor: pointer;
-  transition: all 0.2s;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin-top: 8px;
+  gap: 8px;
+  transition: all 0.2s;
+  margin-top: 4px;
 }
 
-.btnPrimary:hover {
-  background: var(--brand-green-dark, #005c14);
-  border-color: var(--brand-green-darker, #004a10);
+.submitBtn:hover:not(:disabled) {
+  opacity: 0.9;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 122, 27, 0.3);
+  box-shadow: 0 4px 12px rgba(0,90,188,0.3);
 }
 
-.btnPrimary:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 122, 27, 0.5);
-}
-
-.btnPrimary:disabled {
+.submitBtn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-.btnSecondary {
-  width: 100%;
-  padding: 12px;
-  background: white;
-  border: 1px solid #D5D9D9;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #111111;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.btnSecondary:hover {
-  background: #F7FAFA;
-  border-color: #B3B9B9;
-}
-
+/* Divider & Sign In */
 .divider {
   display: flex;
   align-items: center;
-  margin: 4px 0;
+  margin: 20px 0 16px;
+  gap: 16px;
 }
 
 .divider::before,
 .divider::after {
-  content: "";
+  content: '';
   flex: 1;
-  border-bottom: 1px solid #D5D9D9;
+  border-bottom: 1px solid #e2e8f0;
 }
 
-.dividerText {
-  padding: 0 16px;
-  color: #565959;
+.divider span {
   font-size: 13px;
-  font-weight: 400;
+  color: #94a3b8;
+  white-space: nowrap;
 }
 
-/* Terms Notice */
+.signinBtn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.signinBtn:hover {
+  border-color: #005abc;
+  color: #005abc;
+  background: #f8faff;
+}
+
 .termsNotice {
-  color: #565959;
+  color: #94a3b8;
   font-size: 12px;
   text-align: center;
   line-height: 1.6;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 /* Footer */
 .footer {
-  margin-top: 32px;
-  padding-top: 16px;
-  border-top: 1px solid #EAEDED;
-  text-align: center;
-}
-
-.footerLinks {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 8px;
-  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+  font-size: 13px;
 }
 
-.footerLinks a {
-  color: #0066C0;
+.footer a {
+  color: #94a3b8;
   text-decoration: none;
-  font-size: 12px;
 }
 
-.footerLinks a:hover {
-  color: #C7511F;
-  text-decoration: underline;
+.footer a:hover {
+  color: #005abc;
 }
 
-.copyright {
-  color: #565959;
-  font-size: 12px;
-  margin: 8px 0 0;
-}
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .brandPanel {
+    display: none;
+  }
 
-/* Responsive Design */
-@media (max-width: 480px) {
-  .authCard {
-    padding: 24px 20px;
+  .formPanel {
+    padding: 20px;
+  }
+
+  .formContainer {
+    padding: 28px 24px;
+    box-shadow: none;
+  }
+
+  .mobileLogo {
+    display: block;
   }
 
   .title {
-    font-size: 24px;
+    text-align: center;
   }
 
-  .benefits {
+  .subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .formRow {
     flex-direction: column;
-    gap: 8px;
-    align-items: center;
-  }
-
-  .benefit {
-    font-size: 12px;
+    gap: 16px;
   }
 
   .passwordRules {
     grid-template-columns: 1fr;
   }
+}
 
-  .btnPrimary,
-  .btnSecondary {
-    font-size: 14px;
-    padding: 10px;
+@media (max-width: 480px) {
+  .formContainer {
+    padding: 24px 16px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
   }
 }

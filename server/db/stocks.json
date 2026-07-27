@@ -1,0 +1,4692 @@
+[
+  {
+    "NO": 23,
+    "PRODUCT_NAME": "LONART TABLETS 24 TABLETS 20/120MG",
+    "PRODUCT_SKU": "LONAR698",
+    "COST_PRICE": 2200,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 8800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 24,
+    "PRODUCT_NAME": "WAIPA ACT X 12 TABLETS",
+    "PRODUCT_SKU": "WAIPA620",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 2600,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 10500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 25,
+    "PRODUCT_NAME": "ACT CLARTEM - QS 80/480MG X 6",
+    "PRODUCT_SKU": "ACTC637",
+    "COST_PRICE": 998,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 3992,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 26,
+    "PRODUCT_NAME": "WINART POWDER FOR ORAL SUSPENSION",
+    "PRODUCT_SKU": "WINAR546",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 27,
+    "PRODUCT_NAME": "LONART POWDER FOR ORAL SUSPENSION 240MG/1140MG 60ML",
+    "PRODUCT_SKU": "LONAR417",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 28,
+    "PRODUCT_NAME": "EMAL (fidson) 75MG/1ML",
+    "PRODUCT_SKU": "EMAL997",
+    "COST_PRICE": 3700,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 11100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 29,
+    "PRODUCT_NAME": "EMAL 150MG/2ML",
+    "PRODUCT_SKU": "EMAL549",
+    "COST_PRICE": 3800,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 30,
+    "PRODUCT_NAME": "AVENTRA METRONE IV METRONIDAZOLE INFUSION",
+    "PRODUCT_SKU": "AVENT608",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 2500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 31,
+    "PRODUCT_NAME": "DMAL 150MG/2ML 1M",
+    "PRODUCT_SKU": "DMAL133",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 18000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 32,
+    "PRODUCT_NAME": "PHILO OMEPRAZOLE SODIUM INJECTION 40MG 1V ONLY",
+    "PRODUCT_SKU": "PHILO197",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 33,
+    "PRODUCT_NAME": "GRACE LIFESCIENCES CETFRIAXONE INJECTION 1G 1M/1V USE",
+    "PRODUCT_SKU": "CEFTR380",
+    "COST_PRICE": 1250,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 34,
+    "PRODUCT_NAME": "TRIAXIN CETFRIAXONE INJECTION 1G",
+    "PRODUCT_SKU": "TRIAX903",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 35,
+    "PRODUCT_NAME": "YELLOW CETFRIAXONE INJECTION 1G",
+    "PRODUCT_SKU": "YELLO575",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 36,
+    "PRODUCT_NAME": "DERM CETFRIAXONE INJECTION 1G",
+    "PRODUCT_SKU": "DERM787",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 37,
+    "PRODUCT_NAME": "ROCEPHIN CETFRIAXONE INJECTION 1G IM",
+    "PRODUCT_SKU": "ROCEP719",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 18500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 38,
+    "PRODUCT_NAME": "PHILODIC DICLOFENAC SODIUM INJECTION 75MG/3ML 1M",
+    "PRODUCT_SKU": "PHILO898",
+    "COST_PRICE": 160,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 98,
+    "TOTAL_STOCK_VALUE": 15680,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 39,
+    "PRODUCT_NAME": "SILK CLOTH TAPE",
+    "PRODUCT_SKU": "SILK182",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 40,
+    "PRODUCT_NAME": "PARACLIM PARACETAMOL INJECTION 300MG/2ML 1M/1V",
+    "PRODUCT_SKU": "PARAC755",
+    "COST_PRICE": 116,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 22,
+    "TOTAL_STOCK_VALUE": 2552,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 41,
+    "PRODUCT_NAME": "PHILO PROMETHAZINE HYDROCHLORIDE INJECTION 50MG/2ML",
+    "PRODUCT_SKU": "PHILO788",
+    "COST_PRICE": 116,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 18,
+    "TOTAL_STOCK_VALUE": 2088,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 42,
+    "PRODUCT_NAME": "GENTACLIM 80 GENTAMYCIN INJECTION 1M/1V 80/2ML 1",
+    "PRODUCT_SKU": "GENTA768",
+    "COST_PRICE": 150,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 43,
+    "PRODUCT_NAME": "NAZA GENTAMYCIN INJECTION 80MG/2ML",
+    "PRODUCT_SKU": "NAZA699",
+    "COST_PRICE": 116,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 20,
+    "TOTAL_STOCK_VALUE": 2320,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 44,
+    "PRODUCT_NAME": "N-GENTAMYCIN INJECTION 80MG/2ML",
+    "PRODUCT_SKU": "N-GEN869",
+    "COST_PRICE": 150,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 45,
+    "PRODUCT_NAME": "DERM'S HYDROCORTISONE SODIUM SUCCINATE INJECTION 100MG 1M/1V",
+    "PRODUCT_SKU": "DERM124",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 1800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 46,
+    "PRODUCT_NAME": "METOCLOPRAMIDE HYDROCHLORIDE INJECTION",
+    "PRODUCT_SKU": "METOC131",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 47,
+    "PRODUCT_NAME": "GENTALEK INJECTION 2ML/80MG",
+    "PRODUCT_SKU": "GENTA165",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 48,
+    "PRODUCT_NAME": "POSTINOR 2",
+    "PRODUCT_SKU": "POST1421",
+    "COST_PRICE": 2200,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 19800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 49,
+    "PRODUCT_NAME": "CLARITHEK 500MG",
+    "PRODUCT_SKU": "CLARI496",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 12000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 50,
+    "PRODUCT_NAME": "DUCOLAX ADULT 5MG X 20 TABLET",
+    "PRODUCT_SKU": "DUCOL328",
+    "COST_PRICE": 4000,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 51,
+    "PRODUCT_NAME": "BRIM WATER 50CL",
+    "PRODUCT_SKU": "BRIM639",
+    "COST_PRICE": 195,
+    "SELLING_PRICE": 300,
+    "QUANTITY_LEFT": 78,
+    "TOTAL_STOCK_VALUE": 15210,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 52,
+    "PRODUCT_NAME": "MALTINA CLASSIC 33CL",
+    "PRODUCT_SKU": "MALT1497",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 3500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 53,
+    "PRODUCT_NAME": "FAB CHOCOLATE COOKIES",
+    "PRODUCT_SKU": "FABC348",
+    "COST_PRICE": 445,
+    "SELLING_PRICE": 700,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 54,
+    "PRODUCT_NAME": "MC VITES HOBNOBS 78G",
+    "PRODUCT_SKU": "MCV1579",
+    "COST_PRICE": 600,
+    "SELLING_PRICE": 1100,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 55,
+    "PRODUCT_NAME": "PHILOCAINE PENICILLIN INJECTION",
+    "PRODUCT_SKU": "PHILO201",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 56,
+    "PRODUCT_NAME": "NAZA DICLOFENAC SODIUM INJECTION 75MG/3ML",
+    "PRODUCT_SKU": "NAZA747",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 14,
+    "TOTAL_STOCK_VALUE": 2800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 57,
+    "PRODUCT_NAME": "EMBASSY VIT B12 INJECTION 500MCG",
+    "PRODUCT_SKU": "EMBAS230",
+    "COST_PRICE": 350,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 350,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 58,
+    "PRODUCT_NAME": "NELBPLEX VITAMIN B COMPLEX INJECTION",
+    "PRODUCT_SKU": "NELBP643",
+    "COST_PRICE": 350,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 1750,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 59,
+    "PRODUCT_NAME": "DELEJECT SYRINGE 2ML",
+    "PRODUCT_SKU": "DELEJ200",
+    "COST_PRICE": 50,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 75,
+    "TOTAL_STOCK_VALUE": 3750,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 60,
+    "PRODUCT_NAME": "G+M SYRINGE 10ML",
+    "PRODUCT_SKU": "G+M5332",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 300,
+    "QUANTITY_LEFT": 19,
+    "TOTAL_STOCK_VALUE": 1900,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 61,
+    "PRODUCT_NAME": "G+M SYRINGE 10ML",
+    "PRODUCT_SKU": "G+M5380",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 300,
+    "QUANTITY_LEFT": 11,
+    "TOTAL_STOCK_VALUE": 1100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 62,
+    "PRODUCT_NAME": "SALMAJECT 5ML SYRINGE",
+    "PRODUCT_SKU": "SALMA826",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 26,
+    "TOTAL_STOCK_VALUE": 2600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 63,
+    "PRODUCT_NAME": "DELEGECT NEEDLE 22G",
+    "PRODUCT_SKU": "DELEG959",
+    "COST_PRICE": 25,
+    "SELLING_PRICE": 50,
+    "QUANTITY_LEFT": 31,
+    "TOTAL_STOCK_VALUE": 775,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 64,
+    "PRODUCT_NAME": "NEO PRESOL SOLUTION",
+    "PRODUCT_SKU": "NEOP360",
+    "COST_PRICE": 2400,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 65,
+    "PRODUCT_NAME": "MENTOS ICE PEPPERMINT",
+    "PRODUCT_SKU": "MENTO995",
+    "COST_PRICE": 165,
+    "SELLING_PRICE": 600,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 1485,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 66,
+    "PRODUCT_NAME": "DUREX FETHERLITE ELITE",
+    "PRODUCT_SKU": "DUREX181",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 22500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 67,
+    "PRODUCT_NAME": "BRIM WATER 75CL",
+    "PRODUCT_SKU": "BRIM224",
+    "COST_PRICE": 150,
+    "SELLING_PRICE": 400,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 68,
+    "PRODUCT_NAME": "FANTA ORANGE FLAVOURED CAN DRINK",
+    "PRODUCT_SKU": "FANTA474",
+    "COST_PRICE": 450,
+    "SELLING_PRICE": 950,
+    "QUANTITY_LEFT": 8,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 69,
+    "PRODUCT_NAME": "DICLOMOL CAPLET",
+    "PRODUCT_SKU": "DICLO735",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 17,
+    "TOTAL_STOCK_VALUE": 17000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 94,
+    "PRODUCT_NAME": "YELLOW CANNUA",
+    "PRODUCT_SKU": "YELLO153",
+    "COST_PRICE": 150,
+    "SELLING_PRICE": 150,
+    "QUANTITY_LEFT": 24,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 95,
+    "PRODUCT_NAME": "SCAL VEIN ALL SIZES",
+    "PRODUCT_SKU": "SCAL605",
+    "COST_PRICE": 50,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 60,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 96,
+    "PRODUCT_NAME": "FIRST AID BOX",
+    "PRODUCT_SKU": "FIRST496",
+    "COST_PRICE": 15000,
+    "SELLING_PRICE": 28000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 15000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 97,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS467",
+    "COST_PRICE": 7990,
+    "SELLING_PRICE": 14000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7990,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 98,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS365",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 13000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 99,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS962",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 13000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 100,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS915",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 13000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 101,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS981",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 13000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 102,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT 200ML LIQUID",
+    "PRODUCT_SKU": "GAVIS949",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 6500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 103,
+    "PRODUCT_NAME": "EMCAP EXTRA 500MG",
+    "PRODUCT_SKU": "EMCAP969",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 104,
+    "PRODUCT_NAME": "EMCAP FAST ACTING CAPLET",
+    "PRODUCT_SKU": "EMCAP261",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 8,
+    "TOTAL_STOCK_VALUE": 1600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 105,
+    "PRODUCT_NAME": "HYDRAC",
+    "PRODUCT_SKU": "PHYDRA819",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 106,
+    "PRODUCT_NAME": "RELEV RAPID 550MG(NAPROXEN SODIUM SWIPHA)",
+    "PRODUCT_SKU": "RELEV347",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 107,
+    "PRODUCT_NAME": "SALONPAS PATCHES",
+    "PRODUCT_SKU": "SALON979",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 17,
+    "TOTAL_STOCK_VALUE": 34000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 108,
+    "PRODUCT_NAME": "JUCOPAN 10MG",
+    "PRODUCT_SKU": "JUCOP226",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 18,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 109,
+    "PRODUCT_NAME": "BUSCOMAC 10MG",
+    "PRODUCT_SKU": "BUSCO294",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 38,
+    "TOTAL_STOCK_VALUE": 3800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 110,
+    "PRODUCT_NAME": "ORPHESIC",
+    "PRODUCT_SKU": "ORPHE602",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 111,
+    "PRODUCT_NAME": "TRIBOTAN CREAM 20G",
+    "PRODUCT_SKU": "TRIB0444",
+    "COST_PRICE": 600,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 112,
+    "PRODUCT_NAME": "PIRITON 4MG EVANS BAROQUE",
+    "PRODUCT_SKU": "PIRIT251",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 11,
+    "TOTAL_STOCK_VALUE": 2200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 113,
+    "PRODUCT_NAME": "Cenpain Night 20 caplets",
+    "PRODUCT_SKU": "Cenpa277",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 5000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 114,
+    "PRODUCT_NAME": "CAFERGOT 1MG/100MG TABLET X 30",
+    "PRODUCT_SKU": "CAFER404",
+    "COST_PRICE": 17000,
+    "SELLING_PRICE": 27720,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 17000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 115,
+    "PRODUCT_NAME": "NAPROXEN 500MG (TEVA)",
+    "PRODUCT_SKU": "NAPRO741",
+    "COST_PRICE": 5500,
+    "SELLING_PRICE": 12000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 116,
+    "PRODUCT_NAME": "COXIGET (CELECOXIB CAPSULES 200MG)",
+    "PRODUCT_SKU": "COXIG349",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 117,
+    "PRODUCT_NAME": "REELS NIGHT AID 50MG",
+    "PRODUCT_SKU": "REELS715",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 142,
+    "PRODUCT_NAME": "SUMATRIPTAN 100MG (TEVA)",
+    "PRODUCT_SKU": "SUMAT420",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 143,
+    "PRODUCT_NAME": "FEMINAX EXPRESS 342MG TABLET",
+    "PRODUCT_SKU": "FEMIN674",
+    "COST_PRICE": 7000,
+    "SELLING_PRICE": 13000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 144,
+    "PRODUCT_NAME": "ASPIRIN 75MG (ENTERIC-COATED)",
+    "PRODUCT_SKU": "ASPIR731",
+    "COST_PRICE": 5350,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5350,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 145,
+    "PRODUCT_NAME": "CELEBREX 200MG 10 CAPSULE (PFIZER)",
+    "PRODUCT_SKU": "CELEB838",
+    "COST_PRICE": 7000,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 146,
+    "PRODUCT_NAME": "PANADOL NIGHT X 24 CAPLET",
+    "PRODUCT_SKU": "PANAD950",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 18000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 147,
+    "PRODUCT_NAME": "PANADOL COLD & FLU X 24 CAPLET",
+    "PRODUCT_SKU": "PANAD356",
+    "COST_PRICE": 9900,
+    "SELLING_PRICE": 18000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 148,
+    "PRODUCT_NAME": "FELVIN CAPSULE 20MG",
+    "PRODUCT_SKU": "FELV1159",
+    "COST_PRICE": 250,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 149,
+    "PRODUCT_NAME": "TYENOL EXTRA STRENGTH X 24 CAPLET",
+    "PRODUCT_SKU": "TYEN0306",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 23000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 150,
+    "PRODUCT_NAME": "BAYER ASPIRIN PAIN RELIEF 81MG X 32 TABLETS",
+    "PRODUCT_SKU": "BAYER670",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 16500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 151,
+    "PRODUCT_NAME": "EMVITE MULTIVITAMIN SYRUP (EMZOR) 100ML",
+    "PRODUCT_SKU": "EMVIT123",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 152,
+    "PRODUCT_NAME": "EM-VIT-C VITAMIN C SYRUP",
+    "PRODUCT_SKU": "EM-V1902",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 153,
+    "PRODUCT_NAME": "ABIDEC DROPS 25ML",
+    "PRODUCT_SKU": "ABIDE568",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 5000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 154,
+    "PRODUCT_NAME": "MOPSON ASCORBION C300 VITAMIN C SYRUP",
+    "PRODUCT_SKU": "MOPS0238",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 155,
+    "PRODUCT_NAME": "BONABABE SYRUP 60ML",
+    "PRODUCT_SKU": "BONAB549",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 2800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 156,
+    "PRODUCT_NAME": "PANADA PARACETAMOL DROP 15ML",
+    "PRODUCT_SKU": "PANAD884",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 157,
+    "PRODUCT_NAME": "BABYREX BABY MIXTURE 60ML",
+    "PRODUCT_SKU": "BABYR518",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 158,
+    "PRODUCT_NAME": "WOODWARDS GRIPE WATER",
+    "PRODUCT_SKU": "WOODW818",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 159,
+    "PRODUCT_NAME": "OL-FREE ACNE WASH",
+    "PRODUCT_SKU": "OL-F269",
+    "COST_PRICE": 16000,
+    "SELLING_PRICE": 22000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 160,
+    "PRODUCT_NAME": "REFUCI. ORAL SUSPENSION 100ML (REALS)",
+    "PRODUCT_SKU": "REFUC294",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 8400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 161,
+    "PRODUCT_NAME": "HAWAII PAPAYA SOAP",
+    "PRODUCT_SKU": "HAWAII31",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 162,
+    "PRODUCT_NAME": "NOSPAMIN SYRUP 60ML",
+    "PRODUCT_SKU": "NOSPA988",
+    "COST_PRICE": 1200,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 163,
+    "PRODUCT_NAME": "PRANTRIIN PYRANTEL PAMOATE ORAL SUSPENSION 15ML",
+    "PRODUCT_SKU": "PRANT927",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 164,
+    "PRODUCT_NAME": "FLUCAMED CAPSULES 200MG (DRUGFIELD) X 10 CAPSULES",
+    "PRODUCT_SKU": "FLUCA256",
+    "COST_PRICE": 4400,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 165,
+    "PRODUCT_NAME": "SWISEC SECNDAZOLE 500MG (SWIPHA)",
+    "PRODUCT_SKU": "SWISE112",
+    "COST_PRICE": 1750,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 8750,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 214,
+    "PRODUCT_NAME": "MOKO NERVE LINIMENT 200ML",
+    "PRODUCT_SKU": "MOKO162",
+    "COST_PRICE": 1200,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 215,
+    "PRODUCT_NAME": "HYDROGEN PEROXIDE SOLUTION",
+    "PRODUCT_SKU": "HYDRO118",
+    "COST_PRICE": 550,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 216,
+    "PRODUCT_NAME": "METRONE 400MG TABLET",
+    "PRODUCT_SKU": "METRO565",
+    "COST_PRICE": 144,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 576,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 217,
+    "PRODUCT_NAME": "VITAMILK PLAIN",
+    "PRODUCT_SKU": "VITAM521",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 218,
+    "PRODUCT_NAME": "DUREX EXTRA SAFE",
+    "PRODUCT_SKU": "DUREX321",
+    "COST_PRICE": 3570,
+    "SELLING_PRICE": 6800,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 24990,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 219,
+    "PRODUCT_NAME": "Calgovit vitamin-c dispersible",
+    "PRODUCT_SKU": "Calgo786",
+    "COST_PRICE": 3600,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 220,
+    "PRODUCT_NAME": "FOTMOLA TONGUE BRUSH",
+    "PRODUCT_SKU": "FOTMO260",
+    "COST_PRICE": 980,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 12,
+    "TOTAL_STOCK_VALUE": 11760,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 221,
+    "PRODUCT_NAME": "KISS CONDOM",
+    "PRODUCT_SKU": "KISS354",
+    "COST_PRICE": 270,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 32,
+    "TOTAL_STOCK_VALUE": 8640,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 222,
+    "PRODUCT_NAME": "MOKO ISOPROPYL ALCOHOL",
+    "PRODUCT_SKU": "MOKO460",
+    "COST_PRICE": 1225,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 8575,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 223,
+    "PRODUCT_NAME": "SWIPHA CEFUROXIME 500MG",
+    "PRODUCT_SKU": "SWIPH391",
+    "COST_PRICE": 4664,
+    "SELLING_PRICE": 9500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 18656,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 224,
+    "PRODUCT_NAME": "CELEBREX 200MG 10 CAPSULE (PFIZER)",
+    "PRODUCT_SKU": "CELEB251",
+    "COST_PRICE": 6912,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 6912,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 225,
+    "PRODUCT_NAME": "PANADOL EXTRA",
+    "PRODUCT_SKU": "PANAD985",
+    "COST_PRICE": 378,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 37,
+    "TOTAL_STOCK_VALUE": 13986,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 226,
+    "PRODUCT_NAME": "FUNBACT-A CREAM 30GM",
+    "PRODUCT_SKU": "FUNBA116",
+    "COST_PRICE": 756,
+    "SELLING_PRICE": 1400,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 3024,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 227,
+    "PRODUCT_NAME": "NEOSKIN CREAM",
+    "PRODUCT_SKU": "NEOSK788",
+    "COST_PRICE": 636,
+    "SELLING_PRICE": 1300,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 2544,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 228,
+    "PRODUCT_NAME": "CHEZFLOX LEVOFLOKACIN 500MG",
+    "PRODUCT_SKU": "CHEZF438",
+    "COST_PRICE": 756,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 3024,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 229,
+    "PRODUCT_NAME": "VISINE RED EYE",
+    "PRODUCT_SKU": "VISIN802",
+    "COST_PRICE": 7560,
+    "SELLING_PRICE": 13600,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 230,
+    "PRODUCT_NAME": "VISITA PLUS CREAM",
+    "PRODUCT_SKU": "714084870779",
+    "COST_PRICE": 666,
+    "SELLING_PRICE": 1300,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 1998,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 231,
+    "PRODUCT_NAME": "ROCEPHIN CEFTRIAXONE INJECTION 1G IM",
+    "PRODUCT_SKU": "ROCEP468",
+    "COST_PRICE": 9886,
+    "SELLING_PRICE": 17000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 232,
+    "PRODUCT_NAME": "METRONE 200MG",
+    "PRODUCT_SKU": "METRO307",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 19,
+    "TOTAL_STOCK_VALUE": 1900,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 233,
+    "PRODUCT_NAME": "METRONE 400MG",
+    "PRODUCT_SKU": "METRO331",
+    "COST_PRICE": 145,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 14,
+    "TOTAL_STOCK_VALUE": 2030,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 234,
+    "PRODUCT_NAME": "ROUGH RIDER STUDDED MORE SENSATION",
+    "PRODUCT_SKU": "5011831076862",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 235,
+    "PRODUCT_NAME": "MENTOS WHITE GUM SACHET",
+    "PRODUCT_SKU": "MENTO700",
+    "COST_PRICE": 258,
+    "SELLING_PRICE": 600,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 1806,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 236,
+    "PRODUCT_NAME": "MENTOS WHITE BUBBLE FRESH SACHET",
+    "PRODUCT_SKU": "MENTO752",
+    "COST_PRICE": 258,
+    "SELLING_PRICE": 600,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 1290,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 237,
+    "PRODUCT_NAME": "MIXAGRIP COLD CAPLET",
+    "PRODUCT_SKU": "MIXAG914",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 238,
+    "PRODUCT_NAME": "PROCOLCOLD TABLETS",
+    "PRODUCT_SKU": "PROCO372",
+    "COST_PRICE": 170,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 14,
+    "TOTAL_STOCK_VALUE": 2380,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 239,
+    "PRODUCT_NAME": "VIGOR CHOCOLATE FOR MEN",
+    "PRODUCT_SKU": "VIGOR157",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 5500,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 30000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 240,
+    "PRODUCT_NAME": "G-DERM CREAM",
+    "PRODUCT_SKU": "G-DER834",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1050,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 241,
+    "PRODUCT_NAME": "WOUND DRESSING",
+    "PRODUCT_SKU": "WOUND201",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 9994,
+    "TOTAL_STOCK_VALUE": 4997000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 242,
+    "PRODUCT_NAME": "ABONIKI BALM 25G",
+    "PRODUCT_SKU": "ABONI221",
+    "COST_PRICE": 830,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 4150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 243,
+    "PRODUCT_NAME": "HYPEREX-SR",
+    "PRODUCT_SKU": "HYPER515",
+    "COST_PRICE": 920,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 244,
+    "PRODUCT_NAME": "LORAT-10 TABLETS",
+    "PRODUCT_SKU": "LORAT547",
+    "COST_PRICE": 950,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 6650,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 245,
+    "PRODUCT_NAME": "LORATYN-10TABLETS",
+    "PRODUCT_SKU": "LORAT609",
+    "COST_PRICE": 900,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 8,
+    "TOTAL_STOCK_VALUE": 7200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 246,
+    "PRODUCT_NAME": "ZYNCET TABLETS",
+    "PRODUCT_SKU": "ZYNCE727",
+    "COST_PRICE": 4752,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 19008,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 247,
+    "PRODUCT_NAME": "MAXIM PROBIOTICS & CRANBERRY",
+    "PRODUCT_SKU": "MAXIM717",
+    "COST_PRICE": 20000,
+    "SELLING_PRICE": 46300,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 248,
+    "PRODUCT_NAME": "KLOVINAL",
+    "PRODUCT_SKU": "KLOV1670",
+    "COST_PRICE": 4180,
+    "SELLING_PRICE": 7500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 12540,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 249,
+    "PRODUCT_NAME": "GOLD CIRCLE CONDOM",
+    "PRODUCT_SKU": "GOLD502",
+    "COST_PRICE": 352,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 23,
+    "TOTAL_STOCK_VALUE": 8096,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 250,
+    "PRODUCT_NAME": "BUTTER STYLE PREMIUM COOKIES",
+    "PRODUCT_SKU": "BUTTE499",
+    "COST_PRICE": 1350,
+    "SELLING_PRICE": 2700,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1350,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 251,
+    "PRODUCT_NAME": "NUEL NUTRITIONAL YEAST TABLETS",
+    "PRODUCT_SKU": "NUEL470",
+    "COST_PRICE": 800,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 252,
+    "PRODUCT_NAME": "IMODIUM INSTANT MELTS LOPERAMIDE HYDROCHLORIDE X 12 TABLETS",
+    "PRODUCT_SKU": "IMOD316",
+    "COST_PRICE": 17000,
+    "SELLING_PRICE": 35000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 51000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 253,
+    "PRODUCT_NAME": "IMODIUM ORIGINAL 2MG CAPSULES",
+    "PRODUCT_SKU": "IMOD1709",
+    "COST_PRICE": 10500,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 21000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 254,
+    "PRODUCT_NAME": "LODIUM ORAL CAPSULE X 10",
+    "PRODUCT_SKU": "LODU195",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 255,
+    "PRODUCT_NAME": "ANGEL BABY WIPES",
+    "PRODUCT_SKU": "ANGEL516",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 8,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 256,
+    "PRODUCT_NAME": "SOFTCARE BABY WIPES",
+    "PRODUCT_SKU": "SOFTC897",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 257,
+    "PRODUCT_NAME": "AMSTEL MALTA DRINK",
+    "PRODUCT_SKU": "AMSTE101",
+    "COST_PRICE": 542,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 2168,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 258,
+    "PRODUCT_NAME": "FAYROUZ PINEAPPLE SPARKLING DRINK",
+    "PRODUCT_SKU": "FAYRO694",
+    "COST_PRICE": 542,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 259,
+    "PRODUCT_NAME": "CHIVITA EXOTIC SPARKLING CAN DRINK",
+    "PRODUCT_SKU": "CHIVI138",
+    "COST_PRICE": 633,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 1899,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 260,
+    "PRODUCT_NAME": "NIVEA WHITENING BODY LOTION",
+    "PRODUCT_SKU": "NIVEA844",
+    "COST_PRICE": 7000,
+    "SELLING_PRICE": 14000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 261,
+    "PRODUCT_NAME": "CHIVITA RED GRAPE JUICE 1L",
+    "PRODUCT_SKU": "CHIVI824",
+    "COST_PRICE": 1800,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 262,
+    "PRODUCT_NAME": "DENTAL FLOSS 50PICS",
+    "PRODUCT_SKU": "DENTA958",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 263,
+    "PRODUCT_NAME": "DENTAL FLOSS 30PICS",
+    "PRODUCT_SKU": "DENTA780",
+    "COST_PRICE": 667,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 3335,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 264,
+    "PRODUCT_NAME": "COCA COLA CAN DRINK",
+    "PRODUCT_SKU": "COCA565",
+    "COST_PRICE": 450,
+    "SELLING_PRICE": 950,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 3150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 265,
+    "PRODUCT_NAME": "AMLODIPINE 5MG (TEVA)",
+    "PRODUCT_SKU": "5017007023364",
+    "COST_PRICE": 1400,
+    "SELLING_PRICE": 3700,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 266,
+    "PRODUCT_NAME": "CETIDYN-L 5MG CAPLETS",
+    "PRODUCT_SKU": "CETID476",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 7000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 267,
+    "PRODUCT_NAME": "CET-10(10MG)",
+    "PRODUCT_SKU": "CET-1604",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 268,
+    "PRODUCT_NAME": "EARTH CREATION NATURAL MAGNESIUM GLYCINATE 360MG",
+    "PRODUCT_SKU": "EARTH122",
+    "COST_PRICE": 25000,
+    "SELLING_PRICE": 45500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 269,
+    "PRODUCT_NAME": "FULGRIVIN CREAM 30GM 1%",
+    "PRODUCT_SKU": "FULGR407",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 5100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 270,
+    "PRODUCT_NAME": "CLARITYNE NON-DROWSY X 10 TABLETS",
+    "PRODUCT_SKU": "CLAIR660",
+    "COST_PRICE": 8500,
+    "SELLING_PRICE": 17800,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 271,
+    "PRODUCT_NAME": "FLUCORDAY NON-DROWSY SOFTGEL",
+    "PRODUCT_SKU": "FLUCO987",
+    "COST_PRICE": 2035,
+    "SELLING_PRICE": 4500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2035,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 272,
+    "PRODUCT_NAME": "XYZAL 5MG TABLETS",
+    "PRODUCT_SKU": "XYZAL187",
+    "COST_PRICE": 2450,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2450,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 273,
+    "PRODUCT_NAME": "EVANS BAROQUE PIRITONE",
+    "PRODUCT_SKU": "EVANS571",
+    "COST_PRICE": 200,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 18,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 274,
+    "PRODUCT_NAME": "GESTID SUSPENSION 200ML",
+    "PRODUCT_SKU": "GESTI449",
+    "COST_PRICE": 2100,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 8400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 275,
+    "PRODUCT_NAME": "NAZA NAZAMOX CAPSULE 500MG",
+    "PRODUCT_SKU": "NAZA898",
+    "COST_PRICE": 350,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 276,
+    "PRODUCT_NAME": "NIZORAL TOPICAL CREAM",
+    "PRODUCT_SKU": "NIZOR717",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 11300,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 277,
+    "PRODUCT_NAME": "FEXET 180MG X 20 TABLETS",
+    "PRODUCT_SKU": "FEXET431",
+    "COST_PRICE": 4000,
+    "SELLING_PRICE": 4500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 278,
+    "PRODUCT_NAME": "NIVEA MEN DEEP IMPACT LOTION 48H",
+    "PRODUCT_SKU": "NIVEA344",
+    "COST_PRICE": 4250,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 279,
+    "PRODUCT_NAME": "ST. IVES BODY WASH ROSE WATER & ALOE VERA",
+    "PRODUCT_SKU": "STI333",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 280,
+    "PRODUCT_NAME": "JORDAN HARD TOOTH BRUSH",
+    "PRODUCT_SKU": "JORDAS45",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 281,
+    "PRODUCT_NAME": "ORAL-B TOOTHPASTE S/S",
+    "PRODUCT_SKU": "8001090279170",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 8,
+    "TOTAL_STOCK_VALUE": 5600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 282,
+    "PRODUCT_NAME": "MONTRAL 5MG X 10",
+    "PRODUCT_SKU": "MONTR321",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 5600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 283,
+    "PRODUCT_NAME": "MECURE'S PREDNISOLONE TABLETS",
+    "PRODUCT_SKU": "MECUR962",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 13,
+    "TOTAL_STOCK_VALUE": 6500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 284,
+    "PRODUCT_NAME": "XASTEN TABLET 0.5MG",
+    "PRODUCT_SKU": "XASTE625",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 20,
+    "TOTAL_STOCK_VALUE": 10000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 285,
+    "PRODUCT_NAME": "MONTIGET 10MG X 28 TABLETS",
+    "PRODUCT_SKU": "MONT1856",
+    "COST_PRICE": 1170,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 4680,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 286,
+    "PRODUCT_NAME": "BILAXTEN 20MG X 10 TABLETS",
+    "PRODUCT_SKU": "BILAX786",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 10500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 287,
+    "PRODUCT_NAME": "FEXET 120MG X 20 TABLETS",
+    "PRODUCT_SKU": "FEXETI06",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 288,
+    "PRODUCT_NAME": "MULT-ACTION TABLETS X 12 TABLETS",
+    "PRODUCT_SKU": "MULT-237",
+    "COST_PRICE": 16500,
+    "SELLING_PRICE": 31350,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 33000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 289,
+    "PRODUCT_NAME": "EVANS BAROQUE PIRITON SYRUP",
+    "PRODUCT_SKU": "EVANS868",
+    "COST_PRICE": 69000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 207000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 290,
+    "PRODUCT_NAME": "CETIDYN SYRUP 5MG/5ML",
+    "PRODUCT_SKU": "CETID638",
+    "COST_PRICE": 800,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 291,
+    "PRODUCT_NAME": "SINUFED SYRUP",
+    "PRODUCT_SKU": "SINUF141",
+    "COST_PRICE": 1100,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 292,
+    "PRODUCT_NAME": "STOZZON CHLOROPHYLL DRAGEEES",
+    "PRODUCT_SKU": "STOZZ322",
+    "COST_PRICE": 5500,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 293,
+    "PRODUCT_NAME": "TUXIL CHILDREN RUNNY NOSE & CATARRH 1-12 YEARS",
+    "PRODUCT_SKU": "TUXIL548",
+    "COST_PRICE": 750,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 750,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 294,
+    "PRODUCT_NAME": "COFEX COUGH SYRUP FOR CHILDREN & ADULTS 100ML",
+    "PRODUCT_SKU": "COFEX295",
+    "COST_PRICE": 750,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 295,
+    "PRODUCT_NAME": "EMZOLYN EXPECTORANT 100ML",
+    "PRODUCT_SKU": "EMZOL645",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 296,
+    "PRODUCT_NAME": "KOFOL HERBAL SYRUP 100ML",
+    "PRODUCT_SKU": "KOFOL375",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 297,
+    "PRODUCT_NAME": "NEOFYLIN COUGH SYRUP 100ML",
+    "PRODUCT_SKU": "NEOFY934",
+    "COST_PRICE": 650,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 298,
+    "PRODUCT_NAME": "CODOLIN EXPECTORANT COUGH SYRUP 100ML",
+    "PRODUCT_SKU": "CODOL874",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 299,
+    "PRODUCT_NAME": "COFLIN COUGH LINCTUS",
+    "PRODUCT_SKU": "COFLI129",
+    "COST_PRICE": 1745,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1745,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 300,
+    "PRODUCT_NAME": "BENYLIN DRY COUGH 75MG/5ML SYRUP",
+    "PRODUCT_SKU": "BENYL574",
+    "COST_PRICE": 16000,
+    "SELLING_PRICE": 32000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 48000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 301,
+    "PRODUCT_NAME": "BENYLIN CHESTY COUGH SYRUP",
+    "PRODUCT_SKU": "BENYL254",
+    "COST_PRICE": 14000,
+    "SELLING_PRICE": 27800,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 14000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 302,
+    "PRODUCT_NAME": "BENYLIN MUCUS COUGH NIGHT",
+    "PRODUCT_SKU": "BENYL943",
+    "COST_PRICE": 16000,
+    "SELLING_PRICE": 32800,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 16000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 303,
+    "PRODUCT_NAME": "BENYLIN DRY COUGH NIGHT SYRUP",
+    "PRODUCT_SKU": "BENYL478",
+    "COST_PRICE": 14000,
+    "SELLING_PRICE": 27700,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 304,
+    "PRODUCT_NAME": "BUTTERCUP NON-DROWSY ORIGINAL COUGH SYRUP 75ML",
+    "PRODUCT_SKU": "BUTTE733",
+    "COST_PRICE": 10000,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 10000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 305,
+    "PRODUCT_NAME": "ATADYN NON-DROWSY SYRUP",
+    "PRODUCT_SKU": "ATADY149",
+    "COST_PRICE": 1610,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3220,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 306,
+    "PRODUCT_NAME": "CLARITYN CHILDREN 2+ ALLERGY SYRUP",
+    "PRODUCT_SKU": "CLARI536",
+    "COST_PRICE": 12500,
+    "SELLING_PRICE": 26000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 25000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 307,
+    "PRODUCT_NAME": "NOVALYN DRY COUGH SYRUP",
+    "PRODUCT_SKU": "NOVAL228",
+    "COST_PRICE": 805,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 4830,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 308,
+    "PRODUCT_NAME": "SUDAFED DECONGESTANT SYRUP",
+    "PRODUCT_SKU": "SUDAF470",
+    "COST_PRICE": 10500,
+    "SELLING_PRICE": 22000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 309,
+    "PRODUCT_NAME": "NGC EXPECTORANT COUGH SYRUP",
+    "PRODUCT_SKU": "NGCE315",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 429,
+    "PRODUCT_NAME": "MELOTEAES EYE DROPS HYPROMELLOSE USP 0.30%",
+    "PRODUCT_SKU": "MELOT116",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 4500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 430,
+    "PRODUCT_NAME": "DUOSOPT EYEDROPS",
+    "PRODUCT_SKU": "DUOSO823",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 13500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 431,
+    "PRODUCT_NAME": "CALPOL SALINE NASAL DROPS",
+    "PRODUCT_SKU": "CALPO828",
+    "COST_PRICE": 11000,
+    "SELLING_PRICE": 21000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 11000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 432,
+    "PRODUCT_NAME": "DRUGFIELD CHLORAPHENICOL STERILE EYEDROP 0.5%",
+    "PRODUCT_SKU": "DRUGF451",
+    "COST_PRICE": 750,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 433,
+    "PRODUCT_NAME": "DRUGFIELD CHLORAPHENICOL EYE OINTMENT 10MG/G",
+    "PRODUCT_SKU": "DRUGF467",
+    "COST_PRICE": 750,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 434,
+    "PRODUCT_NAME": "OPTIMOL EYEDROPS 5ML",
+    "PRODUCT_SKU": "OPTIM413",
+    "COST_PRICE": 4200,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 8400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 435,
+    "PRODUCT_NAME": "OPTIVISC EYEDROPS ARTIFICIAL TEARS FOR DRY EYES",
+    "PRODUCT_SKU": "OPTIV540",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 436,
+    "PRODUCT_NAME": "TEARS NATURALE II 15ML",
+    "PRODUCT_SKU": "TEARS248",
+    "COST_PRICE": 11800,
+    "SELLING_PRICE": 22700,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 437,
+    "PRODUCT_NAME": "OTRIVINE ADULT NASAL SPRAY DROPS",
+    "PRODUCT_SKU": "OTRIV182",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 22500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 438,
+    "PRODUCT_NAME": "GENTAFAITH EYE / EAR DROP 10ML",
+    "PRODUCT_SKU": "GENTA839",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 439,
+    "PRODUCT_NAME": "OTRIVINE SINUSITIS RELIEF NASAL SPRAY",
+    "PRODUCT_SKU": "OTRIV312",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 440,
+    "PRODUCT_NAME": "AVENTRA CHLORAPHENICOL EYE DROPS",
+    "PRODUCT_SKU": "AVENT424",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 441,
+    "PRODUCT_NAME": "ALPHAGAN OPTHALMIC SOLUTION",
+    "PRODUCT_SKU": "ALPHA329",
+    "COST_PRICE": 8700,
+    "SELLING_PRICE": 16750,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 26100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 442,
+    "PRODUCT_NAME": "DRUGFIELD FLUCAMED STERILE EYE/ERA DROPS 5ML",
+    "PRODUCT_SKU": "DRUGF680",
+    "COST_PRICE": 1750,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 443,
+    "PRODUCT_NAME": "EMBA WARTIN DROP",
+    "PRODUCT_SKU": "EMBA456",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 444,
+    "PRODUCT_NAME": "TOBREX STERILE OPTHALMIC OINTMENT",
+    "PRODUCT_SKU": "TOBRE665",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 13000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 445,
+    "PRODUCT_NAME": "DRUGFIELD ANTALLERGE STERILE EYE DROPS",
+    "PRODUCT_SKU": "DRUGF546",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 446,
+    "PRODUCT_NAME": "OPTREX MULTI ACTION EYE WASH",
+    "PRODUCT_SKU": "OPTRE649",
+    "COST_PRICE": 7800,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 447,
+    "PRODUCT_NAME": "ZAPZYT ACNE TREATMENT GEL",
+    "PRODUCT_SKU": "ZAPZY605",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 22500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 448,
+    "PRODUCT_NAME": "ROBB WELL BEING INHALER",
+    "PRODUCT_SKU": "ROBB554",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 449,
+    "PRODUCT_NAME": "CXY-10",
+    "PRODUCT_SKU": "CXY-597",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 14000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 15000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 450,
+    "PRODUCT_NAME": "VICKS NASAL INHALER",
+    "PRODUCT_SKU": "VICKS365",
+    "COST_PRICE": 1200,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 451,
+    "PRODUCT_NAME": "POWERHEAT CREAM 25G",
+    "PRODUCT_SKU": "POWER780",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 452,
+    "PRODUCT_NAME": "MC VITES BUTTER SHORT BREAD",
+    "PRODUCT_SKU": "MCVI865",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 453,
+    "PRODUCT_NAME": "SKIMATE CREAM",
+    "PRODUCT_SKU": "SKIMA710",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 454,
+    "PRODUCT_NAME": "DRUGFIELD BICOTEN 35G",
+    "PRODUCT_SKU": "DRUGF403",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 455,
+    "PRODUCT_NAME": "CANESTEN ANTIFUNGICREAM CLOTRIMAZOLE 20G",
+    "PRODUCT_SKU": "CANES690",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 15200,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 16000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 456,
+    "PRODUCT_NAME": "DRUGFIELD MYCOTEN CREAM 20G",
+    "PRODUCT_SKU": "DRUGF795",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 457,
+    "PRODUCT_NAME": "DRUGFIELD HYDROCORTISONE CREAM 15G 1%",
+    "PRODUCT_SKU": "DRUGF758",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 458,
+    "PRODUCT_NAME": "BABY TRIBOTAN CREAM 20G",
+    "PRODUCT_SKU": "BABY320",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 459,
+    "PRODUCT_NAME": "DRUGFIELD WHITEFIELDS CINTMENT 20G",
+    "PRODUCT_SKU": "DRUGF512",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 460,
+    "PRODUCT_NAME": "FINASIL CREAM",
+    "PRODUCT_SKU": "FINAS811",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 461,
+    "PRODUCT_NAME": "DRUGFIELD DRUJELA MOUTH GEL 10G",
+    "PRODUCT_SKU": "DRUGF698",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 462,
+    "PRODUCT_NAME": "RATIN-A PLUS",
+    "PRODUCT_SKU": "RATIN685",
+    "COST_PRICE": 3700,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 12,
+    "TOTAL_STOCK_VALUE": 44400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 463,
+    "PRODUCT_NAME": "ANUSOL OINTMENT 3 WAY ACTION",
+    "PRODUCT_SKU": "ANUSO490",
+    "COST_PRICE": 10500,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 10500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 464,
+    "PRODUCT_NAME": "DRUGFIELD CHLORXY-G GEL",
+    "PRODUCT_SKU": "DRUGF739",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 465,
+    "PRODUCT_NAME": "PODOPHYLLIN CREAM 20GM",
+    "PRODUCT_SKU": "PODOP162",
+    "COST_PRICE": 2250,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2250,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 466,
+    "PRODUCT_NAME": "NIXODERM FOR SKIN PROBLEMS 15G",
+    "PRODUCT_SKU": "NIXOD769",
+    "COST_PRICE": 9000,
+    "SELLING_PRICE": 2200,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 467,
+    "PRODUCT_NAME": "DRUGFIELD PENICILLIN OINTMENT 10,000 IU 20GRAMS",
+    "PRODUCT_SKU": "DRUGF433",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 468,
+    "PRODUCT_NAME": "BETAMETHASONE CREAM 0.1% (FIDSON)",
+    "PRODUCT_SKU": "BETAM706",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 469,
+    "PRODUCT_NAME": "CZOCAIN GEL BP2%",
+    "PRODUCT_SKU": "CZOCA771",
+    "COST_PRICE": 2550,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 5100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 470,
+    "PRODUCT_NAME": "NYSTATIN CREAM 100,000 IU 15G",
+    "PRODUCT_SKU": "NYSTAB04",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 471,
+    "PRODUCT_NAME": "VIREST 5% ACICLOVIR CREAM (HOVID) 5G",
+    "PRODUCT_SKU": "VIRES429",
+    "COST_PRICE": 2550,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 5100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 472,
+    "PRODUCT_NAME": "YTACAN CREAM 30GM",
+    "PRODUCT_SKU": "YTACA591",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 473,
+    "PRODUCT_NAME": "DRUGFIELD MYCOTEN-PLUS 300GM",
+    "PRODUCT_SKU": "DRUGF740",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 474,
+    "PRODUCT_NAME": "DRUGFIELD MYCOTEN VACINAL CREAM 35G",
+    "PRODUCT_SKU": "DRUGF846",
+    "COST_PRICE": 1800,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 7200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 475,
+    "PRODUCT_NAME": "KLINFAST FORTE SUPPOSITORY",
+    "PRODUCT_SKU": "KLINF966",
+    "COST_PRICE": 2600,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 476,
+    "PRODUCT_NAME": "GYNAMED TABLETS",
+    "PRODUCT_SKU": "GYNAM801",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 477,
+    "PRODUCT_NAME": "DR.GREG'S TYPHOID TEST KIT",
+    "PRODUCT_SKU": "DR.GR552",
+    "COST_PRICE": 3050,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 478,
+    "PRODUCT_NAME": "NEIMETH GYNO-TIOCOSID",
+    "PRODUCT_SKU": "NEIME123",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 479,
+    "PRODUCT_NAME": "ABF-3 CREAM",
+    "PRODUCT_SKU": "ABF-3254",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 480,
+    "PRODUCT_NAME": "EURAX CREAM WITH CROTAMITON",
+    "PRODUCT_SKU": "EURAX173",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 21000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 481,
+    "PRODUCT_NAME": "ADVANTAN % 0.1 KREM",
+    "PRODUCT_SKU": "ADVAN941",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 482,
+    "PRODUCT_NAME": "BETHAMETHASONE CREAM 20G",
+    "PRODUCT_SKU": "BETHIA162",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 483,
+    "PRODUCT_NAME": "DICLOMOL GEL",
+    "PRODUCT_SKU": "DICL0982",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 7000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 484,
+    "PRODUCT_NAME": "VOLTAREN EMUGEL % 1,16 JEL",
+    "PRODUCT_SKU": "VOLTA483",
+    "COST_PRICE": 7500,
+    "SELLING_PRICE": 14000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 30000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 485,
+    "PRODUCT_NAME": "DABUR ODOMOS CREAM",
+    "PRODUCT_SKU": "DABUR789",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 25000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 486,
+    "PRODUCT_NAME": "DEEP HEAT HEAT RUB",
+    "PRODUCT_SKU": "DEEP390",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 5000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 487,
+    "PRODUCT_NAME": "DRUGFIELD NEUROGESIC GREASELESS OINTMENT 35G",
+    "PRODUCT_SKU": "DRUGF910",
+    "COST_PRICE": 1100,
+    "SELLING_PRICE": 2200,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 488,
+    "PRODUCT_NAME": "AQUASULF SULFUR OINTMENT 30G",
+    "PRODUCT_SKU": "AQUAS679",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 489,
+    "PRODUCT_NAME": "DEEP FREEZE COLD GEL FAST ACTING",
+    "PRODUCT_SKU": "DEEP589",
+    "COST_PRICE": 5500,
+    "SELLING_PRICE": 10500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 11000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 490,
+    "PRODUCT_NAME": "DAKTRIN TOPICAL CREAM 15G",
+    "PRODUCT_SKU": "DAKTR292",
+    "COST_PRICE": 4900,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4900,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 491,
+    "PRODUCT_NAME": "NEOFIDROL ACNE LOTION (FIDSON)",
+    "PRODUCT_SKU": "NEOF1151",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 492,
+    "PRODUCT_NAME": "DEEP HEAT SPRAY",
+    "PRODUCT_SKU": "DEEP927",
+    "COST_PRICE": 4100,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 493,
+    "PRODUCT_NAME": "NZORAL ANTI-DANDRUFF SHAMPOO",
+    "PRODUCT_SKU": "NZOR143",
+    "COST_PRICE": 14000,
+    "SELLING_PRICE": 23000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 14000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 494,
+    "PRODUCT_NAME": "SUDOCREAM",
+    "PRODUCT_SKU": "SUDOC761",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 9600,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 495,
+    "PRODUCT_NAME": "NZORAL DANDRUFF TREATMENT 2% W/W KETOCONAZOLE SHAMPOO",
+    "PRODUCT_SKU": "NZOR666",
+    "COST_PRICE": 29000,
+    "SELLING_PRICE": 45000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 496,
+    "PRODUCT_NAME": "DR.GREG'S PREGNANCY TEST KIT",
+    "PRODUCT_SKU": "DR.GR945",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 11,
+    "TOTAL_STOCK_VALUE": 27500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 497,
+    "PRODUCT_NAME": "MENTHOLATUM BALM",
+    "PRODUCT_SKU": "MENTH838",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 45500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 498,
+    "PRODUCT_NAME": "VASELINE BLUESELAVITAMIN E",
+    "PRODUCT_SKU": "VASEL379",
+    "COST_PRICE": 4800,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 14400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 499,
+    "PRODUCT_NAME": "DR.GREG'S MALARIA HOME TEST KIT",
+    "PRODUCT_SKU": "DR.GRI00",
+    "COST_PRICE": 2836,
+    "SELLING_PRICE": 5500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 8508,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 500,
+    "PRODUCT_NAME": "DR.GREG'S OVULATION TEST STRIP",
+    "PRODUCT_SKU": "DR.GR763",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 20000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 501,
+    "PRODUCT_NAME": "LEVOFEM TABLET",
+    "PRODUCT_SKU": "LEVOF975",
+    "COST_PRICE": 600,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 502,
+    "PRODUCT_NAME": "HUMBLE ONE-STEP PREGNANCY STRIP",
+    "PRODUCT_SKU": "HUMBL685",
+    "COST_PRICE": 50,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 21,
+    "TOTAL_STOCK_VALUE": 1050,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 503,
+    "PRODUCT_NAME": "BACK-UP EMERGENCY PILL X 1 TABLET",
+    "PRODUCT_SKU": "BACK-426",
+    "COST_PRICE": 1800,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 504,
+    "PRODUCT_NAME": "MOLPED MAXI THICK PAD",
+    "PRODUCT_SKU": "MOLPE877",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 6300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 505,
+    "PRODUCT_NAME": "MOLPED ULTRA SOFT PAD",
+    "PRODUCT_SKU": "MOLPE150",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 3150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 506,
+    "PRODUCT_NAME": "TAMPAX",
+    "PRODUCT_SKU": "TAMPA805",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 507,
+    "PRODUCT_NAME": "KOTEX MAXI 16 NORMAL",
+    "PRODUCT_SKU": "KOTEX512",
+    "COST_PRICE": 1600,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 4800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 508,
+    "PRODUCT_NAME": "MINTY BRETT MOUTHWASH 500ML",
+    "PRODUCT_SKU": "MINTY269",
+    "COST_PRICE": 1310,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2620,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 509,
+    "PRODUCT_NAME": "GOLD BRETT MOUTHWASH 500ML",
+    "PRODUCT_SKU": "GOLD220",
+    "COST_PRICE": 1310,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 510,
+    "PRODUCT_NAME": "FRESH MINT CORSODYL MOUTHWASH 300ML",
+    "PRODUCT_SKU": "FRESH843",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 23000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 511,
+    "PRODUCT_NAME": "LISTERINE TOTAL CARE FRESH MINT MOUTHWASH 250ML",
+    "PRODUCT_SKU": "LISTE512",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 15000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 512,
+    "PRODUCT_NAME": "SPARTAN C WHITE VITAMIN C",
+    "PRODUCT_SKU": "SPART717",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3200,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 513,
+    "PRODUCT_NAME": "COOL MINT LISTERINE MOUTHWASH",
+    "PRODUCT_SKU": "COOL220",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 14500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 514,
+    "PRODUCT_NAME": "TEETH & GUM DEFENSE LISTERINE MOUTHWASH",
+    "PRODUCT_SKU": "TEETH666",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 14500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 24000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 515,
+    "PRODUCT_NAME": "COLGATE PLAX PEPPERMINT MOUTHWASH",
+    "PRODUCT_SKU": "COLGA519",
+    "COST_PRICE": 5000,
+    "SELLING_PRICE": 10000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 10000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 516,
+    "PRODUCT_NAME": "KANG YI MEI DISPOSABLE",
+    "PRODUCT_SKU": "KANG716",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 7,
+    "TOTAL_STOCK_VALUE": 10500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 517,
+    "PRODUCT_NAME": "NIVEA MEN CREAM",
+    "PRODUCT_SKU": "NIVEA544",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 40,
+    "TOTAL_STOCK_VALUE": 40000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 518,
+    "PRODUCT_NAME": "ROSE BELLE TISSUE",
+    "PRODUCT_SKU": "ROSE448",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1750,
+    "QUANTITY_LEFT": 9,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 519,
+    "PRODUCT_NAME": "VALVAS 5/16OMG",
+    "PRODUCT_SKU": "VALVA916",
+    "COST_PRICE": 15000,
+    "SELLING_PRICE": 25000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 520,
+    "PRODUCT_NAME": "DIPLOMAT VIP STANDARD HARD",
+    "PRODUCT_SKU": "DIPL0956",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 521,
+    "PRODUCT_NAME": "OGL MALTED MILK BISCUIT",
+    "PRODUCT_SKU": "OGLM201",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 522,
+    "PRODUCT_NAME": "FAMILIA TISSUE",
+    "PRODUCT_SKU": "FAMIL724",
+    "COST_PRICE": 300,
+    "SELLING_PRICE": 60,
+    "QUANTITY_LEFT": 25,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 523,
+    "PRODUCT_NAME": "LONGIRICH MAGNETIC ENERGY PANT LINER",
+    "PRODUCT_SKU": "LONGRI718",
+    "COST_PRICE": 1250,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 23,
+    "TOTAL_STOCK_VALUE": 28750,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 524,
+    "PRODUCT_NAME": "FAMILIA ULTRA KITCHEN ROLLS",
+    "PRODUCT_SKU": "FAMIL504",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 7500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 525,
+    "PRODUCT_NAME": "HAODA BATH TOOLS",
+    "PRODUCT_SKU": "HAODA844",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 12,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 526,
+    "PRODUCT_NAME": "SPORT UNLIMITED FOOTWEAR",
+    "PRODUCT_SKU": "SPORT278",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 527,
+    "PRODUCT_NAME": "BLACK NOSE MASK",
+    "PRODUCT_SKU": "BLACK405",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 16,
+    "TOTAL_STOCK_VALUE": 1600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 528,
+    "PRODUCT_NAME": "KIDS NOSE MASK",
+    "PRODUCT_SKU": "KIDS973",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 24,
+    "TOTAL_STOCK_VALUE": 2400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 529,
+    "PRODUCT_NAME": "BLUE DISPOSABLE NOSE MASK",
+    "PRODUCT_SKU": "BLUE144",
+    "COST_PRICE": 100,
+    "SELLING_PRICE": 200,
+    "QUANTITY_LEFT": 11,
+    "TOTAL_STOCK_VALUE": 1100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 530,
+    "PRODUCT_NAME": "BANDAGE B/S",
+    "PRODUCT_SKU": "BANDA884",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 531,
+    "PRODUCT_NAME": "BANDAGE S/S",
+    "PRODUCT_SKU": "BANDA459",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 2500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 532,
+    "PRODUCT_NAME": "DUREX REGULAR FIT",
+    "PRODUCT_SKU": "DUREX437",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 16800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 533,
+    "PRODUCT_NAME": "DUREX SELECT FRUITY FLAVOUR",
+    "PRODUCT_SKU": "DUREX355",
+    "COST_PRICE": 2800,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 11200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 534,
+    "PRODUCT_NAME": "DUREX FETHERLITE",
+    "PRODUCT_SKU": "DUREX995",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 535,
+    "PRODUCT_NAME": "WET N WILD EXTRA LUBRICATED",
+    "PRODUCT_SKU": "WETN721",
+    "COST_PRICE": 2300,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 536,
+    "PRODUCT_NAME": "KING SIZE",
+    "PRODUCT_SKU": "KING850",
+    "COST_PRICE": 2300,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 6900,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 537,
+    "PRODUCT_NAME": "AFRO MAMBA STRIPP VANILLA",
+    "PRODUCT_SKU": "AFRO394",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 3000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 538,
+    "PRODUCT_NAME": "EROTICA RIBBED",
+    "PRODUCT_SKU": "EROT1957",
+    "COST_PRICE": 2300,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 539,
+    "PRODUCT_NAME": "POWER PLAY STRONG SAFE AND RELIABLE",
+    "PRODUCT_SKU": "POWER347",
+    "COST_PRICE": 2300,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 540,
+    "PRODUCT_NAME": "ORGAZ MAX EXTREME DOTTED",
+    "PRODUCT_SKU": "ORGAZ633",
+    "COST_PRICE": 2300,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 541,
+    "PRODUCT_NAME": "FIRE XTRA CONDOM",
+    "PRODUCT_SKU": "FIRE817",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 4200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 542,
+    "PRODUCT_NAME": "DUREX MUTUAL CLIMAX CONDOMS",
+    "PRODUCT_SKU": "DUREX160",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 543,
+    "PRODUCT_NAME": "FIESTA WET AND WILD CONDOMS",
+    "PRODUCT_SKU": "FIEST502",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 544,
+    "PRODUCT_NAME": "DUREX FETHERLITE X 12 CONDOM",
+    "PRODUCT_SKU": "DUREX477",
+    "COST_PRICE": 6000,
+    "SELLING_PRICE": 17800,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 545,
+    "PRODUCT_NAME": "DUREX EXTRA SAFE X 12",
+    "PRODUCT_SKU": "DUREX920",
+    "COST_PRICE": 8000,
+    "SELLING_PRICE": 17000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 16000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 546,
+    "PRODUCT_NAME": "FIRE XOTICA CONDOM",
+    "PRODUCT_SKU": "FIRE716",
+    "COST_PRICE": 700,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 11,
+    "TOTAL_STOCK_VALUE": 7700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 547,
+    "PRODUCT_NAME": "LIFESTYLE CLASSIC SECURITY & COMFORT",
+    "PRODUCT_SKU": "LIFES270",
+    "COST_PRICE": 1200,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 7200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 548,
+    "PRODUCT_NAME": "SKINS EXTRA LARGE",
+    "PRODUCT_SKU": "SKINS266",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 15000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 620,
+    "PRODUCT_NAME": "ASCOCHEW VITAMIN C TABLET WHITE",
+    "PRODUCT_SKU": "ASCOC337",
+    "COST_PRICE": 1000,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 621,
+    "PRODUCT_NAME": "GAVISCON PEPPERMINT LIQUID 200ML",
+    "PRODUCT_SKU": "GAVIS480",
+    "COST_PRICE": 7992,
+    "SELLING_PRICE": 14000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 15984,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 622,
+    "PRODUCT_NAME": "SUDOCREAM",
+    "PRODUCT_SKU": "SUDOC717",
+    "COST_PRICE": 9916,
+    "SELLING_PRICE": 17800,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 19832,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 623,
+    "PRODUCT_NAME": "ADAMS DESIRE X 15 CAPSULE",
+    "PRODUCT_SKU": "ADAM806",
+    "COST_PRICE": 7319,
+    "SELLING_PRICE": 13000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 21957,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 624,
+    "PRODUCT_NAME": "MENTHODEX COUGH MIXTURE 200ML",
+    "PRODUCT_SKU": "MENTH171",
+    "COST_PRICE": 8980,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 17960,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 625,
+    "PRODUCT_NAME": "NEOFIDROL ACNE LOTION (FIDSON)",
+    "PRODUCT_SKU": "NEOF1898",
+    "COST_PRICE": 1926,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 5778,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 626,
+    "PRODUCT_NAME": "KRISHAT COD LIVER OIL CAPSULE 100MG",
+    "PRODUCT_SKU": "KRISH819",
+    "COST_PRICE": 998,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 998,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 627,
+    "PRODUCT_NAME": "OLFEN-100 SR",
+    "PRODUCT_SKU": "OLFEN325",
+    "COST_PRICE": 4045,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 8090,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 628,
+    "PRODUCT_NAME": "OLFEN-50MG",
+    "PRODUCT_SKU": "OLFEN790",
+    "COST_PRICE": 4555,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 9110,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 629,
+    "PRODUCT_NAME": "LIVOLIN FORTE CAPSULE",
+    "PRODUCT_SKU": "LIVOL229",
+    "COST_PRICE": 8988,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8988,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 630,
+    "PRODUCT_NAME": "SYNRIAM 150MG+750MG X 3 TABLET",
+    "PRODUCT_SKU": "SYNRI866",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 12500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 26000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 631,
+    "PRODUCT_NAME": "PENZOCINE INJECTION 30MG/ML",
+    "PRODUCT_SKU": "PENZ0635",
+    "COST_PRICE": 550,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 5500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 632,
+    "PRODUCT_NAME": "ALABUKUN POWDER SACHET",
+    "PRODUCT_SKU": "ALABU992",
+    "COST_PRICE": 299,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 2990,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 633,
+    "PRODUCT_NAME": "DRGREGTS TYPHOID TEST KIT",
+    "PRODUCT_SKU": "DRGR866",
+    "COST_PRICE": 2998,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 5996,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 634,
+    "PRODUCT_NAME": "DUREX EXTRA SAFE CONDOM",
+    "PRODUCT_SKU": "DUREX507",
+    "COST_PRICE": 3050,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 635,
+    "PRODUCT_NAME": "HYDROCORTISONE CREAM 1%",
+    "PRODUCT_SKU": "HYDRO910",
+    "COST_PRICE": 660,
+    "SELLING_PRICE": 2500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1320,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 636,
+    "PRODUCT_NAME": "STREPSILS INTENSIVE HONEY & LEMON LOZENGES",
+    "PRODUCT_SKU": "STREP811",
+    "COST_PRICE": 5950,
+    "SELLING_PRICE": 10700,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 23800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 637,
+    "PRODUCT_NAME": "LORAT-10 TABLETS",
+    "PRODUCT_SKU": "LORAT416",
+    "COST_PRICE": 654,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 6540,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 638,
+    "PRODUCT_NAME": "PFIZER VIAGRA 50MG",
+    "PRODUCT_SKU": "PFIZE969",
+    "COST_PRICE": 6990,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 639,
+    "PRODUCT_NAME": "WOMENS PROBIOTICS 60 CAPSULE",
+    "PRODUCT_SKU": "WOMENS312",
+    "COST_PRICE": 23219,
+    "SELLING_PRICE": 41700,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 23219,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 640,
+    "PRODUCT_NAME": "HALIBORANGE VITAMIN C BLACKCURRANT FLAVOUR",
+    "PRODUCT_SKU": "HALIB755",
+    "COST_PRICE": 8500,
+    "SELLING_PRICE": 16500,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 42500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 641,
+    "PRODUCT_NAME": "HALIBORANGE VITAMIN C CITRUS FLAVOUR",
+    "PRODUCT_SKU": "HALIB151",
+    "COST_PRICE": 8500,
+    "SELLING_PRICE": 16500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 25500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 642,
+    "PRODUCT_NAME": "HALIBORANGE VITAMIN C ORANGE FLAVOUR",
+    "PRODUCT_SKU": "HALIB592",
+    "COST_PRICE": 8500,
+    "SELLING_PRICE": 18000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 42500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 643,
+    "PRODUCT_NAME": "PROLIFE MULTIVITAMIN STUCK",
+    "PRODUCT_SKU": "PROLI411",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 740,
+    "PRODUCT_NAME": "Garden of life dr formulated magnesium with prebiotics",
+    "PRODUCT_SKU": "Garde852",
+    "COST_PRICE": 43500,
+    "SELLING_PRICE": 78000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 43500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 741,
+    "PRODUCT_NAME": "Elan health care ovofolic",
+    "PRODUCT_SKU": "Elan225",
+    "COST_PRICE": 40000,
+    "SELLING_PRICE": 72000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 40000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 742,
+    "PRODUCT_NAME": "Nature made chewable c",
+    "PRODUCT_SKU": "Natur458",
+    "COST_PRICE": 22510,
+    "SELLING_PRICE": 40518,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 22510,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 743,
+    "PRODUCT_NAME": "Natures field worms care once daily probiotic",
+    "PRODUCT_SKU": "Natur419",
+    "COST_PRICE": 42230,
+    "SELLING_PRICE": 76000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 42230,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 744,
+    "PRODUCT_NAME": "Puritans pride coral calcium 500mg",
+    "PRODUCT_SKU": "Purit174",
+    "COST_PRICE": 15690,
+    "SELLING_PRICE": 28500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 15690,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 745,
+    "PRODUCT_NAME": "Mason natural whole herb flax seed oil",
+    "PRODUCT_SKU": "Mason210",
+    "COST_PRICE": 16960,
+    "SELLING_PRICE": 30500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 16960,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 746,
+    "PRODUCT_NAME": "Hpv goli nutrition ashwagandha gummies",
+    "PRODUCT_SKU": "Hpv821",
+    "COST_PRICE": 38160,
+    "SELLING_PRICE": 77000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 38160,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 747,
+    "PRODUCT_NAME": "Improved bio active formula ivory caps",
+    "PRODUCT_SKU": "Impro322",
+    "COST_PRICE": 55050,
+    "SELLING_PRICE": 100,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 55050,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 748,
+    "PRODUCT_NAME": "Force factor magnesium 500 mg capsules",
+    "PRODUCT_SKU": "Force839",
+    "COST_PRICE": 32720,
+    "SELLING_PRICE": 58000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 32720,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 749,
+    "PRODUCT_NAME": "Intimate rose myo and d chiro inositol",
+    "PRODUCT_SKU": "Intim901",
+    "COST_PRICE": 44080,
+    "SELLING_PRICE": 79500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 750,
+    "PRODUCT_NAME": "Elan health care medfertil for men",
+    "PRODUCT_SKU": "Elan876",
+    "COST_PRICE": 25260,
+    "SELLING_PRICE": 50000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 25260,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 751,
+    "PRODUCT_NAME": "Fair haven health fertil aid for women",
+    "PRODUCT_SKU": "Fair838",
+    "COST_PRICE": 48043,
+    "SELLING_PRICE": 89000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 752,
+    "PRODUCT_NAME": "Natures field myo inositol d chiro inositol",
+    "PRODUCT_SKU": "Natur282",
+    "COST_PRICE": 29080,
+    "SELLING_PRICE": 53500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 753,
+    "PRODUCT_NAME": "Gluta berry 200000 mg",
+    "PRODUCT_SKU": "Gluta996",
+    "COST_PRICE": 6730,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 754,
+    "PRODUCT_NAME": "Itsi biosciences home test dna",
+    "PRODUCT_SKU": "Itsi268",
+    "COST_PRICE": 20000,
+    "SELLING_PRICE": 30000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 100000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 755,
+    "PRODUCT_NAME": "multivitamin syrup reload 4 kidz",
+    "PRODUCT_SKU": "multi458",
+    "COST_PRICE": 12600,
+    "SELLING_PRICE": 22500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 756,
+    "PRODUCT_NAME": "Reload 4 kidz omega 3",
+    "PRODUCT_SKU": "Reloa988",
+    "COST_PRICE": 9700,
+    "SELLING_PRICE": 20000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 9700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 757,
+    "PRODUCT_NAME": "Natures field joint renew",
+    "PRODUCT_SKU": "Natur190",
+    "COST_PRICE": 23400,
+    "SELLING_PRICE": 42000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 23400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 758,
+    "PRODUCT_NAME": "Hovid dha emulsion",
+    "PRODUCT_SKU": "Hovid713",
+    "COST_PRICE": 4880,
+    "SELLING_PRICE": 9500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4880,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 759,
+    "PRODUCT_NAME": "Natures field immune defence advance",
+    "PRODUCT_SKU": "Natur482",
+    "COST_PRICE": 20460,
+    "SELLING_PRICE": 37000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 20460,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 760,
+    "PRODUCT_NAME": "Natures field beauty sure advanced collagen",
+    "PRODUCT_SKU": "Natur755",
+    "COST_PRICE": 22410,
+    "SELLING_PRICE": 40000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 22410,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 761,
+    "PRODUCT_NAME": "Reload infant drops",
+    "PRODUCT_SKU": "Reloa884",
+    "COST_PRICE": 8600,
+    "SELLING_PRICE": 15500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 762,
+    "PRODUCT_NAME": "Natures field fibro med",
+    "PRODUCT_SKU": "Natur199",
+    "COST_PRICE": 22190,
+    "SELLING_PRICE": 40000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 22190,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 763,
+    "PRODUCT_NAME": "Halib orange omega 3 dha",
+    "PRODUCT_SKU": "Halib477",
+    "COST_PRICE": 21190,
+    "SELLING_PRICE": 38142,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 21190,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 861,
+    "PRODUCT_NAME": "RAID FLYING INSECT KILLER",
+    "PRODUCT_SKU": "RAID405",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 6300,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 862,
+    "PRODUCT_NAME": "RAID MULTI-PURPOSE INSECT KILLER",
+    "PRODUCT_SKU": "RAID300",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 6300,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 863,
+    "PRODUCT_NAME": "BNC MOSQUITO SPRAY",
+    "PRODUCT_SKU": "BNCM186",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 864,
+    "PRODUCT_NAME": "PREMIER COOL",
+    "PRODUCT_SKU": "PREMI470",
+    "COST_PRICE": 666,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 3996,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 865,
+    "PRODUCT_NAME": "VITAMINSTORE VITAMIN C EFFERVESCENT TABLETS",
+    "PRODUCT_SKU": "VITAM347",
+    "COST_PRICE": 3755,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 11265,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 866,
+    "PRODUCT_NAME": "VITAMIN STORE VITAMIN C & ZINC EFFERVESCENT",
+    "PRODUCT_SKU": "VITAM900",
+    "COST_PRICE": 4755,
+    "SELLING_PRICE": 9000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 19020,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 867,
+    "PRODUCT_NAME": "SILICONE SCAR SHEET ULTRA SOFT",
+    "PRODUCT_SKU": "SILIC794",
+    "COST_PRICE": 36810,
+    "SELLING_PRICE": 40000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 36810,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 868,
+    "PRODUCT_NAME": "NUROFEN CAPLETS 200MG",
+    "PRODUCT_SKU": "NUROF665",
+    "COST_PRICE": 2200,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 6600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 869,
+    "PRODUCT_NAME": "MIFEPAK",
+    "PRODUCT_SKU": "MIFEP401",
+    "COST_PRICE": 4500,
+    "SELLING_PRICE": 8100,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 870,
+    "PRODUCT_NAME": "MAGSL ANTACID SUSPENSION 200ML",
+    "PRODUCT_SKU": "MAGSI502",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 871,
+    "PRODUCT_NAME": "GESTID PLUS 180ML",
+    "PRODUCT_SKU": "GESTI193",
+    "COST_PRICE": 1800,
+    "SELLING_PRICE": 5500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 872,
+    "PRODUCT_NAME": "POLYGEL ANTACID RAPID RELIEF 200ML",
+    "PRODUCT_SKU": "POLYG717",
+    "COST_PRICE": 2100,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 873,
+    "PRODUCT_NAME": "DIGICID SUSPENSION",
+    "PRODUCT_SKU": "DIGIC545",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 7500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 874,
+    "PRODUCT_NAME": "POLYGEL DUAL ADVANCED RELIEF 200ML",
+    "PRODUCT_SKU": "POLYG413",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 875,
+    "PRODUCT_NAME": "AVROCID SUSPENSION 200ML",
+    "PRODUCT_SKU": "AVROC521",
+    "COST_PRICE": 2150,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 6450,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 876,
+    "PRODUCT_NAME": "STOPACID BANANA FLAVOUR SUSPENSION",
+    "PRODUCT_SKU": "STOPA145",
+    "COST_PRICE": 2150,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 6450,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 877,
+    "PRODUCT_NAME": "GECROL SUSPENSION 200ML",
+    "PRODUCT_SKU": "GECRO756",
+    "COST_PRICE": 2150,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 8600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 878,
+    "PRODUCT_NAME": "EVACID SUSPENSION 200ML",
+    "PRODUCT_SKU": "EVAC1573",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 879,
+    "PRODUCT_NAME": "RULOX SUSPENSION 100ML",
+    "PRODUCT_SKU": "RULOX882",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 880,
+    "PRODUCT_NAME": "NUGEL-O ANTACID SUSPENSION MINT FLAVOUR",
+    "PRODUCT_SKU": "NUGEL657",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 881,
+    "PRODUCT_NAME": "NUGEL-O ANTACID SUSPENSION MINT FLAVOUR",
+    "PRODUCT_SKU": "NUGEL664",
+    "COST_PRICE": 2150,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 882,
+    "PRODUCT_NAME": "ACIPEP ANTACID SUSPENSION",
+    "PRODUCT_SKU": "ACIPE221",
+    "COST_PRICE": 1050,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 2100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 883,
+    "PRODUCT_NAME": "GASTRIGEL SUSPENSION",
+    "PRODUCT_SKU": "GASTR517",
+    "COST_PRICE": 4000,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 8000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1003,
+    "PRODUCT_NAME": "LEVOTHYROXINE TABLETS 50 MICROGRAMS",
+    "PRODUCT_SKU": "LEVOT837",
+    "COST_PRICE": 2631,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 2631,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1004,
+    "PRODUCT_NAME": "TREVIA TABLETS SITAGLIPTIN 50 MG",
+    "PRODUCT_SKU": "TREV1728",
+    "COST_PRICE": 8684,
+    "SELLING_PRICE": 16500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8684,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1005,
+    "PRODUCT_NAME": "LIPITOR 10MG (PFIZER)",
+    "PRODUCT_SKU": "LIPIT823",
+    "COST_PRICE": 21052,
+    "SELLING_PRICE": 40000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 21052,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1006,
+    "PRODUCT_NAME": "PROVIRON MESTEROLONE 25 MG",
+    "PRODUCT_SKU": "PROV1103",
+    "COST_PRICE": 12631,
+    "SELLING_PRICE": 24000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1007,
+    "PRODUCT_NAME": "CLOMID CLOMPHENE CITRATE 50MG X 10 TABLETS",
+    "PRODUCT_SKU": "CLOM1908",
+    "COST_PRICE": 10894,
+    "SELLING_PRICE": 20700,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 10894,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1008,
+    "PRODUCT_NAME": "TRANEXAMIC ACID TABLETS IP 500 MG",
+    "PRODUCT_SKU": "TRANEA469",
+    "COST_PRICE": 1842,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 18420,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1009,
+    "PRODUCT_NAME": "TRIVIAMET SITAGLIPTIN 50 MG METFORMIN HCI 1000 MG",
+    "PRODUCT_SKU": "TRIV1927",
+    "COST_PRICE": 13684,
+    "SELLING_PRICE": 26000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 13684,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1010,
+    "PRODUCT_NAME": "TREVIA TABLETS SITAGLIPTIN 50 MG",
+    "PRODUCT_SKU": "TREV1557",
+    "COST_PRICE": 9166,
+    "SELLING_PRICE": 16500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 9166,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1011,
+    "PRODUCT_NAME": "GAVISCON DOUBLE ACTION",
+    "PRODUCT_SKU": "GAVIS374",
+    "COST_PRICE": 12000,
+    "SELLING_PRICE": 22800,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1012,
+    "PRODUCT_NAME": "COTTON WOOL 50G",
+    "PRODUCT_SKU": "COTTO142",
+    "COST_PRICE": 130,
+    "SELLING_PRICE": 500,
+    "QUANTITY_LEFT": 19,
+    "TOTAL_STOCK_VALUE": 2470,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1013,
+    "PRODUCT_NAME": "AC COTTON WOOL 100G",
+    "PRODUCT_SKU": "ACCO472",
+    "COST_PRICE": 315,
+    "SELLING_PRICE": 700,
+    "QUANTITY_LEFT": 20,
+    "TOTAL_STOCK_VALUE": 6300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1014,
+    "PRODUCT_NAME": "NATURESFILLED MAGNESIUM INSTANT DRINK MIX PLUS",
+    "PRODUCT_SKU": "NATUR341",
+    "COST_PRICE": 35195,
+    "SELLING_PRICE": 66870,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 35195,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1015,
+    "PRODUCT_NAME": "DUCOLAX ADULT 5MG X 8 TABLET",
+    "PRODUCT_SKU": "DUCOL557",
+    "COST_PRICE": 7150,
+    "SELLING_PRICE": 13500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 21450,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1016,
+    "PRODUCT_NAME": "OPTIMUM GOLD STANDARD WHEY PROTEIN",
+    "PRODUCT_SKU": "OPTIM147",
+    "COST_PRICE": 34765,
+    "SELLING_PRICE": 66000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 34765,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1017,
+    "PRODUCT_NAME": "PHYTO BOOSTER WHITENING",
+    "PRODUCT_SKU": "PHYTO842",
+    "COST_PRICE": 38500,
+    "SELLING_PRICE": 73000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 38500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1018,
+    "PRODUCT_NAME": "CEFUROXIME 250MG (FIDSON)",
+    "PRODUCT_SKU": "CEFUR924",
+    "COST_PRICE": 4060,
+    "SELLING_PRICE": 7700,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 8120,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1019,
+    "PRODUCT_NAME": "DIASTOP SUSPENSION 100ML",
+    "PRODUCT_SKU": "DIAST963",
+    "COST_PRICE": 652,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 2608,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1020,
+    "PRODUCT_NAME": "XICEF TABLETS",
+    "PRODUCT_SKU": "XICEF313",
+    "COST_PRICE": 3210,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3210,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1021,
+    "PRODUCT_NAME": "TUXIL-N EXPECTORANT ADULT COUGH & COLD 100ML",
+    "PRODUCT_SKU": "TUXIL127",
+    "COST_PRICE": 770,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 1540,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1022,
+    "PRODUCT_NAME": "CEFUROXIME 500MG (FIDSON)",
+    "PRODUCT_SKU": "CEFUR121",
+    "COST_PRICE": 6500,
+    "SELLING_PRICE": 12500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 19500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1023,
+    "PRODUCT_NAME": "MEDIX 55 CLINICAL SOLUTION 10% GLYCOLIC + LACTIC ACID",
+    "PRODUCT_SKU": "MEDIX943",
+    "COST_PRICE": 15950,
+    "SELLING_PRICE": 30000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 15950,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1024,
+    "PRODUCT_NAME": "AQSA LATEX GLOVES",
+    "PRODUCT_SKU": "AQSA363",
+    "COST_PRICE": 4300,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 12900,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1025,
+    "PRODUCT_NAME": "ZETRO AZITHROMYCIN 500MG (GETZ)",
+    "PRODUCT_SKU": "ZETRO483",
+    "COST_PRICE": 1880,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1026,
+    "PRODUCT_NAME": "GLOTHROX 500MG X 3 CAPSULE",
+    "PRODUCT_SKU": "GLOTH140",
+    "COST_PRICE": 1820,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 5460,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1027,
+    "PRODUCT_NAME": "TUXIL-D EXPECTORANT ADULT COUGH & COLD 100ML",
+    "PRODUCT_SKU": "6154000373412",
+    "COST_PRICE": 770,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 3080,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1028,
+    "PRODUCT_NAME": "HALIBORANGE OMEGA-3 DHA 3- (12YEARS) 300ML",
+    "PRODUCT_SKU": "HALIB190",
+    "COST_PRICE": 18000,
+    "SELLING_PRICE": 34200,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 18000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1029,
+    "PRODUCT_NAME": "PISCOEXPECTORANT 100ML",
+    "PRODUCT_SKU": "PISCO866",
+    "COST_PRICE": 450,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 1800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1030,
+    "PRODUCT_NAME": "ATADYN NON DROWSY TABLETS",
+    "PRODUCT_SKU": "ATADY138",
+    "COST_PRICE": 267,
+    "SELLING_PRICE": 2000,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 2670,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1031,
+    "PRODUCT_NAME": "TARVID 200MG OFLOXACIN",
+    "PRODUCT_SKU": "TARIV229",
+    "COST_PRICE": 8500,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1032,
+    "PRODUCT_NAME": "PEPTO BISMOL 118ML",
+    "PRODUCT_SKU": "PEPTO219",
+    "COST_PRICE": 12420,
+    "SELLING_PRICE": 23500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1033,
+    "PRODUCT_NAME": "CIPROXIN 500MG X 10 (OBS)",
+    "PRODUCT_SKU": "CIPRO463",
+    "COST_PRICE": 8560,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8560,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1034,
+    "PRODUCT_NAME": "DISPERSIBLE ASPIRIN 75MG TABLETS",
+    "PRODUCT_SKU": "DISPIE324",
+    "COST_PRICE": 3300,
+    "SELLING_PRICE": 6200,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 3300,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1035,
+    "PRODUCT_NAME": "LEVOTIL 500MG X 10 CAPLETS",
+    "PRODUCT_SKU": "LEVOT442",
+    "COST_PRICE": 1180,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1180,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1036,
+    "PRODUCT_NAME": "GOOD MOLECULE NIACINAMIDE SERUM 30ML",
+    "PRODUCT_SKU": "GOOD158",
+    "COST_PRICE": 17600,
+    "SELLING_PRICE": 31600,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 17600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1037,
+    "PRODUCT_NAME": "GOOD MOLECULE DISCOLORATION CORRECTING SERUM 30ML",
+    "PRODUCT_SKU": "GOOD296",
+    "COST_PRICE": 18700,
+    "SELLING_PRICE": 35000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 18700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1038,
+    "PRODUCT_NAME": "COVERAM 5MG/10MG",
+    "PRODUCT_SKU": "COVER834",
+    "COST_PRICE": 8800,
+    "SELLING_PRICE": 16700,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1039,
+    "PRODUCT_NAME": "AQUA SUN SPF50+ 50ML",
+    "PRODUCT_SKU": "AQUA767",
+    "COST_PRICE": 12100,
+    "SELLING_PRICE": 23000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 12100,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1040,
+    "PRODUCT_NAME": "GALVUS 50MG VILDAGLIPTIN (NOVARTIS)",
+    "PRODUCT_SKU": "GALVUS547",
+    "COST_PRICE": 21800,
+    "SELLING_PRICE": 41800,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 21800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1041,
+    "PRODUCT_NAME": "GLUCOPHAGE 500MG X 30 TABLETS",
+    "PRODUCT_SKU": "GLUC0723",
+    "COST_PRICE": 4085,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4085,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1042,
+    "PRODUCT_NAME": "NATRILIX SR 1.5MG",
+    "PRODUCT_SKU": "NATRI706",
+    "COST_PRICE": 6420,
+    "SELLING_PRICE": 12000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 6420,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1043,
+    "PRODUCT_NAME": "VOLTAREN 100MG SUPPOSITORY",
+    "PRODUCT_SKU": "VOLTA530",
+    "COST_PRICE": 11107,
+    "SELLING_PRICE": 0,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 11107,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1044,
+    "PRODUCT_NAME": "CLEAN & CLEAR ADVANTAGE CLEAR & SOOTHE FOAMING WASH",
+    "PRODUCT_SKU": "CLEAN126",
+    "COST_PRICE": 4400,
+    "SELLING_PRICE": 8500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4400,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1045,
+    "PRODUCT_NAME": "NIVEA PERFECT & RADIANT 400ML",
+    "PRODUCT_SKU": "NIVEA126",
+    "COST_PRICE": 4200,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4200,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1046,
+    "PRODUCT_NAME": "STIVES ENERGISING BODY WASH CITRUS & CHERRY BLOSSOM 650ML",
+    "PRODUCT_SKU": "STIV745",
+    "COST_PRICE": 7150,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1047,
+    "PRODUCT_NAME": "PURITANS PRIDE VITAMIN D3 50MCG (2000 IU) X 100 SOFTGEL",
+    "PRODUCT_SKU": "PURIT251",
+    "COST_PRICE": 9600,
+    "SELLING_PRICE": 20600,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 9600,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1048,
+    "PRODUCT_NAME": "STIVES HYDRATING BODY WASH COCONUT WATER & ORCHID 650ML",
+    "PRODUCT_SKU": "STIV474",
+    "COST_PRICE": 8070,
+    "SELLING_PRICE": 15500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 8070,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1049,
+    "PRODUCT_NAME": "STIVES EXFOLIATING BODY WASH PINK LEMON & MANDARIN ORANGE 650ML",
+    "PRODUCT_SKU": "STIV371",
+    "COST_PRICE": 7150,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1050,
+    "PRODUCT_NAME": "STIVES PAMPERING BODY WASH VANILLA & OAT MILK 650ML",
+    "PRODUCT_SKU": "STIV101",
+    "COST_PRICE": 7150,
+    "SELLING_PRICE": 15000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 7150,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1074,
+    "PRODUCT_NAME": "NEOLAEVES PROBIOTICS 100 BILLION CFUs 34 STRAINS PLUS CRANBERRY",
+    "PRODUCT_SKU": "NEOLES44",
+    "COST_PRICE": 16224,
+    "SELLING_PRICE": 30800,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 16224,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1075,
+    "PRODUCT_NAME": "EMZOR FLUCONAZOLE SUSPENSION 35ML",
+    "PRODUCT_SKU": "EMZOR495",
+    "COST_PRICE": 1502,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 3004,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1076,
+    "PRODUCT_NAME": "DRUGFIELD PERMETHRIN CREAM 30G",
+    "PRODUCT_SKU": "DRUGFI47",
+    "COST_PRICE": 1998,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 5994,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1077,
+    "PRODUCT_NAME": "AVENTRA ZADOMAX RELIEF EYEDROP",
+    "PRODUCT_SKU": "AVENT982",
+    "COST_PRICE": 1830,
+    "SELLING_PRICE": 3500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1830,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1078,
+    "PRODUCT_NAME": "ORAL-B MEDIUM TOOTH BRUSH",
+    "PRODUCT_SKU": "ORAL-389",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1079,
+    "PRODUCT_NAME": "FOREVER BEE HONEY 100% NATURAL",
+    "PRODUCT_SKU": "FOREV332",
+    "COST_PRICE": 22782,
+    "SELLING_PRICE": 41000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 91128,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1080,
+    "PRODUCT_NAME": "FOREVER ALOE VERA GEL ILITER",
+    "PRODUCT_SKU": "FOREV196",
+    "COST_PRICE": 31935,
+    "SELLING_PRICE": 57400,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 63870,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1081,
+    "PRODUCT_NAME": "FOREVER ALOE BERRY NECTER IL",
+    "PRODUCT_SKU": "FOREV622",
+    "COST_PRICE": 31935,
+    "SELLING_PRICE": 51400,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 31935,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1082,
+    "PRODUCT_NAME": "FOREVER MULTI-MACA DIETARY SUPPLEMENT 60 TABLETS",
+    "PRODUCT_SKU": "FOREV638",
+    "COST_PRICE": 30632,
+    "SELLING_PRICE": 55000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 30632,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1083,
+    "PRODUCT_NAME": "FOREVER ARCTIC SEA 120 SOFTGELS",
+    "PRODUCT_SKU": "FOREV162",
+    "COST_PRICE": 38628,
+    "SELLING_PRICE": 69500,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 38628,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1084,
+    "PRODUCT_NAME": "NUTRICOST MAGTEIN MAGNESIUM L-THREONATE 2000MG X 90CAPSULES",
+    "PRODUCT_SKU": "NUTRI879",
+    "COST_PRICE": 129,
+    "SELLING_PRICE": 206,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1085,
+    "PRODUCT_NAME": "FOREVER ALOE AVOCADO FACE & BODY SOAP 142G",
+    "PRODUCT_SKU": "FOREV445",
+    "COST_PRICE": 7996,
+    "SELLING_PRICE": 14300,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 23988,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1086,
+    "PRODUCT_NAME": "FOREVER BRIGHT TOOTH GEL",
+    "PRODUCT_SKU": "FOREV605",
+    "COST_PRICE": 9638,
+    "SELLING_PRICE": 17000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 38552,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1087,
+    "PRODUCT_NAME": "FOREVER ALOE EVER-SHELD DEODORANT STICK",
+    "PRODUCT_SKU": "FOREV356",
+    "COST_PRICE": 8989,
+    "SELLING_PRICE": 16000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 35956,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1088,
+    "PRODUCT_NAME": "PANADOL EXTRA ADVANCE TABLETS",
+    "PRODUCT_SKU": "PANAD623",
+    "COST_PRICE": 11770,
+    "SELLING_PRICE": 22400,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 11770,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1089,
+    "PRODUCT_NAME": "PLATO MONITOR",
+    "PRODUCT_SKU": "PLATO924",
+    "COST_PRICE": 75000,
+    "SELLING_PRICE": 90000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 300000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1090,
+    "PRODUCT_NAME": "UPPERIO 50MG NOVARTIS",
+    "PRODUCT_SKU": "UPPER756",
+    "COST_PRICE": 36977,
+    "SELLING_PRICE": 70000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1091,
+    "PRODUCT_NAME": "BAYER XARELITO 10MG",
+    "PRODUCT_SKU": "BAYER473",
+    "COST_PRICE": 16500,
+    "SELLING_PRICE": 28000,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 49500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1092,
+    "PRODUCT_NAME": "NARTINELLIS APPLE JUICE SPARKLING",
+    "PRODUCT_SKU": "NARTI841",
+    "COST_PRICE": 2500,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 5,
+    "TOTAL_STOCK_VALUE": 12500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1093,
+    "PRODUCT_NAME": "CHIVITA EXOTIC MULTIFRUITA NECTER",
+    "PRODUCT_SKU": "CHIVI481",
+    "COST_PRICE": 1700,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 6800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1094,
+    "PRODUCT_NAME": "CLOSEUP ZINC + TOOTHPASTE",
+    "PRODUCT_SKU": "CLOSE141",
+    "COST_PRICE": 583,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 1749,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1095,
+    "PRODUCT_NAME": "JARDANCE 10MG",
+    "PRODUCT_SKU": "4048846021878",
+    "COST_PRICE": 63790,
+    "SELLING_PRICE": 109,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1096,
+    "PRODUCT_NAME": "CATAFLAM 50MG",
+    "PRODUCT_SKU": "CATAF531",
+    "COST_PRICE": 2970,
+    "SELLING_PRICE": 5600,
+    "QUANTITY_LEFT": 10,
+    "TOTAL_STOCK_VALUE": 29700,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1097,
+    "PRODUCT_NAME": "COLGATE CHARCOAL TOOTHPASTE 120G",
+    "PRODUCT_SKU": "COLGA746",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 6,
+    "TOTAL_STOCK_VALUE": 9000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1122,
+    "PRODUCT_NAME": "GAVISCON LIQUID PEPPERMINT SACHET",
+    "PRODUCT_SKU": "GAVIS868",
+    "COST_PRICE": 600,
+    "SELLING_PRICE": 1200,
+    "QUANTITY_LEFT": 3,
+    "TOTAL_STOCK_VALUE": 1800,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1123,
+    "PRODUCT_NAME": "Kinbrex 200mg",
+    "PRODUCT_SKU": "Kinbr961",
+    "COST_PRICE": 1512,
+    "SELLING_PRICE": 5000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1512,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1124,
+    "PRODUCT_NAME": "MOTIL- STOP CAPSULES",
+    "PRODUCT_SKU": "MOTIL666",
+    "COST_PRICE": 210,
+    "SELLING_PRICE": 1000,
+    "QUANTITY_LEFT": 47,
+    "TOTAL_STOCK_VALUE": 9870,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1125,
+    "PRODUCT_NAME": "vital proteins collagen peptide 284g",
+    "PRODUCT_SKU": "vital292",
+    "COST_PRICE": 40000,
+    "SELLING_PRICE": 59500,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1126,
+    "PRODUCT_NAME": "ozempic",
+    "PRODUCT_SKU": "ozemp383",
+    "COST_PRICE": 206,
+    "SELLING_PRICE": 400,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1127,
+    "PRODUCT_NAME": "LISNOPRIL 10MG TEVA",
+    "PRODUCT_SKU": "LISNO581",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1128,
+    "PRODUCT_NAME": "FBS/RBS",
+    "PRODUCT_SKU": "FBS/R550",
+    "COST_PRICE": 500,
+    "SELLING_PRICE": 1500,
+    "QUANTITY_LEFT": 17,
+    "TOTAL_STOCK_VALUE": 8500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1129,
+    "PRODUCT_NAME": "THROTAL ERYTHROMYCIN ORAL SUSPENSION 125 ML",
+    "PRODUCT_SKU": "THROT808",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 4000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 1500,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1130,
+    "PRODUCT_NAME": "STORM ELIXIR BODY PERFUM",
+    "PRODUCT_SKU": "STORM300",
+    "COST_PRICE": 3500,
+    "SELLING_PRICE": 7000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 14000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1131,
+    "PRODUCT_NAME": "SARTOR INSTANT HAND SANITIZER 70ML",
+    "PRODUCT_SKU": "SART0526",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6000,
+    "QUANTITY_LEFT": 4,
+    "TOTAL_STOCK_VALUE": 12000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1132,
+    "PRODUCT_NAME": "BEARD CREAM AND OIL",
+    "PRODUCT_SKU": "BEARD737",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1133,
+    "PRODUCT_NAME": "BEARD CREAM AND OIL",
+    "PRODUCT_SKU": "BEARD480",
+    "COST_PRICE": 3000,
+    "SELLING_PRICE": 6500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 6000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1134,
+    "PRODUCT_NAME": "MISOPT EYEDROP",
+    "PRODUCT_SKU": "MISOP588",
+    "COST_PRICE": 4377,
+    "SELLING_PRICE": 8000,
+    "QUANTITY_LEFT": 1,
+    "TOTAL_STOCK_VALUE": 4377,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1135,
+    "PRODUCT_NAME": "SENSODYNE DAILY CARE/ PROTECTION TOOTHPASTE",
+    "PRODUCT_SKU": "SENSO137",
+    "COST_PRICE": 2000,
+    "SELLING_PRICE": 4500,
+    "QUANTITY_LEFT": 2,
+    "TOTAL_STOCK_VALUE": 4000,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  },
+  {
+    "NO": 1136,
+    "PRODUCT_NAME": "LEVEER ARTESUNATE INJECTION 120MG",
+    "PRODUCT_SKU": "LEVEE764",
+    "COST_PRICE": 1500,
+    "SELLING_PRICE": 3000,
+    "QUANTITY_LEFT": 0,
+    "TOTAL_STOCK_VALUE": 0,
+    "BRANCH": "Ruby Center Branch, Wuse 2"
+  }
+]

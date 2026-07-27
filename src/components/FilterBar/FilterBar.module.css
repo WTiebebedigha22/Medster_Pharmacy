@@ -3,16 +3,20 @@
   --border-color: #ddd;
 }
 
+.wrapper {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
 .bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 16px;
-  border: 1px solid var(--border-color);
-  background: white;
-  border-radius: 12px;
-  margin-bottom: 18px;
 }
 
 .searchWrap {
@@ -26,6 +30,13 @@
   border-radius: 10px;
   border: 1px solid var(--border-color);
   outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.search:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 3px rgba(0, 90, 192, 0.1);
 }
 
 .controls {
@@ -41,6 +52,8 @@
   padding: 0 12px;
   background: white;
   font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .rxToggle {
@@ -50,12 +63,104 @@
   font-weight: 800;
   color: #333;
   user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .rxToggle input {
   width: 18px;
   height: 18px;
   accent-color: var(--secondary-color);
+}
+
+/* Secondary Filters Row */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px 16px;
+  flex-wrap: wrap;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.filterLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filterSelect {
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  padding: 0 10px;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.filterCheck {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 14px; /* align with selects */
+}
+
+.filterCheck input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--secondary-color);
+}
+
+.clearBtn {
+  margin-left: auto;
+  padding: 6px 14px;
+  border: 1px solid #e74c3c;
+  background: #fff;
+  color: #e74c3c;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.clearBtn:hover {
+  background: #e74c3c;
+  color: white;
+}
+
+/* Results count */
+.resultsCount {
+  padding: 8px 16px 12px;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterBadge {
+  background: var(--secondary-color);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -65,6 +170,15 @@
   }
   .controls {
     justify-content: space-between;
+  }
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .clearBtn {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
   }
 }
 

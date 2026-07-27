@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
@@ -7,7 +7,6 @@ import {
   faSyringe, 
   faPrescription, 
   faShoppingCart,
-  faStar,
   faTruck,
   faClock,
   faShieldAlt,
@@ -16,92 +15,102 @@ import {
   faArrowRight,
   faHeart
 } from '@fortawesome/free-solid-svg-icons';
+import { api } from '../../lib/api';
 import styles from "./Home.module.css";
-
-const mockProducts = [
-  {
-    id: 1,
-    name: "Vitamin C 1000mg",
-    price: "₦4,500",
-    oldPrice: "₦6,000",
-    image: "/images/products/vitamin_c.jpg",
-    rating: 4.8,
-    reviews: 234,
-    badge: "Best Seller",
-    category: "Vitamins",
-    delivery: "Free Delivery",
-  },
-  {
-    id: 2,
-    name: "Blood Pressure Monitor",
-    price: "₦26,000",
-    oldPrice: "₦32,000",
-    image: "/images/products/bp_monitor.jpg",
-    rating: 4.6,
-    reviews: 189,
-    badge: "Top Rated",
-    category: "Devices",
-    delivery: "Free Delivery",
-  },
-  {
-    id: 3,
-    name: "Wellwoman Multivitamin",
-    price: "₦9,200",
-    oldPrice: "₦12,000",
-    image: "/images/products/wellwoman.jpg",
-    rating: 4.9,
-    reviews: 312,
-    badge: "Premium",
-    category: "Vitamins",
-    delivery: "Free Delivery",
-  },
-  {
-    id: 4,
-    name: "Omron Digital Thermometer",
-    price: "₦8,500",
-    oldPrice: "₦11,000",
-    image: "/images/products/thermometer.jpg",
-    rating: 4.7,
-    reviews: 156,
-    badge: "New",
-    category: "Devices",
-    delivery: "Free Delivery",
-  },
-  {
-    id: 5,
-    name: "Centrum Silver Multivitamin",
-    price: "₦15,500",
-    oldPrice: "₦19,000",
-    image: "/images/products/centrum.jpg",
-    rating: 4.8,
-    reviews: 278,
-    badge: "Popular",
-    category: "Vitamins",
-    delivery: "Free Delivery",
-  },
-  {
-    id: 6,
-    name: "Nebulizer Machine",
-    price: "₦32,000",
-    oldPrice: "₦40,000",
-    image: "/images/products/nebulizer.jpg",
-    rating: 4.5,
-    reviews: 143,
-    badge: "Sale",
-    category: "Devices",
-    delivery: "Free Delivery",
-  },
-];
 
 const Home = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [cartCount, setCartCount] = useState(0);
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  const handleAddToCart = (productId) => {
+  // Fetch real products from API (falls back to local data if no backend)
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        setLoading(true);
+        const res = await api.getProducts({ limit: 50 });
+        if (!cancelled) {
+          setProducts(res.products || []);
+        }
+      } catch (err) {
+        console.error('Error fetching products:', err);
+        if (!cancelled) setProducts([]);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  // Filter products by active category for featured section
+  const getFeaturedProducts = () => {
+    if (activeCategory === 'all') return products.slice(0, 3);
+    const filtered = products.filter(p => 
+      p.category?.toLowerCase() === activeCategory.toLowerCase()
+    );
+    return filtered.slice(0, 3);
+  };
+
+  // Products for discount deals section (sorted by price descending = "higher value")
+  const getDealProducts = () => {
+    return [...products]
+      .sort((a, b) => (b.price || 0) - (a.price || 0))
+      .slice(0, 3);
+  };
+
+  // Format price in Naira
+  const formatNaira = (price) => {
+    if (!price && price !== 0) return '₦0';
+    const num = typeof price === 'string' ? parseFloat(price.replace(/[₦,]/g, '')) : price;
+    return `₦${num.toLocaleString()}`;
+  };
+
+  // Calculate discount percentage
+  const calcDiscount = (price, oldPrice) => {
+    if (!oldPrice || !price || oldPrice <= price) return null;
+    return Math.round((1 - price / oldPrice) * 100);
+  };
+
+const handleAddToCart = (productId) => {
     setCartCount(cartCount + 1);
-    // Add to cart logic here
     console.log("Added to cart:", productId);
   };
+
+  // Get emoji icon for category
+  const getCategoryIcon = (category) => {
+    const icons = {
+      'Injections & Infusions': '💉',
+      'Tablets & Capsules': '💊',
+      'Syrups & Suspensions': '🧪',
+      'Creams & Ointments': '🧴',
+      'Eye, Ear & Nasal Drops': '👁️',
+      'Oral Care': '🪥',
+      'Contraceptives': '🛡️',
+      'Vitamins & Supplements': '💪',
+      'Pain Relief': '🤕',
+      'Antibiotics & Anti-infectives': '🦠',
+      'Medical Supplies': '🏥',
+      'Diagnostic Tests': '🔬',
+      'Food & Beverages': '🍽️',
+      'Personal Care': '🧖',
+      'Cough & Cold Syrups': '🤧',
+      'Antacids & Digestive Health': '🏪',
+      'Cardiovascular Health': '❤️',
+      'Diabetes Care': '🩸',
+      'Fertility & Sexual Health': '👶',
+      'General Health': '🌟',
+      'Antimalarials': '🦟',
+      'Feminine Care': '👩',
+      'Respiratory': '🫁',
+      'First Aid': '🚑',
+    };
+    return icons[category] || '📦';
+  };
+
+  const featuredProducts = getFeaturedProducts();
+  const dealProducts = getDealProducts();
 
   return (
     <div className={styles.home}>
@@ -188,32 +197,17 @@ alt="Medster Pharmacy Banner"
             className={`${styles.categoryBtn} ${activeCategory === 'all' ? styles.active : ''}`}
             onClick={() => setActiveCategory('all')}
           >
-            All Products
+            🎯 All Products
           </button>
-          <button 
-            className={`${styles.categoryBtn} ${activeCategory === 'vitamins' ? styles.active : ''}`}
-            onClick={() => setActiveCategory('vitamins')}
-          >
-            💊 Vitamins
-          </button>
-          <button 
-            className={`${styles.categoryBtn} ${activeCategory === 'devices' ? styles.active : ''}`}
-            onClick={() => setActiveCategory('devices')}
-          >
-            📱 Health Devices
-          </button>
-          <button 
-            className={`${styles.categoryBtn} ${activeCategory === 'prescription' ? styles.active : ''}`}
-            onClick={() => setActiveCategory('prescription')}
-          >
-            📋 Prescription
-          </button>
-          <button 
-            className={`${styles.categoryBtn} ${activeCategory === 'baby' ? styles.active : ''}`}
-            onClick={() => setActiveCategory('baby')}
-          >
-            👶 Baby Care
-          </button>
+          {products.length > 0 && [...new Set(products.map(p => p.category).filter(Boolean))].slice(0, 6).map(cat => (
+            <button 
+              key={cat}
+              className={`${styles.categoryBtn} ${activeCategory === cat.toLowerCase() ? styles.active : ''}`}
+              onClick={() => setActiveCategory(cat.toLowerCase())}
+            >
+              {getCategoryIcon(cat)} {cat}
+            </button>
+          ))}
         </div>
       </section>
 
@@ -269,101 +263,124 @@ alt="Medster Pharmacy Banner"
       <section className={styles.products}>
         <div className={styles.sectionHeader}>
           <h2>New Arrivals</h2>
-          <Link to="/products" className={styles.viewAll}>
+          <Link to="/shop" className={styles.viewAll}>
             See All <FontAwesomeIcon icon={faArrowRight} />
           </Link>
         </div>
 
-        <div className={styles["product-grid"]}>
-          {mockProducts.slice(0, 3).map((product) => (
-            <div key={product.id} className={styles.product}>
-              {product.badge && (
-                <span className={styles.productBadge}>{product.badge}</span>
-              )}
-              <div className={styles.productImage}>
-                <img src={product.image} alt={product.name} />
-                <button 
-                  className={styles.wishlistBtn}
-                  onClick={() => console.log('Wishlist:', product.id)}
-                >
-                  <FontAwesomeIcon icon={faHeart} />
-                </button>
+        {loading ? (
+          <div className={styles["product-grid"]}>
+            {[1, 2, 3].map(i => (
+              <div key={i} className={styles.product} style={{ opacity: 0.5 }}>
+                <div className={styles.productImage}>
+                  <img src="/images/placeholder.jpg" alt="Loading..." />
+                </div>
+                <div className={styles.productInfo}>
+                  <h4>Loading...</h4>
+                </div>
               </div>
-              <div className={styles.productInfo}>
-                <span className={styles.productCategory}>{product.category}</span>
-                <h4>{product.name}</h4>
-                <div className={styles.rating}>
-                  <div className={styles.stars}>
-                    {'★'.repeat(Math.floor(product.rating))}
-                    {'☆'.repeat(5 - Math.floor(product.rating))}
+            ))}
+          </div>
+        ) : (
+          <div className={styles["product-grid"]}>
+            {featuredProducts.map((product) => (
+              <div key={product.id} className={styles.product}>
+                <div className={styles.productImage}>
+                  <Link to={`/product/${product.id}`}>
+                    <img src={product.image || '/images/placeholder.jpg'} alt={product.name} />
+                  </Link>
+                  <button 
+                    className={styles.wishlistBtn}
+                    onClick={() => console.log('Wishlist:', product.id)}
+                  >
+                    <FontAwesomeIcon icon={faHeart} />
+                  </button>
+                </div>
+                <div className={styles.productInfo}>
+                  <span className={styles.productCategory}>{product.category}</span>
+                  <h4>{product.name.length > 50 ? product.name.slice(0, 50) + '...' : product.name}</h4>
+                  <div className={styles.priceContainer}>
+                    <span className={styles.price}>{formatNaira(product.price)}</span>
+                    {product.compare_at_price > product.price && (
+                      <span className={styles.oldPrice}>{formatNaira(product.compare_at_price)}</span>
+                    )}
                   </div>
-                  <span>({product.reviews})</span>
+                  <div className={styles.deliveryInfo}>
+                    <FontAwesomeIcon icon={faTruck} />
+                    <span>Available at Medster Pharmacy</span>
+                  </div>
+                  <button 
+                    className={styles.addToCart}
+                    onClick={() => handleAddToCart(product.id)}
+                  >
+                    <FontAwesomeIcon icon={faShoppingCart} />
+                    Add to Cart
+                  </button>
                 </div>
-                <div className={styles.priceContainer}>
-                  <span className={styles.price}>{product.price}</span>
-                  <span className={styles.oldPrice}>{product.oldPrice}</span>
-                </div>
-                <div className={styles.deliveryInfo}>
-                  <FontAwesomeIcon icon={faTruck} />
-                  <span>{product.delivery}</span>
-                </div>
-                <button 
-                  className={styles.addToCart}
-                  onClick={() => handleAddToCart(product.id)}
-                >
-                  <FontAwesomeIcon icon={faShoppingCart} />
-                  Add to Cart
-                </button>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* ------------------ DISCOUNT DEALS ------------------ */}
       <section className={styles.products}>
         <div className={styles.sectionHeader}>
-          <h2>🔥 Discount Deals</h2>
-          <Link to="/deals" className={styles.viewAll}>
-            View All Deals <FontAwesomeIcon icon={faArrowRight} />
+          <h2>🔥 Popular Products</h2>
+          <Link to="/shop" className={styles.viewAll}>
+            View All Products <FontAwesomeIcon icon={faArrowRight} />
           </Link>
         </div>
 
-        <div className={styles["product-grid"]}>
-          {mockProducts.slice(3, 6).map((product) => (
-            <div key={product.id} className={styles.product}>
-              {product.badge && (
-                <span className={`${styles.productBadge} ${styles.dealBadge}`}>
-                  🔥 {product.badge}
-                </span>
-              )}
-              <div className={styles.productImage}>
-                <img src={product.image} alt={product.name} />
-                <div className={styles.discountTag}>
-                  Save {Math.round(((parseInt(product.oldPrice.replace(/[₦,]/g, '')) - parseInt(product.price.replace(/[₦,]/g, ''))) / parseInt(product.oldPrice.replace(/[₦,]/g, ''))) * 100)}%
+        {loading ? (
+          <div className={styles["product-grid"]}>
+            {[1, 2, 3].map(i => (
+              <div key={i} className={styles.product} style={{ opacity: 0.5 }}>
+                <div className={styles.productImage}>
+                  <img src="/images/placeholder.jpg" alt="Loading..." />
+                </div>
+                <div className={styles.productInfo}>
+                  <h4>Loading...</h4>
                 </div>
               </div>
-              <div className={styles.productInfo}>
-                <span className={styles.productCategory}>{product.category}</span>
-                <h4>{product.name}</h4>
-                <div className={styles.rating}>
-                  <div className={styles.stars}>
-                    {'★'.repeat(Math.floor(product.rating))}
-                    {'☆'.repeat(5 - Math.floor(product.rating))}
+            ))}
+          </div>
+        ) : (
+          <div className={styles["product-grid"]}>
+            {dealProducts.map((product) => {
+              const discount = calcDiscount(product.price, product.compare_at_price);
+              return (
+                <div key={product.id} className={styles.product}>
+                  <div className={styles.productImage}>
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.image || '/images/placeholder.jpg'} alt={product.name} />
+                    </Link>
+                    {discount && (
+                      <div className={styles.discountTag}>
+                        Save {discount}%
+                      </div>
+                    )}
                   </div>
-                  <span>({product.reviews})</span>
+                  <div className={styles.productInfo}>
+                    <span className={styles.productCategory}>{product.brand || product.category}</span>
+                    <h4>{product.name.length > 50 ? product.name.slice(0, 50) + '...' : product.name}</h4>
+                    <div className={styles.priceContainer}>
+                      <span className={styles.price}>{formatNaira(product.price)}</span>
+                      {product.compare_at_price > product.price && (
+                        <span className={styles.oldPrice}>{formatNaira(product.compare_at_price)}</span>
+                      )}
+                    </div>
+                    <Link to={`/product/${product.id}`}>
+                      <button className={styles.shopNow}>
+                        View Details →
+                      </button>
+                    </Link>
+                  </div>
                 </div>
-                <div className={styles.priceContainer}>
-                  <span className={styles.price}>{product.price}</span>
-                  <span className={styles.oldPrice}>{product.oldPrice}</span>
-                </div>
-                <button className={styles.shopNow}>
-                  Shop Now →
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
+              );
+            })}
+          </div>
+        )}
       </section>
 
       {/* ------------------ FEATURES BANNER ------------------ */}

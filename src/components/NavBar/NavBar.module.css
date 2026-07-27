@@ -1,166 +1,160 @@
-/*
-|--------------------------------------------------------------------------
-| VARIABLES
-|--------------------------------------------------------------------------
-*/
-:root {
-  --primary-color: #333; /* Dark text/links */
-  /* Using brand colors from index.css */
-  --secondary-color: var(--brand-blue, rgb(0, 90, 192));
-  --medster-green: var(--brand-green, rgb(0, 122, 27));
-  --light-gray: #f2f2f2;
-  --dark-gray: #444;
-  --border-color: #ddd;
-}
-
-/*
-|--------------------------------------------------------------------------
-| BASE CONTAINER STYLES
-|--------------------------------------------------------------------------
-*/
+/* ── Base ── */
 .header {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  background-color: white;
+  background: #fff;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--gray-200);
 }
 
 .container {
-  /* Mimics a fixed-width centered container for content */
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px; /* Padding for edges */
+  padding: 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/*
-|--------------------------------------------------------------------------
-| 1. TOP BAR (Promotions/Sell/App)
-|--------------------------------------------------------------------------
-*/
+/* ── Top Bar ── */
 .navbar__top-bar {
-  background-color: var(--light-gray);
-  padding: 5px 0;
+  background: var(--gray-900);
+  padding: 6px 0;
   font-size: 12px;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--gray-800);
 }
 
 .navbar__top-bar .container {
-    justify-content: flex-end; /* Push links to the right */
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 .top-bar__link {
+  color: var(--gray-400);
   text-decoration: none;
-  color: var(--dark-gray);
-  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 500;
   transition: color 0.2s;
 }
 
 .top-bar__link:hover {
-  color: var(--secondary-color);
+  color: #fff;
 }
 
-/*
-|--------------------------------------------------------------------------
-| 2. MAIN NAVBAR (Logo, Search, Actions)
-|--------------------------------------------------------------------------
-*/
+/* ── Main Navbar ── */
 .navbar {
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 .navbar .container {
-  /* Set up the main row: Logo | Search | Actions */
   display: grid;
-  grid-template-columns: 1fr 3.5fr 2fr; /* Ratio for Desktop */
-  gap: 20px;
+  grid-template-columns: 180px 1fr auto;
+  gap: 24px;
+  align-items: center;
 }
 
+/* Logo */
 .navbar__logo a {
   display: flex;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--gray-900);
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 
 .navbar__logo img {
-  height: 40px; /* Smaller logo in main bar */
-  margin-right: 8px;
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
 }
 
-/*
-|--------------------------------------------------------------------------
-| 3. PROMINENT SEARCH BAR
-|--------------------------------------------------------------------------
-*/
+/* Search Bar */
 .navbar__search-main {
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 45px; /* Fixed height for prominence */
-  border: 2px solid var(--secondary-color); /* Highlight the search */
-  border-radius: 25px;
+  height: 44px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
   overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  max-width: 600px;
+  width: 100%;
+}
+
+.navbar__search-main:focus-within {
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 0 3px rgba(0, 90, 188, 0.1);
 }
 
 .navbar__search-input {
-  flex-grow: 1;
-  padding: 0 15px;
+  flex: 1;
   height: 100%;
+  padding: 0 16px;
   border: none;
   font-size: 14px;
   outline: none;
+  color: var(--gray-800);
+  background: transparent;
+}
+
+.navbar__search-input::placeholder {
+  color: var(--gray-400);
 }
 
 .navbar__search-button {
-  background-color: var(--secondary-color);
-  color: white;
   height: 100%;
   padding: 0 20px;
+  background: var(--gradient-primary);
+  color: #fff;
   border: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 13px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
-  transition: background-color 0.2s;
+  gap: 6px;
+  transition: opacity 0.2s;
 }
 
 .navbar__search-button:hover {
-  background-color: var(--brand-green, #005c14); 
+  opacity: 0.9;
 }
 
-/*
-|--------------------------------------------------------------------------
-| 4. MAIN ACTIONS (Account, Help, Cart)
-|--------------------------------------------------------------------------
-*/
+/* Action Buttons */
 .navbar__main-actions {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Push to the right */
-  gap: 20px;
+  gap: 8px;
 }
 
 .action__item {
   display: flex;
   align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: var(--gray-700);
   text-decoration: none;
-  color: var(--primary-color);
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
   cursor: pointer;
-  padding: 5px; /* Hit area padding */
   position: relative;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  background: none;
+}
+
+.action__item:hover {
+  background: var(--gray-100);
+  color: var(--brand-blue);
 }
 
 .action__item svg {
   font-size: 18px;
-  margin-right: 5px;
 }
 
 .action__text {
@@ -168,152 +162,181 @@
 }
 
 .action__icon--dropdown {
-  font-size: 12px !important;
-  margin-left: 5px;
-  margin-right: 0 !important;
+  font-size: 10px !important;
+  margin-left: 2px;
 }
 
-/* Cart Specific Styling */
+/* Cart Badge */
 .cart__count {
   position: absolute;
-  top: -5px;
-  right: -5px;
-  background-color: var(--secondary-color);
-  color: white;
+  top: 2px;
+  right: 2px;
+  background: var(--gradient-primary);
+  color: #fff;
   border-radius: 50%;
-  padding: 2px 6px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 10px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
 
-/*
-|--------------------------------------------------------------------------
-| 5. CATEGORY/LINKS (Mobile & Desktop)
-|--------------------------------------------------------------------------
-*/
+/* Dropdown */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  padding: 6px;
+  z-index: 1200;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  animation: dropdownFade 0.2s ease-out;
+}
 
-/* Desktop: Keep original links visible as a separate row below main navbar (optional Jumia style)
-   For simplicity, these links will be hidden by default in desktop and only used in mobile */
+.dropdown a {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-700);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.dropdown a:hover {
+  background: var(--gray-100);
+  color: var(--brand-blue);
+}
+
+@keyframes dropdownFade {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Toggle */
+.navbar__mobile-actions {
+  display: none;
+}
+
+/* Mobile Links */
 .navbar__links-mobile {
-    display: none; /* Hide link menu on desktop */
+  display: none;
 }
 
-/* Category Toggle - Mobile/Sidebar Trigger */
 .category__toggle {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: bold;
-    color: var(--primary-color);
-    padding: 10px 0;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--gray-700);
+  padding: 10px 0;
+  cursor: pointer;
 }
 
-/* Category Sidebar (Placeholder) */
 .category__sidebar {
-    position: absolute;
-    top: 100%; /* Below the main header */
-    left: 0;
-    width: 250px;
-    background: white;
-    border: 1px solid var(--border-color);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    z-index: 999;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 280px;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: 0 0 12px 12px;
+  box-shadow: var(--shadow-lg);
+  padding: 8px;
+  z-index: 999;
 }
 
 .category__sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .category__sidebar li a {
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: var(--dark-gray);
+  display: block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--gray-700);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
 }
 
 .category__sidebar li a:hover {
-    background-color: var(--light-gray);
-    color: var(--secondary-color);
+  background: var(--gray-100);
+  color: var(--brand-blue);
 }
 
-
-/*
-|--------------------------------------------------------------------------
-| 6. MOBILE RESPONSIVENESS
-|--------------------------------------------------------------------------
-*/
-.navbar__mobile-actions {
-  display: none; /* Hidden on Desktop */
-}
-
+/* ── Responsive ── */
 @media (max-width: 1024px) {
-    /* Adjust grid layout for smaller screens */
-    .navbar .container {
-        grid-template-columns: 1fr 3fr 1fr;
-        gap: 15px;
-    }
+  .navbar .container {
+    grid-template-columns: 160px 1fr auto;
+    gap: 16px;
+  }
 
-    .navbar__search-button span {
-        display: none; /* Hide "SEARCH" text on smaller devices */
-    }
+  .navbar__search-button span {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-  /* Hide the top bar */
   .navbar__top-bar {
     display: none;
   }
 
   .navbar .container {
-    /* Stack components for mobile */
-    grid-template-columns: 1fr auto auto; /* Logo | Actions | Hamburger */
-    gap: 10px;
+    grid-template-columns: 1fr auto auto;
+    gap: 8px;
   }
-  
+
   .navbar__search-main {
-    /* Hide search bar in the main row on mobile (it's often a separate screen/modal) */
     display: none;
   }
 
   .navbar__main-actions {
-    /* Show mobile hamburger menu and search icon */
-    justify-content: flex-start;
-    gap: 15px;
+    gap: 4px;
   }
 
-  .action__text, .action__icon--dropdown {
-    /* Hide text/dropdown arrows for Account/Help/Cart icons on mobile */
+  .action__text,
+  .action__icon--dropdown {
     display: none;
   }
-  
+
+  .action__item {
+    padding: 8px;
+  }
+
   .action__item svg {
-      margin-right: 0; /* Center icons */
+    margin: 0;
   }
 
   .navbar__mobile-actions {
-    /* Hamburger and optional search icon */
     display: flex;
     align-items: center;
-    gap: 15px;
   }
 
-  /* Hamburger Menu Links (full width overlay) */
   .navbar__links-mobile {
     display: none;
     flex-direction: column;
-    background: white;
+    background: #fff;
     position: absolute;
-    top: 60px; /* Adjust based on new header height */
+    top: 100%;
     left: 0;
     width: 100%;
-    padding: 10px 20px;
-    border-top: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 8px 16px 16px;
+    border-top: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-lg);
+    list-style: none;
   }
 
   .navbar__links-mobile.active {
@@ -322,74 +345,38 @@
 
   .navbar__links-mobile li {
     width: 100%;
-    border-bottom: 1px dashed var(--light-gray);
   }
-  
+
   .navbar__links-mobile li a {
-    padding: 10px 0;
     display: block;
-    font-size: 16px;
+    padding: 12px 0;
+    font-size: 15px;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--gray-700);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gray-100);
   }
 
-  .navbar__links-mobile li:last-child {
-      border-bottom: none;
+  .navbar__links-mobile li:last-child a {
+    border-bottom: none;
   }
 
-  /* Hide category sidebar on mobile for full screen menu */
   .category__sidebar {
-      display: none;
-  }
-}
-/*
-|--------------------------------------------------------------------------
-| 7. DROPDOWN MENUS (Account & Help)
-|--------------------------------------------------------------------------
-*/
-
-.dropdown {
-  position: absolute;
-  top: 40px; /* Below the action item */
-  right: 0;
-  background-color: white;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  padding: 8px 0;
-  z-index: 1200;
-  min-width: 190px;
-  display: flex;
-  flex-direction: column;
-  animation: dropdownFade 0.2s ease-in-out;
-}
-
-.dropdown a {
-  padding: 10px 15px;
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--primary-color);
-  display: block;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-.dropdown a:hover {
-  background-color: var(--light-gray);
-  color: var(--secondary-color);
-}
-
-@keyframes dropdownFade {
-  from {
-    opacity: 0;
-    transform: translateY(-5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+    display: none;
   }
 }
 
-/* Ensure parent icons align with dropdown */
-.action__item {
-  position: relative; /* Keeps dropdown attached below */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .navbar__logo a {
+    font-size: 16px;
+  }
+
+  .navbar__logo img {
+    height: 32px;
+    width: 32px;
+  }
 }

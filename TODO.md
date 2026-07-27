@@ -1,115 +1,47 @@
-# Medster Pharmacy E-Commerce MVP — Backend Architecture
+# Medster Pharmacy - Implementation Progress
 
-## Phase 6: Backend Implementation ✅ COMPLETE
+## Phase 1: Database & Backend Foundation ✅
+- [x] Step 1: Add missing database tables (coupons, wishlist, reviews, audit_logs) to migrations.sql
+- [x] Step 2: Expand backend admin routes with all documented endpoints
+  - [x] Product CRUD (create, edit, delete, bulk import)
+  - [x] Category management
+  - [x] Inventory management
+  - [x] Full order management (process, ship, deliver, tracking, print)
+  - [x] User management (customers CRUD, suspend/activate, notify)
+  - [x] Admin user management (CRUD, permissions)
+  - [x] Prescription management (view image, add notes)
+  - [x] Coupon management (CRUD, toggle, usage)
+  - [x] Reports & analytics
+  - [x] Audit logs
+  - [x] System settings
+  - [x] Backup & export
 
-### Server Architecture (17 files)
-- `server/config/index.js` — Environment-based config (Supabase, iREC, JWT, Paystack, Cloudinary, CORS)
-- `server/db/supabase.js` — Supabase client with service role key
-- `server/db/migrations.sql` — Full schema (11 tables)
-- `server/middleware/auth.js` — JWT auth (authenticate, requireRole, optionalAuth)
-- `server/middleware/validate.js` — Zod validation schemas
-- `server/middleware/errorHandler.js` — Async handler + error middleware
-- `server/services/irecService.js` — iRECPlus API integration with retry + SSL handling
-- `server/services/paymentService.js` — Paystack integration (init, verify, webhook)
-- `server/services/authService.js` — Custom auth (bcrypt, JWT, token blacklist)
-- `server/routes/auth.js` — Register, login, refresh, logout, profile, change-password
-- `server/routes/products.js` — List with filters, get by ID, sync trigger/status
-- `server/routes/cart.js` — CRUD cart items with stock validation
-- `server/routes/orders.js` — List, get, create (with stock check + Paystack init), cancel
-- `server/routes/prescriptions.js` — Upload, list, get, delete, admin review
-- `server/routes/addresses.js` — CRUD delivery addresses
-- `server/routes/admin.js` — Dashboard stats, orders, prescriptions queue, sync control
-- `server/routes/webhooks.js` — Paystack payment webhook with signature verification
-- `server/jobs/syncScheduler.js` — node-cron scheduled product sync (every 30 min)
+## Phase 2: Frontend Auth Alignment ✅
+- [x] Step 3: Align frontend AuthContext with backend custom JWT auth
+- [x] Step 4: Create AdminRoute component for role-based route protection
+- [x] Step 5: Create API admin service methods in api.js
 
-### Key Design Decisions
-1. **Three-tier architecture** — Frontend → Backend → iRECPlus (never frontend directly to iREC)
-2. **Custom JWT auth** — Users managed in local DB, not iRECPlus
-3. **Paystack payments** — Payment verified before order creation in iRECPlus
-4. **Graceful degradation** — When iRECPlus is unavailable, server continues with cached data
-5. **iRECPlus SSL issues** — Handled with `rejectUnauthorized: false` + retry logic + fallback to local DB
+## Phase 3: Admin Frontend Pages ✅
+- [x] Step 6: Create AdminLayout component with sidebar navigation
+- [x] Step 7: Create Admin Dashboard page with stats, charts, overview
+- [x] Step 8: Create Admin Products management page (table, CRUD)
+- [x] Step 9: Create Admin Orders management page (status workflow)
+- [x] Step 10: Create Admin Prescriptions management page (verify/reject)
+- [x] Step 11: Create Admin Users management page (customers)
+- [x] Step 12: Create Admin Admins management page
+- [x] Step 13: Create Admin Coupons management page
+- [x] Step 14: Create Admin Reports & Analytics page
+- [x] Step 15: Create Admin Settings page
 
-### Known Issue: iRECPlus API Unreachable
-- iREC host `208.91.197.27:443` times out / SSL error from current environment
-- **This is a pre-existing network/SSL issue**, not a code defect
-- `ETIMEDOUT`, `EPROTO`, `ECONNRESET` all trigger retry (3 attempts with exponential backoff)
-- On failure: sync logged to `sync_logs` table, server continues, scheduler retries next interval
-- Stock verification falls back to cached data from local products table
-- **Fix**: Deploy to environment with access to `208.91.197.27`, or update `IREC_API_URL` in `.env`
+## Phase 4: Navigation & Routing ✅
+- [x] Step 16: Update App.jsx with admin routes and role-based protection
+- [x] Step 17: Update NavBar for role-based navigation (admin menu items)
+- [x] Step 18: Add admin route to main routing
 
-## Seed Script
-- `scripts/seed-products.js` — Populates local DB from `src/data/products.js`
-- Run with: `npm run seed:products`
-- Creates products with `irec_id: seed_*` prefix for offline development
-
-## Environment Variables (.env)
-```bash
-# Supabase
-VITE_SUPABASE_URL=your-supabase-url
-VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-
-# iRECPlus
-IREC_API_URL=https://api.irecplus.com/api
-IREC_API_KEY=your-irec-api-key
-
-# JWT
-JWT_SECRET=your-jwt-secret
-
-# Paystack
-PAYSTACK_SECRET_KEY=your-paystack-secret
-VITE_PAYSTACK_PUBLIC_KEY=your-paystack-public
-```
-
-## Running
-```bash
-npm run dev:server   # Backend on port 4000
-npm run dev          # Frontend (Vite) on port 5173
-npm run dev:all      # Both (requires concurrently)
-npm run seed:products # Seed local DB with demo products
-```
-
----
-
-## Phase 7: Frontend Refactor (Pending)
-- [ ] Update `src/lib/api.js` to point to backend proxy (port 4000)
-- [ ] Replace Supabase direct calls with backend API calls
-- [ ] Update checkout flow to use Paystack via backend
-- [ ] Add prescription upload flow
-- [ ] Build admin dashboard pages
-- [ ] Test full end-to-end flow
-
----
-
-## File Inventory — Server
-```
-server/
-├── .eslintrc.cjs
-├── config/index.js
-├── db/
-│   ├── supabase.js
-│   └── migrations.sql
-├── index.js              ← Entry point (port 4000)
-├── jobs/
-│   └── syncScheduler.js
-├── middleware/
-│   ├── auth.js
-│   ├── errorHandler.js
-│   └── validate.js
-├── routes/
-│   ├── addresses.js
-│   ├── admin.js
-│   ├── auth.js
-│   ├── cart.js
-│   ├── orders.js
-│   ├── prescriptions.js
-│   ├── products.js
-│   └── webhooks.js
-└── services/
-    ├── authService.js
-    ├── irecService.js
-    └── paymentService.js
-
-scripts/
-├── seed-products.js       ← Seed local DB from frontend data
-└── quick-test.js
+## Phase 5: Missing Customer Features ✅
+- [x] Step 19: Add wishlist API routes (backend)
+- [x] Step 20: Add reviews API routes (backend)
+- [x] Step 21: Update Login page with AuthContext integration + error display
+- [x] Step 22: Create Password Reset flow (ForgotPassword page + route)
+- [x] Step 23: Register wishlist and reviews routes in server/index.js
+- [x] Step 24: Add forgot-password route to App.jsx

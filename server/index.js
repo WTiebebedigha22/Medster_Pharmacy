@@ -14,6 +14,8 @@ import prescriptionRoutes from './routes/prescriptions.js';
 import addressRoutes from './routes/addresses.js';
 import adminRoutes from './routes/admin.js';
 import webhookRoutes from './routes/webhooks.js';
+import wishlistRoutes from './routes/wishlist.js';
+import reviewRoutes from './routes/reviews.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -76,6 +78,8 @@ app.use('/api/prescriptions', prescriptionRoutes);
 app.use('/api/addresses', addressRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/webhooks', webhookRoutes);
+app.use('/api/wishlist', wishlistRoutes);
+app.use('/api/reviews', reviewRoutes);
 
 // =============================================
 // ERROR HANDLING
@@ -100,9 +104,9 @@ const startServer = async () => {
 ║         MEDSTER PHARMACY API SERVER          ║
 ╠══════════════════════════════════════════════╣
 ║  Status:  ✅ Running                         ║
-║  Port:    ${String(config.port).padEnd(33)}║
-║  Env:     ${config.nodeEnv.padEnd(33)}║
-║  CORS:    ${config.cors.origin.padEnd(33)}║
+║  Port:    ${String(config.port).padEnd(33)}  ║
+║  Env:     ${config.nodeEnv.padEnd(33)}       ║
+║  CORS:    ${config.cors.origin.padEnd(33)}   ║
 ╚══════════════════════════════════════════════╝
       `);
     });

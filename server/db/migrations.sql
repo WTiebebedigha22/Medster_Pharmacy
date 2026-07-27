@@ -155,7 +155,112 @@ CREATE TABLE IF NOT EXISTS payment_logs (
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
--- 11. AUTH TOKENS (Token blacklist for logout)
+-- 11. CATEGORIES (Managed by admin)
+CREATE TABLE IF NOT EXISTS categories (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  name VARCHAR(200) NOT NULL,
+  slug VARCHAR(200) UNIQUE NOT NULL,
+  description TEXT,
+  image_url TEXT,
+  parent_id UUID REFERENCES categories(id) ON DELETE SET NULL,
+  is_active BOOLEAN DEFAULT true,
+  sort_order INTEGER DEFAULT 0,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 12. COUPONS & PROMOTIONS
+CREATE TABLE IF NOT EXISTS coupons (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  code VARCHAR(50) UNIQUE NOT NULL,
+  description TEXT,
+  discount_type VARCHAR(20) NOT NULL CHECK (discount_type IN ('percentage', 'fixed_amount')),
+  discount_value DECIMAL(12, 2) NOT NULL,
+  min_order_amount DECIMAL(12, 2) DEFAULT 0,
+  max_discount DECIMAL(12, 2),
+  usage_limit INTEGER DEFAULT 0,
+  used_count INTEGER DEFAULT 0,
+  per_user_limit INTEGER DEFAULT 1,
+  applicable_products JSONB DEFAULT '[]',
+  applicable_categories JSONB DEFAULT '[]',
+  is_active BOOLEAN DEFAULT true,
+  starts_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  created_by UUID REFERENCES users(id),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 13. COUPON USAGE TRACKING
+CREATE TABLE IF NOT EXISTS coupon_usage (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  coupon_id UUID REFERENCES coupons(id) ON DELETE CASCADE,
+  order_id UUID REFERENCES orders(id) ON DELETE CASCADE,
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  discount_amount DECIMAL(12, 2) NOT NULL,
+  used_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 14. WISHLIST
+CREATE TABLE IF NOT EXISTS wishlist_items (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  product_id UUID REFERENCES products(id) ON DELETE CASCADE,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(user_id, product_id)
+);
+
+-- 15. REVIEWS & RATINGS
+CREATE TABLE IF NOT EXISTS reviews (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  product_id UUID REFERENCES products(id) ON DELETE CASCADE,
+  rating INTEGER NOT NULL CHECK (rating >= 1 AND rating <= 5),
+  title VARCHAR(200),
+  comment TEXT,
+  is_verified_purchase BOOLEAN DEFAULT false,
+  is_approved BOOLEAN DEFAULT true,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(user_id, product_id)
+);
+
+-- 16. AUDIT LOGS (System activity tracking)
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE SET NULL,
+  action VARCHAR(100) NOT NULL,
+  entity_type VARCHAR(50) NOT NULL,
+  entity_id VARCHAR(100),
+  details JSONB DEFAULT '{}',
+  ip_address VARCHAR(45),
+  user_agent TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 17. SYSTEM SETTINGS
+CREATE TABLE IF NOT EXISTS system_settings (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  setting_key VARCHAR(100) UNIQUE NOT NULL,
+  setting_value JSONB NOT NULL,
+  description TEXT,
+  updated_by UUID REFERENCES users(id),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 18. ADMIN ROLES & PERMISSIONS
+CREATE TABLE IF NOT EXISTS admin_roles (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE UNIQUE,
+  role_label VARCHAR(50) DEFAULT 'admin',
+  permissions JSONB DEFAULT '[]',
+  created_by UUID REFERENCES users(id),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 19. AUTH TOKENS (Token blacklist for logout)
 CREATE TABLE IF NOT EXISTS token_blacklist (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   token_hash VARCHAR(255) NOT NULL,

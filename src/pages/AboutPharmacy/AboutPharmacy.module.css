@@ -1,0 +1,393 @@
+.page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.sectionContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+  padding: 60px 20px;
+}
+
+.heroContent {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.heroBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--brand-green, #007a1b);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.heroText h1 {
+  font-size: 38px;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+.heroText > p {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0 0 32px;
+}
+
+.heroStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.heroStat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statNumber {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--brand-blue, #005abc);
+}
+
+.heroStat span:last-child {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+}
+
+.heroPlaceholder {
+  width: 320px;
+  height: 320px;
+  background: linear-gradient(135deg, var(--brand-blue, #005abc), var(--brand-green, #007a1b));
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 72px;
+  box-shadow: 0 20px 60px rgba(0, 90, 188, 0.2);
+}
+
+.heroPlaceholder p {
+  margin: 16px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Mission */
+.mission {
+  padding: 60px 0;
+}
+
+.missionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.missionCard {
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  border-left: 4px solid var(--brand-blue, #005abc);
+}
+
+.missionCard h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+.missionCard p {
+  margin: 0;
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* Story */
+.story {
+  padding: 60px 0;
+  background: #f8fafc;
+}
+
+.storyContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.storyContent h2 {
+  font-size: 28px;
+  margin: 0 0 24px;
+}
+
+.storyContent p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.8;
+  margin: 0 0 16px;
+}
+
+.storyContent p:last-child {
+  margin-bottom: 0;
+}
+
+/* Values */
+.values {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.values h2 {
+  font-size: 28px;
+  margin: 0 0 48px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.valueCard {
+  padding: 28px 20px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.valueCard:hover {
+  transform: translateY(-3px);
+}
+
+.valueCard svg {
+  font-size: 36px;
+  color: var(--brand-blue, #005abc);
+  margin-bottom: 16px;
+}
+
+.valueCard h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.valueCard p {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+/* Team */
+.team {
+  padding: 60px 0;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 28px;
+  margin: 0 0 40px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.teamCard {
+  background: #fff;
+  padding: 28px 20px;
+  border-radius: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.teamAvatar {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--brand-blue, #005abc), var(--brand-green, #007a1b));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #fff;
+  margin: 0 auto 16px;
+}
+
+.teamCard h3 {
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+
+.teamRole {
+  color: var(--brand-blue, #005abc);
+  font-weight: 600;
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+
+.teamBio {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* Certifications */
+.certifications {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.certifications h2 {
+  font-size: 28px;
+  margin: 0 0 40px;
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.certCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.certCard svg {
+  color: #16a34a;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.certCard p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #166534;
+}
+
+/* CTA */
+.cta {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, var(--brand-blue, #005abc), var(--brand-green, #007a1b));
+  color: #fff;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaContent h2 {
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+
+.ctaContent p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin: 0 0 32px;
+}
+
+.ctaBtns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.ctaBtn {
+  padding: 14px 32px;
+  background: #fff;
+  color: var(--brand-blue, #005abc);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ctaBtnOutline {
+  padding: 14px 32px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ctaBtnOutline:hover {
+  border-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+  }
+
+  .heroStats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .valuesGrid,
+  .teamGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heroText h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .missionGrid,
+  .valuesGrid,
+  .teamGrid,
+  .certGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroStats {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaBtns {
+    flex-direction: column;
+  }
+}
+

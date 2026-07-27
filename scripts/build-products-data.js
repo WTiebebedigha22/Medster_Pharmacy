@@ -1,0 +1,184 @@
+/**
+ * Build src/data/products.js from server/db/stocks.json
+ *
+ * Reads the real pharmacy inventory and generates a comprehensive
+ * products data file for frontend use.
+ *
+ * Usage: node scripts/build-products-data.js
+ */
+
+import { readFileSync, writeFileSync } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Read stocks.json
+const stocksPath = path.resolve(__dirname, '../server/db/stocks.json');
+const raw = readFileSync(stocksPath, 'utf-8');
+const stockItems = JSON.parse(raw);
+
+console.log(`📦 Found ${stockItems.length} products in stocks.json`);
+
+// Category auto-detection
+function detectCategory(name) {
+  const upper = name.toUpperCase();
+  if (/\b(INJECTION|INFUSION|IV\b|VIAL)\b/.test(upper)) return 'Injections & Infusions';
+  if (/\b(TABLET|CAPLET|CAPSULE|CAP|TAB\.)\b/.test(upper)) return 'Tablets & Capsules';
+  if (/\b(SYRUP|SUSPENSION|LINCTUS|EXPECTORANT|MIXTURE|LIQUID)\b/.test(upper)) {
+    if (/\b(EYE|EAR|NASAL|OPHTHALMIC)\b/.test(upper)) return 'Eye, Ear & Nasal Drops';
+    if (/\b(COUGH|COLD|CHESTY)\b/.test(upper)) return 'Cough & Cold Syrups';
+    return 'Syrups & Suspensions';
+  }
+  if (/\b(CREAM|OINTMENT|GEL\b|LOTION|BALM|LINIMENT|EMUGEL)\b/.test(upper)) return 'Creams & Ointments';
+  if (/\b(EYE|EAR|NASAL|OPHTHALMIC|OPTIC|DROPS?)\b/.test(upper)) return 'Eye, Ear & Nasal Drops';
+  if (/\b(TOOTHPASTE|MOUTHWASH|DENTAL|TOOTH\s*BRUSH|ORAL[-\s]B)\b/.test(upper)) return 'Oral Care';
+  if (/\b(CONDOM|CONDOMS|DUREX|FETHERLITE|ROUGH\s*RIDER)\b/.test(upper)) return 'Contraceptives';
+  if (/\b(PAD\b|PANTI|TAMPAX|KOTEX|FEMININE|MOLPED)\b/.test(upper)) return 'Feminine Care';
+  if (/\b(SOAP|BODY\s*(WASH|LOTION|CREAM)|SHAMPOO|DEODORANT|SUN\s*SCREEN|SERUM)\b/.test(upper)) return 'Personal Care';
+  if (/\b(BANDAGE|SYRINGE|NEEDLE|GLOVES?|MASK\b|COTTON\s*WOOL|DRESSING|CANNUA|SCAL\s*VEIN|TAPE)\b/.test(upper)) return 'Medical Supplies';
+  if (/\b(TEST\s*KIT|PREGNANCY\s*TEST|MALARIA\s*TEST|TYPHOID\s*TEST|OVULATION|FBS|RBS|MONITOR)\b/.test(upper)) return 'Diagnostic Tests';
+  if (/\b(VITAMIN|SUPPLEMENT|PROBIOTIC|MINERAL|MAGNESIUM|CALCIUM|OMEGA|COLLAGEN|PROTEIN|MULTIVITAMIN)\b/.test(upper)) return 'Vitamins & Supplements';
+  if (/\b(DRINK|WATER|COOKIES|BISCUIT|CHOCOLATE|JUICE|MALTINA|COCA\s*COLA|FANTA|CHIVITA|MALTED|MILK)\b/.test(upper)) return 'Food & Beverages';
+  if (/\b(INHALER|NEBULIZER)\b/.test(upper)) return 'Respiratory';
+  if (/\b(PAIN|IBUPROFEN|NAPROXEN|DICLOFENAC|PARACETAMOL|PANADOL|ASPIRIN|CELEBREX|CAFERGOT|TRAMADOL)\b/.test(upper)) return 'Pain Relief';
+  if (/\b(CEFTRIAXONE|AZITHROMYCIN|AMOXICILLIN|CEFUROXIME|LEVOFLOKACIN|CIPROFLOXACIN|METRONIDAZOLE|PENICILLIN|GENTAMYCIN|CLINDAMYCIN|ERYTHROMYCIN|OFLOXACIN|FLUCONAZOLE|SECNDAZOLE)\b/.test(upper)) return 'Antibiotics & Anti-infectives';
+  if (/\b(LONART|WAIPA|ACT\s*CLARTEM|WINART|ARTESUNATE|MALARIA)\b/.test(upper)) return 'Antimalarials';
+  if (/\b(GAVISCON|GESTID|POLYGEL|RULOX|ACIPEP|GASTRIGEL|DIGICID|STOPACID|IMODIUM|LOPERAMIDE|PEPTO|ANTACID)\b/.test(upper)) return 'Antacids & Digestive Health';
+  if (/\b(AMLODIPINE|LISNOPRIL|ATORVASTATIN|LIPITOR|BLOOD\s*PRESSURE|COVERAM|NATRILIX|XARELITO|JARDANCE)\b/.test(upper)) return 'Cardiovascular Health';
+  if (/\b(METFORMIN|GLUCOPHAGE|SITAGLIPTIN|TREVIA|DIABETES|INSULIN|TRIVIAMET|GALVUS|OZEMPIC)\b/.test(upper)) return 'Diabetes Care';
+  if (/\b(FERTIL|CLOMID|INOSITOL|PROVIRON|VIAGRA)\b/.test(upper)) return 'Fertility & Sexual Health';
+  if (/\b(WOUND|DRESSING|FIRST\s*AID|PLASTER)\b/.test(upper)) return 'First Aid';
+  return 'General Health';
+}
+
+function detectIsRx(name) {
+  const upper = name.toUpperCase();
+  const rxKeywords = [
+    'CEFTRIAXONE', 'AZITHROMYCIN', 'AMOXICILLIN', 'CEFUROXIME', 'LEVOFLOKACIN',
+    'CIPROFLOXACIN', 'METRONIDAZOLE', 'PENICILLIN', 'GENTAMYCIN', 'CLINDAMYCIN',
+    'ERYTHROMYCIN', 'OFLOXACIN', 'FLUCONAZOLE', 'SECNDAZOLE', 'CLOMID',
+    'PROVIRON', 'MESTEROLONE', 'VIAGRA', 'SITAGLIPTIN', 'METFORMIN',
+    'GLUCOPHAGE', 'LIPITOR', 'AMLODIPINE', 'LISNOPRIL', 
+    'INJECTION', 'INFUSION', 'OZEMPIC', 'JARDANCE', 'XARELITO',
+    'LEVOTHYROXINE', 'MIFEPAK', 'ARTESUNATE', 'TRAMADOL',
+    'PREDNISOLONE', 'BETAMETHASONE', 'HYDROCORTISONE',
+    'CLOMIPHENE', 'CAFERGOT', 'SUMATRIPTAN', 'TREVIA', 'TRIVIAMET',
+    'COVERAM', 'NATRILIX', 'GALVUS',
+  ];
+  return rxKeywords.some(kw => upper.includes(kw));
+}
+
+// Generate unique string id
+function generateId(name, sku, index) {
+  const slug = name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+    .slice(0, 35);
+  return `${slug}-${index}`;
+}
+
+// Transform all products
+const seenSkus = new Set();
+const products = [];
+const categorySet = new Set();
+
+stockItems.forEach((item, idx) => {
+  const name = String(item.PRODUCT_NAME || '').trim();
+  const sku = String(item.PRODUCT_SKU || '').trim();
+  const costPrice = parseFloat(String(item.COST_PRICE || '0').replace(/,/g, '')) || 0;
+  const sellingPrice = parseFloat(String(item.SELLING_PRICE || '0').replace(/,/g, '')) || 0;
+  const quantityLeft = parseInt(String(item.QUANTITY_LEFT || '0').replace(/,/g, ''), 10) || 0;
+
+  if (!name) return;
+
+  const uniqueSku = sku || `sku_${item.NO || idx}`;
+  if (seenSkus.has(uniqueSku)) return;
+  seenSkus.add(uniqueSku);
+
+  const category = detectCategory(name);
+  const isRx = detectIsRx(name);
+  const brand = (name.split(/\s+/)[0] || 'Medster').replace(/[^a-zA-Z0-9&.\-']/g, '');
+
+  categorySet.add(category);
+
+  // Map category to its image path
+  const categoryImageMap = {
+    'Injections & Infusions': '/images/categories/injections-infusions.svg',
+    'Tablets & Capsules': '/images/categories/tablets-capsules.svg',
+    'Syrups & Suspensions': '/images/categories/syrups-suspensions.svg',
+    'Creams & Ointments': '/images/categories/creams-ointments.svg',
+    'Eye, Ear & Nasal Drops': '/images/categories/eye-ear-nasal-drops.svg',
+    'Oral Care': '/images/categories/oral-care.svg',
+    'Contraceptives': '/images/categories/contraceptives.svg',
+    'Vitamins & Supplements': '/images/categories/vitamins-supplements.svg',
+    'Pain Relief': '/images/categories/pain-relief.svg',
+    'Antibiotics & Anti-infectives': '/images/categories/antibiotics.svg',
+    'Medical Supplies': '/images/categories/medical-supplies.svg',
+    'Diagnostic Tests': '/images/categories/diagnostic-tests.svg',
+    'Food & Beverages': '/images/categories/food-beverages.svg',
+    'Personal Care': '/images/categories/personal-care.svg',
+    'Cough & Cold Syrups': '/images/categories/cough-cold.svg',
+    'Antacids & Digestive Health': '/images/categories/digestive-health.svg',
+    'Cardiovascular Health': '/images/categories/cardiovascular.svg',
+    'Diabetes Care': '/images/categories/diabetes-care.svg',
+    'Fertility & Sexual Health': '/images/categories/fertility-sexual.svg',
+    'Antimalarials': '/images/categories/antimalarials.svg',
+    'Feminine Care': '/images/categories/feminine-care.svg',
+    'Respiratory': '/images/categories/respiratory.svg',
+    'First Aid': '/images/categories/first-aid.svg',
+    'General Health': '/images/categories/general-health.svg',
+  };
+  const catImage = categoryImageMap[category] || '/images/placeholder.svg';
+
+  products.push({
+    id: generateId(name, uniqueSku, idx + 1),
+    name: name,
+    sku: uniqueSku,
+    description: `${brand} ${name}. High-quality pharmaceutical product from Medster Pharmacy.`,
+    price: sellingPrice,
+    oldPrice: costPrice > 0 && costPrice !== sellingPrice ? costPrice : null,
+    image: catImage,
+    images: [catImage],
+    category: category,
+    isRx: isRx,
+    brand: brand || 'Medster',
+    inStock: quantityLeft > 0,
+    quantity: quantityLeft,
+    rating: 4.0,
+    reviews: 0,
+    manufacturer: brand || 'Medster',
+    branch: item.BRANCH || 'Ruby Center Branch, Wuse 2',
+  });
+});
+
+const categories = Array.from(categorySet).sort();
+
+// Build the output file content
+const outputContent = `// Auto-generated from stocks.json - DO NOT EDIT MANUALLY
+// Generated: ${new Date().toISOString()}
+// Total products: ${products.length}
+// Categories: ${categories.length}
+
+export const products = ${JSON.stringify(products, null, 2)};
+
+export const categories = ${JSON.stringify(categories, null, 2)};
+`;
+
+// Write the file
+const outPath = path.resolve(__dirname, '../src/data/products.js');
+writeFileSync(outPath, outputContent, 'utf-8');
+
+console.log(`\n✅ Generated ${outPath}`);
+console.log(`   ${products.length} products across ${categories.length} categories`);
+console.log(`   Categories: ${categories.join(', ')}`);
+console.log('\n📊 Category breakdown:');
+const counts = {};
+products.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
+Object.entries(counts)
+  .sort((a, b) => b[1] - a[1])
+  .forEach(([cat, count]) => {
+    console.log(`   ${cat.padEnd(35)} ${count}`);
+  });
+

@@ -13,6 +13,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Hamburger from 'hamburger-react';
 import { useCart } from "../../context/CartContext";
+import { useAuth } from "../../context/AuthContext";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +22,10 @@ const NavBar = () => {
   const [helpOpen, setHelpOpen] = useState(false);
   const [categoriesOpen, setCategoriesOpen] = useState(false);
 
-  const { cartItems } = useCart();  // NEW — dynamic cart count
+  const { cartItems } = useCart();
+  const { user } = useAuth();
+
+  const isAdmin = user?.role === 'admin' || user?.role === 'pharmacist';
 
   const toggleAccount = () => {
     setHelpOpen(false);
@@ -51,7 +55,7 @@ const NavBar = () => {
                 {/* LOGO */}
                 <div className={styles["navbar__logo"]}>
                     <NavLink to="/">
-                        <img src="/src/components/NavBar/Logo.png" alt="Logo" />
+                        <img src="/images/logo.png" alt="Medster Pharmacy Logo" />
                         Medster Pharmacy
                     </NavLink>
                 </div>
@@ -83,7 +87,8 @@ const NavBar = () => {
                                 <NavLink to="/auth/login">Login</NavLink>
                                 <NavLink to="/auth/register">Register</NavLink>
                                 <NavLink to="/orders">My Orders</NavLink>
-                                <NavLink to="#">My Account</NavLink>
+                                <NavLink to="/account">My Account</NavLink>
+                                {isAdmin && <NavLink to="/admin">Admin Dashboard</NavLink>}
                             </div>
                         )}
                     </div>
@@ -97,8 +102,8 @@ const NavBar = () => {
                         {helpOpen && (
                             <div className={styles.dropdown}>
                                 <NavLink to="/contact-us">Contact Us</NavLink>
-                                <NavLink to="#">FAQs</NavLink>
-                                <NavLink to="#">Report an Issue</NavLink>
+                                <NavLink to="/faqs">FAQs</NavLink>
+                                <NavLink to="/help">Report an Issue</NavLink>
                             </div>
                         )}
                     </div>

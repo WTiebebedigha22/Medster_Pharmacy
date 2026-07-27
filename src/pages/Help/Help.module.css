@@ -1,0 +1,374 @@
+.page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.sectionContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #fff;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.heroBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--brand-blue, #005abc);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.heroContent h1 {
+  font-size: 40px;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+.heroContent > p {
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 0 0 32px;
+  line-height: 1.6;
+}
+
+.quickActions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.quickAction {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.quickAction:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Topics */
+.topics {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.topics h2 {
+  font-size: 28px;
+  margin: 0 0 40px;
+}
+
+.topicsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.topicCard {
+  padding: 28px 20px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.topicCard:hover {
+  border-color: var(--brand-blue, #005abc);
+  box-shadow: 0 4px 12px rgba(0, 90, 188, 0.1);
+  transform: translateY(-2px);
+}
+
+.topicIcon {
+  width: 44px;
+  height: 44px;
+  background: #eef2ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: var(--brand-blue, #005abc);
+  margin-bottom: 16px;
+}
+
+.topicCard h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.topicCard p {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.topicLink {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brand-blue, #005abc);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Contact Options */
+.contactOptions {
+  padding: 80px 0;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.contactOptions h2 {
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+
+.contactOptions > .sectionContainer > p {
+  color: #64748b;
+  margin: 0 0 40px;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.contactCard {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.contactIcon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--brand-blue, #005abc), var(--brand-green, #007a1b));
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 auto 16px;
+}
+
+.contactCard h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.contactCard > p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 16px;
+}
+
+.contactLink {
+  display: block;
+  color: var(--brand-blue, #005abc);
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+.contactBtn {
+  padding: 10px 24px;
+  background: var(--brand-blue, #005abc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.contactBtn:hover {
+  opacity: 0.9;
+}
+
+.contactHours {
+  display: block;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* Report Issue */
+.reportIssue {
+  padding: 60px 0;
+}
+
+.reportCard {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background: linear-gradient(135deg, #fef2f2, #fff);
+  border: 1px solid #fecaca;
+  border-radius: 16px;
+}
+
+.reportIcon {
+  width: 52px;
+  height: 52px;
+  background: #fef2f2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #ef4444;
+  flex-shrink: 0;
+}
+
+.reportContent {
+  flex: 1;
+}
+
+.reportContent h2 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.reportContent p {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.reportBtn {
+  padding: 12px 24px;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  transition: opacity 0.2s;
+}
+
+.reportBtn:hover {
+  opacity: 0.9;
+}
+
+/* Resources */
+.resources {
+  padding: 80px 0;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.resources h2 {
+  font-size: 28px;
+  margin: 0 0 40px;
+}
+
+.resourcesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.resourceCard {
+  padding: 28px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.resourceCard svg {
+  font-size: 36px;
+  color: var(--brand-blue, #005abc);
+  margin-bottom: 16px;
+}
+
+.resourceCard h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.resourceCard p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.resourceCard a {
+  color: var(--brand-blue, #005abc);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.resourceCard a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .topicsGrid,
+  .contactGrid,
+  .resourcesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .topicsGrid,
+  .contactGrid,
+  .resourcesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .quickActions {
+    flex-direction: column;
+  }
+
+  .reportCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroContent h1 {
+    font-size: 28px;
+  }
+}
+
