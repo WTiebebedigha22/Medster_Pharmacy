@@ -9,7 +9,9 @@ import {
   faExclamationTriangle,
   faDollarSign,
   faClipboardList,
+faSpinner,
 } from '@fortawesome/free-solid-svg-icons';
+import styles from './AdminStyles.module.css';
 
 const API_BASE = '/api/admin';
 
@@ -52,25 +54,18 @@ const Dashboard = () => {
     }
   };
 
-  if (loading) {
-    return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '300px' }}>
-        <div>Loading dashboard...</div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div style={{ padding: '40px', textAlign: 'center', color: '#ef4444' }}>
-        <h2>Failed to load dashboard</h2>
-        <p>{error}</p>
-        <button onClick={fetchDashboard} style={{ marginTop: '16px', padding: '8px 16px', cursor: 'pointer' }}>
-          Retry
-        </button>
-      </div>
-    );
-  }
+  const getBadgeClass = (status) => {
+    const map = {
+      delivered: styles.badgeSuccess,
+      paid: styles.badgePurple,
+      processing: styles.badgeWarning,
+      shipped: styles.badgeInfo,
+      cancelled: styles.badgeDanger,
+      refunded: styles.badgeDanger,
+      pending: styles.badgeDefault,
+    };
+    return map[status] || styles.badgeDefault;
+  };
 
   const statCards = [
     {
@@ -123,198 +118,204 @@ const Dashboard = () => {
     },
   ];
 
-  const s = {
-    statsGrid: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-      gap: '20px',
-      marginBottom: '32px',
-    },
-    statCard: {
-      background: '#fff',
-      borderRadius: '12px',
-      padding: '24px',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '16px',
-      boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
-      textDecoration: 'none',
-      transition: 'transform 0.2s, box-shadow 0.2s',
-    },
-    statIcon: {
-      width: '56px',
-      height: '56px',
-      borderRadius: '12px',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: '24px',
-      flexShrink: 0,
-    },
-    statValue: {
-      fontSize: '28px',
-      fontWeight: '700',
-      color: '#111827',
-      lineHeight: 1.2,
-    },
-    statLabel: {
-      fontSize: '13px',
-      color: '#6b7280',
-      marginTop: '4px',
-    },
-    sectionHeader: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      marginBottom: '16px',
-    },
-    sectionTitle: {
-      fontSize: '18px',
-      fontWeight: '600',
-      color: '#111827',
-    },
-    card: {
-      background: '#fff',
-      borderRadius: '12px',
-      padding: '24px',
-      boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
-    },
-    grid2: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
-      gap: '20px',
-      marginBottom: '32px',
-    },
-    orderItem: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '12px 0',
-      borderBottom: '1px solid #f3f4f6',
-    },
-    orderNumber: { fontWeight: '600', color: '#111827', fontSize: '14px' },
-    orderCustomer: { fontSize: '12px', color: '#6b7280' },
-    orderTotal: { fontWeight: '600', color: '#059669', fontSize: '14px' },
-    emptyState: { textAlign: 'center', color: '#9ca3af', padding: '24px' },
-    row: { display: 'flex', gap: '12px', flexWrap: 'wrap' },
-    miniStat: { flex: 1, minWidth: '150px', background: '#f9fafb', borderRadius: '8px', padding: '16px' },
-    miniStatLabel: { fontSize: '12px', color: '#6b7280', marginBottom: '4px' },
-    miniStatValue: { fontSize: '20px', fontWeight: '700', color: '#111827' },
-    lowStockItem: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '10px 0',
-      borderBottom: '1px solid #f3f4f6',
-    },
-    lowStockName: { fontWeight: '500', color: '#111827', fontSize: '14px' },
-    viewAll: { fontSize: '13px', color: '#3b82f6', textDecoration: 'none', fontWeight: '500' },
-  };
+  if (loading) {
+    return (
+      <div className={styles.loadingState}>
+        <div className={styles.spinner}></div>
+        Loading dashboard...
+      </div>
+    );
+  }
 
-  const statusBadge = (status) => {
-    const map = {
-      delivered: { bg: '#ecfdf5', color: '#059669' },
-      processing: { bg: '#fffbeb', color: '#d97706' },
-      shipped: { bg: '#eff6ff', color: '#2563eb' },
-      cancelled: { bg: '#fef2f2', color: '#dc2626' },
-    };
-    const m = map[status] || { bg: '#f3f4f6', color: '#6b7280' };
-    return { display: 'inline-block', padding: '3px 10px', borderRadius: '6px', fontSize: '11px', fontWeight: '600', textTransform: 'capitalize', ...m, marginTop: '4px' };
-  };
-
-  const lowStockQty = (qty) => ({
-    padding: '4px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: '600',
-    background: qty <= 5 ? '#fef2f2' : '#fffbeb',
-    color: qty <= 5 ? '#dc2626' : '#d97706',
-  });
+  if (error) {
+    return (
+      <div className={styles.emptyState}>
+        <h3>Failed to load dashboard</h3>
+        <p>{error}</p>
+        <button className={styles.primaryBtn} onClick={fetchDashboard} style={{ marginTop: '16px' }}>
+          <FontAwesomeIcon icon={faSpinner} /> Retry
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div>
+      {/* Page Header */}
+      <div className={styles.pageHeader}>
+        <div>
+          <h1>
+            <FontAwesomeIcon icon={faClipboardList} />
+            Dashboard
+          </h1>
+          <p className={styles.pageSubtitle}>
+            Welcome back! Here's your pharmacy overview.
+          </p>
+        </div>
+        <Link to="/admin/products" className={styles.primaryBtn}>
+          <FontAwesomeIcon icon={faBoxes} /> Manage Products
+        </Link>
+      </div>
+
       {/* Stats Grid */}
-      <div style={s.statsGrid}>
+      <div className={styles.statsGrid}>
         {statCards.map((card) => (
-          <Link key={card.label} to={card.link} style={s.statCard}
-            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.12)'; }}
-            onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = '0 1px 3px rgba(0,0,0,0.08)'; }}
+          <Link
+            key={card.label}
+            to={card.link}
+            className={styles.statCard}
+            style={{ '--accent': card.color }}
           >
-            <div style={{ ...s.statIcon, background: card.bg, color: card.color }}>
+            <div className={styles.statIcon} style={{ background: card.bg, color: card.color }}>
               <FontAwesomeIcon icon={card.icon} />
             </div>
-            <div>
-              <div style={s.statValue}>{card.value}</div>
-              <div style={s.statLabel}>{card.label}</div>
+            <div className={styles.statInfo}>
+              <div className={styles.statValue}>{card.value}</div>
+              <div className={styles.statLabel}>{card.label}</div>
             </div>
           </Link>
         ))}
       </div>
 
       {/* Two Column Section */}
-      <div style={s.grid2}>
+      <div className={styles.grid2}>
         {/* Recent Orders */}
-        <div style={s.card}>
-          <div style={s.sectionHeader}>
-            <h2 style={s.sectionTitle}>Recent Orders</h2>
-            <Link to="/admin/orders" style={s.viewAll}>View All →</Link>
+        <div className={styles.card}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>
+              <FontAwesomeIcon icon={faShoppingCart} />
+              Recent Orders
+            </h2>
+            <Link to="/admin/orders" className={styles.viewAll}>
+              View All →
+            </Link>
           </div>
           {recentOrders.length === 0 ? (
-            <div style={s.emptyState}>No orders yet</div>
+            <div className={styles.emptyState}>
+              <p>No orders yet</p>
+            </div>
           ) : (
-            recentOrders.slice(0, 5).map((order) => (
-              <div key={order.id} style={s.orderItem}>
-                <div>
-                  <div style={s.orderNumber}>{order.order_number}</div>
-                  <div style={s.orderCustomer}>{order.users?.full_name || order.users?.email || 'Customer'}</div>
+            <div className={styles.tableWrapper}>
+              {recentOrders.slice(0, 5).map((order) => (
+                <div
+                  key={order.id}
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '12px 16px',
+                    borderBottom: '1px solid #f3f4f6',
+                  }}
+                >
+                  <div>
+                    <div style={{ fontWeight: 600, color: '#111827', fontSize: '14px' }}>
+                      {order.order_number}
+                    </div>
+                    <div style={{ fontSize: '12px', color: '#6b7280' }}>
+                      {order.users?.full_name || order.users?.email || 'Customer'}
+                    </div>
+                  </div>
+                  <div style={{ textAlign: 'right' }}>
+                    <div style={{ fontWeight: 700, color: '#059669', fontSize: '14px' }}>
+                      ₦{parseFloat(order.total || 0).toLocaleString()}
+                    </div>
+                    <span className={`${styles.badge} ${getBadgeClass(order.status)}`}>
+                      {order.status}
+                    </span>
+                  </div>
                 </div>
-                <div style={{ textAlign: 'right' }}>
-                  <div style={s.orderTotal}>₦{parseFloat(order.total || 0).toLocaleString()}</div>
-                  <span style={statusBadge(order.status)}>{order.status}</span>
-                </div>
-              </div>
-            ))
+              ))}
+            </div>
           )}
         </div>
 
         {/* Low Stock Alerts */}
-        <div style={s.card}>
-          <div style={s.sectionHeader}>
-            <h2 style={s.sectionTitle}>
-              <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: '#f59e0b', marginRight: '8px' }} />
+        <div className={styles.card}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>
+              <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: '#f59e0b' }} />
               Low Stock Alerts
             </h2>
-            <Link to="/admin/products" style={s.viewAll}>Manage →</Link>
+            <Link to="/admin/products" className={styles.viewAll}>
+              Manage →
+            </Link>
           </div>
           {lowStock.length === 0 ? (
-            <div style={s.emptyState}>All products well stocked</div>
+            <div className={styles.emptyState}>
+              <p>All products well stocked ✓</p>
+            </div>
           ) : (
-            lowStock.slice(0, 5).map((product) => (
-              <div key={product.id} style={s.lowStockItem}>
-                <span style={s.lowStockName}>{product.name}</span>
-                <span style={lowStockQty(product.stock_quantity)}>{product.stock_quantity} left</span>
-              </div>
-            ))
+            <div className={styles.tableWrapper}>
+              {lowStock.slice(0, 5).map((product) => (
+                <div
+                  key={product.id}
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '12px 16px',
+                    borderBottom: '1px solid #f3f4f6',
+                  }}
+                >
+                  <span style={{ fontWeight: 500, color: '#111827', fontSize: '14px' }}>
+                    {product.name}
+                  </span>
+                  <span
+                    className={styles.badge}
+                    style={{
+                      background: product.stock_quantity <= 5 ? '#fef2f2' : '#fffbeb',
+                      color: product.stock_quantity <= 5 ? '#dc2626' : '#d97706',
+                    }}
+                  >
+                    {product.stock_quantity} left
+                  </span>
+                </div>
+              ))}
+            </div>
           )}
         </div>
       </div>
 
       {/* Period Summary */}
-      <div style={s.card}>
-        <h2 style={{ ...s.sectionTitle, marginBottom: '16px' }}>Period Summary</h2>
-        <div style={s.row}>
-          <div style={s.miniStat}>
-            <div style={s.miniStatLabel}>Today's Orders</div>
-            <div style={s.miniStatValue}>{stats?.todayOrders || 0}</div>
+      <div className={styles.card}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>
+            <FontAwesomeIcon icon={faDollarSign} />
+            Period Summary
+          </h2>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '16px' }}>
+          <div className={styles.statCard} style={{ padding: '16px', cursor: 'default' }}>
+            <div className={styles.statInfo}>
+              <div className={styles.statLabel}>Today's Orders</div>
+              <div className={styles.statValue} style={{ fontSize: '22px' }}>
+                {stats?.todayOrders || 0}
+              </div>
+            </div>
           </div>
-          <div style={s.miniStat}>
-            <div style={s.miniStatLabel}>This Week</div>
-            <div style={s.miniStatValue}>{stats?.weekOrders || 0} orders</div>
+          <div className={styles.statCard} style={{ padding: '16px', cursor: 'default' }}>
+            <div className={styles.statInfo}>
+              <div className={styles.statLabel}>Pending Orders</div>
+              <div className={styles.statValue} style={{ fontSize: '22px' }}>
+                {stats?.pendingOrders || 0}
+              </div>
+            </div>
           </div>
-          <div style={s.miniStat}>
-            <div style={s.miniStatLabel}>Weekly Revenue</div>
-            <div style={s.miniStatValue}>₦{(stats?.weeklyRevenue || 0).toLocaleString()}</div>
+          <div className={styles.statCard} style={{ padding: '16px', cursor: 'default' }}>
+            <div className={styles.statInfo}>
+              <div className={styles.statLabel}>Pending Prescriptions</div>
+              <div className={styles.statValue} style={{ fontSize: '22px' }}>
+                {stats?.pendingPrescriptions || 0}
+              </div>
+            </div>
           </div>
-          <div style={s.miniStat}>
-            <div style={s.miniStatLabel}>Monthly Revenue</div>
-            <div style={s.miniStatValue}>₦{(stats?.monthlyRevenue || 0).toLocaleString()}</div>
+          <div className={styles.statCard} style={{ padding: '16px', cursor: 'default' }}>
+            <div className={styles.statInfo}>
+              <div className={styles.statLabel}>Total Revenue</div>
+              <div className={styles.statValue} style={{ fontSize: '22px', color: '#059669' }}>
+                ₦{(stats?.totalRevenue || 0).toLocaleString()}
+              </div>
+            </div>
           </div>
         </div>
       </div>

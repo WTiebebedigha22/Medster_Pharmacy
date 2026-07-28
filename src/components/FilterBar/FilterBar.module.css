@@ -1,14 +1,10 @@
-:root {
-  --secondary-color: rgb(0, 90, 192);
-  --border-color: #ddd;
-}
-
 .wrapper {
   background: white;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  margin-bottom: 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-100);
+  margin-bottom: 20px;
   overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 
 .bar {
@@ -16,7 +12,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 16px;
+  padding: 16px 20px;
 }
 
 .searchWrap {
@@ -25,18 +21,20 @@
 
 .search {
   width: 100%;
-  height: 44px;
-  padding: 0 14px;
-  border-radius: 10px;
-  border: 1px solid var(--border-color);
+  height: 46px;
+  padding: 0 16px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--gray-200);
   outline: none;
   font-size: 14px;
-  transition: border-color 0.2s;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  background: var(--gray-50);
 }
 
 .search:focus {
-  border-color: var(--secondary-color);
-  box-shadow: 0 0 0 3px rgba(0, 90, 192, 0.1);
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 0 4px rgba(0, 90, 188, 0.1);
+  background: #fff;
 }
 
 .controls {
@@ -46,31 +44,33 @@
 }
 
 .select {
-  height: 44px;
-  border-radius: 10px;
-  border: 1px solid var(--border-color);
-  padding: 0 12px;
+  height: 46px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--gray-200);
+  padding: 0 14px;
   background: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 13px;
   cursor: pointer;
+  color: var(--gray-700);
 }
 
 .rxToggle {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 800;
-  color: #333;
+  font-weight: 600;
+  color: var(--gray-700);
   user-select: none;
   cursor: pointer;
   white-space: nowrap;
+  font-size: 13px;
 }
 
 .rxToggle input {
   width: 18px;
   height: 18px;
-  accent-color: var(--secondary-color);
+  accent-color: var(--brand-blue);
 }
 
 /* Secondary Filters Row */
@@ -78,7 +78,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 8px 16px 16px;
+  padding: 8px 20px 16px;
   flex-wrap: wrap;
 }
 
@@ -89,22 +89,23 @@
 }
 
 .filterLabel {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
-  color: #666;
+  color: var(--gray-500);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .filterSelect {
   height: 36px;
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--gray-200);
   padding: 0 10px;
   background: white;
   font-size: 13px;
   cursor: pointer;
   min-width: 140px;
+  color: var(--gray-700);
 }
 
 .filterCheck {
@@ -112,53 +113,53 @@
   align-items: center;
   gap: 8px;
   font-size: 13px;
-  font-weight: 600;
-  color: #444;
+  font-weight: 500;
+  color: var(--gray-700);
   cursor: pointer;
   user-select: none;
-  padding-top: 14px; /* align with selects */
+  padding-top: 14px;
 }
 
 .filterCheck input {
   width: 16px;
   height: 16px;
-  accent-color: var(--secondary-color);
+  accent-color: var(--brand-blue);
 }
 
 .clearBtn {
   margin-left: auto;
-  padding: 6px 14px;
-  border: 1px solid #e74c3c;
+  padding: 8px 16px;
+  border: 1.5px solid var(--error);
   background: #fff;
-  color: #e74c3c;
-  border-radius: 8px;
+  color: var(--error);
+  border-radius: var(--radius-sm);
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
-  transition: all 0.2s;
+  transition: all 0.25s;
 }
 
 .clearBtn:hover {
-  background: #e74c3c;
+  background: var(--error);
   color: white;
 }
 
 /* Results count */
 .resultsCount {
-  padding: 8px 16px 12px;
+  padding: 10px 20px 14px;
   font-size: 13px;
-  color: #666;
-  border-top: 1px solid #f0f0f0;
+  color: var(--gray-500);
+  border-top: 1px solid var(--gray-100);
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .filterBadge {
-  background: var(--secondary-color);
+  background: var(--brand-blue);
   color: white;
-  padding: 2px 8px;
-  border-radius: 999px;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
   font-size: 11px;
   font-weight: 700;
 }

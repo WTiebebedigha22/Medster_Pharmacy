@@ -56,7 +56,11 @@ const CartProvider = ({ children }) => {
     );
   };
 
-  const value = { cartItems, addToCart, removeFromCart, increaseQty, decreaseQty };
+  const clearCart = () => {
+    setCartItems([]);
+  };
+
+  const value = { cartItems, addToCart, removeFromCart, increaseQty, decreaseQty, clearCart };
 
   return <__CartContext.Provider value={value}>{children}</__CartContext.Provider>;
 };

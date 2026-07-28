@@ -1,5 +1,5 @@
 // Auto-generated from stocks.json - DO NOT EDIT MANUALLY
-// Generated: 2026-07-25T13:06:57.540Z
+// Generated: 2026-07-28T14:01:59.143Z
 // Total products: 469
 // Categories: 24
 
@@ -9,10 +9,11 @@ export const products = [
     "name": "LONART TABLETS 24 TABLETS 20/120MG",
     "sku": "LONAR698",
     "description": "LONART LONART TABLETS 24 TABLETS 20/120MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 2200000,
-    "image": "/images/categories/antimalarials.svg",
+    "price": 4000,
+    "oldPrice": 2200,
+    "image": "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antimalarials.svg"
     ],
     "category": "Antimalarials",
@@ -30,10 +31,11 @@ export const products = [
     "name": "WAIPA ACT X 12 TABLETS",
     "sku": "WAIPA620",
     "description": "WAIPA WAIPA ACT X 12 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2600000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/antimalarials.svg",
+    "price": 2600,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antimalarials.svg"
     ],
     "category": "Antimalarials",
@@ -51,10 +53,11 @@ export const products = [
     "name": "ACT CLARTEM - QS 80/480MG X 6",
     "sku": "ACTC637",
     "description": "ACT ACT CLARTEM - QS 80/480MG X 6. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 998000,
-    "image": "/images/categories/antimalarials.svg",
+    "price": 2500,
+    "oldPrice": 998,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antimalarials.svg"
     ],
     "category": "Antimalarials",
@@ -72,10 +75,11 @@ export const products = [
     "name": "WINART POWDER FOR ORAL SUSPENSION",
     "sku": "WINAR546",
     "description": "WINART WINART POWDER FOR ORAL SUSPENSION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 3000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/3873168/pexels-photo-3873168.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3873168/pexels-photo-3873168.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -93,10 +97,11 @@ export const products = [
     "name": "LONART POWDER FOR ORAL SUSPENSION 240MG/1140MG 60ML",
     "sku": "LONAR417",
     "description": "LONART LONART POWDER FOR ORAL SUSPENSION 240MG/1140MG 60ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 2000000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 4000,
+    "oldPrice": 2000,
+    "image": "https://images.pexels.com/photos/3873168/pexels-photo-3873168.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3873168/pexels-photo-3873168.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -114,10 +119,11 @@ export const products = [
     "name": "EMAL (fidson) 75MG/1ML",
     "sku": "EMAL997",
     "description": "EMAL EMAL (fidson) 75MG/1ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3700000,
-    "image": "/images/categories/general-health.svg",
+    "price": 7000,
+    "oldPrice": 3700,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -135,10 +141,11 @@ export const products = [
     "name": "EMAL 150MG/2ML",
     "sku": "EMAL549",
     "description": "EMAL EMAL 150MG/2ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8000000,
-    "oldPrice": 3800000,
-    "image": "/images/categories/general-health.svg",
+    "price": 8000,
+    "oldPrice": 3800,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -156,10 +163,11 @@ export const products = [
     "name": "AVENTRA METRONE IV METRONIDAZOLE INFUSION",
     "sku": "AVENT608",
     "description": "AVENTRA AVENTRA METRONE IV METRONIDAZOLE INFUSION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 3000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/23532633/pexels-photo-23532633.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/23532633/pexels-photo-23532633.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -177,10 +185,11 @@ export const products = [
     "name": "DMAL 150MG/2ML 1M",
     "sku": "DMAL133",
     "description": "DMAL DMAL 150MG/2ML 1M. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8000000,
-    "oldPrice": 2000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 8000,
+    "oldPrice": 2000,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -198,10 +207,11 @@ export const products = [
     "name": "PHILO OMEPRAZOLE SODIUM INJECTION 40MG 1V ONLY",
     "sku": "PHILO197",
     "description": "PHILO PHILO OMEPRAZOLE SODIUM INJECTION 40MG 1V ONLY. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 4000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -219,10 +229,11 @@ export const products = [
     "name": "GRACE LIFESCIENCES CETFRIAXONE INJECTION 1G 1M/1V USE",
     "sku": "CEFTR380",
     "description": "GRACE GRACE LIFESCIENCES CETFRIAXONE INJECTION 1G 1M/1V USE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 1250000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 5000,
+    "oldPrice": 1250,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -240,10 +251,11 @@ export const products = [
     "name": "TRIAXIN CETFRIAXONE INJECTION 1G",
     "sku": "TRIAX903",
     "description": "TRIAXIN TRIAXIN CETFRIAXONE INJECTION 1G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 5000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -261,10 +273,11 @@ export const products = [
     "name": "YELLOW CETFRIAXONE INJECTION 1G",
     "sku": "YELLO575",
     "description": "YELLOW YELLOW CETFRIAXONE INJECTION 1G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 3000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/5921983/pexels-photo-5921983.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5921983/pexels-photo-5921983.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -282,10 +295,11 @@ export const products = [
     "name": "DERM CETFRIAXONE INJECTION 1G",
     "sku": "DERM787",
     "description": "DERM DERM CETFRIAXONE INJECTION 1G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 6000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -303,10 +317,11 @@ export const products = [
     "name": "ROCEPHIN CETFRIAXONE INJECTION 1G IM",
     "sku": "ROCEP719",
     "description": "ROCEPHIN ROCEPHIN CETFRIAXONE INJECTION 1G IM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 18500000,
-    "oldPrice": 7500000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 18500,
+    "oldPrice": 7500,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -324,10 +339,11 @@ export const products = [
     "name": "PHILODIC DICLOFENAC SODIUM INJECTION 75MG/3ML 1M",
     "sku": "PHILO898",
     "description": "PHILODIC PHILODIC DICLOFENAC SODIUM INJECTION 75MG/3ML 1M. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 500000,
-    "oldPrice": 160000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 500,
+    "oldPrice": 160,
+    "image": "https://images.pexels.com/photos/7723350/pexels-photo-7723350.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7723350/pexels-photo-7723350.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -345,10 +361,11 @@ export const products = [
     "name": "SILK CLOTH TAPE",
     "sku": "SILK182",
     "description": "SILK SILK CLOTH TAPE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 2500,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/31837694/pexels-photo-31837694.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31837694/pexels-photo-31837694.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -366,10 +383,11 @@ export const products = [
     "name": "PARACLIM PARACETAMOL INJECTION 300MG/2ML 1M/1V",
     "sku": "PARAC755",
     "description": "PARACLIM PARACLIM PARACETAMOL INJECTION 300MG/2ML 1M/1V. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 116000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 1000,
+    "oldPrice": 116,
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -387,10 +405,11 @@ export const products = [
     "name": "PHILO PROMETHAZINE HYDROCHLORIDE INJECTION 50MG/2ML",
     "sku": "PHILO788",
     "description": "PHILO PHILO PROMETHAZINE HYDROCHLORIDE INJECTION 50MG/2ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 116000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 1000,
+    "oldPrice": 116,
+    "image": "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -408,10 +427,11 @@ export const products = [
     "name": "GENTACLIM 80 GENTAMYCIN INJECTION 1M/1V 80/2ML 1",
     "sku": "GENTA768",
     "description": "GENTACLIM GENTACLIM 80 GENTAMYCIN INJECTION 1M/1V 80/2ML 1. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 150000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 1000,
+    "oldPrice": 150,
+    "image": "https://images.pexels.com/photos/32532049/pexels-photo-32532049.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/32532049/pexels-photo-32532049.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -429,10 +449,11 @@ export const products = [
     "name": "NAZA GENTAMYCIN INJECTION 80MG/2ML",
     "sku": "NAZA699",
     "description": "NAZA NAZA GENTAMYCIN INJECTION 80MG/2ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 116000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 1000,
+    "oldPrice": 116,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -450,10 +471,11 @@ export const products = [
     "name": "N-GENTAMYCIN INJECTION 80MG/2ML",
     "sku": "N-GEN869",
     "description": "N-GENTAMYCIN N-GENTAMYCIN INJECTION 80MG/2ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 150000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 1000,
+    "oldPrice": 150,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -471,10 +493,11 @@ export const products = [
     "name": "DERM'S HYDROCORTISONE SODIUM SUCCINATE INJECTION 100MG 1M/1V",
     "sku": "DERM124",
     "description": "DERM'S DERM'S HYDROCORTISONE SODIUM SUCCINATE INJECTION 100MG 1M/1V. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 200000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 2000,
+    "oldPrice": 200,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -494,8 +517,9 @@ export const products = [
     "description": "METOCLOPRAMIDE METOCLOPRAMIDE HYDROCHLORIDE INJECTION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 2000,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -515,8 +539,9 @@ export const products = [
     "description": "GENTALEK GENTALEK INJECTION 2ML/80MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1000,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -536,8 +561,9 @@ export const products = [
     "description": "POSTINOR POSTINOR 2. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 4000,
     "oldPrice": 2200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/5863282/pexels-photo-5863282.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5863282/pexels-photo-5863282.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -557,8 +583,9 @@ export const products = [
     "description": "CLARITHEK CLARITHEK 500MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 12000,
     "oldPrice": 5000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3652103/pexels-photo-3652103.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652103/pexels-photo-3652103.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -578,8 +605,9 @@ export const products = [
     "description": "DUCOLAX DUCOLAX ADULT 5MG X 20 TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -599,8 +627,9 @@ export const products = [
     "description": "BRIM BRIM WATER 50CL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 300,
     "oldPrice": 195,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -620,8 +649,9 @@ export const products = [
     "description": "MALTINA MALTINA CLASSIC 33CL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 500,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -641,8 +671,9 @@ export const products = [
     "description": "FAB FAB CHOCOLATE COOKIES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 700,
     "oldPrice": 445,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/12521141/pexels-photo-12521141.png?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/12521141/pexels-photo-12521141.png?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -662,8 +693,9 @@ export const products = [
     "description": "MC MC VITES HOBNOBS 78G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1100,
     "oldPrice": 600,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -683,8 +715,9 @@ export const products = [
     "description": "PHILOCAINE PHILOCAINE PENICILLIN INJECTION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 500,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -704,8 +737,9 @@ export const products = [
     "description": "NAZA NAZA DICLOFENAC SODIUM INJECTION 75MG/3ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 200,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/7723350/pexels-photo-7723350.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7723350/pexels-photo-7723350.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -725,8 +759,9 @@ export const products = [
     "description": "EMBASSY EMBASSY VIT B12 INJECTION 500MCG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 350,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -746,8 +781,9 @@ export const products = [
     "description": "NELBPLEX NELBPLEX VITAMIN B COMPLEX INJECTION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 350,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -767,8 +803,9 @@ export const products = [
     "description": "DELEJECT DELEJECT SYRINGE 2ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 200,
     "oldPrice": 50,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/7722564/pexels-photo-7722564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7722564/pexels-photo-7722564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -788,8 +825,9 @@ export const products = [
     "description": "GM G+M SYRINGE 10ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 300,
     "oldPrice": 100,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -809,8 +847,9 @@ export const products = [
     "description": "GM G+M SYRINGE 10ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 300,
     "oldPrice": 100,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -830,8 +869,9 @@ export const products = [
     "description": "SALMAJECT SALMAJECT 5ML SYRINGE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 200,
     "oldPrice": 100,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/33394283/pexels-photo-33394283.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/33394283/pexels-photo-33394283.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -851,8 +891,9 @@ export const products = [
     "description": "DELEGECT DELEGECT NEEDLE 22G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 50,
     "oldPrice": 25,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/3786154/pexels-photo-3786154.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3786154/pexels-photo-3786154.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -872,8 +913,9 @@ export const products = [
     "description": "NEO NEO PRESOL SOLUTION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2400,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -893,8 +935,9 @@ export const products = [
     "description": "MENTOS MENTOS ICE PEPPERMINT. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 600,
     "oldPrice": 165,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/12018247/pexels-photo-12018247.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/12018247/pexels-photo-12018247.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -914,8 +957,9 @@ export const products = [
     "description": "DUREX DUREX FETHERLITE ELITE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4500,
-    "image": "/images/categories/contraceptives.svg",
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -935,8 +979,9 @@ export const products = [
     "description": "BRIM BRIM WATER 75CL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 400,
     "oldPrice": 150,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/7863260/pexels-photo-7863260.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7863260/pexels-photo-7863260.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -956,8 +1001,9 @@ export const products = [
     "description": "FANTA FANTA ORANGE FLAVOURED CAN DRINK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 950,
     "oldPrice": 450,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/15327089/pexels-photo-15327089.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/15327089/pexels-photo-15327089.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -977,8 +1023,9 @@ export const products = [
     "description": "DICLOMOL DICLOMOL CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -998,8 +1045,9 @@ export const products = [
     "description": "YELLOW YELLOW CANNUA. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 150,
     "oldPrice": null,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/9742749/pexels-photo-9742749.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742749/pexels-photo-9742749.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -1019,8 +1067,9 @@ export const products = [
     "description": "SCAL SCAL VEIN ALL SIZES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 200,
     "oldPrice": 50,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/5883825/pexels-photo-5883825.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5883825/pexels-photo-5883825.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -1040,8 +1089,9 @@ export const products = [
     "description": "FIRST FIRST AID BOX. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 28000,
     "oldPrice": 15000,
-    "image": "/images/categories/first-aid.svg",
+    "image": "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/first-aid.svg"
     ],
     "category": "First Aid",
@@ -1061,8 +1111,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14000,
     "oldPrice": 7990,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1082,8 +1133,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13500,
     "oldPrice": 6500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1103,8 +1155,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13500,
     "oldPrice": 6500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1124,8 +1177,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13500,
     "oldPrice": 6500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1145,8 +1199,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13500,
     "oldPrice": 6500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1166,8 +1221,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT 200ML LIQUID. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13500,
     "oldPrice": 6500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1187,8 +1243,9 @@ export const products = [
     "description": "EMCAP EMCAP EXTRA 500MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 500,
     "oldPrice": 200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1208,8 +1265,9 @@ export const products = [
     "description": "EMCAP EMCAP FAST ACTING CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 500,
     "oldPrice": 200,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1229,8 +1287,9 @@ export const products = [
     "description": "HYDRAC HYDRAC. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1250,8 +1309,9 @@ export const products = [
     "description": "RELEV RELEV RAPID 550MG(NAPROXEN SODIUM SWIPHA). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2000,
-    "image": "/images/categories/pain-relief.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -1271,8 +1331,9 @@ export const products = [
     "description": "SALONPAS SALONPAS PATCHES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 2000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1292,8 +1353,9 @@ export const products = [
     "description": "JUCOPAN JUCOPAN 10MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1313,8 +1375,9 @@ export const products = [
     "description": "BUSCOMAC BUSCOMAC 10MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 100,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1334,8 +1397,9 @@ export const products = [
     "description": "ORPHESIC ORPHESIC. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 10000,
     "oldPrice": 3000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1355,8 +1419,9 @@ export const products = [
     "description": "TRIBOTAN TRIBOTAN CREAM 20G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 600,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -1376,8 +1441,9 @@ export const products = [
     "description": "PIRITON PIRITON 4MG EVANS BAROQUE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 500,
     "oldPrice": 200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1397,8 +1463,9 @@ export const products = [
     "description": "Cenpain Cenpain Night 20 caplets. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1418,8 +1485,9 @@ export const products = [
     "description": "CAFERGOT CAFERGOT 1MG/100MG TABLET X 30. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 27720,
     "oldPrice": 17000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1439,8 +1507,9 @@ export const products = [
     "description": "NAPROXEN NAPROXEN 500MG (TEVA). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 12000,
     "oldPrice": 5500,
-    "image": "/images/categories/pain-relief.svg",
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -1460,8 +1529,9 @@ export const products = [
     "description": "COXIGET COXIGET (CELECOXIB CAPSULES 200MG). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8500,
     "oldPrice": 3500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/31406906/pexels-photo-31406906.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406906/pexels-photo-31406906.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1481,8 +1551,9 @@ export const products = [
     "description": "REELS REELS NIGHT AID 50MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 1000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/25682487/pexels-photo-25682487.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/25682487/pexels-photo-25682487.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1502,8 +1573,9 @@ export const products = [
     "description": "SUMATRIPTAN SUMATRIPTAN 100MG (TEVA). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 15000,
     "oldPrice": 7500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/7722639/pexels-photo-7722639.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7722639/pexels-photo-7722639.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1523,8 +1595,9 @@ export const products = [
     "description": "FEMINAX FEMINAX EXPRESS 342MG TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13000,
     "oldPrice": 7000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/9742754/pexels-photo-9742754.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742754/pexels-photo-9742754.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1544,8 +1617,9 @@ export const products = [
     "description": "ASPIRIN ASPIRIN 75MG (ENTERIC-COATED). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 10000,
     "oldPrice": 5350,
-    "image": "/images/categories/pain-relief.svg",
+    "image": "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -1565,8 +1639,9 @@ export const products = [
     "description": "CELEBREX CELEBREX 200MG 10 CAPSULE (PFIZER). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 15000,
     "oldPrice": 7000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1586,8 +1661,9 @@ export const products = [
     "description": "PANADOL PANADOL NIGHT X 24 CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 18000,
     "oldPrice": 7500,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/4210608/pexels-photo-4210608.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4210608/pexels-photo-4210608.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1607,8 +1683,9 @@ export const products = [
     "description": "PANADOL PANADOL COLD & FLU X 24 CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 18000,
     "oldPrice": 9900,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/3873140/pexels-photo-3873140.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3873140/pexels-photo-3873140.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1628,8 +1705,9 @@ export const products = [
     "description": "FELVIN FELVIN CAPSULE 20MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 250,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1649,8 +1727,9 @@ export const products = [
     "description": "TYENOL TYENOL EXTRA STRENGTH X 24 CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 23000,
     "oldPrice": 12000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/4210608/pexels-photo-4210608.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4210608/pexels-photo-4210608.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -1670,8 +1749,9 @@ export const products = [
     "description": "BAYER BAYER ASPIRIN PAIN RELIEF 81MG X 32 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 16500,
     "oldPrice": 7500,
-    "image": "/images/categories/pain-relief.svg",
+    "image": "https://images.pexels.com/photos/3923168/pexels-photo-3923168.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3923168/pexels-photo-3923168.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -1691,8 +1771,9 @@ export const products = [
     "description": "EMVITE EMVITE MULTIVITAMIN SYRUP (EMZOR) 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 700,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/13048835/pexels-photo-13048835.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13048835/pexels-photo-13048835.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1712,8 +1793,9 @@ export const products = [
     "description": "EM-VIT-C EM-VIT-C VITAMIN C SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 700,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/10930147/pexels-photo-10930147.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10930147/pexels-photo-10930147.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1733,8 +1815,9 @@ export const products = [
     "description": "ABIDEC ABIDEC DROPS 25ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2500,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "image": "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -1754,8 +1837,9 @@ export const products = [
     "description": "MOPSON MOPSON ASCORBION C300 VITAMIN C SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1775,8 +1859,9 @@ export const products = [
     "description": "BONABABE BONABABE SYRUP 60ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 700,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1796,8 +1881,9 @@ export const products = [
     "description": "PANADA PANADA PARACETAMOL DROP 15ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 500,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -1817,8 +1903,9 @@ export const products = [
     "description": "BABYREX BABYREX BABY MIXTURE 60ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/10187145/pexels-photo-10187145.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10187145/pexels-photo-10187145.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1838,8 +1925,9 @@ export const products = [
     "description": "WOODWARDS WOODWARDS GRIPE WATER. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -1859,8 +1947,9 @@ export const products = [
     "description": "OL-FREE OL-FREE ACNE WASH. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 22000,
     "oldPrice": 16000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/16667095/pexels-photo-16667095.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/16667095/pexels-photo-16667095.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1880,8 +1969,9 @@ export const products = [
     "description": "REFUCI. REFUCI. ORAL SUSPENSION 100ML (REALS). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2800,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/9227856/pexels-photo-9227856.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227856/pexels-photo-9227856.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1901,8 +1991,9 @@ export const products = [
     "description": "HAWAII HAWAII PAPAYA SOAP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1000,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/28613331/pexels-photo-28613331.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28613331/pexels-photo-28613331.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -1922,8 +2013,9 @@ export const products = [
     "description": "NOSPAMIN NOSPAMIN SYRUP 60ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1200,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1943,8 +2035,9 @@ export const products = [
     "description": "PRANTRIIN PRANTRIIN PYRANTEL PAMOATE ORAL SUSPENSION 15ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -1964,8 +2057,9 @@ export const products = [
     "description": "FLUCAMED FLUCAMED CAPSULES 200MG (DRUGFIELD) X 10 CAPSULES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8500,
     "oldPrice": 4400,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9742749/pexels-photo-9742749.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742749/pexels-photo-9742749.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -1985,8 +2079,9 @@ export const products = [
     "description": "SWISEC SWISEC SECNDAZOLE 500MG (SWIPHA). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1750,
-    "image": "/images/categories/antibiotics.svg",
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -2004,10 +2099,11 @@ export const products = [
     "name": "MOKO NERVE LINIMENT 200ML",
     "sku": "MOKO162",
     "description": "MOKO MOKO NERVE LINIMENT 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1200000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1200,
+    "image": "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2025,10 +2121,11 @@ export const products = [
     "name": "HYDROGEN PEROXIDE SOLUTION",
     "sku": "HYDRO118",
     "description": "HYDROGEN HYDROGEN PEROXIDE SOLUTION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1200000,
-    "oldPrice": 550000,
-    "image": "/images/categories/general-health.svg",
+    "price": 1200,
+    "oldPrice": 550,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2046,10 +2143,11 @@ export const products = [
     "name": "METRONE 400MG TABLET",
     "sku": "METRO565",
     "description": "METRONE METRONE 400MG TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 144000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 1000,
+    "oldPrice": 144,
+    "image": "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -2067,10 +2165,11 @@ export const products = [
     "name": "VITAMILK PLAIN",
     "sku": "VITAM521",
     "description": "VITAMILK VITAMILK PLAIN. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1700000,
-    "image": "/images/categories/general-health.svg",
+    "price": 3000,
+    "oldPrice": 1700,
+    "image": "https://images.pexels.com/photos/13787561/pexels-photo-13787561.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13787561/pexels-photo-13787561.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2088,10 +2187,11 @@ export const products = [
     "name": "DUREX EXTRA SAFE",
     "sku": "DUREX321",
     "description": "DUREX DUREX EXTRA SAFE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6800000,
-    "oldPrice": 3570000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 6800,
+    "oldPrice": 3570,
+    "image": "https://images.pexels.com/photos/16051964/pexels-photo-16051964.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/16051964/pexels-photo-16051964.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -2109,10 +2209,11 @@ export const products = [
     "name": "Calgovit vitamin-c dispersible",
     "sku": "Calgo786",
     "description": "Calgovit Calgovit vitamin-c dispersible. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3600000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 7000,
+    "oldPrice": 3600,
+    "image": "https://images.pexels.com/photos/3683103/pexels-photo-3683103.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3683103/pexels-photo-3683103.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -2130,10 +2231,11 @@ export const products = [
     "name": "FOTMOLA TONGUE BRUSH",
     "sku": "FOTMO260",
     "description": "FOTMOLA FOTMOLA TONGUE BRUSH. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 980000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 980,
+    "image": "https://images.pexels.com/photos/19291514/pexels-photo-19291514.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/19291514/pexels-photo-19291514.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2151,10 +2253,11 @@ export const products = [
     "name": "KISS CONDOM",
     "sku": "KISS354",
     "description": "KISS KISS CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 270000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 1000,
+    "oldPrice": 270,
+    "image": "https://images.pexels.com/photos/18806858/pexels-photo-18806858.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/18806858/pexels-photo-18806858.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -2172,10 +2275,11 @@ export const products = [
     "name": "MOKO ISOPROPYL ALCOHOL",
     "sku": "MOKO460",
     "description": "MOKO MOKO ISOPROPYL ALCOHOL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1225000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2500,
+    "oldPrice": 1225,
+    "image": "https://images.pexels.com/photos/6129587/pexels-photo-6129587.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6129587/pexels-photo-6129587.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2193,10 +2297,11 @@ export const products = [
     "name": "SWIPHA CEFUROXIME 500MG",
     "sku": "SWIPH391",
     "description": "SWIPHA SWIPHA CEFUROXIME 500MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9500000,
-    "oldPrice": 4664000,
-    "image": "/images/categories/antibiotics.svg",
+    "price": 9500,
+    "oldPrice": 4664,
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -2214,10 +2319,11 @@ export const products = [
     "name": "CELEBREX 200MG 10 CAPSULE (PFIZER)",
     "sku": "CELEB251",
     "description": "CELEBREX CELEBREX 200MG 10 CAPSULE (PFIZER). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 15000000,
-    "oldPrice": 6912000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 15000,
+    "oldPrice": 6912,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -2235,10 +2341,11 @@ export const products = [
     "name": "PANADOL EXTRA",
     "sku": "PANAD985",
     "description": "PANADOL PANADOL EXTRA. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 378000,
-    "image": "/images/categories/pain-relief.svg",
+    "price": 1500,
+    "oldPrice": 378,
+    "image": "https://images.pexels.com/photos/9742853/pexels-photo-9742853.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742853/pexels-photo-9742853.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -2256,10 +2363,11 @@ export const products = [
     "name": "FUNBACT-A CREAM 30GM",
     "sku": "FUNBA116",
     "description": "FUNBACT-A FUNBACT-A CREAM 30GM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1400000,
-    "oldPrice": 756000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 1400,
+    "oldPrice": 756,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2277,10 +2385,11 @@ export const products = [
     "name": "NEOSKIN CREAM",
     "sku": "NEOSK788",
     "description": "NEOSKIN NEOSKIN CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1300000,
-    "oldPrice": 636000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 1300,
+    "oldPrice": 636,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2298,10 +2407,11 @@ export const products = [
     "name": "CHEZFLOX LEVOFLOKACIN 500MG",
     "sku": "CHEZF438",
     "description": "CHEZFLOX CHEZFLOX LEVOFLOKACIN 500MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 756000,
-    "image": "/images/categories/antibiotics.svg",
+    "price": 5000,
+    "oldPrice": 756,
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -2319,10 +2429,11 @@ export const products = [
     "name": "VISINE RED EYE",
     "sku": "VISIN802",
     "description": "VISINE VISINE RED EYE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 13600000,
-    "oldPrice": 7560000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 13600,
+    "oldPrice": 7560,
+    "image": "https://images.pexels.com/photos/3683083/pexels-photo-3683083.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3683083/pexels-photo-3683083.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -2340,10 +2451,11 @@ export const products = [
     "name": "VISITA PLUS CREAM",
     "sku": "714084870779",
     "description": "VISITA VISITA PLUS CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1300000,
-    "oldPrice": 666000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 1300,
+    "oldPrice": 666,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2361,10 +2473,11 @@ export const products = [
     "name": "ROCEPHIN CEFTRIAXONE INJECTION 1G IM",
     "sku": "ROCEP468",
     "description": "ROCEPHIN ROCEPHIN CEFTRIAXONE INJECTION 1G IM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 17000000,
-    "oldPrice": 9886000,
-    "image": "/images/categories/injections-infusions.svg",
+    "price": 17000,
+    "oldPrice": 9886,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -2382,10 +2495,11 @@ export const products = [
     "name": "METRONE 200MG",
     "sku": "METRO307",
     "description": "METRONE METRONE 200MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 500000,
-    "oldPrice": 100000,
-    "image": "/images/categories/general-health.svg",
+    "price": 500,
+    "oldPrice": 100,
+    "image": "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2403,10 +2517,11 @@ export const products = [
     "name": "METRONE 400MG",
     "sku": "METRO331",
     "description": "METRONE METRONE 400MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 145000,
-    "image": "/images/categories/general-health.svg",
+    "price": 1000,
+    "oldPrice": 145,
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2424,10 +2539,11 @@ export const products = [
     "name": "ROUGH RIDER STUDDED MORE SENSATION",
     "sku": "5011831076862",
     "description": "ROUGH ROUGH RIDER STUDDED MORE SENSATION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2500000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 5000,
+    "oldPrice": 2500,
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -2445,10 +2561,11 @@ export const products = [
     "name": "MENTOS WHITE GUM SACHET",
     "sku": "MENTO700",
     "description": "MENTOS MENTOS WHITE GUM SACHET. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 600000,
-    "oldPrice": 258000,
-    "image": "/images/categories/general-health.svg",
+    "price": 600,
+    "oldPrice": 258,
+    "image": "https://images.pexels.com/photos/7231808/pexels-photo-7231808.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7231808/pexels-photo-7231808.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2466,10 +2583,11 @@ export const products = [
     "name": "MENTOS WHITE BUBBLE FRESH SACHET",
     "sku": "MENTO752",
     "description": "MENTOS MENTOS WHITE BUBBLE FRESH SACHET. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 600000,
-    "oldPrice": 258000,
-    "image": "/images/categories/general-health.svg",
+    "price": 600,
+    "oldPrice": 258,
+    "image": "https://images.pexels.com/photos/10965801/pexels-photo-10965801.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10965801/pexels-photo-10965801.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2487,10 +2605,11 @@ export const products = [
     "name": "MIXAGRIP COLD CAPLET",
     "sku": "MIXAG914",
     "description": "MIXAGRIP MIXAGRIP COLD CAPLET. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 200000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 1000,
+    "oldPrice": 200,
+    "image": "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -2510,8 +2629,9 @@ export const products = [
     "description": "PROCOLCOLD PROCOLCOLD TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 500,
     "oldPrice": 170,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2531,8 +2651,9 @@ export const products = [
     "description": "VIGOR VIGOR CHOCOLATE FOR MEN. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5500,
     "oldPrice": 3000,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/3849602/pexels-photo-3849602.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3849602/pexels-photo-3849602.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -2552,8 +2673,9 @@ export const products = [
     "description": "G-DERM G-DERM CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1050,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2573,8 +2695,9 @@ export const products = [
     "description": "WOUND WOUND DRESSING. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 500,
-    "image": "/images/categories/medical-supplies.svg",
+    "image": "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -2594,8 +2717,9 @@ export const products = [
     "description": "ABONIKI ABONIKI BALM 25G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 830,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/7796454/pexels-photo-7796454.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7796454/pexels-photo-7796454.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2615,8 +2739,9 @@ export const products = [
     "description": "HYPEREX-SR HYPEREX-SR. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 920,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/19497086/pexels-photo-19497086.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/19497086/pexels-photo-19497086.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2636,8 +2761,9 @@ export const products = [
     "description": "LORAT-10 LORAT-10 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 950,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2657,8 +2783,9 @@ export const products = [
     "description": "LORATYN-10TABLETS LORATYN-10TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 900,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2678,8 +2805,9 @@ export const products = [
     "description": "ZYNCET ZYNCET TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 4752,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2699,8 +2827,9 @@ export const products = [
     "description": "MAXIM MAXIM PROBIOTICS & CRANBERRY. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 46300,
     "oldPrice": 20000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/17820706/pexels-photo-17820706.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/17820706/pexels-photo-17820706.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2720,8 +2849,9 @@ export const products = [
     "description": "KLOVINAL KLOVINAL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 7500,
     "oldPrice": 4180,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2741,8 +2871,9 @@ export const products = [
     "description": "GOLD GOLD CIRCLE CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 352,
-    "image": "/images/categories/contraceptives.svg",
+    "image": "https://images.pexels.com/photos/5187865/pexels-photo-5187865.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5187865/pexels-photo-5187865.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -2762,8 +2893,9 @@ export const products = [
     "description": "BUTTER BUTTER STYLE PREMIUM COOKIES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2700,
     "oldPrice": 1350,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/5878305/pexels-photo-5878305.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5878305/pexels-photo-5878305.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -2783,8 +2915,9 @@ export const products = [
     "description": "NUEL NUEL NUTRITIONAL YEAST TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 800,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/7034124/pexels-photo-7034124.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7034124/pexels-photo-7034124.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2804,8 +2937,9 @@ export const products = [
     "description": "IMODIUM IMODIUM INSTANT MELTS LOPERAMIDE HYDROCHLORIDE X 12 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 35000,
     "oldPrice": 17000,
-    "image": "/images/categories/digestive-health.svg",
+    "image": "https://images.pexels.com/photos/3923157/pexels-photo-3923157.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3923157/pexels-photo-3923157.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/digestive-health.svg"
     ],
     "category": "Antacids & Digestive Health",
@@ -2825,8 +2959,9 @@ export const products = [
     "description": "IMODIUM IMODIUM ORIGINAL 2MG CAPSULES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 20000,
     "oldPrice": 10500,
-    "image": "/images/categories/digestive-health.svg",
+    "image": "https://images.pexels.com/photos/29268302/pexels-photo-29268302.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29268302/pexels-photo-29268302.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/digestive-health.svg"
     ],
     "category": "Antacids & Digestive Health",
@@ -2846,8 +2981,9 @@ export const products = [
     "description": "LODIUM LODIUM ORAL CAPSULE X 10. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1050,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/7904404/pexels-photo-7904404.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7904404/pexels-photo-7904404.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -2867,8 +3003,9 @@ export const products = [
     "description": "ANGEL ANGEL BABY WIPES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/8432207/pexels-photo-8432207.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8432207/pexels-photo-8432207.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2888,8 +3025,9 @@ export const products = [
     "description": "SOFTCARE SOFTCARE BABY WIPES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/8432207/pexels-photo-8432207.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8432207/pexels-photo-8432207.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -2909,8 +3047,9 @@ export const products = [
     "description": "AMSTEL AMSTEL MALTA DRINK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 542,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/28902912/pexels-photo-28902912.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28902912/pexels-photo-28902912.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -2930,8 +3069,9 @@ export const products = [
     "description": "FAYROUZ FAYROUZ PINEAPPLE SPARKLING DRINK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 542,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/30264332/pexels-photo-30264332.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30264332/pexels-photo-30264332.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -2951,8 +3091,9 @@ export const products = [
     "description": "CHIVITA CHIVITA EXOTIC SPARKLING CAN DRINK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1200,
     "oldPrice": 633,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/30264333/pexels-photo-30264333.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30264333/pexels-photo-30264333.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -2972,8 +3113,9 @@ export const products = [
     "description": "NIVEA NIVEA WHITENING BODY LOTION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14000,
     "oldPrice": 7000,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/16615430/pexels-photo-16615430.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/16615430/pexels-photo-16615430.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -2993,8 +3135,9 @@ export const products = [
     "description": "CHIVITA CHIVITA RED GRAPE JUICE 1L. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1800,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/32097345/pexels-photo-32097345.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/32097345/pexels-photo-32097345.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -3012,10 +3155,11 @@ export const products = [
     "name": "DENTAL FLOSS 50PICS",
     "sku": "DENTA958",
     "description": "DENTAL DENTAL FLOSS 50PICS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/oral-care.svg",
+    "price": 3000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/5938281/pexels-photo-5938281.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5938281/pexels-photo-5938281.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -3033,10 +3177,11 @@ export const products = [
     "name": "DENTAL FLOSS 30PICS",
     "sku": "DENTA780",
     "description": "DENTAL DENTAL FLOSS 30PICS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1200000,
-    "oldPrice": 667000,
-    "image": "/images/categories/oral-care.svg",
+    "price": 1200,
+    "oldPrice": 667,
+    "image": "https://images.pexels.com/photos/5938281/pexels-photo-5938281.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5938281/pexels-photo-5938281.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -3054,10 +3199,11 @@ export const products = [
     "name": "COCA COLA CAN DRINK",
     "sku": "COCA565",
     "description": "COCA COCA COLA CAN DRINK. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 950000,
-    "oldPrice": 450000,
-    "image": "/images/categories/food-beverages.svg",
+    "price": 950,
+    "oldPrice": 450,
+    "image": "https://images.pexels.com/photos/4113632/pexels-photo-4113632.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4113632/pexels-photo-4113632.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -3075,10 +3221,11 @@ export const products = [
     "name": "AMLODIPINE 5MG (TEVA)",
     "sku": "5017007023364",
     "description": "AMLODIPINE AMLODIPINE 5MG (TEVA). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3700000,
-    "oldPrice": 1400000,
-    "image": "/images/categories/cardiovascular.svg",
+    "price": 3700,
+    "oldPrice": 1400,
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -3096,10 +3243,11 @@ export const products = [
     "name": "CETIDYN-L 5MG CAPLETS",
     "sku": "CETID476",
     "description": "CETIDYN-L CETIDYN-L 5MG CAPLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3117,10 +3265,11 @@ export const products = [
     "name": "CET-10(10MG)",
     "sku": "CET-1604",
     "description": "CET-1010MG CET-10(10MG). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3138,10 +3287,11 @@ export const products = [
     "name": "EARTH CREATION NATURAL MAGNESIUM GLYCINATE 360MG",
     "sku": "EARTH122",
     "description": "EARTH EARTH CREATION NATURAL MAGNESIUM GLYCINATE 360MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 45500000,
-    "oldPrice": 25000000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 45500,
+    "oldPrice": 25000,
+    "image": "https://images.pexels.com/photos/17604755/pexels-photo-17604755.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/17604755/pexels-photo-17604755.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -3159,10 +3309,11 @@ export const products = [
     "name": "FULGRIVIN CREAM 30GM 1%",
     "sku": "FULGR407",
     "description": "FULGRIVIN FULGRIVIN CREAM 30GM 1%. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1700000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3500,
+    "oldPrice": 1700,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -3180,10 +3331,11 @@ export const products = [
     "name": "CLARITYNE NON-DROWSY X 10 TABLETS",
     "sku": "CLAIR660",
     "description": "CLARITYNE CLARITYNE NON-DROWSY X 10 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 17800000,
-    "oldPrice": 8500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 17800,
+    "oldPrice": 8500,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3201,10 +3353,11 @@ export const products = [
     "name": "FLUCORDAY NON-DROWSY SOFTGEL",
     "sku": "FLUCO987",
     "description": "FLUCORDAY FLUCORDAY NON-DROWSY SOFTGEL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4500000,
-    "oldPrice": 2035000,
-    "image": "/images/categories/general-health.svg",
+    "price": 4500,
+    "oldPrice": 2035,
+    "image": "https://images.pexels.com/photos/7277984/pexels-photo-7277984.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7277984/pexels-photo-7277984.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3222,10 +3375,11 @@ export const products = [
     "name": "XYZAL 5MG TABLETS",
     "sku": "XYZAL187",
     "description": "XYZAL XYZAL 5MG TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2450000,
-    "image": "/images/categories/general-health.svg",
+    "price": 5000,
+    "oldPrice": 2450,
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3243,10 +3397,11 @@ export const products = [
     "name": "EVANS BAROQUE PIRITONE",
     "sku": "EVANS571",
     "description": "EVANS EVANS BAROQUE PIRITONE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 500000,
-    "oldPrice": 200000,
-    "image": "/images/categories/general-health.svg",
+    "price": 500,
+    "oldPrice": 200,
+    "image": "https://images.pexels.com/photos/3849598/pexels-photo-3849598.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3849598/pexels-photo-3849598.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3264,10 +3419,11 @@ export const products = [
     "name": "GESTID SUSPENSION 200ML",
     "sku": "GESTI449",
     "description": "GESTID GESTID SUSPENSION 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2100000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 5000,
+    "oldPrice": 2100,
+    "image": "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8657301/pexels-photo-8657301.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3285,10 +3441,11 @@ export const products = [
     "name": "NAZA NAZAMOX CAPSULE 500MG",
     "sku": "NAZA898",
     "description": "NAZA NAZA NAZAMOX CAPSULE 500MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 350000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 2000,
+    "oldPrice": 350,
+    "image": "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -3306,10 +3463,11 @@ export const products = [
     "name": "NIZORAL TOPICAL CREAM",
     "sku": "NIZOR717",
     "description": "NIZORAL NIZORAL TOPICAL CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 11300000,
-    "oldPrice": 4500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 11300,
+    "oldPrice": 4500,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -3327,10 +3485,11 @@ export const products = [
     "name": "FEXET 180MG X 20 TABLETS",
     "sku": "FEXET431",
     "description": "FEXET FEXET 180MG X 20 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4500000,
-    "oldPrice": 4000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 4500,
+    "oldPrice": 4000,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3348,10 +3507,11 @@ export const products = [
     "name": "NIVEA MEN DEEP IMPACT LOTION 48H",
     "sku": "NIVEA344",
     "description": "NIVEA NIVEA MEN DEEP IMPACT LOTION 48H. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10000000,
-    "oldPrice": 4250000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 10000,
+    "oldPrice": 4250,
+    "image": "https://images.pexels.com/photos/13006784/pexels-photo-13006784.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13006784/pexels-photo-13006784.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -3369,10 +3529,11 @@ export const products = [
     "name": "ST. IVES BODY WASH ROSE WATER & ALOE VERA",
     "sku": "STI333",
     "description": "ST. ST. IVES BODY WASH ROSE WATER & ALOE VERA. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10000000,
-    "oldPrice": 5000000,
-    "image": "/images/categories/personal-care.svg",
+    "price": 10000,
+    "oldPrice": 5000,
+    "image": "https://images.pexels.com/photos/6231701/pexels-photo-6231701.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6231701/pexels-photo-6231701.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -3390,10 +3551,11 @@ export const products = [
     "name": "JORDAN HARD TOOTH BRUSH",
     "sku": "JORDAS45",
     "description": "JORDAN JORDAN HARD TOOTH BRUSH. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 500000,
-    "image": "/images/categories/oral-care.svg",
+    "price": 1500,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/4045554/pexels-photo-4045554.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4045554/pexels-photo-4045554.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -3411,10 +3573,11 @@ export const products = [
     "name": "ORAL-B TOOTHPASTE S/S",
     "sku": "8001090279170",
     "description": "ORAL-B ORAL-B TOOTHPASTE S/S. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 700000,
-    "image": "/images/categories/oral-care.svg",
+    "price": 1500,
+    "oldPrice": 700,
+    "image": "https://images.pexels.com/photos/15499664/pexels-photo-15499664.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/15499664/pexels-photo-15499664.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -3432,10 +3595,11 @@ export const products = [
     "name": "MONTRAL 5MG X 10",
     "sku": "MONTR321",
     "description": "MONTRAL MONTRAL 5MG X 10. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2800000,
-    "image": "/images/categories/general-health.svg",
+    "price": 5000,
+    "oldPrice": 2800,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3453,10 +3617,11 @@ export const products = [
     "name": "MECURE'S PREDNISOLONE TABLETS",
     "sku": "MECUR962",
     "description": "MECURE'S MECURE'S PREDNISOLONE TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 1000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/10449256/pexels-photo-10449256.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10449256/pexels-photo-10449256.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3474,10 +3639,11 @@ export const products = [
     "name": "XASTEN TABLET 0.5MG",
     "sku": "XASTE625",
     "description": "XASTEN XASTEN TABLET 0.5MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 1000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -3495,10 +3661,11 @@ export const products = [
     "name": "MONTIGET 10MG X 28 TABLETS",
     "sku": "MONT1856",
     "description": "MONTIGET MONTIGET 10MG X 28 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1170000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 1170,
+    "image": "https://images.pexels.com/photos/6756091/pexels-photo-6756091.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6756091/pexels-photo-6756091.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3516,10 +3683,11 @@ export const products = [
     "name": "BILAXTEN 20MG X 10 TABLETS",
     "sku": "BILAX786",
     "description": "BILAXTEN BILAXTEN 20MG X 10 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 7000,
+    "oldPrice": 3500,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3537,10 +3705,11 @@ export const products = [
     "name": "FEXET 120MG X 20 TABLETS",
     "sku": "FEXETI06",
     "description": "FEXET FEXET 120MG X 20 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 2000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 4000,
+    "oldPrice": 2000,
+    "image": "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/18448916/pexels-photo-18448916.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3558,10 +3727,11 @@ export const products = [
     "name": "MULT-ACTION TABLETS X 12 TABLETS",
     "sku": "MULT-237",
     "description": "MULT-ACTION MULT-ACTION TABLETS X 12 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 31350000,
-    "oldPrice": 16500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 31350,
+    "oldPrice": 16500,
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3579,10 +3749,11 @@ export const products = [
     "name": "EVANS BAROQUE PIRITON SYRUP",
     "sku": "EVANS868",
     "description": "EVANS EVANS BAROQUE PIRITON SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
+    "price": 2000,
     "oldPrice": 69000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3600,10 +3771,11 @@ export const products = [
     "name": "CETIDYN SYRUP 5MG/5ML",
     "sku": "CETID638",
     "description": "CETIDYN CETIDYN SYRUP 5MG/5ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 800000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 2000,
+    "oldPrice": 800,
+    "image": "https://images.pexels.com/photos/8976477/pexels-photo-8976477.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8976477/pexels-photo-8976477.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3621,10 +3793,11 @@ export const products = [
     "name": "SINUFED SYRUP",
     "sku": "SINUF141",
     "description": "SINUFED SINUFED SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1100000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 2000,
+    "oldPrice": 1100,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3642,10 +3815,11 @@ export const products = [
     "name": "STOZZON CHLOROPHYLL DRAGEEES",
     "sku": "STOZZ322",
     "description": "STOZZON STOZZON CHLOROPHYLL DRAGEEES. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10000000,
-    "oldPrice": 5500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 10000,
+    "oldPrice": 5500,
+    "image": "https://images.pexels.com/photos/3849598/pexels-photo-3849598.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3849598/pexels-photo-3849598.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3663,10 +3837,11 @@ export const products = [
     "name": "TUXIL CHILDREN RUNNY NOSE & CATARRH 1-12 YEARS",
     "sku": "TUXIL548",
     "description": "TUXIL TUXIL CHILDREN RUNNY NOSE & CATARRH 1-12 YEARS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 750000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2500,
+    "oldPrice": 750,
+    "image": "https://images.pexels.com/photos/6865171/pexels-photo-6865171.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6865171/pexels-photo-6865171.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3684,10 +3859,11 @@ export const products = [
     "name": "COFEX COUGH SYRUP FOR CHILDREN & ADULTS 100ML",
     "sku": "COFEX295",
     "description": "COFEX COFEX COUGH SYRUP FOR CHILDREN & ADULTS 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 750000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 1500,
+    "oldPrice": 750,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3705,10 +3881,11 @@ export const products = [
     "name": "EMZOLYN EXPECTORANT 100ML",
     "sku": "EMZOL645",
     "description": "EMZOLYN EMZOLYN EXPECTORANT 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1050000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 3000,
+    "oldPrice": 1050,
+    "image": "https://images.pexels.com/photos/36417733/pexels-photo-36417733.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36417733/pexels-photo-36417733.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3726,10 +3903,11 @@ export const products = [
     "name": "KOFOL HERBAL SYRUP 100ML",
     "sku": "KOFOL375",
     "description": "KOFOL KOFOL HERBAL SYRUP 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 5000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3747,10 +3925,11 @@ export const products = [
     "name": "NEOFYLIN COUGH SYRUP 100ML",
     "sku": "NEOFY934",
     "description": "NEOFYLIN NEOFYLIN COUGH SYRUP 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 650000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 3500,
+    "oldPrice": 650,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3768,10 +3947,11 @@ export const products = [
     "name": "CODOLIN EXPECTORANT COUGH SYRUP 100ML",
     "sku": "CODOL874",
     "description": "CODOLIN CODOLIN EXPECTORANT COUGH SYRUP 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 3500,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3789,10 +3969,11 @@ export const products = [
     "name": "COFLIN COUGH LINCTUS",
     "sku": "COFLI129",
     "description": "COFLIN COFLIN COUGH LINCTUS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1745000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 3500,
+    "oldPrice": 1745,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3810,10 +3991,11 @@ export const products = [
     "name": "BENYLIN DRY COUGH 75MG/5ML SYRUP",
     "sku": "BENYL574",
     "description": "BENYLIN BENYLIN DRY COUGH 75MG/5ML SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 32000000,
-    "oldPrice": 16000000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 32000,
+    "oldPrice": 16000,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3831,10 +4013,11 @@ export const products = [
     "name": "BENYLIN CHESTY COUGH SYRUP",
     "sku": "BENYL254",
     "description": "BENYLIN BENYLIN CHESTY COUGH SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 27800000,
-    "oldPrice": 14000000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 27800,
+    "oldPrice": 14000,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3852,10 +4035,11 @@ export const products = [
     "name": "BENYLIN MUCUS COUGH NIGHT",
     "sku": "BENYL943",
     "description": "BENYLIN BENYLIN MUCUS COUGH NIGHT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 32800000,
-    "oldPrice": 16000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 32800,
+    "oldPrice": 16000,
+    "image": "https://images.pexels.com/photos/5858844/pexels-photo-5858844.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858844/pexels-photo-5858844.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -3873,10 +4057,11 @@ export const products = [
     "name": "BENYLIN DRY COUGH NIGHT SYRUP",
     "sku": "BENYL478",
     "description": "BENYLIN BENYLIN DRY COUGH NIGHT SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 27700000,
-    "oldPrice": 14000000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 27700,
+    "oldPrice": 14000,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3894,10 +4079,11 @@ export const products = [
     "name": "BUTTERCUP NON-DROWSY ORIGINAL COUGH SYRUP 75ML",
     "sku": "BUTTE733",
     "description": "BUTTERCUP BUTTERCUP NON-DROWSY ORIGINAL COUGH SYRUP 75ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 20000000,
-    "oldPrice": 10000000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 20000,
+    "oldPrice": 10000,
+    "image": "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3915,10 +4101,11 @@ export const products = [
     "name": "ATADYN NON-DROWSY SYRUP",
     "sku": "ATADY149",
     "description": "ATADYN ATADYN NON-DROWSY SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 1610000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 4000,
+    "oldPrice": 1610,
+    "image": "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10022079/pexels-photo-10022079.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3936,10 +4123,11 @@ export const products = [
     "name": "CLARITYN CHILDREN 2+ ALLERGY SYRUP",
     "sku": "CLARI536",
     "description": "CLARITYN CLARITYN CHILDREN 2+ ALLERGY SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 26000000,
-    "oldPrice": 12500000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 26000,
+    "oldPrice": 12500,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3957,10 +4145,11 @@ export const products = [
     "name": "NOVALYN DRY COUGH SYRUP",
     "sku": "NOVAL228",
     "description": "NOVALYN NOVALYN DRY COUGH SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 805000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 2500,
+    "oldPrice": 805,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -3978,10 +4167,11 @@ export const products = [
     "name": "SUDAFED DECONGESTANT SYRUP",
     "sku": "SUDAF470",
     "description": "SUDAFED SUDAFED DECONGESTANT SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22000000,
-    "oldPrice": 10500000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 22000,
+    "oldPrice": 10500,
+    "image": "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -3999,10 +4189,11 @@ export const products = [
     "name": "NGC EXPECTORANT COUGH SYRUP",
     "sku": "NGCE315",
     "description": "NGC NGC EXPECTORANT COUGH SYRUP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 700000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 2000,
+    "oldPrice": 700,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -4020,10 +4211,11 @@ export const products = [
     "name": "MELOTEAES EYE DROPS HYPROMELLOSE USP 0.30%",
     "sku": "MELOT116",
     "description": "MELOTEAES MELOTEAES EYE DROPS HYPROMELLOSE USP 0.30%. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4500000,
-    "oldPrice": 2800000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 4500,
+    "oldPrice": 2800,
+    "image": "https://images.pexels.com/photos/12236651/pexels-photo-12236651.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/12236651/pexels-photo-12236651.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4041,10 +4233,11 @@ export const products = [
     "name": "DUOSOPT EYEDROPS",
     "sku": "DUOSO823",
     "description": "DUOSOPT DUOSOPT EYEDROPS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9000000,
-    "oldPrice": 4500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 9000,
+    "oldPrice": 4500,
+    "image": "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4062,10 +4255,11 @@ export const products = [
     "name": "CALPOL SALINE NASAL DROPS",
     "sku": "CALPO828",
     "description": "CALPOL CALPOL SALINE NASAL DROPS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 21000000,
-    "oldPrice": 11000000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 21000,
+    "oldPrice": 11000,
+    "image": "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4083,10 +4277,11 @@ export const products = [
     "name": "DRUGFIELD CHLORAPHENICOL STERILE EYEDROP 0.5%",
     "sku": "DRUGF451",
     "description": "DRUGFIELD DRUGFIELD CHLORAPHENICOL STERILE EYEDROP 0.5%. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 750000,
-    "image": "/images/categories/general-health.svg",
+    "price": 1500,
+    "oldPrice": 750,
+    "image": "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4104,10 +4299,11 @@ export const products = [
     "name": "DRUGFIELD CHLORAPHENICOL EYE OINTMENT 10MG/G",
     "sku": "DRUGF467",
     "description": "DRUGFIELD DRUGFIELD CHLORAPHENICOL EYE OINTMENT 10MG/G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 750000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 1500,
+    "oldPrice": 750,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4125,10 +4321,11 @@ export const products = [
     "name": "OPTIMOL EYEDROPS 5ML",
     "sku": "OPTIM413",
     "description": "OPTIMOL OPTIMOL EYEDROPS 5ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8000000,
-    "oldPrice": 4200000,
-    "image": "/images/categories/general-health.svg",
+    "price": 8000,
+    "oldPrice": 4200,
+    "image": "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4146,10 +4343,11 @@ export const products = [
     "name": "OPTIVISC EYEDROPS ARTIFICIAL TEARS FOR DRY EYES",
     "sku": "OPTIV540",
     "description": "OPTIVISC OPTIVISC EYEDROPS ARTIFICIAL TEARS FOR DRY EYES. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9000000,
-    "oldPrice": 4500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 9000,
+    "oldPrice": 4500,
+    "image": "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4167,10 +4365,11 @@ export const products = [
     "name": "TEARS NATURALE II 15ML",
     "sku": "TEARS248",
     "description": "TEARS TEARS NATURALE II 15ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22700000,
-    "oldPrice": 11800000,
-    "image": "/images/categories/general-health.svg",
+    "price": 22700,
+    "oldPrice": 11800,
+    "image": "https://images.pexels.com/photos/5842834/pexels-photo-5842834.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5842834/pexels-photo-5842834.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4188,10 +4387,11 @@ export const products = [
     "name": "OTRIVINE ADULT NASAL SPRAY DROPS",
     "sku": "OTRIV182",
     "description": "OTRIVINE OTRIVINE ADULT NASAL SPRAY DROPS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22500000,
-    "oldPrice": 12000000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 22500,
+    "oldPrice": 12000,
+    "image": "https://images.pexels.com/photos/9874622/pexels-photo-9874622.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9874622/pexels-photo-9874622.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4209,10 +4409,11 @@ export const products = [
     "name": "GENTAFAITH EYE / EAR DROP 10ML",
     "sku": "GENTA839",
     "description": "GENTAFAITH GENTAFAITH EYE / EAR DROP 10ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 700000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 3000,
+    "oldPrice": 700,
+    "image": "https://images.pexels.com/photos/36441154/pexels-photo-36441154.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36441154/pexels-photo-36441154.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4230,10 +4431,11 @@ export const products = [
     "name": "OTRIVINE SINUSITIS RELIEF NASAL SPRAY",
     "sku": "OTRIV312",
     "description": "OTRIVINE OTRIVINE SINUSITIS RELIEF NASAL SPRAY. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 20000000,
-    "oldPrice": 12000000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 20000,
+    "oldPrice": 12000,
+    "image": "https://images.pexels.com/photos/9874622/pexels-photo-9874622.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9874622/pexels-photo-9874622.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4251,10 +4453,11 @@ export const products = [
     "name": "AVENTRA CHLORAPHENICOL EYE DROPS",
     "sku": "AVENT424",
     "description": "AVENTRA AVENTRA CHLORAPHENICOL EYE DROPS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 2000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4272,10 +4475,11 @@ export const products = [
     "name": "ALPHAGAN OPTHALMIC SOLUTION",
     "sku": "ALPHA329",
     "description": "ALPHAGAN ALPHAGAN OPTHALMIC SOLUTION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 16750000,
-    "oldPrice": 8700000,
-    "image": "/images/categories/general-health.svg",
+    "price": 16750,
+    "oldPrice": 8700,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4293,10 +4497,11 @@ export const products = [
     "name": "DRUGFIELD FLUCAMED STERILE EYE/ERA DROPS 5ML",
     "sku": "DRUGF680",
     "description": "DRUGFIELD DRUGFIELD FLUCAMED STERILE EYE/ERA DROPS 5ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1750000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 3500,
+    "oldPrice": 1750,
+    "image": "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4314,10 +4519,11 @@ export const products = [
     "name": "EMBA WARTIN DROP",
     "sku": "EMBA456",
     "description": "EMBA EMBA WARTIN DROP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3500000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 7000,
+    "oldPrice": 3500,
+    "image": "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4335,10 +4541,11 @@ export const products = [
     "name": "TOBREX STERILE OPTHALMIC OINTMENT",
     "sku": "TOBRE665",
     "description": "TOBREX TOBREX STERILE OPTHALMIC OINTMENT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 13000000,
-    "oldPrice": 8000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 13000,
+    "oldPrice": 8000,
+    "image": "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31852747/pexels-photo-31852747.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4356,10 +4563,11 @@ export const products = [
     "name": "DRUGFIELD ANTALLERGE STERILE EYE DROPS",
     "sku": "DRUGF546",
     "description": "DRUGFIELD DRUGFIELD ANTALLERGE STERILE EYE DROPS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2000000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 5000,
+    "oldPrice": 2000,
+    "image": "https://images.pexels.com/photos/3944795/pexels-photo-3944795.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3944795/pexels-photo-3944795.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4377,10 +4585,11 @@ export const products = [
     "name": "OPTREX MULTI ACTION EYE WASH",
     "sku": "OPTRE649",
     "description": "OPTREX OPTREX MULTI ACTION EYE WASH. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 16000000,
-    "oldPrice": 7800000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 16000,
+    "oldPrice": 7800,
+    "image": "https://images.pexels.com/photos/38688812/pexels-photo-38688812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/38688812/pexels-photo-38688812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4398,10 +4607,11 @@ export const products = [
     "name": "ZAPZYT ACNE TREATMENT GEL",
     "sku": "ZAPZY605",
     "description": "ZAPZYT ZAPZYT ACNE TREATMENT GEL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22500000,
-    "oldPrice": 12000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 22500,
+    "oldPrice": 12000,
+    "image": "https://images.pexels.com/photos/6475989/pexels-photo-6475989.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6475989/pexels-photo-6475989.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4419,8 +4629,8 @@ export const products = [
     "name": "ROBB WELL BEING INHALER",
     "sku": "ROBB554",
     "description": "ROBB ROBB WELL BEING INHALER. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1200000,
-    "oldPrice": 500000,
+    "price": 1200,
+    "oldPrice": 500,
     "image": "/images/categories/respiratory.svg",
     "images": [
       "/images/categories/respiratory.svg"
@@ -4440,10 +4650,11 @@ export const products = [
     "name": "CXY-10",
     "sku": "CXY-597",
     "description": "CXY-10 CXY-10. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 14000000,
-    "oldPrice": 7500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 14000,
+    "oldPrice": 7500,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4461,10 +4672,11 @@ export const products = [
     "name": "VICKS NASAL INHALER",
     "sku": "VICKS365",
     "description": "VICKS VICKS NASAL INHALER. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1200000,
-    "image": "/images/categories/eye-ear-nasal-drops.svg",
+    "price": 2500,
+    "oldPrice": 1200,
+    "image": "https://images.pexels.com/photos/30367574/pexels-photo-30367574.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30367574/pexels-photo-30367574.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/eye-ear-nasal-drops.svg"
     ],
     "category": "Eye, Ear & Nasal Drops",
@@ -4482,8 +4694,8 @@ export const products = [
     "name": "POWERHEAT CREAM 25G",
     "sku": "POWER780",
     "description": "POWERHEAT POWERHEAT CREAM 25G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1500000,
+    "price": 2500,
+    "oldPrice": 1500,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4503,8 +4715,8 @@ export const products = [
     "name": "MC VITES BUTTER SHORT BREAD",
     "sku": "MCVI865",
     "description": "MC MC VITES BUTTER SHORT BREAD. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 2000000,
+    "price": 4000,
+    "oldPrice": 2000,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -4524,10 +4736,11 @@ export const products = [
     "name": "SKIMATE CREAM",
     "sku": "SKIMA710",
     "description": "SKIMATE SKIMATE CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4545,10 +4758,11 @@ export const products = [
     "name": "DRUGFIELD BICOTEN 35G",
     "sku": "DRUGF403",
     "description": "DRUGFIELD DRUGFIELD BICOTEN 35G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227840/pexels-photo-9227840.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4566,10 +4780,11 @@ export const products = [
     "name": "CANESTEN ANTIFUNGICREAM CLOTRIMAZOLE 20G",
     "sku": "CANES690",
     "description": "CANESTEN CANESTEN ANTIFUNGICREAM CLOTRIMAZOLE 20G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 15200000,
-    "oldPrice": 8000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 15200,
+    "oldPrice": 8000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4587,10 +4802,11 @@ export const products = [
     "name": "DRUGFIELD MYCOTEN CREAM 20G",
     "sku": "DRUGF795",
     "description": "DRUGFIELD DRUGFIELD MYCOTEN CREAM 20G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 8000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 8000,
+    "image": "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227861/pexels-photo-9227861.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4608,8 +4824,8 @@ export const products = [
     "name": "DRUGFIELD HYDROCORTISONE CREAM 15G 1%",
     "sku": "DRUGF758",
     "description": "DRUGFIELD DRUGFIELD HYDROCORTISONE CREAM 15G 1%. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1500000,
+    "price": 2500,
+    "oldPrice": 1500,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4629,10 +4845,11 @@ export const products = [
     "name": "BABY TRIBOTAN CREAM 20G",
     "sku": "BABY320",
     "description": "BABY BABY TRIBOTAN CREAM 20G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4650,8 +4867,8 @@ export const products = [
     "name": "DRUGFIELD WHITEFIELDS CINTMENT 20G",
     "sku": "DRUGF512",
     "description": "DRUGFIELD DRUGFIELD WHITEFIELDS CINTMENT 20G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 8000000,
+    "price": 1500,
+    "oldPrice": 8000,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -4671,8 +4888,8 @@ export const products = [
     "name": "FINASIL CREAM",
     "sku": "FINAS811",
     "description": "FINASIL FINASIL CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 4000000,
-    "oldPrice": 2000000,
+    "price": 4000,
+    "oldPrice": 2000,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4692,10 +4909,11 @@ export const products = [
     "name": "DRUGFIELD DRUJELA MOUTH GEL 10G",
     "sku": "DRUGF698",
     "description": "DRUGFIELD DRUGFIELD DRUJELA MOUTH GEL 10G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4713,10 +4931,11 @@ export const products = [
     "name": "RATIN-A PLUS",
     "sku": "RATIN685",
     "description": "RATIN-A RATIN-A PLUS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3700000,
-    "image": "/images/categories/general-health.svg",
+    "price": 7000,
+    "oldPrice": 3700,
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4734,8 +4953,8 @@ export const products = [
     "name": "ANUSOL OINTMENT 3 WAY ACTION",
     "sku": "ANUSO490",
     "description": "ANUSOL ANUSOL OINTMENT 3 WAY ACTION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 20000000,
-    "oldPrice": 10500000,
+    "price": 20000,
+    "oldPrice": 10500,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4755,10 +4974,11 @@ export const products = [
     "name": "DRUGFIELD CHLORXY-G GEL",
     "sku": "DRUGF739",
     "description": "DRUGFIELD DRUGFIELD CHLORXY-G GEL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4776,10 +4996,11 @@ export const products = [
     "name": "PODOPHYLLIN CREAM 20GM",
     "sku": "PODOP162",
     "description": "PODOPHYLLIN PODOPHYLLIN CREAM 20GM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2250000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 5000,
+    "oldPrice": 2250,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4797,10 +5018,11 @@ export const products = [
     "name": "NIXODERM FOR SKIN PROBLEMS 15G",
     "sku": "NIXOD769",
     "description": "NIXODERM NIXODERM FOR SKIN PROBLEMS 15G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2200000,
-    "oldPrice": 9000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2200,
+    "oldPrice": 9000,
+    "image": "https://images.pexels.com/photos/4046564/pexels-photo-4046564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4046564/pexels-photo-4046564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4818,10 +5040,11 @@ export const products = [
     "name": "DRUGFIELD PENICILLIN OINTMENT 10,000 IU 20GRAMS",
     "sku": "DRUGF433",
     "description": "DRUGFIELD DRUGFIELD PENICILLIN OINTMENT 10,000 IU 20GRAMS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4839,10 +5062,11 @@ export const products = [
     "name": "BETAMETHASONE CREAM 0.1% (FIDSON)",
     "sku": "BETAM706",
     "description": "BETAMETHASONE BETAMETHASONE CREAM 0.1% (FIDSON). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 8000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3500,
+    "oldPrice": 8000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4860,8 +5084,8 @@ export const products = [
     "name": "CZOCAIN GEL BP2%",
     "sku": "CZOCA771",
     "description": "CZOCAIN CZOCAIN GEL BP2%. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2550000,
+    "price": 5000,
+    "oldPrice": 2550,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4881,8 +5105,8 @@ export const products = [
     "name": "NYSTATIN CREAM 100,000 IU 15G",
     "sku": "NYSTAB04",
     "description": "NYSTATIN NYSTATIN CREAM 100,000 IU 15G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
+    "price": 3000,
+    "oldPrice": 1500,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -4902,10 +5126,11 @@ export const products = [
     "name": "VIREST 5% ACICLOVIR CREAM (HOVID) 5G",
     "sku": "VIRES429",
     "description": "VIREST VIREST 5% ACICLOVIR CREAM (HOVID) 5G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2550000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 5000,
+    "oldPrice": 2550,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4923,10 +5148,11 @@ export const products = [
     "name": "YTACAN CREAM 30GM",
     "sku": "YTACA591",
     "description": "YTACAN YTACAN CREAM 30GM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4944,10 +5170,11 @@ export const products = [
     "name": "DRUGFIELD MYCOTEN-PLUS 300GM",
     "sku": "DRUGF740",
     "description": "DRUGFIELD DRUGFIELD MYCOTEN-PLUS 300GM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 3000,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -4965,10 +5192,11 @@ export const products = [
     "name": "DRUGFIELD MYCOTEN VACINAL CREAM 35G",
     "sku": "DRUGF846",
     "description": "DRUGFIELD DRUGFIELD MYCOTEN VACINAL CREAM 35G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1800000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3500,
+    "oldPrice": 1800,
+    "image": "https://images.pexels.com/photos/9227863/pexels-photo-9227863.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227863/pexels-photo-9227863.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -4986,8 +5214,8 @@ export const products = [
     "name": "KLINFAST FORTE SUPPOSITORY",
     "sku": "KLINF966",
     "description": "KLINFAST KLINFAST FORTE SUPPOSITORY. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2600000,
+    "price": 5000,
+    "oldPrice": 2600,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -5007,8 +5235,8 @@ export const products = [
     "name": "GYNAMED TABLETS",
     "sku": "GYNAM801",
     "description": "GYNAMED GYNAMED TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1700000,
+    "price": 3500,
+    "oldPrice": 1700,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -5028,10 +5256,11 @@ export const products = [
     "name": "DR.GREG'S TYPHOID TEST KIT",
     "sku": "DR.GR552",
     "description": "DR.GREG'S DR.GREG'S TYPHOID TEST KIT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 3050000,
-    "image": "/images/categories/diagnostic-tests.svg",
+    "price": 6000,
+    "oldPrice": 3050,
+    "image": "https://images.pexels.com/photos/8390203/pexels-photo-8390203.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8390203/pexels-photo-8390203.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diagnostic-tests.svg"
     ],
     "category": "Diagnostic Tests",
@@ -5049,10 +5278,11 @@ export const products = [
     "name": "NEIMETH GYNO-TIOCOSID",
     "sku": "NEIME123",
     "description": "NEIMETH NEIMETH GYNO-TIOCOSID. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5070,10 +5300,11 @@ export const products = [
     "name": "ABF-3 CREAM",
     "sku": "ABF-3254",
     "description": "ABF-3 ABF-3 CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1700000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3000,
+    "oldPrice": 1700,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5091,10 +5322,11 @@ export const products = [
     "name": "EURAX CREAM WITH CROTAMITON",
     "sku": "EURAX173",
     "description": "EURAX EURAX CREAM WITH CROTAMITON. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 21000000,
-    "oldPrice": 12000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 21000,
+    "oldPrice": 12000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5112,8 +5344,8 @@ export const products = [
     "name": "ADVANTAN % 0.1 KREM",
     "sku": "ADVAN941",
     "description": "ADVANTAN ADVANTAN % 0.1 KREM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10500000,
-    "oldPrice": 5000000,
+    "price": 10500,
+    "oldPrice": 5000,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -5133,10 +5365,11 @@ export const products = [
     "name": "BETHAMETHASONE CREAM 20G",
     "sku": "BETHIA162",
     "description": "BETHAMETHASONE BETHAMETHASONE CREAM 20G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/33394283/pexels-photo-33394283.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/33394283/pexels-photo-33394283.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5154,10 +5387,11 @@ export const products = [
     "name": "DICLOMOL GEL",
     "sku": "DICL0982",
     "description": "DICLOMOL DICLOMOL GEL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/29268302/pexels-photo-29268302.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29268302/pexels-photo-29268302.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5175,10 +5409,11 @@ export const products = [
     "name": "VOLTAREN EMUGEL % 1,16 JEL",
     "sku": "VOLTA483",
     "description": "VOLTAREN VOLTAREN EMUGEL % 1,16 JEL. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 14000000,
-    "oldPrice": 7500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 14000,
+    "oldPrice": 7500,
+    "image": "https://images.pexels.com/photos/7667668/pexels-photo-7667668.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7667668/pexels-photo-7667668.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5196,8 +5431,8 @@ export const products = [
     "name": "DABUR ODOMOS CREAM",
     "sku": "DABUR789",
     "description": "DABUR DABUR ODOMOS CREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 5000000,
+    "price": 1000,
+    "oldPrice": 5000,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -5217,10 +5452,11 @@ export const products = [
     "name": "DEEP HEAT HEAT RUB",
     "sku": "DEEP390",
     "description": "DEEP DEEP HEAT HEAT RUB. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10000000,
-    "oldPrice": 5000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 10000,
+    "oldPrice": 5000,
+    "image": "https://images.pexels.com/photos/10834146/pexels-photo-10834146.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10834146/pexels-photo-10834146.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5238,8 +5474,8 @@ export const products = [
     "name": "DRUGFIELD NEUROGESIC GREASELESS OINTMENT 35G",
     "sku": "DRUGF910",
     "description": "DRUGFIELD DRUGFIELD NEUROGESIC GREASELESS OINTMENT 35G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2200000,
-    "oldPrice": 1100000,
+    "price": 2200,
+    "oldPrice": 1100,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -5259,10 +5495,11 @@ export const products = [
     "name": "AQUASULF SULFUR OINTMENT 30G",
     "sku": "AQUAS679",
     "description": "AQUASULF AQUASULF SULFUR OINTMENT 30G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 1700000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 3000,
+    "oldPrice": 1700,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5280,10 +5517,11 @@ export const products = [
     "name": "DEEP FREEZE COLD GEL FAST ACTING",
     "sku": "DEEP589",
     "description": "DEEP DEEP FREEZE COLD GEL FAST ACTING. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10500000,
-    "oldPrice": 5500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 10500,
+    "oldPrice": 5500,
+    "image": "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4058359/pexels-photo-4058359.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5301,10 +5539,11 @@ export const products = [
     "name": "DAKTRIN TOPICAL CREAM 15G",
     "sku": "DAKTR292",
     "description": "DAKTRIN DAKTRIN TOPICAL CREAM 15G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9000000,
-    "oldPrice": 4900000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 9000,
+    "oldPrice": 4900,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5322,8 +5561,8 @@ export const products = [
     "name": "NEOFIDROL ACNE LOTION (FIDSON)",
     "sku": "NEOF1151",
     "description": "NEOFIDROL NEOFIDROL ACNE LOTION (FIDSON). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2800000,
+    "price": 5000,
+    "oldPrice": 2800,
     "image": "/images/categories/creams-ointments.svg",
     "images": [
       "/images/categories/creams-ointments.svg"
@@ -5343,10 +5582,11 @@ export const products = [
     "name": "DEEP HEAT SPRAY",
     "sku": "DEEP927",
     "description": "DEEP DEEP HEAT SPRAY. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8000000,
-    "oldPrice": 4100000,
-    "image": "/images/categories/general-health.svg",
+    "price": 8000,
+    "oldPrice": 4100,
+    "image": "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30336149/pexels-photo-30336149.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5364,10 +5604,11 @@ export const products = [
     "name": "NZORAL ANTI-DANDRUFF SHAMPOO",
     "sku": "NZOR143",
     "description": "NZORAL NZORAL ANTI-DANDRUFF SHAMPOO. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 23000000,
-    "oldPrice": 14000000,
-    "image": "/images/categories/personal-care.svg",
+    "price": 23000,
+    "oldPrice": 14000,
+    "image": "https://images.pexels.com/photos/16749130/pexels-photo-16749130.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/16749130/pexels-photo-16749130.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -5385,10 +5626,11 @@ export const products = [
     "name": "SUDOCREAM",
     "sku": "SUDOC761",
     "description": "SUDOCREAM SUDOCREAM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9600000,
-    "oldPrice": 5000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 9600,
+    "oldPrice": 5000,
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5406,8 +5648,8 @@ export const products = [
     "name": "NZORAL DANDRUFF TREATMENT 2% W/W KETOCONAZOLE SHAMPOO",
     "sku": "NZOR666",
     "description": "NZORAL NZORAL DANDRUFF TREATMENT 2% W/W KETOCONAZOLE SHAMPOO. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 45000000,
-    "oldPrice": 29000000,
+    "price": 45000,
+    "oldPrice": 29000,
     "image": "/images/categories/personal-care.svg",
     "images": [
       "/images/categories/personal-care.svg"
@@ -5427,8 +5669,8 @@ export const products = [
     "name": "DR.GREG'S PREGNANCY TEST KIT",
     "sku": "DR.GR945",
     "description": "DR.GREG'S DR.GREG'S PREGNANCY TEST KIT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2500000,
+    "price": 5000,
+    "oldPrice": 2500,
     "image": "/images/categories/diagnostic-tests.svg",
     "images": [
       "/images/categories/diagnostic-tests.svg"
@@ -5448,10 +5690,11 @@ export const products = [
     "name": "MENTHOLATUM BALM",
     "sku": "MENTH838",
     "description": "MENTHOLATUM MENTHOLATUM BALM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1200000,
-    "oldPrice": 6500000,
-    "image": "/images/categories/creams-ointments.svg",
+    "price": 1200,
+    "oldPrice": 6500,
+    "image": "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -5469,10 +5712,11 @@ export const products = [
     "name": "VASELINE BLUESELAVITAMIN E",
     "sku": "VASEL379",
     "description": "VASELINE VASELINE BLUESELAVITAMIN E. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8500000,
-    "oldPrice": 4800000,
-    "image": "/images/categories/general-health.svg",
+    "price": 8500,
+    "oldPrice": 4800,
+    "image": "https://images.pexels.com/photos/30374592/pexels-photo-30374592.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30374592/pexels-photo-30374592.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5490,10 +5734,11 @@ export const products = [
     "name": "DR.GREG'S MALARIA HOME TEST KIT",
     "sku": "DR.GRI00",
     "description": "DR.GREG'S DR.GREG'S MALARIA HOME TEST KIT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5500000,
-    "oldPrice": 2836000,
-    "image": "/images/categories/diagnostic-tests.svg",
+    "price": 5500,
+    "oldPrice": 2836,
+    "image": "https://images.pexels.com/photos/8390203/pexels-photo-8390203.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8390203/pexels-photo-8390203.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diagnostic-tests.svg"
     ],
     "category": "Diagnostic Tests",
@@ -5511,8 +5756,8 @@ export const products = [
     "name": "DR.GREG'S OVULATION TEST STRIP",
     "sku": "DR.GR763",
     "description": "DR.GREG'S DR.GREG'S OVULATION TEST STRIP. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 10000000,
-    "oldPrice": 5000000,
+    "price": 10000,
+    "oldPrice": 5000,
     "image": "/images/categories/diagnostic-tests.svg",
     "images": [
       "/images/categories/diagnostic-tests.svg"
@@ -5534,8 +5779,9 @@ export const products = [
     "description": "LEVOFEM LEVOFEM TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 600,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/9742754/pexels-photo-9742754.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742754/pexels-photo-9742754.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -5555,8 +5801,9 @@ export const products = [
     "description": "HUMBLE HUMBLE ONE-STEP PREGNANCY STRIP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 200,
     "oldPrice": 50,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/6213646/pexels-photo-6213646.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6213646/pexels-photo-6213646.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5597,8 +5844,9 @@ export const products = [
     "description": "MOLPED MOLPED MAXI THICK PAD. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1050,
-    "image": "/images/categories/feminine-care.svg",
+    "image": "https://images.pexels.com/photos/7692275/pexels-photo-7692275.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7692275/pexels-photo-7692275.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/feminine-care.svg"
     ],
     "category": "Feminine Care",
@@ -5618,8 +5866,9 @@ export const products = [
     "description": "MOLPED MOLPED ULTRA SOFT PAD. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1050,
-    "image": "/images/categories/feminine-care.svg",
+    "image": "https://images.pexels.com/photos/7692271/pexels-photo-7692271.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7692271/pexels-photo-7692271.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/feminine-care.svg"
     ],
     "category": "Feminine Care",
@@ -5660,8 +5909,9 @@ export const products = [
     "description": "KOTEX KOTEX MAXI 16 NORMAL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 1600,
-    "image": "/images/categories/feminine-care.svg",
+    "image": "https://images.pexels.com/photos/5938423/pexels-photo-5938423.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5938423/pexels-photo-5938423.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/feminine-care.svg"
     ],
     "category": "Feminine Care",
@@ -5681,8 +5931,9 @@ export const products = [
     "description": "MINTY MINTY BRETT MOUTHWASH 500ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1310,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -5702,8 +5953,9 @@ export const products = [
     "description": "GOLD GOLD BRETT MOUTHWASH 500ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1310,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/30551804/pexels-photo-30551804.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30551804/pexels-photo-30551804.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -5744,8 +5996,9 @@ export const products = [
     "description": "LISTERINE LISTERINE TOTAL CARE FRESH MINT MOUTHWASH 250ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 10000,
     "oldPrice": 5000,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -5765,8 +6018,9 @@ export const products = [
     "description": "SPARTAN SPARTAN C WHITE VITAMIN C. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3200,
     "oldPrice": 1500,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "image": "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -5786,8 +6040,9 @@ export const products = [
     "description": "COOL COOL MINT LISTERINE MOUTHWASH. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14500,
     "oldPrice": 8000,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30551803/pexels-photo-30551803.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -5807,8 +6062,9 @@ export const products = [
     "description": "TEETH TEETH & GUM DEFENSE LISTERINE MOUTHWASH. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14500,
     "oldPrice": 8000,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/30551804/pexels-photo-30551804.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30551804/pexels-photo-30551804.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -5849,8 +6105,9 @@ export const products = [
     "description": "KANG KANG YI MEI DISPOSABLE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/5994625/pexels-photo-5994625.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5994625/pexels-photo-5994625.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5891,8 +6148,9 @@ export const products = [
     "description": "ROSE ROSE BELLE TISSUE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1750,
     "oldPrice": 500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/4097188/pexels-photo-4097188.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4097188/pexels-photo-4097188.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5933,8 +6191,9 @@ export const products = [
     "description": "DIPLOMAT DIPLOMAT VIP STANDARD HARD. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/5407207/pexels-photo-5407207.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5407207/pexels-photo-5407207.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -5954,8 +6213,9 @@ export const products = [
     "description": "OGL OGL MALTED MILK BISCUIT. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 1500,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/37304947/pexels-photo-37304947.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/37304947/pexels-photo-37304947.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -5975,8 +6235,9 @@ export const products = [
     "description": "FAMILIA FAMILIA TISSUE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 60,
     "oldPrice": 300,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3873200/pexels-photo-3873200.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3873200/pexels-photo-3873200.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6017,8 +6278,9 @@ export const products = [
     "description": "FAMILIA FAMILIA ULTRA KITCHEN ROLLS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 7500,
     "oldPrice": 3000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/33900624/pexels-photo-33900624.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/33900624/pexels-photo-33900624.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6036,10 +6298,11 @@ export const products = [
     "name": "HAODA BATH TOOLS",
     "sku": "HAODA844",
     "description": "HAODA HAODA BATH TOOLS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2000000,
-    "oldPrice": 1000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2000,
+    "oldPrice": 1000,
+    "image": "https://images.pexels.com/photos/6753150/pexels-photo-6753150.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6753150/pexels-photo-6753150.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6057,10 +6320,11 @@ export const products = [
     "name": "SPORT UNLIMITED FOOTWEAR",
     "sku": "SPORT278",
     "description": "SPORT SPORT UNLIMITED FOOTWEAR. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1500000,
-    "image": "/images/categories/general-health.svg",
+    "price": 2500,
+    "oldPrice": 1500,
+    "image": "https://images.pexels.com/photos/115009/sport-shoe-running-shoe-shoe-blue-jeans-115009.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/115009/sport-shoe-running-shoe-shoe-blue-jeans-115009.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6078,8 +6342,8 @@ export const products = [
     "name": "BLACK NOSE MASK",
     "sku": "BLACK405",
     "description": "BLACK BLACK NOSE MASK. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 200000,
-    "oldPrice": 100000,
+    "price": 200,
+    "oldPrice": 100,
     "image": "/images/categories/medical-supplies.svg",
     "images": [
       "/images/categories/medical-supplies.svg"
@@ -6099,10 +6363,11 @@ export const products = [
     "name": "KIDS NOSE MASK",
     "sku": "KIDS973",
     "description": "KIDS KIDS NOSE MASK. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 200000,
-    "oldPrice": 100000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 200,
+    "oldPrice": 100,
+    "image": "https://images.pexels.com/photos/7956963/pexels-photo-7956963.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7956963/pexels-photo-7956963.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -6120,10 +6385,11 @@ export const products = [
     "name": "BLUE DISPOSABLE NOSE MASK",
     "sku": "BLUE144",
     "description": "BLUE BLUE DISPOSABLE NOSE MASK. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 200000,
-    "oldPrice": 100000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 200,
+    "oldPrice": 100,
+    "image": "https://images.pexels.com/photos/5040601/pexels-photo-5040601.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5040601/pexels-photo-5040601.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -6141,8 +6407,8 @@ export const products = [
     "name": "BANDAGE B/S",
     "sku": "BANDA884",
     "description": "BANDAGE BANDAGE B/S. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 500000,
+    "price": 1500,
+    "oldPrice": 500,
     "image": "/images/categories/medical-supplies.svg",
     "images": [
       "/images/categories/medical-supplies.svg"
@@ -6162,10 +6428,11 @@ export const products = [
     "name": "BANDAGE S/S",
     "sku": "BANDA459",
     "description": "BANDAGE BANDAGE S/S. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1000000,
-    "oldPrice": 500000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 1000,
+    "oldPrice": 500,
+    "image": "https://images.pexels.com/photos/9486091/pexels-photo-9486091.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9486091/pexels-photo-9486091.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -6183,10 +6450,11 @@ export const products = [
     "name": "DUREX REGULAR FIT",
     "sku": "DUREX437",
     "description": "DUREX DUREX REGULAR FIT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 2800000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 6000,
+    "oldPrice": 2800,
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6204,10 +6472,11 @@ export const products = [
     "name": "DUREX SELECT FRUITY FLAVOUR",
     "sku": "DUREX355",
     "description": "DUREX DUREX SELECT FRUITY FLAVOUR. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 2800000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 6000,
+    "oldPrice": 2800,
+    "image": "https://images.pexels.com/photos/9902270/pexels-photo-9902270.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9902270/pexels-photo-9902270.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6225,10 +6494,11 @@ export const products = [
     "name": "DUREX FETHERLITE",
     "sku": "DUREX995",
     "description": "DUREX DUREX FETHERLITE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6500000,
-    "oldPrice": 3000000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 6500,
+    "oldPrice": 3000,
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6246,10 +6516,11 @@ export const products = [
     "name": "WET N WILD EXTRA LUBRICATED",
     "sku": "WETN721",
     "description": "WET WET N WILD EXTRA LUBRICATED. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2300000,
-    "image": "/images/categories/general-health.svg",
+    "price": 5000,
+    "oldPrice": 2300,
+    "image": "https://images.pexels.com/photos/5915399/pexels-photo-5915399.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5915399/pexels-photo-5915399.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6267,8 +6538,8 @@ export const products = [
     "name": "KING SIZE",
     "sku": "KING850",
     "description": "KING KING SIZE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2300000,
+    "price": 5000,
+    "oldPrice": 2300,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -6288,8 +6559,8 @@ export const products = [
     "name": "AFRO MAMBA STRIPP VANILLA",
     "sku": "AFRO394",
     "description": "AFRO AFRO MAMBA STRIPP VANILLA. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1000000,
+    "price": 2500,
+    "oldPrice": 1000,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -6309,10 +6580,11 @@ export const products = [
     "name": "EROTICA RIBBED",
     "sku": "EROT1957",
     "description": "EROTICA EROTICA RIBBED. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2300000,
-    "image": "/images/categories/general-health.svg",
+    "price": 5000,
+    "oldPrice": 2300,
+    "image": "https://images.pexels.com/photos/5187501/pexels-photo-5187501.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5187501/pexels-photo-5187501.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6330,10 +6602,11 @@ export const products = [
     "name": "POWER PLAY STRONG SAFE AND RELIABLE",
     "sku": "POWER347",
     "description": "POWER POWER PLAY STRONG SAFE AND RELIABLE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 2300000,
-    "image": "/images/categories/general-health.svg",
+    "price": 3000,
+    "oldPrice": 2300,
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6351,10 +6624,11 @@ export const products = [
     "name": "ORGAZ MAX EXTREME DOTTED",
     "sku": "ORGAZ633",
     "description": "ORGAZ ORGAZ MAX EXTREME DOTTED. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2300000,
-    "image": "/images/categories/general-health.svg",
+    "price": 5000,
+    "oldPrice": 2300,
+    "image": "https://images.pexels.com/photos/7380397/pexels-photo-7380397.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7380397/pexels-photo-7380397.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6372,8 +6646,8 @@ export const products = [
     "name": "FIRE XTRA CONDOM",
     "sku": "FIRE817",
     "description": "FIRE FIRE XTRA CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 700000,
+    "price": 1500,
+    "oldPrice": 700,
     "image": "/images/categories/contraceptives.svg",
     "images": [
       "/images/categories/contraceptives.svg"
@@ -6393,10 +6667,11 @@ export const products = [
     "name": "DUREX MUTUAL CLIMAX CONDOMS",
     "sku": "DUREX160",
     "description": "DUREX DUREX MUTUAL CLIMAX CONDOMS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7000000,
-    "oldPrice": 3500000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 7000,
+    "oldPrice": 3500,
+    "image": "https://images.pexels.com/photos/5713044/pexels-photo-5713044.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5713044/pexels-photo-5713044.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6414,10 +6689,11 @@ export const products = [
     "name": "FIESTA WET AND WILD CONDOMS",
     "sku": "FIEST502",
     "description": "FIESTA FIESTA WET AND WILD CONDOMS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 700000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 1500,
+    "oldPrice": 700,
+    "image": "https://images.pexels.com/photos/5713045/pexels-photo-5713045.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5713045/pexels-photo-5713045.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6435,10 +6711,11 @@ export const products = [
     "name": "DUREX FETHERLITE X 12 CONDOM",
     "sku": "DUREX477",
     "description": "DUREX DUREX FETHERLITE X 12 CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 17800000,
-    "oldPrice": 6000000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 17800,
+    "oldPrice": 6000,
+    "image": "https://images.pexels.com/photos/18806858/pexels-photo-18806858.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/18806858/pexels-photo-18806858.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6456,8 +6733,8 @@ export const products = [
     "name": "DUREX EXTRA SAFE X 12",
     "sku": "DUREX920",
     "description": "DUREX DUREX EXTRA SAFE X 12. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 17000000,
-    "oldPrice": 8000000,
+    "price": 17000,
+    "oldPrice": 8000,
     "image": "/images/categories/contraceptives.svg",
     "images": [
       "/images/categories/contraceptives.svg"
@@ -6477,10 +6754,11 @@ export const products = [
     "name": "FIRE XOTICA CONDOM",
     "sku": "FIRE716",
     "description": "FIRE FIRE XOTICA CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 1500000,
-    "oldPrice": 700000,
-    "image": "/images/categories/contraceptives.svg",
+    "price": 1500,
+    "oldPrice": 700,
+    "image": "https://images.pexels.com/photos/6473090/pexels-photo-6473090.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6473090/pexels-photo-6473090.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6498,8 +6776,8 @@ export const products = [
     "name": "LIFESTYLE CLASSIC SECURITY & COMFORT",
     "sku": "LIFES270",
     "description": "LIFESTYLE LIFESTYLE CLASSIC SECURITY & COMFORT. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 2500000,
-    "oldPrice": 1200000,
+    "price": 2500,
+    "oldPrice": 1200,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -6519,10 +6797,11 @@ export const products = [
     "name": "SKINS EXTRA LARGE",
     "sku": "SKINS266",
     "description": "SKINS SKINS EXTRA LARGE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 3000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 6000,
+    "oldPrice": 3000,
+    "image": "https://images.pexels.com/photos/208541/pexels-photo-208541.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/208541/pexels-photo-208541.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6542,8 +6821,9 @@ export const products = [
     "description": "ASCOCHEW ASCOCHEW VITAMIN C TABLET WHITE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 1000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -6563,8 +6843,9 @@ export const products = [
     "description": "GAVISCON GAVISCON PEPPERMINT LIQUID 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14000,
     "oldPrice": 7992,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -6584,8 +6865,9 @@ export const products = [
     "description": "SUDOCREAM SUDOCREAM. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 17800,
     "oldPrice": 9916,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6605,8 +6887,9 @@ export const products = [
     "description": "ADAMS ADAMS DESIRE X 15 CAPSULE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 13000,
     "oldPrice": 7319,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7707216/pexels-photo-7707216.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -6752,8 +7035,9 @@ export const products = [
     "description": "SYNRIAM SYNRIAM 150MG+750MG X 3 TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 12500,
     "oldPrice": 6500,
-    "image": "/images/categories/tablets-capsules.svg",
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -6773,8 +7057,9 @@ export const products = [
     "description": "PENZOCINE PENZOCINE INJECTION 30MG/ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 550,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/9227863/pexels-photo-9227863.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227863/pexels-photo-9227863.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",
@@ -6794,8 +7079,9 @@ export const products = [
     "description": "ALABUKUN ALABUKUN POWDER SACHET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 500,
     "oldPrice": 299,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/27515660/pexels-photo-27515660.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/27515660/pexels-photo-27515660.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6836,8 +7122,9 @@ export const products = [
     "description": "DUREX DUREX EXTRA SAFE CONDOM. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6000,
     "oldPrice": 3050,
-    "image": "/images/categories/contraceptives.svg",
+    "image": "https://images.pexels.com/photos/28743213/pexels-photo-28743213.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28743213/pexels-photo-28743213.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/contraceptives.svg"
     ],
     "category": "Contraceptives",
@@ -6857,8 +7144,9 @@ export const products = [
     "description": "HYDROCORTISONE HYDROCORTISONE CREAM 1%. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2500,
     "oldPrice": 660,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -6878,8 +7166,9 @@ export const products = [
     "description": "STREPSILS STREPSILS INTENSIVE HONEY & LEMON LOZENGES. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 10700,
     "oldPrice": 5950,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/28927702/pexels-photo-28927702.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28927702/pexels-photo-28927702.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6899,8 +7188,9 @@ export const products = [
     "description": "LORAT-10 LORAT-10 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 2000,
     "oldPrice": 654,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -6920,8 +7210,9 @@ export const products = [
     "description": "PFIZER PFIZER VIAGRA 50MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 20000,
     "oldPrice": 6990,
-    "image": "/images/categories/fertility-sexual.svg",
+    "image": "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/fertility-sexual.svg"
     ],
     "category": "Fertility & Sexual Health",
@@ -7044,10 +7335,11 @@ export const products = [
     "name": "Garden of life dr formulated magnesium with prebiotics",
     "sku": "Garde852",
     "description": "Garden Garden of life dr formulated magnesium with prebiotics. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 78000000,
-    "oldPrice": 43500000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 78000,
+    "oldPrice": 43500,
+    "image": "https://images.pexels.com/photos/7722651/pexels-photo-7722651.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7722651/pexels-photo-7722651.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7065,10 +7357,11 @@ export const products = [
     "name": "Elan health care ovofolic",
     "sku": "Elan225",
     "description": "Elan Elan health care ovofolic. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 72000000,
-    "oldPrice": 40000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 72000,
+    "oldPrice": 40000,
+    "image": "https://images.pexels.com/photos/31406906/pexels-photo-31406906.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406906/pexels-photo-31406906.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7086,8 +7379,8 @@ export const products = [
     "name": "Nature made chewable c",
     "sku": "Natur458",
     "description": "Nature Nature made chewable c. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 40518000,
-    "oldPrice": 22510000,
+    "price": 40518,
+    "oldPrice": 22510,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -7107,10 +7400,11 @@ export const products = [
     "name": "Natures field worms care once daily probiotic",
     "sku": "Natur419",
     "description": "Natures Natures field worms care once daily probiotic. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 76000000,
-    "oldPrice": 42230000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 76000,
+    "oldPrice": 42230,
+    "image": "https://images.pexels.com/photos/36770637/pexels-photo-36770637.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36770637/pexels-photo-36770637.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7128,8 +7422,8 @@ export const products = [
     "name": "Puritans pride coral calcium 500mg",
     "sku": "Purit174",
     "description": "Puritans Puritans pride coral calcium 500mg. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 28500000,
-    "oldPrice": 15690000,
+    "price": 28500,
+    "oldPrice": 15690,
     "image": "/images/categories/vitamins-supplements.svg",
     "images": [
       "/images/categories/vitamins-supplements.svg"
@@ -7149,10 +7443,11 @@ export const products = [
     "name": "Mason natural whole herb flax seed oil",
     "sku": "Mason210",
     "description": "Mason Mason natural whole herb flax seed oil. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 30500000,
-    "oldPrice": 16960000,
-    "image": "/images/categories/general-health.svg",
+    "price": 30500,
+    "oldPrice": 16960,
+    "image": "https://images.pexels.com/photos/35991162/pexels-photo-35991162.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/35991162/pexels-photo-35991162.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7170,10 +7465,11 @@ export const products = [
     "name": "Hpv goli nutrition ashwagandha gummies",
     "sku": "Hpv821",
     "description": "Hpv Hpv goli nutrition ashwagandha gummies. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 77000000,
-    "oldPrice": 38160000,
-    "image": "/images/categories/general-health.svg",
+    "price": 77000,
+    "oldPrice": 38160,
+    "image": "https://images.pexels.com/photos/14027298/pexels-photo-14027298.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14027298/pexels-photo-14027298.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7191,10 +7487,11 @@ export const products = [
     "name": "Improved bio active formula ivory caps",
     "sku": "Impro322",
     "description": "Improved Improved bio active formula ivory caps. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 100000000,
-    "oldPrice": 55050000,
-    "image": "/images/categories/general-health.svg",
+    "price": 100,
+    "oldPrice": 55050,
+    "image": "https://images.pexels.com/photos/28879521/pexels-photo-28879521.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28879521/pexels-photo-28879521.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7212,10 +7509,11 @@ export const products = [
     "name": "Force factor magnesium 500 mg capsules",
     "sku": "Force839",
     "description": "Force Force factor magnesium 500 mg capsules. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 58000000,
-    "oldPrice": 32720000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 58000,
+    "oldPrice": 32720,
+    "image": "https://images.pexels.com/photos/28879521/pexels-photo-28879521.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28879521/pexels-photo-28879521.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7233,8 +7531,8 @@ export const products = [
     "name": "Intimate rose myo and d chiro inositol",
     "sku": "Intim901",
     "description": "Intimate Intimate rose myo and d chiro inositol. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 79500000,
-    "oldPrice": 44080000,
+    "price": 79500,
+    "oldPrice": 44080,
     "image": "/images/categories/fertility-sexual.svg",
     "images": [
       "/images/categories/fertility-sexual.svg"
@@ -7254,10 +7552,11 @@ export const products = [
     "name": "Elan health care medfertil for men",
     "sku": "Elan876",
     "description": "Elan Elan health care medfertil for men. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 50000000,
-    "oldPrice": 25260000,
-    "image": "/images/categories/general-health.svg",
+    "price": 50000,
+    "oldPrice": 25260,
+    "image": "https://images.pexels.com/photos/9902269/pexels-photo-9902269.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9902269/pexels-photo-9902269.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7275,10 +7574,11 @@ export const products = [
     "name": "Fair haven health fertil aid for women",
     "sku": "Fair838",
     "description": "Fair Fair haven health fertil aid for women. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 89000000,
-    "oldPrice": 48043000,
-    "image": "/images/categories/fertility-sexual.svg",
+    "price": 89000,
+    "oldPrice": 48043,
+    "image": "https://images.pexels.com/photos/7231461/pexels-photo-7231461.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7231461/pexels-photo-7231461.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/fertility-sexual.svg"
     ],
     "category": "Fertility & Sexual Health",
@@ -7296,8 +7596,8 @@ export const products = [
     "name": "Natures field myo inositol d chiro inositol",
     "sku": "Natur282",
     "description": "Natures Natures field myo inositol d chiro inositol. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 53500000,
-    "oldPrice": 29080000,
+    "price": 53500,
+    "oldPrice": 29080,
     "image": "/images/categories/fertility-sexual.svg",
     "images": [
       "/images/categories/fertility-sexual.svg"
@@ -7317,8 +7617,8 @@ export const products = [
     "name": "Gluta berry 200000 mg",
     "sku": "Gluta996",
     "description": "Gluta Gluta berry 200000 mg. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 15000000,
-    "oldPrice": 6730000,
+    "price": 15000,
+    "oldPrice": 6730,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -7338,10 +7638,11 @@ export const products = [
     "name": "Itsi biosciences home test dna",
     "sku": "Itsi268",
     "description": "Itsi Itsi biosciences home test dna. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 30000000,
-    "oldPrice": 20000000,
-    "image": "/images/categories/general-health.svg",
+    "price": 30000,
+    "oldPrice": 20000,
+    "image": "https://images.pexels.com/photos/8940473/pexels-photo-8940473.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8940473/pexels-photo-8940473.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7359,10 +7660,11 @@ export const products = [
     "name": "multivitamin syrup reload 4 kidz",
     "sku": "multi458",
     "description": "multivitamin multivitamin syrup reload 4 kidz. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22500000,
-    "oldPrice": 12600000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 22500,
+    "oldPrice": 12600,
+    "image": "https://images.pexels.com/photos/13048835/pexels-photo-13048835.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13048835/pexels-photo-13048835.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7380,8 +7682,8 @@ export const products = [
     "name": "Reload 4 kidz omega 3",
     "sku": "Reloa988",
     "description": "Reload Reload 4 kidz omega 3. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 20000000,
-    "oldPrice": 9700000,
+    "price": 20000,
+    "oldPrice": 9700,
     "image": "/images/categories/vitamins-supplements.svg",
     "images": [
       "/images/categories/vitamins-supplements.svg"
@@ -7401,10 +7703,11 @@ export const products = [
     "name": "Natures field joint renew",
     "sku": "Natur190",
     "description": "Natures Natures field joint renew. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 42000000,
-    "oldPrice": 23400000,
-    "image": "/images/categories/general-health.svg",
+    "price": 42000,
+    "oldPrice": 23400,
+    "image": "https://images.pexels.com/photos/13534594/pexels-photo-13534594.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13534594/pexels-photo-13534594.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7422,10 +7725,11 @@ export const products = [
     "name": "Hovid dha emulsion",
     "sku": "Hovid713",
     "description": "Hovid Hovid dha emulsion. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 9500000,
-    "oldPrice": 4880000,
-    "image": "/images/categories/general-health.svg",
+    "price": 9500,
+    "oldPrice": 4880,
+    "image": "https://images.pexels.com/photos/24554176/pexels-photo-24554176.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/24554176/pexels-photo-24554176.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7443,10 +7747,11 @@ export const products = [
     "name": "Natures field immune defence advance",
     "sku": "Natur482",
     "description": "Natures Natures field immune defence advance. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 37000000,
-    "oldPrice": 20460000,
-    "image": "/images/categories/general-health.svg",
+    "price": 37000,
+    "oldPrice": 20460,
+    "image": "https://images.pexels.com/photos/8830631/pexels-photo-8830631.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8830631/pexels-photo-8830631.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7464,10 +7769,11 @@ export const products = [
     "name": "Natures field beauty sure advanced collagen",
     "sku": "Natur755",
     "description": "Natures Natures field beauty sure advanced collagen. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 40000000,
-    "oldPrice": 22410000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 40000,
+    "oldPrice": 22410,
+    "image": "https://images.pexels.com/photos/29060346/pexels-photo-29060346.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29060346/pexels-photo-29060346.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7485,8 +7791,8 @@ export const products = [
     "name": "Reload infant drops",
     "sku": "Reloa884",
     "description": "Reload Reload infant drops. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 15500000,
-    "oldPrice": 8600000,
+    "price": 15500,
+    "oldPrice": 8600,
     "image": "/images/categories/eye-ear-nasal-drops.svg",
     "images": [
       "/images/categories/eye-ear-nasal-drops.svg"
@@ -7506,8 +7812,8 @@ export const products = [
     "name": "Natures field fibro med",
     "sku": "Natur199",
     "description": "Natures Natures field fibro med. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 40000000,
-    "oldPrice": 22190000,
+    "price": 40000,
+    "oldPrice": 22190,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -7527,10 +7833,11 @@ export const products = [
     "name": "Halib orange omega 3 dha",
     "sku": "Halib477",
     "description": "Halib Halib orange omega 3 dha. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 38142000,
-    "oldPrice": 21190000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 38142,
+    "oldPrice": 21190,
+    "image": "https://images.pexels.com/photos/24554176/pexels-photo-24554176.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/24554176/pexels-photo-24554176.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7550,8 +7857,9 @@ export const products = [
     "description": "RAID RAID FLYING INSECT KILLER. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6300,
     "oldPrice": 3500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/32700456/pexels-photo-32700456.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/32700456/pexels-photo-32700456.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7571,8 +7879,9 @@ export const products = [
     "description": "RAID RAID MULTI-PURPOSE INSECT KILLER. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6300,
     "oldPrice": 3500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/10568267/pexels-photo-10568267.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/10568267/pexels-photo-10568267.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7592,8 +7901,9 @@ export const products = [
     "description": "BNC BNC MOSQUITO SPRAY. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6000,
     "oldPrice": 3000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/35523936/pexels-photo-35523936.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/35523936/pexels-photo-35523936.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7613,8 +7923,9 @@ export const products = [
     "description": "PREMIER PREMIER COOL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1200,
     "oldPrice": 666,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7634,8 +7945,9 @@ export const products = [
     "description": "VITAMINSTORE VITAMINSTORE VITAMIN C EFFERVESCENT TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 7000,
     "oldPrice": 3755,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "image": "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13787564/pexels-photo-13787564.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -7697,8 +8009,9 @@ export const products = [
     "description": "NUROFEN NUROFEN CAPLETS 200MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7718,8 +8031,9 @@ export const products = [
     "description": "MIFEPAK MIFEPAK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8100,
     "oldPrice": 4500,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -7760,8 +8074,9 @@ export const products = [
     "description": "GESTID GESTID PLUS 180ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5500,
     "oldPrice": 1800,
-    "image": "/images/categories/digestive-health.svg",
+    "image": "https://images.pexels.com/photos/30683024/pexels-photo-30683024.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/30683024/pexels-photo-30683024.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/digestive-health.svg"
     ],
     "category": "Antacids & Digestive Health",
@@ -7781,8 +8096,9 @@ export const products = [
     "description": "POLYGEL POLYGEL ANTACID RAPID RELIEF 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2100,
-    "image": "/images/categories/digestive-health.svg",
+    "image": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/digestive-health.svg"
     ],
     "category": "Antacids & Digestive Health",
@@ -7802,8 +8118,9 @@ export const products = [
     "description": "DIGICID DIGICID SUSPENSION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7844,8 +8161,9 @@ export const products = [
     "description": "AVROCID AVROCID SUSPENSION 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2150,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7865,8 +8183,9 @@ export const products = [
     "description": "STOPACID STOPACID BANANA FLAVOUR SUSPENSION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2150,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7886,8 +8205,9 @@ export const products = [
     "description": "GECROL GECROL SUSPENSION 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2150,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7907,8 +8227,9 @@ export const products = [
     "description": "EVACID EVACID SUSPENSION 200ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 4000,
     "oldPrice": 2000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/35667389/pexels-photo-35667389.png?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/35667389/pexels-photo-35667389.png?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7928,8 +8249,9 @@ export const products = [
     "description": "RULOX RULOX SUSPENSION 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 1700,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/36417736/pexels-photo-36417736.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36417736/pexels-photo-36417736.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -7991,8 +8313,9 @@ export const products = [
     "description": "ACIPEP ACIPEP ANTACID SUSPENSION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1050,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -8012,8 +8335,9 @@ export const products = [
     "description": "GASTRIGEL GASTRIGEL SUSPENSION. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -8031,8 +8355,8 @@ export const products = [
     "name": "LEVOTHYROXINE TABLETS 50 MICROGRAMS",
     "sku": "LEVOT837",
     "description": "LEVOTHYROXINE LEVOTHYROXINE TABLETS 50 MICROGRAMS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 2631000,
+    "price": 5000,
+    "oldPrice": 2631,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -8052,10 +8376,11 @@ export const products = [
     "name": "TREVIA TABLETS SITAGLIPTIN 50 MG",
     "sku": "TREV1728",
     "description": "TREVIA TREVIA TABLETS SITAGLIPTIN 50 MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 16500000,
-    "oldPrice": 8684000,
-    "image": "/images/categories/diabetes-care.svg",
+    "price": 16500,
+    "oldPrice": 8684,
+    "image": "https://images.pexels.com/photos/31462800/pexels-photo-31462800.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31462800/pexels-photo-31462800.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diabetes-care.svg"
     ],
     "category": "Diabetes Care",
@@ -8073,10 +8398,11 @@ export const products = [
     "name": "LIPITOR 10MG (PFIZER)",
     "sku": "LIPIT823",
     "description": "LIPITOR LIPITOR 10MG (PFIZER). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 40000000,
-    "oldPrice": 21052000,
-    "image": "/images/categories/cardiovascular.svg",
+    "price": 40000,
+    "oldPrice": 21052,
+    "image": "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -8094,10 +8420,11 @@ export const products = [
     "name": "PROVIRON MESTEROLONE 25 MG",
     "sku": "PROV1103",
     "description": "PROVIRON PROVIRON MESTEROLONE 25 MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 24000000,
-    "oldPrice": 12631000,
-    "image": "/images/categories/fertility-sexual.svg",
+    "price": 24000,
+    "oldPrice": 12631,
+    "image": "https://images.pexels.com/photos/29478908/pexels-photo-29478908.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29478908/pexels-photo-29478908.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/fertility-sexual.svg"
     ],
     "category": "Fertility & Sexual Health",
@@ -8115,10 +8442,11 @@ export const products = [
     "name": "CLOMID CLOMPHENE CITRATE 50MG X 10 TABLETS",
     "sku": "CLOM1908",
     "description": "CLOMID CLOMID CLOMPHENE CITRATE 50MG X 10 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 20700000,
-    "oldPrice": 10894000,
-    "image": "/images/categories/fertility-sexual.svg",
+    "price": 20700,
+    "oldPrice": 10894,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/fertility-sexual.svg"
     ],
     "category": "Fertility & Sexual Health",
@@ -8136,10 +8464,11 @@ export const products = [
     "name": "TRANEXAMIC ACID TABLETS IP 500 MG",
     "sku": "TRANEA469",
     "description": "TRANEXAMIC TRANEXAMIC ACID TABLETS IP 500 MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 1842000,
-    "image": "/images/categories/general-health.svg",
+    "price": 3500,
+    "oldPrice": 1842,
+    "image": "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -8157,8 +8486,8 @@ export const products = [
     "name": "TRIVIAMET SITAGLIPTIN 50 MG METFORMIN HCI 1000 MG",
     "sku": "TRIV1927",
     "description": "TRIVIAMET TRIVIAMET SITAGLIPTIN 50 MG METFORMIN HCI 1000 MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 26000000,
-    "oldPrice": 13684000,
+    "price": 26000,
+    "oldPrice": 13684,
     "image": "/images/categories/diabetes-care.svg",
     "images": [
       "/images/categories/diabetes-care.svg"
@@ -8178,10 +8507,11 @@ export const products = [
     "name": "TREVIA TABLETS SITAGLIPTIN 50 MG",
     "sku": "TREV1557",
     "description": "TREVIA TREVIA TABLETS SITAGLIPTIN 50 MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 16500000,
-    "oldPrice": 9166000,
-    "image": "/images/categories/diabetes-care.svg",
+    "price": 16500,
+    "oldPrice": 9166,
+    "image": "https://images.pexels.com/photos/31462800/pexels-photo-31462800.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31462800/pexels-photo-31462800.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diabetes-care.svg"
     ],
     "category": "Diabetes Care",
@@ -8199,8 +8529,8 @@ export const products = [
     "name": "GAVISCON DOUBLE ACTION",
     "sku": "GAVIS374",
     "description": "GAVISCON GAVISCON DOUBLE ACTION. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 22800000,
-    "oldPrice": 12000000,
+    "price": 22800,
+    "oldPrice": 12000,
     "image": "/images/categories/digestive-health.svg",
     "images": [
       "/images/categories/digestive-health.svg"
@@ -8220,10 +8550,11 @@ export const products = [
     "name": "COTTON WOOL 50G",
     "sku": "COTTO142",
     "description": "COTTON COTTON WOOL 50G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 500000,
-    "oldPrice": 130000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 500,
+    "oldPrice": 130,
+    "image": "https://images.pexels.com/photos/6129904/pexels-photo-6129904.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6129904/pexels-photo-6129904.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -8241,10 +8572,11 @@ export const products = [
     "name": "AC COTTON WOOL 100G",
     "sku": "ACCO472",
     "description": "AC AC COTTON WOOL 100G. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 700000,
-    "oldPrice": 315000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 700,
+    "oldPrice": 315,
+    "image": "https://images.pexels.com/photos/6129902/pexels-photo-6129902.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6129902/pexels-photo-6129902.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -8262,10 +8594,11 @@ export const products = [
     "name": "NATURESFILLED MAGNESIUM INSTANT DRINK MIX PLUS",
     "sku": "NATUR341",
     "description": "NATURESFILLED NATURESFILLED MAGNESIUM INSTANT DRINK MIX PLUS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 66870000,
-    "oldPrice": 35195000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 66870,
+    "oldPrice": 35195,
+    "image": "https://images.pexels.com/photos/8900014/pexels-photo-8900014.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8900014/pexels-photo-8900014.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -8283,10 +8616,11 @@ export const products = [
     "name": "DUCOLAX ADULT 5MG X 8 TABLET",
     "sku": "DUCOL557",
     "description": "DUCOLAX DUCOLAX ADULT 5MG X 8 TABLET. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 13500000,
-    "oldPrice": 7150000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 13500,
+    "oldPrice": 7150,
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -8304,10 +8638,11 @@ export const products = [
     "name": "OPTIMUM GOLD STANDARD WHEY PROTEIN",
     "sku": "OPTIM147",
     "description": "OPTIMUM OPTIMUM GOLD STANDARD WHEY PROTEIN. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 66000000,
-    "oldPrice": 34765000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 66000,
+    "oldPrice": 34765,
+    "image": "https://images.pexels.com/photos/36429468/pexels-photo-36429468.png?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36429468/pexels-photo-36429468.png?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -8325,8 +8660,8 @@ export const products = [
     "name": "PHYTO BOOSTER WHITENING",
     "sku": "PHYTO842",
     "description": "PHYTO PHYTO BOOSTER WHITENING. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 73000000,
-    "oldPrice": 38500000,
+    "price": 73000,
+    "oldPrice": 38500,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -8346,8 +8681,8 @@ export const products = [
     "name": "CEFUROXIME 250MG (FIDSON)",
     "sku": "CEFUR924",
     "description": "CEFUROXIME CEFUROXIME 250MG (FIDSON). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 7700000,
-    "oldPrice": 4060000,
+    "price": 7700,
+    "oldPrice": 4060,
     "image": "/images/categories/antibiotics.svg",
     "images": [
       "/images/categories/antibiotics.svg"
@@ -8367,10 +8702,11 @@ export const products = [
     "name": "DIASTOP SUSPENSION 100ML",
     "sku": "DIAST963",
     "description": "DIASTOP DIASTOP SUSPENSION 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3000000,
-    "oldPrice": 652000,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "price": 3000,
+    "oldPrice": 652,
+    "image": "https://images.pexels.com/photos/36417736/pexels-photo-36417736.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36417736/pexels-photo-36417736.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -8388,10 +8724,11 @@ export const products = [
     "name": "XICEF TABLETS",
     "sku": "XICEF313",
     "description": "XICEF XICEF TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 6000000,
-    "oldPrice": 3210000,
-    "image": "/images/categories/general-health.svg",
+    "price": 6000,
+    "oldPrice": 3210,
+    "image": "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/28300481/pexels-photo-28300481.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -8409,10 +8746,11 @@ export const products = [
     "name": "TUXIL-N EXPECTORANT ADULT COUGH & COLD 100ML",
     "sku": "TUXIL127",
     "description": "TUXIL-N TUXIL-N EXPECTORANT ADULT COUGH & COLD 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 3500000,
-    "oldPrice": 770000,
-    "image": "/images/categories/cough-cold.svg",
+    "price": 3500,
+    "oldPrice": 770,
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -8430,10 +8768,11 @@ export const products = [
     "name": "CEFUROXIME 500MG (FIDSON)",
     "sku": "CEFUR121",
     "description": "CEFUROXIME CEFUROXIME 500MG (FIDSON). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 12500000,
-    "oldPrice": 6500000,
-    "image": "/images/categories/antibiotics.svg",
+    "price": 12500,
+    "oldPrice": 6500,
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -8451,8 +8790,8 @@ export const products = [
     "name": "MEDIX 55 CLINICAL SOLUTION 10% GLYCOLIC + LACTIC ACID",
     "sku": "MEDIX943",
     "description": "MEDIX MEDIX 55 CLINICAL SOLUTION 10% GLYCOLIC + LACTIC ACID. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 30000000,
-    "oldPrice": 15950000,
+    "price": 30000,
+    "oldPrice": 15950,
     "image": "/images/categories/general-health.svg",
     "images": [
       "/images/categories/general-health.svg"
@@ -8472,10 +8811,11 @@ export const products = [
     "name": "AQSA LATEX GLOVES",
     "sku": "AQSA363",
     "description": "AQSA AQSA LATEX GLOVES. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 8500000,
-    "oldPrice": 4300000,
-    "image": "/images/categories/medical-supplies.svg",
+    "price": 8500,
+    "oldPrice": 4300,
+    "image": "https://images.pexels.com/photos/6050301/pexels-photo-6050301.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6050301/pexels-photo-6050301.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/medical-supplies.svg"
     ],
     "category": "Medical Supplies",
@@ -8493,10 +8833,11 @@ export const products = [
     "name": "ZETRO AZITHROMYCIN 500MG (GETZ)",
     "sku": "ZETRO483",
     "description": "ZETRO ZETRO AZITHROMYCIN 500MG (GETZ). High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 1880000,
-    "image": "/images/categories/antibiotics.svg",
+    "price": 5000,
+    "oldPrice": 1880,
+    "image": "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3652092/pexels-photo-3652092.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -8514,10 +8855,11 @@ export const products = [
     "name": "GLOTHROX 500MG X 3 CAPSULE",
     "sku": "GLOTH140",
     "description": "GLOTHROX GLOTHROX 500MG X 3 CAPSULE. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 5000000,
-    "oldPrice": 1820000,
-    "image": "/images/categories/tablets-capsules.svg",
+    "price": 5000,
+    "oldPrice": 1820,
+    "image": "https://images.pexels.com/photos/29300543/pexels-photo-29300543.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29300543/pexels-photo-29300543.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/tablets-capsules.svg"
     ],
     "category": "Tablets & Capsules",
@@ -8537,8 +8879,9 @@ export const products = [
     "description": "TUXIL-D TUXIL-D EXPECTORANT ADULT COUGH & COLD 100ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 770,
-    "image": "/images/categories/cough-cold.svg",
+    "image": "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5858832/pexels-photo-5858832.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cough-cold.svg"
     ],
     "category": "Cough & Cold Syrups",
@@ -8558,8 +8901,9 @@ export const products = [
     "description": "HALIBORANGE HALIBORANGE OMEGA-3 DHA 3- (12YEARS) 300ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 34200,
     "oldPrice": 18000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "image": "https://images.pexels.com/photos/208518/pexels-photo-208518.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/208518/pexels-photo-208518.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -8621,8 +8965,9 @@ export const products = [
     "description": "TARVID TARVID 200MG OFLOXACIN. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 16000,
     "oldPrice": 8500,
-    "image": "/images/categories/antibiotics.svg",
+    "image": "https://images.pexels.com/photos/9742737/pexels-photo-9742737.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9742737/pexels-photo-9742737.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/antibiotics.svg"
     ],
     "category": "Antibiotics & Anti-infectives",
@@ -8642,8 +8987,9 @@ export const products = [
     "description": "PEPTO PEPTO BISMOL 118ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 23500,
     "oldPrice": 12420,
-    "image": "/images/categories/digestive-health.svg",
+    "image": "https://images.pexels.com/photos/31406899/pexels-photo-31406899.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406899/pexels-photo-31406899.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/digestive-health.svg"
     ],
     "category": "Antacids & Digestive Health",
@@ -8684,8 +9030,9 @@ export const products = [
     "description": "DISPERSIBLE DISPERSIBLE ASPIRIN 75MG TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6200,
     "oldPrice": 3300,
-    "image": "/images/categories/pain-relief.svg",
+    "image": "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/pain-relief.svg"
     ],
     "category": "Pain Relief",
@@ -8705,8 +9052,9 @@ export const products = [
     "description": "LEVOTIL LEVOTIL 500MG X 10 CAPLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1180,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406896/pexels-photo-31406896.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -8726,8 +9074,9 @@ export const products = [
     "description": "GOOD GOOD MOLECULE NIACINAMIDE SERUM 30ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 31600,
     "oldPrice": 17600,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/14479626/pexels-photo-14479626.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14479626/pexels-photo-14479626.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -8768,8 +9117,9 @@ export const products = [
     "description": "COVERAM COVERAM 5MG/10MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 16700,
     "oldPrice": 8800,
-    "image": "/images/categories/cardiovascular.svg",
+    "image": "https://images.pexels.com/photos/9227775/pexels-photo-9227775.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227775/pexels-photo-9227775.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -8810,8 +9160,9 @@ export const products = [
     "description": "GALVUS GALVUS 50MG VILDAGLIPTIN (NOVARTIS). High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 41800,
     "oldPrice": 21800,
-    "image": "/images/categories/diabetes-care.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diabetes-care.svg"
     ],
     "category": "Diabetes Care",
@@ -8831,8 +9182,9 @@ export const products = [
     "description": "GLUCOPHAGE GLUCOPHAGE 500MG X 30 TABLETS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4085,
-    "image": "/images/categories/diabetes-care.svg",
+    "image": "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227855/pexels-photo-9227855.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diabetes-care.svg"
     ],
     "category": "Diabetes Care",
@@ -8852,8 +9204,9 @@ export const products = [
     "description": "NATRILIX NATRILIX SR 1.5MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 12000,
     "oldPrice": 6420,
-    "image": "/images/categories/cardiovascular.svg",
+    "image": "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227780/pexels-photo-9227780.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -8873,8 +9226,9 @@ export const products = [
     "description": "VOLTAREN VOLTAREN 100MG SUPPOSITORY. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 0,
     "oldPrice": 11107,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/7667668/pexels-photo-7667668.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7667668/pexels-photo-7667668.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -8915,8 +9269,9 @@ export const products = [
     "description": "NIVEA NIVEA PERFECT & RADIANT 400ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4200,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3993400/pexels-photo-3993400.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3993400/pexels-photo-3993400.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -8957,8 +9312,9 @@ export const products = [
     "description": "PURITANS PURITANS PRIDE VITAMIN D3 50MCG (2000 IU) X 100 SOFTGEL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 20600,
     "oldPrice": 9600,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "image": "https://images.pexels.com/photos/5998491/pexels-photo-5998491.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5998491/pexels-photo-5998491.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -8978,8 +9334,9 @@ export const products = [
     "description": "STIVES STIVES HYDRATING BODY WASH COCONUT WATER & ORCHID 650ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 15500,
     "oldPrice": 8070,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/5938285/pexels-photo-5938285.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5938285/pexels-photo-5938285.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -8999,8 +9356,9 @@ export const products = [
     "description": "STIVES STIVES EXFOLIATING BODY WASH PINK LEMON & MANDARIN ORANGE 650ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 15000,
     "oldPrice": 7150,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/14934439/pexels-photo-14934439.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14934439/pexels-photo-14934439.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -9062,8 +9420,9 @@ export const products = [
     "description": "EMZOR EMZOR FLUCONAZOLE SUSPENSION 35ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1502,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/31406904/pexels-photo-31406904.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -9083,8 +9442,9 @@ export const products = [
     "description": "DRUGFIELD DRUGFIELD PERMETHRIN CREAM 30G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1998,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4021812/pexels-photo-4021812.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -9104,8 +9464,9 @@ export const products = [
     "description": "AVENTRA AVENTRA ZADOMAX RELIEF EYEDROP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3500,
     "oldPrice": 1830,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9125,8 +9486,9 @@ export const products = [
     "description": "ORAL-B ORAL-B MEDIUM TOOTH BRUSH. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1000,
     "oldPrice": 500,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/4045554/pexels-photo-4045554.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4045554/pexels-photo-4045554.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -9146,8 +9508,9 @@ export const products = [
     "description": "FOREVER FOREVER BEE HONEY 100% NATURAL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 41000,
     "oldPrice": 22782,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/36813213/pexels-photo-36813213.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36813213/pexels-photo-36813213.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9167,8 +9530,9 @@ export const products = [
     "description": "FOREVER FOREVER ALOE VERA GEL ILITER. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 57400,
     "oldPrice": 31935,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/14798567/pexels-photo-14798567.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14798567/pexels-photo-14798567.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -9188,8 +9552,9 @@ export const products = [
     "description": "FOREVER FOREVER ALOE BERRY NECTER IL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 51400,
     "oldPrice": 31935,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/4752449/pexels-photo-4752449.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/4752449/pexels-photo-4752449.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9249,10 +9614,11 @@ export const products = [
     "name": "NUTRICOST MAGTEIN MAGNESIUM L-THREONATE 2000MG X 90CAPSULES",
     "sku": "NUTRI879",
     "description": "NUTRICOST NUTRICOST MAGTEIN MAGNESIUM L-THREONATE 2000MG X 90CAPSULES. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 205700,
-    "oldPrice": 128540,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "price": 206,
+    "oldPrice": 129,
+    "image": "https://images.pexels.com/photos/29197497/pexels-photo-29197497.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/29197497/pexels-photo-29197497.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -9272,8 +9638,9 @@ export const products = [
     "description": "FOREVER FOREVER ALOE AVOCADO FACE & BODY SOAP 142G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 14300,
     "oldPrice": 7996,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/7814648/pexels-photo-7814648.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7814648/pexels-photo-7814648.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -9293,8 +9660,9 @@ export const products = [
     "description": "FOREVER FOREVER BRIGHT TOOTH GEL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 17000,
     "oldPrice": 9638,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/298611/pexels-photo-298611.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -9314,8 +9682,9 @@ export const products = [
     "description": "FOREVER FOREVER ALOE EVER-SHELD DEODORANT STICK. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 16000,
     "oldPrice": 8989,
-    "image": "/images/categories/personal-care.svg",
+    "image": "https://images.pexels.com/photos/20650796/pexels-photo-20650796.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/20650796/pexels-photo-20650796.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/personal-care.svg"
     ],
     "category": "Personal Care",
@@ -9398,8 +9767,9 @@ export const products = [
     "description": "BAYER BAYER XARELITO 10MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 28000,
     "oldPrice": 16500,
-    "image": "/images/categories/cardiovascular.svg",
+    "image": "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3576558/pexels-photo-3576558.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -9419,8 +9789,9 @@ export const products = [
     "description": "NARTINELLIS NARTINELLIS APPLE JUICE SPARKLING. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 2500,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/34408160/pexels-photo-34408160.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/34408160/pexels-photo-34408160.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -9440,8 +9811,9 @@ export const products = [
     "description": "CHIVITA CHIVITA EXOTIC MULTIFRUITA NECTER. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1700,
-    "image": "/images/categories/food-beverages.svg",
+    "image": "https://images.pexels.com/photos/1420041/pexels-photo-1420041.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/1420041/pexels-photo-1420041.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/food-beverages.svg"
     ],
     "category": "Food & Beverages",
@@ -9461,8 +9833,9 @@ export const products = [
     "description": "CLOSEUP CLOSEUP ZINC + TOOTHPASTE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1200,
     "oldPrice": 583,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/14456100/pexels-photo-14456100.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14456100/pexels-photo-14456100.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -9480,10 +9853,11 @@ export const products = [
     "name": "JARDANCE 10MG",
     "sku": "4048846021878",
     "description": "JARDANCE JARDANCE 10MG. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 108500,
+    "price": 109,
     "oldPrice": 63790,
-    "image": "/images/categories/cardiovascular.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -9524,8 +9898,9 @@ export const products = [
     "description": "COLGATE COLGATE CHARCOAL TOOTHPASTE 120G. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/5612670/pexels-photo-5612670.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/5612670/pexels-photo-5612670.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -9545,8 +9920,9 @@ export const products = [
     "description": "GAVISCON GAVISCON LIQUID PEPPERMINT SACHET. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1200,
     "oldPrice": 600,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/36905101/pexels-photo-36905101.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/36905101/pexels-photo-36905101.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -9566,8 +9942,9 @@ export const products = [
     "description": "Kinbrex Kinbrex 200mg. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 5000,
     "oldPrice": 1512,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/9227868/pexels-photo-9227868.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9608,8 +9985,9 @@ export const products = [
     "description": "vital vital proteins collagen peptide 284g. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 59500,
     "oldPrice": 40000,
-    "image": "/images/categories/vitamins-supplements.svg",
+    "image": "https://images.pexels.com/photos/6475101/pexels-photo-6475101.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/6475101/pexels-photo-6475101.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/vitamins-supplements.svg"
     ],
     "category": "Vitamins & Supplements",
@@ -9627,8 +10005,8 @@ export const products = [
     "name": "ozempic",
     "sku": "ozemp383",
     "description": "ozempic ozempic. High-quality pharmaceutical product from Medster Pharmacy.",
-    "price": 400000,
-    "oldPrice": 206150,
+    "price": 400,
+    "oldPrice": 206,
     "image": "/images/categories/diabetes-care.svg",
     "images": [
       "/images/categories/diabetes-care.svg"
@@ -9650,8 +10028,9 @@ export const products = [
     "description": "LISNOPRIL LISNOPRIL 10MG TEVA. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/cardiovascular.svg",
+    "image": "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/11347966/pexels-photo-11347966.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/cardiovascular.svg"
     ],
     "category": "Cardiovascular Health",
@@ -9671,8 +10050,9 @@ export const products = [
     "description": "FBSRBS FBS/RBS. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 1500,
     "oldPrice": 500,
-    "image": "/images/categories/diagnostic-tests.svg",
+    "image": "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/13119976/pexels-photo-13119976.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/diagnostic-tests.svg"
     ],
     "category": "Diagnostic Tests",
@@ -9692,8 +10072,9 @@ export const products = [
     "description": "THROTAL THROTAL ERYTHROMYCIN ORAL SUSPENSION 125 ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 4000,
     "oldPrice": 1500,
-    "image": "/images/categories/syrups-suspensions.svg",
+    "image": "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/51929/medications-cure-tablets-pharmacy-51929.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/syrups-suspensions.svg"
     ],
     "category": "Syrups & Suspensions",
@@ -9734,8 +10115,9 @@ export const products = [
     "description": "SARTOR SARTOR INSTANT HAND SANITIZER 70ML. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6000,
     "oldPrice": 3000,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/3962516/pexels-photo-3962516.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/3962516/pexels-photo-3962516.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9755,8 +10137,9 @@ export const products = [
     "description": "BEARD BEARD CREAM AND OIL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6500,
     "oldPrice": 3000,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/14649338/pexels-photo-14649338.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14649338/pexels-photo-14649338.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -9776,8 +10159,9 @@ export const products = [
     "description": "BEARD BEARD CREAM AND OIL. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 6500,
     "oldPrice": 3000,
-    "image": "/images/categories/creams-ointments.svg",
+    "image": "https://images.pexels.com/photos/14649338/pexels-photo-14649338.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/14649338/pexels-photo-14649338.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/creams-ointments.svg"
     ],
     "category": "Creams & Ointments",
@@ -9797,8 +10181,9 @@ export const products = [
     "description": "MISOPT MISOPT EYEDROP. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 8000,
     "oldPrice": 4377,
-    "image": "/images/categories/general-health.svg",
+    "image": "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/8376238/pexels-photo-8376238.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/general-health.svg"
     ],
     "category": "General Health",
@@ -9818,8 +10203,9 @@ export const products = [
     "description": "SENSODYNE SENSODYNE DAILY CARE/ PROTECTION TOOTHPASTE. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 4500,
     "oldPrice": 2000,
-    "image": "/images/categories/oral-care.svg",
+    "image": "https://images.pexels.com/photos/216729/pexels-photo-216729.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/216729/pexels-photo-216729.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/oral-care.svg"
     ],
     "category": "Oral Care",
@@ -9839,8 +10225,9 @@ export const products = [
     "description": "LEVEER LEVEER ARTESUNATE INJECTION 120MG. High-quality pharmaceutical product from Medster Pharmacy.",
     "price": 3000,
     "oldPrice": 1500,
-    "image": "/images/categories/injections-infusions.svg",
+    "image": "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
     "images": [
+      "https://images.pexels.com/photos/7904402/pexels-photo-7904402.jpeg?auto=compress&cs=tinysrgb&h=350",
       "/images/categories/injections-infusions.svg"
     ],
     "category": "Injections & Infusions",

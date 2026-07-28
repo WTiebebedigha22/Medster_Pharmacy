@@ -4,8 +4,8 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: var(--shadow-sm);
-  border-bottom: 1px solid var(--gray-200);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  border-bottom: 1px solid var(--gray-100);
 }
 
 .container {
@@ -20,14 +20,14 @@
 /* ── Top Bar ── */
 .navbar__top-bar {
   background: var(--gray-900);
-  padding: 6px 0;
+  padding: 5px 0;
   font-size: 12px;
   border-bottom: 1px solid var(--gray-800);
 }
 
 .navbar__top-bar .container {
   justify-content: flex-end;
-  gap: 20px;
+  gap: 24px;
 }
 
 .top-bar__link {
@@ -36,6 +36,7 @@
   font-size: 12px;
   font-weight: 500;
   transition: color 0.2s;
+  letter-spacing: 0.3px;
 }
 
 .top-bar__link:hover {
@@ -44,7 +45,7 @@
 
 /* ── Main Navbar ── */
 .navbar {
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .navbar .container {
@@ -64,6 +65,11 @@
   font-size: 20px;
   font-weight: 800;
   letter-spacing: -0.5px;
+  transition: opacity 0.2s;
+}
+
+.navbar__logo a:hover {
+  opacity: 0.85;
 }
 
 .navbar__logo img {
@@ -76,18 +82,20 @@
 .navbar__search-main {
   display: flex;
   align-items: center;
-  height: 44px;
+  height: 46px;
   border: 2px solid var(--gray-200);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   overflow: hidden;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.25s, box-shadow 0.25s;
   max-width: 600px;
   width: 100%;
+  background: var(--gray-50);
 }
 
 .navbar__search-main:focus-within {
   border-color: var(--brand-blue);
-  box-shadow: 0 0 0 3px rgba(0, 90, 188, 0.1);
+  box-shadow: 0 0 0 4px rgba(0, 90, 188, 0.1);
+  background: #fff;
 }
 
 .navbar__search-input {
@@ -107,21 +115,21 @@
 
 .navbar__search-button {
   height: 100%;
-  padding: 0 20px;
+  padding: 0 24px;
   background: var(--gradient-primary);
   color: #fff;
   border: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 13px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  transition: opacity 0.2s;
+  gap: 8px;
+  transition: all 0.25s;
 }
 
 .navbar__search-button:hover {
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 /* Action Buttons */

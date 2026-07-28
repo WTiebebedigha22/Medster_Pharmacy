@@ -383,6 +383,57 @@ alt="Medster Pharmacy Banner"
         )}
       </section>
 
+      {/* ------------------ TESTIMONIALS ------------------ */}
+      <section className={styles.testimonials}>
+        <div className={styles.sectionHeader}>
+          <h2>What Our Customers Say</h2>
+          <Link to="/shop" className={styles.viewAll}>
+            Read All Reviews <FontAwesomeIcon icon={faArrowRight} />
+          </Link>
+        </div>
+        <div className={styles.testimonialGrid}>
+          <div className={styles.testimonialCard}>
+            <div className={styles.testimonialStars}>★★★★★</div>
+            <p className={styles.testimonialText}>
+              "Medster Pharmacy has been a lifesaver! Fast delivery and genuine products. I order all my medications here now."
+            </p>
+            <div className={styles.testimonialAuthor}>
+              <div className={styles.testimonialAvatar}>A</div>
+              <div>
+                <div className={styles.testimonialName}>Amanda Chukwu</div>
+                <div className={styles.testimonialRole}>Lagos, Nigeria</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.testimonialCard}>
+            <div className={styles.testimonialStars}>★★★★★</div>
+            <p className={styles.testimonialText}>
+              "The video consultation service is amazing. I spoke to a doctor within minutes and got my prescription filled immediately."
+            </p>
+            <div className={styles.testimonialAuthor}>
+              <div className={styles.testimonialAvatar}>K</div>
+              <div>
+                <div className={styles.testimonialName}>Kehinde Okafor</div>
+                <div className={styles.testimonialRole}>Abuja, Nigeria</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.testimonialCard}>
+            <div className={styles.testimonialStars}>★★★★★</div>
+            <p className={styles.testimonialText}>
+              "Finally a pharmacy I can trust! Competitive prices, authentic products, and excellent customer service. Highly recommended!"
+            </p>
+            <div className={styles.testimonialAuthor}>
+              <div className={styles.testimonialAvatar}>T</div>
+              <div>
+                <div className={styles.testimonialName}>Tunde Bello</div>
+                <div className={styles.testimonialRole}>Port Harcourt, Nigeria</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ------------------ FEATURES BANNER ------------------ */}
       <section className={styles.features}>
         <div className={styles.feature}>
@@ -393,7 +444,7 @@ alt="Medster Pharmacy Banner"
         <div className={styles.feature}>
           <FontAwesomeIcon icon={faTruck} />
           <h4>Free Delivery</h4>
-          <p>On orders above ₦10,000</p>
+          <p>On orders above ₦50,000</p>
         </div>
         <div className={styles.feature}>
           <FontAwesomeIcon icon={faClock} />

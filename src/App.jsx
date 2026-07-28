@@ -21,6 +21,8 @@ import Help from "./pages/Help/Help";
 import Account from "./pages/Account/Account";
 import Services from "./pages/Services/Services";
 import AboutPharmacy from "./pages/AboutPharmacy/AboutPharmacy";
+import Terms from "./pages/Terms/Terms";
+import Privacy from "./pages/Privacy/Privacy";
 
 // Admin imports
 import AdminLayout from "./pages/Admin/AdminLayout";
@@ -32,6 +34,8 @@ import AdminUsers from "./pages/Admin/Users";
 import AdminCoupons from "./pages/Admin/Coupons";
 import AdminReports from "./pages/Admin/ReportAnalytics";
 import AdminSettings from "./pages/Admin/Settings";
+import AdminAdministrators from "./pages/Admin/Administrators";
+import AdminAuditLogs from "./pages/Admin/AuditLogs";
 import AdminRoute from "./components/AdminRoute";
 
 import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
@@ -110,7 +114,9 @@ function App() {
         <Route path="/services" element={<><NavBar /><Services /><Footer /></>} />
         <Route path="/about" element={<><NavBar /><AboutPharmacy /><Footer /></>} />
         <Route path="/consult" element={<><NavBar /><Consult /><Footer /></>} />
-        <Route path="/prescriptions/add" element={<><NavBar /><AddPrescription /><Footer /></>} />
+<Route path="/prescriptions/add" element={<><NavBar /><AddPrescription /><Footer /></>} />
+        <Route path="/terms" element={<><NavBar /><Terms /><Footer /></>} />
+        <Route path="/privacy" element={<><NavBar /><Privacy /><Footer /></>} />
 
         {/* PROTECTED ROUTES (with NavBar & Footer) */}
         <Route 
@@ -161,8 +167,10 @@ function App() {
           <Route path="prescriptions" element={<AdminPrescriptions />} />
           <Route path="users" element={<AdminUsers />} />
           <Route path="coupons" element={<AdminCoupons />} />
-          <Route path="reports" element={<AdminReports />} />
+<Route path="reports" element={<AdminReports />} />
           <Route path="settings" element={<AdminSettings />} />
+          <Route path="admins" element={<AdminAdministrators />} />
+          <Route path="audit-logs" element={<AdminAuditLogs />} />
         </Route>
 
         {/* 404 Redirect */}

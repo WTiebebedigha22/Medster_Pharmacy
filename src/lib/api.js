@@ -342,22 +342,94 @@ export const api = {
   // ORDERS - Supabase
   // =============================================
   
-  getMyOrders: async () => {
+getMyOrders: async () => {
     try {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) throw new Error('User not authenticated');
-      
-      const { data, error } = await supabase
-        .from('orders')
-        .select('*')
-        .eq('user_id', user.id)
-        .order('created_at', { ascending: false });
-      
-      if (error) throw error;
-      return { orders: data || [] };
+      const allOrders = [];
+
+      // Try to fetch from Supabase (server-side orders)
+      try {
+        const { data: { user } } = await supabase.auth.getUser();
+        if (user) {
+          const { data, error } = await supabase
+            .from('orders')
+            .select('*')
+            .eq('user_id', user.id)
+            .order('created_at', { ascending: false });
+          if (!error && data) {
+            allOrders.push(...data.map(o => ({
+              ...o,
+              id: o.id || o.order_number,
+              total: parseFloat(o.total || 0),
+              deliveryFee: parseFloat(o.delivery_fee || 0),
+              discount: parseFloat(o.discount || 0),
+              items: o.items || o.order_items || [],
+              status: o.status || 'pending',
+              createdAt: o.created_at || o.createdAt,
+              tracking: o.tracking_number || o.tracking,
+            })));
+          }
+        }
+      } catch (e) {
+        console.warn('Supabase order fetch failed:', e.message);
+      }
+
+      // Also fetch from localStorage (fallback orders from checkout)
+      try {
+        const localOrders = JSON.parse(localStorage.getItem('medster_orders') || '[]');
+        for (const o of localOrders) {
+          // Normalize items from different formats
+          const normalizedItems = (o.items || o.order_items || []).map(item => ({
+            id: item.product_id || item.id,
+            name: item.product_name || item.name || 'Product',
+            price: parseFloat(item.price || 0),
+            qty: parseInt(item.quantity || item.qty || 1),
+            image: item.image || '/images/placeholder.svg',
+            subtotal: parseFloat(item.subtotal || (item.price * item.quantity) || (item.price * item.qty) || 0),
+          }));
+
+          allOrders.push({
+            id: o.id || o.order_number || `MED-LOCAL-${Date.now()}`,
+            order_number: o.order_number || o.id || `LOCAL-${Date.now()}`,
+            total: parseFloat(o.total || 0),
+            subtotal: parseFloat(o.subtotal || o.total || 0),
+            delivery_fee: parseFloat(o.delivery_fee || 0),
+            deliveryFee: parseFloat(o.delivery_fee || 0),
+            discount: parseFloat(o.discount || 0),
+            items: normalizedItems,
+            status: o.status || 'pending',
+            payment_method: o.payment_method || 'Unknown',
+            shipping_address: o.shipping_address || {},
+            created_at: o.created_at || o.createdAt || new Date().toISOString(),
+            createdAt: o.created_at || o.createdAt || new Date().toISOString(),
+            local: true,
+          });
+        }
+      } catch (e) {
+        console.warn('LocalStorage order fetch failed:', e.message);
+      }
+
+      // Deduplicate by order_number
+      const seen = new Set();
+      const uniqueOrders = allOrders.filter(o => {
+        const key = o.order_number || o.id;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+
+      // Sort by date descending
+      uniqueOrders.sort((a, b) => new Date(b.createdAt || b.created_at) - new Date(a.createdAt || a.created_at));
+
+      return { orders: uniqueOrders };
     } catch (error) {
       console.error('Error fetching orders:', error);
-      return { orders: [] };
+      // Last resort: try localStorage
+      try {
+        const localOrders = JSON.parse(localStorage.getItem('medster_orders') || '[]');
+        return { orders: localOrders };
+      } catch {
+        return { orders: [] };
+      }
     }
   },
 
