@@ -8,6 +8,8 @@
     "dev:server": "node server/index.js",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:server\"",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages",
     "lint": "eslint .",
     "preview": "vite preview",
     "test:irec": "node scripts/test-irec.js",
