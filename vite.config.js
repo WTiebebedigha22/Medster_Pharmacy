@@ -16,8 +16,8 @@ export default defineConfig({
       },
     },
   },
-  // Base path - change to '/medster-pharmacy/' if deploying to GitHub Pages subpath
+  // Base path - change to '/Medster_Pharmacy/' if deploying to GitHub Pages subpath
   // For custom domain or root deployment, set to '/'
-  base: '/',
+  base: '/Medster_Pharmacy/',
 })
 
