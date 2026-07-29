@@ -1,32 +1,42 @@
 // Pexels API Service for Product Images
-// Uses pre-fetched cache by default, falls back to live API if needed
+// Product images are already embedded in src/data/products.js via the build step.
+// This service provides additional lookup/fallback capabilities.
 const PEXELS_API_KEY = 'qA1e1b9iMLYgLRc5ohhsrFrHTnztCPzFegfKhL99mg4Mm07xis5pHZmE';
 const PEXELS_BASE_URL = 'https://api.pexels.com/v1';
 
 // Cache for fetched images (runtime)
 const imageCache = new Map();
 
-// Pre-fetched image cache loaded at build time (from scripts/fetch-pexels-images.js)
-// This is populated from the build step and embedded for fast loading
+// Pre-fetched image cache - loaded from public/ directory at startup
 let preFetchedCache = {};
+let cacheLoadAttempted = false;
 
 /**
  * Load the pre-fetched image cache from the JSON file.
- * This is populated by running `node scripts/fetch-pexels-images.js`
+ * Tries multiple paths for compatibility (dev, build, GitHub Pages).
  */
 export async function loadImageCache() {
+  if (cacheLoadAttempted) return preFetchedCache;
+  cacheLoadAttempted = true;
   if (Object.keys(preFetchedCache).length > 0) return preFetchedCache;
   
-  try {
-    const response = await fetch('/src/lib/product-images.json');
-    if (response.ok) {
-      preFetchedCache = await response.json();
-      console.log(`📸 Loaded ${Object.keys(preFetchedCache).length} pre-fetched Pexels images`);
+  // Try multiple paths: Vite dev serves from src/, production from /
+  const paths = ['/product-images.json', '/src/lib/product-images.json'];
+  
+  for (const path of paths) {
+    try {
+      const response = await fetch(path);
+      if (response.ok) {
+        preFetchedCache = await response.json();
+        console.log(`📸 Loaded ${Object.keys(preFetchedCache).length} pre-fetched Pexels images`);
+        return preFetchedCache;
+      }
+    } catch (e) {
+      // Try next path
     }
-  } catch (e) {
-    console.warn('📸 No pre-fetched Pexels cache found. Run `node scripts/fetch-pexels-images.js` to generate.');
   }
   
+  console.warn('📸 No pre-fetched Pexels cache found. Run `node scripts/fetch-pexels-images.js` to generate.');
   return preFetchedCache;
 }
 

@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
   server: {
     port: 5173,
     proxy: {
@@ -17,4 +16,8 @@ export default defineConfig({
       },
     },
   },
+  // Base path - change to '/medster-pharmacy/' if deploying to GitHub Pages subpath
+  // For custom domain or root deployment, set to '/'
+  base: '/',
 })
+
