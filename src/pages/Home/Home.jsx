@@ -178,7 +178,7 @@ const handleAddToCart = (productId) => {
           <div className={styles["hero-image"]}>
             <div className={styles.imageContainer}>
               <img 
-                src="/images/Home/medplus_banner.jpg" 
+                src="/images/Home/Home.jpg" 
 alt="Medster Pharmacy Banner"
               />
               <div className={styles.floatingBadge}>
