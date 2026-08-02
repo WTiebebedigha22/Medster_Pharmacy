@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -28,7 +30,7 @@ class ErrorBoundary extends React.Component {
           padding: '20px',
           textAlign: 'center'
         }}>
-          <h1 style={{ fontSize: '48px', marginBottom: '16px' }}>😅</h1>
+          <FontAwesomeIcon icon={faExclamationTriangle} style={{ fontSize: '48px', marginBottom: '16px', color: '#dc2626' }} />
           <h2>Something went wrong</h2>
           <p style={{ color: '#565959', maxWidth: '500px' }}>
             We're sorry for the inconvenience. Please try refreshing the page or contact support if the problem persists.

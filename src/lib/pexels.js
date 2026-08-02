@@ -28,15 +28,15 @@ export async function loadImageCache() {
       const response = await fetch(path);
       if (response.ok) {
         preFetchedCache = await response.json();
-        console.log(`📸 Loaded ${Object.keys(preFetchedCache).length} pre-fetched Pexels images`);
+        console.log(`[Pexels] Loaded ${Object.keys(preFetchedCache).length} pre-fetched Pexels images`);
         return preFetchedCache;
       }
-    } catch (e) {
+    } catch {
       // Try next path
     }
   }
   
-  console.warn('📸 No pre-fetched Pexels cache found. Run `node scripts/fetch-pexels-images.js` to generate.');
+  console.warn('[Pexels] No pre-fetched Pexels cache found. Run `node scripts/fetch-pexels-images.js` to generate.');
   return preFetchedCache;
 }
 

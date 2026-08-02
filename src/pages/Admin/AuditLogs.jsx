@@ -11,6 +11,14 @@ import {
   faChevronUp,
   faTimes,
   faDownload,
+  faBoxOpen,
+  faShoppingCart,
+  faPills,
+  faTag,
+  faFolderOpen,
+  faCog,
+  faLock,
+  faServer,
 } from '@fortawesome/free-solid-svg-icons';
 import styles from './AdminStyles.module.css';
 
@@ -95,11 +103,17 @@ const AuditLogs = () => {
 
   const getEntityIcon = (type) => {
     const icons = {
-      products: '📦', orders: '🛒', users: '👤', prescriptions: '💊',
-      coupons: '🏷️', categories: '📁', system_settings: '⚙️', admin_roles: '🔐',
-      system: '🖥️',
+      products: faBoxOpen,
+      orders: faShoppingCart,
+      users: faUser,
+      prescriptions: faPills,
+      coupons: faTag,
+      categories: faFolderOpen,
+      system_settings: faCog,
+      admin_roles: faLock,
+      system: faServer,
     };
-    return icons[type] || '📋';
+    return icons[type] || faClipboardList;
   };
 
   const formatDate = (date) => {
@@ -264,8 +278,8 @@ const AuditLogs = () => {
                     </span>
 
                     {/* Entity */}
-                    <span style={{ fontSize: '20px', flexShrink: 0 }}>
-                      {getEntityIcon(log.entity_type)}
+                    <span style={{ fontSize: '16px', flexShrink: 0, color: '#6b7280' }}>
+                      <FontAwesomeIcon icon={getEntityIcon(log.entity_type)} />
                     </span>
                     <span style={{ fontSize: '13px', color: '#6b7280', fontWeight: 500, minWidth: '80px' }}>
                       {log.entity_type?.replace(/_/g, ' ')}

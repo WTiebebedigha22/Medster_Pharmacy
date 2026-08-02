@@ -13,7 +13,35 @@ import {
   faPhone,
   faVideo,
   faArrowRight,
-  faHeart
+  faHeart,
+  faPills,
+  faPrescriptionBottle,
+  faJar,
+  faEye,
+  faTooth,
+  faPersonDotsFromLine,
+  faDumbbell,
+  faTablets,
+  faBacteria,
+  faBriefcaseMedical,
+  faMicroscope,
+  faUtensils,
+  faPersonRays,
+  faLungs,
+  faSpoon,
+  faHeartPulse,
+  faDroplet,
+  faBaby,
+  faStar,
+  faBandAid,
+  faLock,
+  faTag,
+  faBullseye,
+  faFire,
+  faMapMarkerAlt,
+  faCar,
+  faBox,
+  faPersonDress
 } from '@fortawesome/free-solid-svg-icons';
 import { api } from '../../lib/api';
 import styles from "./Home.module.css";
@@ -78,35 +106,35 @@ const handleAddToCart = (productId) => {
     console.log("Added to cart:", productId);
   };
 
-  // Get emoji icon for category
+  // Get icon for category
   const getCategoryIcon = (category) => {
     const icons = {
-      'Injections & Infusions': '💉',
-      'Tablets & Capsules': '💊',
-      'Syrups & Suspensions': '🧪',
-      'Creams & Ointments': '🧴',
-      'Eye, Ear & Nasal Drops': '👁️',
-      'Oral Care': '🪥',
-      'Contraceptives': '🛡️',
-      'Vitamins & Supplements': '💪',
-      'Pain Relief': '🤕',
-      'Antibiotics & Anti-infectives': '🦠',
-      'Medical Supplies': '🏥',
-      'Diagnostic Tests': '🔬',
-      'Food & Beverages': '🍽️',
-      'Personal Care': '🧖',
-      'Cough & Cold Syrups': '🤧',
-      'Antacids & Digestive Health': '🏪',
-      'Cardiovascular Health': '❤️',
-      'Diabetes Care': '🩸',
-      'Fertility & Sexual Health': '👶',
-      'General Health': '🌟',
-      'Antimalarials': '🦟',
-      'Feminine Care': '👩',
-      'Respiratory': '🫁',
-      'First Aid': '🚑',
+      'Injections & Infusions': faSyringe,
+      'Tablets & Capsules': faPills,
+      'Syrups & Suspensions': faPrescriptionBottle,
+      'Creams & Ointments': faJar,
+      'Eye, Ear & Nasal Drops': faEye,
+      'Oral Care': faTooth,
+      'Contraceptives': faPersonDotsFromLine,
+      'Vitamins & Supplements': faDumbbell,
+      'Pain Relief': faTablets,
+      'Antibiotics & Anti-infectives': faBacteria,
+      'Medical Supplies': faBriefcaseMedical,
+      'Diagnostic Tests': faMicroscope,
+      'Food & Beverages': faUtensils,
+      'Personal Care': faPersonRays,
+      'Cough & Cold Syrups': faLungs,
+      'Antacids & Digestive Health': faSpoon,
+      'Cardiovascular Health': faHeartPulse,
+      'Diabetes Care': faDroplet,
+      'Fertility & Sexual Health': faBaby,
+      'General Health': faStar,
+      'Antimalarials': faBacteria,
+      'Feminine Care': faPersonDress,
+      'Respiratory': faLungs,
+      'First Aid': faBandAid,
     };
-    return icons[category] || '📦';
+    return icons[category] || faBox;
   };
 
   const featuredProducts = getFeaturedProducts();
@@ -119,9 +147,9 @@ const handleAddToCart = (productId) => {
       <div className={styles.topBar}>
         <div className={styles.topBarContent}>
           <div className={styles.topBarLeft}>
-            <span>🔒 Trusted Pharmacy</span>
-            <span>⭐ 4.8/5 Rating</span>
-            <span>🚚 Free Delivery</span>
+            <span><FontAwesomeIcon icon={faLock} /> Trusted Pharmacy</span>
+            <span><FontAwesomeIcon icon={faStar} /> 4.8/5 Rating</span>
+            <span><FontAwesomeIcon icon={faTruck} /> Free Delivery</span>
           </div>
           <div className={styles.topBarRight}>
             <Link to="/contact">Contact Us</Link>
@@ -139,7 +167,7 @@ const handleAddToCart = (productId) => {
         <div className={styles.heroContent}>
           <div className={styles["hero-text"]}>
             <div className={styles.heroBadge}>
-<span>🌟 Medster Pharmacy</span>
+              <span><FontAwesomeIcon icon={faStar} /> Medster Pharmacy</span>
             </div>
             <h1>Your Health,<br />Made Easy</h1>
             <p>Shop quality medicines, book health services, and get care online — all from the comfort of your home.</p>
@@ -182,7 +210,7 @@ const handleAddToCart = (productId) => {
 alt="Medster Pharmacy Banner"
               />
               <div className={styles.floatingBadge}>
-                <span>🏷️ Save 20%</span>
+                <span><FontAwesomeIcon icon={faTag} /> Save 20%</span>
                 <span>on first order</span>
               </div>
             </div>
@@ -197,7 +225,7 @@ alt="Medster Pharmacy Banner"
             className={`${styles.categoryBtn} ${activeCategory === 'all' ? styles.active : ''}`}
             onClick={() => setActiveCategory('all')}
           >
-            🎯 All Products
+            <FontAwesomeIcon icon={faBullseye} /> All Products
           </button>
           {products.length > 0 && [...new Set(products.map(p => p.category).filter(Boolean))].slice(0, 6).map(cat => (
             <button 
@@ -205,7 +233,7 @@ alt="Medster Pharmacy Banner"
               className={`${styles.categoryBtn} ${activeCategory === cat.toLowerCase() ? styles.active : ''}`}
               onClick={() => setActiveCategory(cat.toLowerCase())}
             >
-              {getCategoryIcon(cat)} {cat}
+              <FontAwesomeIcon icon={getCategoryIcon(cat)} /> {cat}
             </button>
           ))}
         </div>
@@ -227,7 +255,7 @@ alt="Medster Pharmacy Banner"
             </div>
             <h4>Talk to Doctor</h4>
             <p>Video consultation with licensed professionals.</p>
-            <button className={styles.serviceBtn}>Book Now →</button>
+            <button className={styles.serviceBtn}>Book Now <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
 
           <div className={styles.service}>
@@ -236,7 +264,7 @@ alt="Medster Pharmacy Banner"
             </div>
             <h4>Book Lab Test</h4>
             <p>Diagnostics made simple and convenient.</p>
-            <button className={styles.serviceBtn}>Book Now →</button>
+            <button className={styles.serviceBtn}>Book Now <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
 
           <div className={styles.service}>
@@ -245,7 +273,7 @@ alt="Medster Pharmacy Banner"
             </div>
             <h4>Vaccination</h4>
             <p>Safe immunization for all ages.</p>
-            <button className={styles.serviceBtn}>Book Now →</button>
+            <button className={styles.serviceBtn}>Book Now <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
 
           <div className={styles.service}>
@@ -254,7 +282,7 @@ alt="Medster Pharmacy Banner"
             </div>
             <h4>Upload Prescription</h4>
             <p>Let pharmacists process your medications.</p>
-            <button className={styles.serviceBtn}>Upload →</button>
+            <button className={styles.serviceBtn}>Upload <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
         </div>
       </section>
@@ -326,7 +354,7 @@ alt="Medster Pharmacy Banner"
       {/* ------------------ DISCOUNT DEALS ------------------ */}
       <section className={styles.products}>
         <div className={styles.sectionHeader}>
-          <h2>🔥 Popular Products</h2>
+          <h2><FontAwesomeIcon icon={faFire} /> Popular Products</h2>
           <Link to="/shop" className={styles.viewAll}>
             View All Products <FontAwesomeIcon icon={faArrowRight} />
           </Link>
@@ -372,7 +400,7 @@ alt="Medster Pharmacy Banner"
                     </div>
                     <Link to={`/product/${product.id}`}>
                       <button className={styles.shopNow}>
-                        View Details →
+                        View Details <FontAwesomeIcon icon={faArrowRight} />
                       </button>
                     </Link>
                   </div>
@@ -393,7 +421,9 @@ alt="Medster Pharmacy Banner"
         </div>
         <div className={styles.testimonialGrid}>
           <div className={styles.testimonialCard}>
-            <div className={styles.testimonialStars}>★★★★★</div>
+            <div className={styles.testimonialStars}>
+              <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
+            </div>
             <p className={styles.testimonialText}>
               "Medster Pharmacy has been a lifesaver! Fast delivery and genuine products. I order all my medications here now."
             </p>
@@ -406,7 +436,9 @@ alt="Medster Pharmacy Banner"
             </div>
           </div>
           <div className={styles.testimonialCard}>
-            <div className={styles.testimonialStars}>★★★★★</div>
+            <div className={styles.testimonialStars}>
+              <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
+            </div>
             <p className={styles.testimonialText}>
               "The video consultation service is amazing. I spoke to a doctor within minutes and got my prescription filled immediately."
             </p>
@@ -419,7 +451,9 @@ alt="Medster Pharmacy Banner"
             </div>
           </div>
           <div className={styles.testimonialCard}>
-            <div className={styles.testimonialStars}>★★★★★</div>
+            <div className={styles.testimonialStars}>
+              <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
+            </div>
             <p className={styles.testimonialText}>
               "Finally a pharmacy I can trust! Competitive prices, authentic products, and excellent customer service. Highly recommended!"
             </p>
@@ -465,12 +499,12 @@ alt="Medster Pharmacy Banner"
             <h2>Our Stores</h2>
 <p>Find Medster Pharmacy branches near you.</p>
             <ul className={styles.storeFeatures}>
-              <li>📍 Over 500 locations nationwide</li>
-              <li>🕐 Open 8 AM - 10 PM daily</li>
-              <li>🚗 Drive-thru pharmacy available</li>
+              <li><FontAwesomeIcon icon={faMapMarkerAlt} /> Over 500 locations nationwide</li>
+              <li><FontAwesomeIcon icon={faClock} /> Open 8 AM - 10 PM daily</li>
+              <li><FontAwesomeIcon icon={faCar} /> Drive-thru pharmacy available</li>
             </ul>
             <button className={styles["store-btn"]}>
-              View Store Locations →
+              View Store Locations <FontAwesomeIcon icon={faArrowRight} />
             </button>
           </div>
           <div className={styles.storeMap}>

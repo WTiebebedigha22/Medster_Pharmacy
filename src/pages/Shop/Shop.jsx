@@ -3,37 +3,67 @@ import styles from "./Shop.module.css";
 import { useCart } from "../../context/CartContext";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import FilterBar from "../../components/FilterBar/FilterBar";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faSyringe,
+  faPills,
+  faPrescriptionBottle,
+  faJar,
+  faEye,
+  faTooth,
+  faPersonDotsFromLine,
+  faDumbbell,
+  faTablets,
+  faBacteria,
+  faBriefcaseMedical,
+  faMicroscope,
+  faUtensils,
+  faPersonRays,
+  faLungs,
+  faSpoon,
+  faHeartPulse,
+  faDroplet,
+  faBaby,
+  faStar,
+  faBandAid,
+  faPersonDress,
+  faBoxOpen,
+  faSearch,
+  faTimes,
+  faChevronLeft,
+  faChevronRight,
+} from '@fortawesome/free-solid-svg-icons';
 import { api } from "../../lib/api";
 
-// Map of category -> emoji/icon for visual display
+// Map of category -> FontAwesome icon for visual display
 const CATEGORY_ICONS = {
-  "Injections & Infusions": "💉",
-  "Tablets & Capsules": "💊",
-  "Syrups & Suspensions": "🧪",
-  "Creams & Ointments": "🧴",
-  "Eye, Ear & Nasal Drops": "👁️",
-  "Oral Care": "🪥",
-  "Contraceptives": "🛡️",
-  "Vitamins & Supplements": "💪",
-  "Pain Relief": "🤕",
-  "Antibiotics & Anti-infectives": "🦠",
-  "Medical Supplies": "🏥",
-  "Diagnostic Tests": "🔬",
-  "Food & Beverages": "🍽️",
-  "Personal Care": "🧖",
-  "Cough & Cold Syrups": "🤧",
-  "Antacids & Digestive Health": "🏪",
-  "Cardiovascular Health": "❤️",
-  "Diabetes Care": "🩸",
-  "Fertility & Sexual Health": "👶",
-  "Antimalarials": "🦟",
-  "Feminine Care": "👩",
-  "Respiratory": "🫁",
-  "First Aid": "🚑",
-  "General Health": "🌟",
+  "Injections & Infusions": faSyringe,
+  "Tablets & Capsules": faPills,
+  "Syrups & Suspensions": faPrescriptionBottle,
+  "Creams & Ointments": faJar,
+  "Eye, Ear & Nasal Drops": faEye,
+  "Oral Care": faTooth,
+  "Contraceptives": faPersonDotsFromLine,
+  "Vitamins & Supplements": faDumbbell,
+  "Pain Relief": faTablets,
+  "Antibiotics & Anti-infectives": faBacteria,
+  "Medical Supplies": faBriefcaseMedical,
+  "Diagnostic Tests": faMicroscope,
+  "Food & Beverages": faUtensils,
+  "Personal Care": faPersonRays,
+  "Cough & Cold Syrups": faLungs,
+  "Antacids & Digestive Health": faSpoon,
+  "Cardiovascular Health": faHeartPulse,
+  "Diabetes Care": faDroplet,
+  "Fertility & Sexual Health": faBaby,
+  "Antimalarials": faBacteria,
+  "Feminine Care": faPersonDress,
+  "Respiratory": faLungs,
+  "First Aid": faBandAid,
+  "General Health": faStar,
 };
 
-const ITEMS_PER_PAGE = 20;
+const ITEMS_PER_PAGE = 12;
 
 const Shop = () => {
   const { addToCart } = useCart();
@@ -51,7 +81,7 @@ const Shop = () => {
   const [brand, setBrand] = useState("");
 
   // Pagination
-  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     let cancelled = false;
@@ -80,6 +110,17 @@ const Shop = () => {
   const brands = useMemo(() => {
     const set = new Set(products.map((p) => p.brand).filter(Boolean));
     return Array.from(set).sort();
+  }, [products]);
+
+  // Accurate per-category product counts
+  const categoryCounts = useMemo(() => {
+    const counts = {};
+    products.forEach((p) => {
+      if (p.category) {
+        counts[p.category] = (counts[p.category] || 0) + 1;
+      }
+    });
+    return counts;
   }, [products]);
 
   // Price range helper
@@ -149,19 +190,48 @@ const Shop = () => {
     return result;
   }, [products, search, category, showRxOnly, priceRange, sortBy, showInStockOnly, brand, isInPriceRange]);
 
-  const visibleProducts = useMemo(
-    () => filtered.slice(0, visibleCount),
-    [filtered, visibleCount]
-  );
+  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
 
-  const handleLoadMore = () => {
-    setVisibleCount((prev) => Math.min(prev + ITEMS_PER_PAGE, filtered.length));
+  // Clamp current page if it exceeds total pages
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [currentPage, totalPages]);
+
+  const visibleProducts = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE;
+    return filtered.slice(start, start + ITEMS_PER_PAGE);
+  }, [filtered, currentPage]);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, category, showRxOnly, priceRange, sortBy, showInStockOnly, brand]);
+
+  const goToPage = (page) => {
+    setCurrentPage(Math.min(Math.max(1, page), totalPages));
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Reset visible count when filters change
-  useEffect(() => {
-    setVisibleCount(ITEMS_PER_PAGE);
-  }, [search, category, showRxOnly, priceRange, sortBy, showInStockOnly, brand]);
+  // Build pagination page list with ellipsis
+  const pageList = useMemo(() => {
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+    const pages = new Set([1, totalPages, currentPage - 1, currentPage, currentPage + 1]);
+    const sorted = Array.from(pages)
+      .filter((p) => p >= 1 && p <= totalPages)
+      .sort((a, b) => a - b);
+    const withGaps = [];
+    sorted.forEach((p, i) => {
+      if (i > 0 && p - sorted[i - 1] > 1) {
+        withGaps.push("…");
+      }
+      withGaps.push(p);
+    });
+    return withGaps;
+  }, [currentPage, totalPages]);
 
   return (
     <div className={styles.page}>
@@ -178,103 +248,151 @@ const Shop = () => {
       </header>
 
       <div className={styles.container}>
-        {/* Category Quick Links */}
-        <div className={styles.categoryGrid}>
-          {categories.slice(0, 8).map((cat) => (
-            <button
-              key={cat}
-              className={`${styles.categoryPill} ${
-                category === cat ? styles.activeCat : ""
-              }`}
-              onClick={() => setCategory(cat === category ? "All" : cat)}
-            >
-              <span>{CATEGORY_ICONS[cat] || "📦"}</span>
-              <span>{cat}</span>
-              <span className={styles.pillCount}>
-                {products.filter((p) => p.category === cat).length}
-              </span>
-            </button>
-          ))}
-          {categories.length > 8 && (
-            <button
-              className={`${styles.categoryPill} ${
-                category === "All" ? styles.activeCat : ""
-              }`}
-              onClick={() => setCategory("All")}
-            >
-              <span>📋</span>
-              <span>All ({products.length})</span>
-            </button>
-          )}
-        </div>
+        <div className={styles.shopLayout}>
+          {/* Sidebar — Categories & Filters */}
+          <aside className={styles.sidebar}>
+            <FilterBar
+              categories={categories}
+              category={category}
+              setCategory={setCategory}
+              search={search}
+              setSearch={setSearch}
+              showRxOnly={showRxOnly}
+              setShowRxOnly={setShowRxOnly}
+              priceRange={priceRange}
+              setPriceRange={setPriceRange}
+              sortBy={sortBy}
+              setSortBy={setSortBy}
+              showInStockOnly={showInStockOnly}
+              setShowInStockOnly={setShowInStockOnly}
+              brand={brand}
+              setBrand={setBrand}
+              brands={brands}
+              totalProducts={products.length}
+              filteredCount={filtered.length}
+              categoryIcons={CATEGORY_ICONS}
+              categoryCounts={categoryCounts}
+            />
+          </aside>
 
-        {/* Filter Bar */}
-        <FilterBar
-          categories={categories}
-          category={category}
-          setCategory={setCategory}
-          search={search}
-          setSearch={setSearch}
-          showRxOnly={showRxOnly}
-          setShowRxOnly={setShowRxOnly}
-          priceRange={priceRange}
-          setPriceRange={setPriceRange}
-          sortBy={sortBy}
-          setSortBy={setSortBy}
-          showInStockOnly={showInStockOnly}
-          setShowInStockOnly={setShowInStockOnly}
-          brand={brand}
-          setBrand={setBrand}
-          brands={brands}
-          totalProducts={products.length}
-          filteredCount={filtered.length}
-        />
+          {/* Content — Toolbar + Grid + Pagination */}
+          <div className={styles.content}>
+            {/* Results toolbar */}
+            {!loading && (
+              <div className={styles.toolbar}>
+                <div className={styles.resultsInfo}>
+                  {filtered.length === 0 ? (
+                    <strong>No results</strong>
+                  ) : (
+                    <>
+                      Showing{" "}
+                      <strong>
+                        {(currentPage - 1) * ITEMS_PER_PAGE + 1}–
+                        {Math.min(currentPage * ITEMS_PER_PAGE, filtered.length)}
+                      </strong>{" "}
+                      of <strong>{filtered.length}</strong> products
+                    </>
+                  )}
+                  {category !== "All" && (
+                    <span className={styles.toolbarCat}>{category}</span>
+                  )}
+                </div>
+                <div className={styles.toolbarSort}>
+                  <label htmlFor="sortSelect">Sort:</label>
+                  <select
+                    id="sortSelect"
+                    value={sortBy || ""}
+                    onChange={(e) => setSortBy(e.target.value)}
+                  >
+                    <option value="">Default</option>
+                    <option value="price_asc">Price: Low to High</option>
+                    <option value="price_desc">Price: High to Low</option>
+                    <option value="name_asc">Name: A to Z</option>
+                    <option value="name_desc">Name: Z to A</option>
+                    <option value="stock">In Stock First</option>
+                  </select>
+                </div>
+              </div>
+            )}
 
-        {/* Product Grid */}
-        <div className={styles.grid}>
-          {loading ? (
-            <div className={styles.empty}>
-              <div className={styles.spinner}></div>
-              <p>Loading products...</p>
-            </div>
-          ) : visibleProducts.length === 0 ? (
-            <div className={styles.empty}>
-              <span className={styles.emptyIcon}>🔍</span>
-              <h3>No products match your filters</h3>
-              <p>Try adjusting or clearing your filters</p>
-              <button
-                className={styles.resetBtn}
-                onClick={() => {
-                  setSearch("");
-                  setCategory("All");
-                  setShowRxOnly(false);
-                  setPriceRange("all");
-                  setSortBy("");
-                  setShowInStockOnly(false);
-                  setBrand("");
-                }}
-              >
-                ✕ Clear all filters
-              </button>
-            </div>
-          ) : (
-            <>
-              {visibleProducts.map((product) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  onAddToCart={addToCart}
-                />
-              ))}
-              {filtered.length > visibleCount && (
-                <div className={styles.loadMoreWrap}>
-                  <button className={styles.loadMore} onClick={handleLoadMore}>
-                    Show More ({filtered.length - visibleCount} remaining)
+            {/* Product Grid */}
+            <div className={styles.grid}>
+              {loading ? (
+                <div className={styles.empty}>
+                  <div className={styles.spinner}></div>
+                  <p>Loading products...</p>
+                </div>
+              ) : visibleProducts.length === 0 ? (
+                <div className={styles.empty}>
+                  <FontAwesomeIcon icon={faSearch} className={styles.emptyIcon} />
+                  <h3>No products match your filters</h3>
+                  <p>Try adjusting or clearing your filters</p>
+                  <button
+                    className={styles.resetBtn}
+                    onClick={() => {
+                      setSearch("");
+                      setCategory("All");
+                      setShowRxOnly(false);
+                      setPriceRange("all");
+                      setSortBy("");
+                      setShowInStockOnly(false);
+                      setBrand("");
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faTimes} /> Clear all filters
                   </button>
                 </div>
+              ) : (
+                visibleProducts.map((product) => (
+                  <ProductCard
+                    key={product.id}
+                    product={product}
+                    onAddToCart={addToCart}
+                  />
+                ))
               )}
-            </>
-          )}
+            </div>
+
+            {/* Pagination */}
+            {!loading && filtered.length > ITEMS_PER_PAGE && (
+              <nav className={styles.pagination} aria-label="Product pages">
+                <button
+                  className={styles.pageBtn}
+                  onClick={() => goToPage(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  aria-label="Previous page"
+                >
+                  <FontAwesomeIcon icon={faChevronLeft} />
+                </button>
+                {pageList.map((p, idx) =>
+                  p === "…" ? (
+                    <span key={`gap-${idx}`} className={styles.pageGap}>
+                      …
+                    </span>
+                  ) : (
+                    <button
+                      key={p}
+                      className={`${styles.pageBtn} ${
+                        p === currentPage ? styles.pageActive : ""
+                      }`}
+                      onClick={() => goToPage(p)}
+                      aria-current={p === currentPage ? "page" : undefined}
+                    >
+                      {p}
+                    </button>
+                  )
+                )}
+                <button
+                  className={styles.pageBtn}
+                  onClick={() => goToPage(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  aria-label="Next page"
+                >
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </button>
+              </nav>
+            )}
+          </div>
         </div>
       </div>
 
@@ -284,8 +402,8 @@ const Shop = () => {
           <h2 className={styles.catSectionTitle}>Browse by Category</h2>
           <div className={styles.browseGrid}>
             {categories.map((cat) => {
-              const count = products.filter((p) => p.category === cat).length;
-              const icon = CATEGORY_ICONS[cat] || "📦";
+              const count = categoryCounts[cat] || 0;
+              const icon = CATEGORY_ICONS[cat] || faBoxOpen;
               const catSlug = cat
                 .toLowerCase()
                 .replace(/[^a-z0-9]+/g, "-")
@@ -309,7 +427,9 @@ const Shop = () => {
                         e.target.style.display = "none";
                       }}
                     />
-                    <span className={styles.browseIcon}>{icon}</span>
+                    <span className={styles.browseIcon}>
+                      <FontAwesomeIcon icon={icon} />
+                    </span>
                   </div>
                   <div className={styles.browseInfo}>
                     <h4>{cat}</h4>

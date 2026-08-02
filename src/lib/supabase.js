@@ -9,13 +9,13 @@ export const testSupabaseConnection = async () => {
   try {
     const { error } = await supabase.from('profiles').select('count', { count: 'exact', head: true });
     if (error) {
-      console.error('❌ Supabase connection error:', error.message);
+      console.error('[Supabase] Connection error:', error.message);
       return false;
     }
-    console.log('✅ Supabase connected successfully');
+    console.log('[Supabase] Connected successfully');
     return true;
   } catch (err) {
-    console.error('❌ Supabase connection failed:', err.message);
+    console.error('[Supabase] Connection failed:', err.message);
     return false;
   }
 };

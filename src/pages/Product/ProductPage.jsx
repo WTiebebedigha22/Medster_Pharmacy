@@ -4,6 +4,7 @@ import styles from "./ProductPage.module.css";
 import { useCart } from "../../context/CartContext";
 import { useAuth } from "../../context/AuthContext";
 import { api } from "../../lib/api";
+import { loadImageCache, getCachedImage } from "../../lib/pexels";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faArrowLeft, 
@@ -26,7 +27,13 @@ import {
   faTag,
   faGift,
   faPercent,
-  faSpinner
+  faSpinner,
+  faSearch,
+  faPills,
+  faStethoscope,
+  faBaby,
+  faExclamationTriangle,
+  faUpload
 } from '@fortawesome/free-solid-svg-icons';
 
 const ProductPage = () => {
@@ -62,6 +69,8 @@ const ProductPage = () => {
         
         if (!cancelled) {
           if (productData) {
+            // Load the pre-fetched Pexels image cache so the gallery can be enriched
+            await loadImageCache();
             setProduct(productData);
             setInStock(productData.inStock !== false);
             
@@ -108,7 +117,7 @@ const ProductPage = () => {
                 user: "Mary Smith",
                 rating: 5,
                 date: "2026-06-28",
-comment: "Life-saving medication. Thank you Medster Pharmacy!",
+                comment: "Life-saving medication. Thank you Medster Pharmacy!",
                 verified: true
               }
             ]);
@@ -227,6 +236,17 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
     }
   };
 
+// Compute savings amount if oldPrice is present
+  const savings = useMemo(() => {
+    if (!product) return null;
+    if (!product.oldPrice) return null;
+    const diff = Number(product.oldPrice) - Number(product.price);
+    return diff > 0 ? diff : null;
+  }, [product]);
+
+  // Low-stock threshold (e.g. < 5 remaining)
+  const lowStock = inStock && product?.quantity !== undefined && product.quantity < 5;
+
   const renderStars = (rating) => {
     const fullStars = Math.floor(rating);
     const halfStar = rating - fullStars >= 0.5;
@@ -260,7 +280,7 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
     return (
       <div className={styles.page}>
         <div className={styles.notFoundContainer}>
-          <div className={styles.notFoundIcon}>🔍</div>
+          <div className={styles.notFoundIcon}><FontAwesomeIcon icon={faSearch} /></div>
           <h1>{error || 'Product Not Found'}</h1>
           <p>{error || "The product you're looking for doesn't exist or has been removed."}</p>
           <button className={styles.btnPrimary} onClick={() => navigate("/shop")}>
@@ -270,9 +290,9 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
           <div className={styles.suggestions}>
             <p>You might be interested in:</p>
             <div className={styles.suggestionLinks}>
-              <Link to="/shop?category=vitamins">💊 Vitamins</Link>
-              <Link to="/shop?category=devices">📱 Health Devices</Link>
-              <Link to="/shop?category=baby">👶 Baby Care</Link>
+              <Link to="/shop?category=vitamins"><FontAwesomeIcon icon={faPills} /> Vitamins</Link>
+              <Link to="/shop?category=devices"><FontAwesomeIcon icon={faStethoscope} /> Health Devices</Link>
+              <Link to="/shop?category=baby"><FontAwesomeIcon icon={faBaby} /> Baby Care</Link>
             </div>
           </div>
         </div>
@@ -280,8 +300,50 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
     );
   }
 
-  const productImage = product.images?.[0] || product.image || '/images/placeholder.jpg';
-  const productImages = product.images || [productImage];
+  // Build an enriched image gallery:
+  // primary product image -> cached Pexels match (if different) -> category SVG -> placeholder
+  const categorySlug = (product.category || "general")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  const categoryFallback = `/images/categories/${categorySlug}.svg`;
+  const placeholder = "/images/placeholder.svg";
+
+  const primaryImage =
+    product.images?.[0] ||
+    product.image ||
+    getCachedImage(product.name, product.category) ||
+    categoryFallback ||
+    placeholder;
+
+  const cachedImage = getCachedImage(product.name, product.category);
+  const categoryImage = categoryFallback;
+
+  const galleryImages = [primaryImage];
+  if (cachedImage && cachedImage !== primaryImage) galleryImages.push(cachedImage);
+  if (categoryImage && !galleryImages.includes(categoryImage)) galleryImages.push(categoryImage);
+  galleryImages.push(placeholder);
+  const productImages = galleryImages;
+
+  const productImage = primaryImage;
+
+// Robust onError: fall back through category SVG then placeholder without infinite loops
+  const fallbackImage = (e) => {
+    const current = e.target.src;
+    if (!current.includes("/images/categories/")) {
+      e.target.src = categoryFallback;
+      e.onerror = () => { e.target.onerror = null; e.target.src = placeholder; };
+    } else {
+      e.target.onerror = null;
+      e.target.src = placeholder;
+    }
+  };
+
+  // Thumbnail onError with same fallback chain
+  const thumbFallback = (e) => {
+    e.target.onerror = null;
+    e.target.src = placeholder;
+  };
 
   return (
     <div className={styles.page}>
@@ -309,9 +371,7 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
                 className={styles.mainImage} 
                 src={productImages[selectedImage] || productImage}
                 alt={product.name}
-                onError={(e) => {
-                  e.target.src = '/images/placeholder.jpg';
-                }}
+                onError={fallbackImage}
               />
               {product.isRx && (
                 <span className={styles.rxBadge}>Prescription Required</span>
@@ -337,11 +397,9 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
                     onClick={() => setSelectedImage(index)}
                   >
                     <img 
-                      src={img || '/images/placeholder.jpg'} 
+                      src={img || placeholder} 
                       alt={`Product view ${index + 1}`}
-                      onError={(e) => {
-                        e.target.src = '/images/placeholder.jpg';
-                      }}
+                      onError={thumbFallback}
                     />
                   </div>
                 ))}
@@ -379,16 +437,39 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
                 </span>
               )}
               {product.bestseller && (
-                <span className={styles.bestsellerBadge}>⭐ Best Seller</span>
+                <span className={styles.bestsellerBadge}><FontAwesomeIcon icon={faStar} /> Best Seller</span>
               )}
             </div>
 
             {/* Product Name */}
             <h1 className={styles.name}>{product.name}</h1>
 
-            {/* Brand */}
-            {product.brand && (
-              <p className={styles.brand}>Brand: <strong>{product.brand}</strong></p>
+            {/* Brand, SKU, Manufacturer, Branch */}
+            <div className={styles.metaRow}>
+              {product.brand && (
+                <span className={styles.metaItem}>
+                  <span className={styles.metaLabel}>Brand:</span> <strong>{product.brand}</strong>
+                </span>
+              )}
+              {product.sku && (
+                <span className={styles.metaItem}>
+                  <span className={styles.metaLabel}>SKU:</span> <strong>{product.sku}</strong>
+                </span>
+              )}
+            </div>
+            {(product.manufacturer || product.branch) && (
+              <div className={styles.metaRow}>
+                {product.manufacturer && (
+                  <span className={styles.metaItem}>
+                    <FontAwesomeIcon icon={faStore} /> <span className={styles.metaLabel}>Manufacturer:</span> {product.manufacturer}
+                  </span>
+                )}
+                {product.branch && (
+                  <span className={styles.metaItem}>
+                    <FontAwesomeIcon icon={faStore} /> <span className={styles.metaLabel}>Branch:</span> {product.branch}
+                  </span>
+                )}
+              </div>
             )}
 
             {/* Rating */}
@@ -416,6 +497,11 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
                   Save {product.discount}%
                 </span>
               )}
+              {savings && (
+                <span className={styles.savingsTag}>
+                  <FontAwesomeIcon icon={faTag} /> You save ₦{savings.toLocaleString()}
+                </span>
+              )}
             </div>
 
             {/* Stock Status */}
@@ -423,10 +509,17 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
               {inStock ? (
                 <span className={styles.inStock}>
                   <FontAwesomeIcon icon={faCheckCircle} />
-                  In Stock - Available
+                  In Stock{lowStock ? ` — Only ${product.quantity} left` : ' - Available'}
                 </span>
               ) : (
-                <span className={styles.outOfStock}>Out of Stock</span>
+                <span className={styles.outOfStock}>
+                  <FontAwesomeIcon icon={faExclamationTriangle} /> Out of Stock
+                </span>
+              )}
+              {lowStock && (
+                <span className={styles.lowStockWarning}>
+                  <FontAwesomeIcon icon={faExclamationTriangle} /> Low stock — order soon
+                </span>
               )}
               <span className={styles.shippingInfo}>
                 <FontAwesomeIcon icon={faTruck} />
@@ -458,6 +551,9 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
                 <div>
                   <strong>Prescription Required</strong>
                   <p>This product requires a valid prescription. Upload your prescription during checkout.</p>
+                  <Link to="/prescriptions/add" className={styles.rxUploadCta}>
+                    <FontAwesomeIcon icon={faUpload} /> Upload Prescription
+                  </Link>
                 </div>
               </div>
             )}
@@ -554,7 +650,7 @@ comment: "Life-saving medication. Thank you Medster Pharmacy!",
               </Link>
               <Link to="/contact" className={styles.contactLink}>
                 <FontAwesomeIcon icon={faEnvelope} />
-support@medsterpharmacy.com
+                support@medsterpharmacy.com
               </Link>
             </div>
           </div>
@@ -685,7 +781,7 @@ support@medsterpharmacy.com
                     <FontAwesomeIcon icon={faStore} />
                     <div>
                       <strong>Store Pickup</strong>
-<p>Collect your order from any Medster Pharmacy location. Usually ready within 2 hours.</p>
+                      <p>Collect your order from any Medster Pharmacy location. Usually ready within 2 hours.</p>
                     </div>
                   </div>
                 </div>
@@ -711,12 +807,12 @@ support@medsterpharmacy.com
                   <img 
                     src={related.image || related.images?.[0] || '/images/placeholder.jpg'} 
                     alt={related.name} 
+                    onError={thumbFallback}
                   />
                   <h5>{related.name}</h5>
                   <p className={styles.relatedPrice}>₦{Number(related.price).toLocaleString()}</p>
                   <span className={styles.relatedRating}>
-                    {'★'.repeat(Math.floor(related.rating || 4))}
-                    {'☆'.repeat(5 - Math.floor(related.rating || 4))}
+                    {renderStars(related.rating || 4)}
                   </span>
                 </Link>
               ))}
@@ -758,7 +854,7 @@ support@medsterpharmacy.com
             <span className={styles.stickyPriceValue}>
               ₦{Number(product.price).toLocaleString()}
             </span>
-            {inStock && <span className={styles.stickyStock}>✓ In Stock</span>}
+            {inStock && <span className={styles.stickyStock}><FontAwesomeIcon icon={faCheckCircle} /> In Stock</span>}
           </div>
           <button 
             className={styles.stickyAddBtn}

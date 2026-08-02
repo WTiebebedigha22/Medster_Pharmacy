@@ -9,7 +9,9 @@ import {
   faExclamationTriangle,
   faDollarSign,
   faClipboardList,
-faSpinner,
+  faSpinner,
+  faArrowRight,
+  faCheckCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import styles from './AdminStyles.module.css';
 
@@ -187,7 +189,7 @@ const Dashboard = () => {
               Recent Orders
             </h2>
             <Link to="/admin/orders" className={styles.viewAll}>
-              View All →
+              View All <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
           {recentOrders.length === 0 ? (
@@ -237,12 +239,12 @@ const Dashboard = () => {
               Low Stock Alerts
             </h2>
             <Link to="/admin/products" className={styles.viewAll}>
-              Manage →
+              Manage <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
           {lowStock.length === 0 ? (
             <div className={styles.emptyState}>
-              <p>All products well stocked ✓</p>
+              <p><FontAwesomeIcon icon={faCheckCircle} style={{ color: '#10b981' }} /> All products well stocked</p>
             </div>
           ) : (
             <div className={styles.tableWrapper}>

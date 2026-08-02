@@ -37,7 +37,7 @@ const fetchFromIREC = async (endpoint, options = {}) => {
   } catch (error) {
     // If external API fails, fall back to local server
     if (!useLocalFallback) {
-      console.warn('⚠️ IREC API unavailable, falling back to local data');
+      console.warn('[IREC] API unavailable, falling back to local data');
       useLocalFallback = true;
     }
     throw error;

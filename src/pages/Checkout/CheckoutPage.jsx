@@ -13,13 +13,14 @@ import {
   faShieldAlt,
   faCheckCircle,
   faExclamationCircle,
-faArrowLeft,
+  faArrowLeft,
   faLock,
   faMapMarkerAlt,
   faPhone,
   faUser,
   faSpinner,
   faShoppingCart,
+  faBolt,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Paystack public key from env
@@ -63,14 +64,14 @@ const DELIVERY_OPTIONS = [
     name: "Standard Delivery",
     fee: 1500,
     days: "3-5 business days",
-    icon: "🚚",
+    icon: faTruck,
   },
   {
     id: "express",
     name: "Express Delivery",
     fee: 4000,
     days: "1-2 business days",
-    icon: "⚡",
+    icon: faBolt,
   },
 ];
 
@@ -501,7 +502,7 @@ const CheckoutPage = () => {
                         checked={deliveryOption === option.id}
                         onChange={(e) => setDeliveryOption(e.target.value)}
                       />
-                      <span className={styles.deliveryIcon}>{option.icon}</span>
+<span className={styles.deliveryIcon}><FontAwesomeIcon icon={option.icon} /></span>
                       <div className={styles.deliveryInfo}>
                         <strong>{option.name}</strong>
                         <span className={styles.deliveryDays}>{option.days}</span>

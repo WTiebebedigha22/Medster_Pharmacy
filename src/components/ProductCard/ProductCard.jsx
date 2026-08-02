@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import styles from "./ProductCard.module.css";
 
 const ProductCard = ({ product, onAddToCart }) => {
@@ -67,14 +69,18 @@ const ProductCard = ({ product, onAddToCart }) => {
         {/* Stock indicator */}
         {inStock ? (
           <div className={styles.stockInfo}>
-            <span className={styles.inStock}>✅ In Stock</span>
+            <span className={styles.inStock}>
+              <FontAwesomeIcon icon={faCheckCircle} /> In Stock
+            </span>
             {quantity > 0 && quantity <= 5 && (
               <span className={styles.lowStock}>Only {quantity} left</span>
             )}
           </div>
         ) : (
           <div className={styles.stockInfo}>
-            <span className={styles.outOfStock}>❌ Out of Stock</span>
+            <span className={styles.outOfStock}>
+              <FontAwesomeIcon icon={faTimesCircle} /> Out of Stock
+            </span>
           </div>
         )}
 
@@ -92,4 +98,3 @@ const ProductCard = ({ product, onAddToCart }) => {
 };
 
 export default ProductCard;
-

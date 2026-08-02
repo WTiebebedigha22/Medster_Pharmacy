@@ -18,6 +18,14 @@ import {
   faHeart,
   faPrescription,
   faCheckCircle,
+  faPills,
+  faStethoscope,
+  faBaby,
+  faCreditCard,
+  faUniversity,
+  faMobileAlt,
+  faMoneyBill,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 
 const CartPage = () => {
@@ -168,9 +176,9 @@ const CartPage = () => {
                 </div>
                 <div className={styles.featuredCategories}>
                   <span>Popular categories:</span>
-                  <Link to="/shop?category=vitamins">💊 Vitamins</Link>
-                  <Link to="/shop?category=devices">📱 Health Devices</Link>
-                  <Link to="/shop?category=baby">👶 Baby Care</Link>
+                  <Link to="/shop?category=vitamins"><FontAwesomeIcon icon={faPills} /> Vitamins</Link>
+                  <Link to="/shop?category=devices"><FontAwesomeIcon icon={faStethoscope} /> Health Devices</Link>
+                  <Link to="/shop?category=baby"><FontAwesomeIcon icon={faBaby} /> Baby Care</Link>
                 </div>
               </div>
             ) : (
@@ -334,7 +342,9 @@ const CartPage = () => {
                         <img src={product.image} alt={product.name} />
                         <h5>{product.name}</h5>
                         <div className={styles.rating}>
-                          {"★".repeat(Math.floor(product.rating))}
+                          {[...Array(Math.floor(product.rating || 0))].map((_, i) => (
+                            <FontAwesomeIcon key={i} icon={faStar} />
+                          ))}
                           <span>{product.rating}</span>
                         </div>
                         <p className={styles.recPrice}>
@@ -453,10 +463,10 @@ const CartPage = () => {
                 <div className={styles.paymentMethods}>
                   <span>We accept:</span>
                   <div className={styles.paymentIcons}>
-                    <span>💳</span>
-                    <span>🏦</span>
-                    <span>📱</span>
-                    <span>💵</span>
+                    <span><FontAwesomeIcon icon={faCreditCard} /></span>
+                    <span><FontAwesomeIcon icon={faUniversity} /></span>
+                    <span><FontAwesomeIcon icon={faMobileAlt} /></span>
+                    <span><FontAwesomeIcon icon={faMoneyBill} /></span>
                   </div>
                 </div>
 
@@ -480,9 +490,9 @@ const CartPage = () => {
 
                 {/* Trust Badges */}
                 <div className={styles.trustBadges}>
-                  <span>✅ 100% Authentic</span>
-                  <span>🔒 Secure Payment</span>
-                  <span>🚚 Free Returns</span>
+                  <span><FontAwesomeIcon icon={faCheckCircle} /> 100% Authentic</span>
+                  <span><FontAwesomeIcon icon={faLock} /> Secure Payment</span>
+                  <span><FontAwesomeIcon icon={faTruck} /> Free Returns</span>
                 </div>
               </div>
             </div>

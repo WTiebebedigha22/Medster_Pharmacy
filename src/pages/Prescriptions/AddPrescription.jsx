@@ -17,6 +17,7 @@ import {
   faSpinner,
   faClock,
   faEnvelope,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./AddPrescription.module.css";
 
@@ -92,7 +93,7 @@ const AddPrescription = () => {
       // Simulate upload — replace with actual API call
       await new Promise((resolve) => setTimeout(resolve, 1500));
       setSubmitSuccess(true);
-    } catch (_err) {
+    } catch {
       setError("Failed to upload prescription. Please try again.");
     } finally {
       setSubmitting(false);
@@ -353,7 +354,7 @@ const AddPrescription = () => {
             <h3>Need Help?</h3>
             <p>Contact our pharmacy team for assistance with your prescription.</p>
             <Link to="/contact-us" className={styles.helpLink}>
-              Contact Support →
+              Contact Support <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
         </aside>

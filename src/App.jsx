@@ -69,12 +69,12 @@ function App() {
       try {
         const { error } = await supabase.from('orders').select('count', { count: 'exact', head: true });
         if (error) {
-          console.warn('⚠️ Supabase connection warning:', error.message);
+          console.warn('[Supabase] Connection warning:', error.message);
         } else {
-          console.log('✅ Supabase connected successfully');
+          console.log('[Supabase] Connected successfully');
         }
       } catch (err) {
-        console.warn('⚠️ Supabase connection error:', err.message);
+        console.warn('[Supabase] Connection error:', err.message);
       }
     };
     

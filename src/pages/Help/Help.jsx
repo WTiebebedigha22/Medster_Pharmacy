@@ -180,19 +180,19 @@ const Help = () => {
               <FontAwesomeIcon icon={faBookOpen} />
               <h3>User Guide</h3>
               <p>Learn how to use all features of Medster Pharmacy.</p>
-              <Link to="/faqs">Read Guide →</Link>
+              <Link to="/faqs">Read Guide <FontAwesomeIcon icon={faArrowRight} /></Link>
             </div>
             <div className={styles.resourceCard}>
               <FontAwesomeIcon icon={faShieldAlt} />
               <h3>Privacy & Security</h3>
               <p>Learn how we protect your data and privacy.</p>
-              <Link to="/privacy">Learn More →</Link>
+              <Link to="/privacy">Learn More <FontAwesomeIcon icon={faArrowRight} /></Link>
             </div>
             <div className={styles.resourceCard}>
               <FontAwesomeIcon icon={faTools} />
               <h3>System Status</h3>
               <p>Check the current status of our services.</p>
-              <Link to="/status">Check Status →</Link>
+              <Link to="/status">Check Status <FontAwesomeIcon icon={faArrowRight} /></Link>
             </div>
           </div>
         </div>

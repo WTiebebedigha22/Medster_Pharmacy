@@ -1,5 +1,14 @@
 import React, { useMemo } from "react";
 import styles from "./FilterBar.module.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faSearch,
+  faBoxOpen,
+  faCheckCircle,
+  faTimes,
+  faFilter,
+  faChevronDown,
+} from '@fortawesome/free-solid-svg-icons';
 
 const PRICE_RANGES = [
   { label: "All Prices", min: 0, max: Infinity },
@@ -12,10 +21,10 @@ const PRICE_RANGES = [
 
 const SORT_OPTIONS = [
   { label: "Default", value: "" },
-  { label: "Price: Low → High", value: "price_asc" },
-  { label: "Price: High → Low", value: "price_desc" },
-  { label: "Name: A → Z", value: "name_asc" },
-  { label: "Name: Z → A", value: "name_desc" },
+  { label: "Price: Low to High", value: "price_asc" },
+  { label: "Price: High to Low", value: "price_desc" },
+  { label: "Name: A to Z", value: "name_asc" },
+  { label: "Name: Z to A", value: "name_desc" },
   { label: "In Stock First", value: "stock" },
 ];
 
@@ -38,6 +47,8 @@ const FilterBar = ({
   brands,
   totalProducts,
   filteredCount,
+  categoryIcons = {},
+  categoryCounts = {},
 }) => {
   // Active filter count for badge
   const activeFilters = useMemo(() => {
@@ -60,67 +71,76 @@ const FilterBar = ({
     setBrand("");
   };
 
+  const countFor = (cat) =>
+    cat === "All" ? totalProducts : categoryCounts[cat] || 0;
+
   return (
-    <div className={styles.wrapper}>
-      {/* Search + Primary Controls */}
-      <div className={styles.bar}>
-        <div className={styles.searchWrap}>
-          <input
-            className={styles.search}
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="🔍 Search medicines, brands, categories..."
-          />
-        </div>
+    <div className={styles.sidebar}>
+      {/* Search */}
+      <div className={styles.searchWrap}>
+        <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
+        <input
+          className={styles.search}
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search medicines..."
+        />
+      </div>
 
-        <div className={styles.controls}>
-          <select
-            className={styles.select}
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
+      {/* Categories */}
+      <div className={styles.section}>
+        <h4 className={styles.sectionTitle}>
+          <FontAwesomeIcon icon={faFilter} />
+          Categories
+        </h4>
+        <div className={styles.catList}>
+          <button
+            className={`${styles.catItem} ${category === "All" ? styles.activeCat : ""}`}
+            onClick={() => setCategory("All")}
           >
-            <option value="All">📋 All categories</option>
-            {categories.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-
-          <label className={styles.rxToggle}>
-            <input
-              type="checkbox"
-              checked={showRxOnly}
-              onChange={(e) => setShowRxOnly(e.target.checked)}
-            />
-            <span>Rx only</span>
-          </label>
+            <FontAwesomeIcon icon={faBoxOpen} className={styles.catIcon} />
+            <span className={styles.catName}>All Products</span>
+            <span className={styles.catCount}>{totalProducts}</span>
+          </button>
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              className={`${styles.catItem} ${category === cat ? styles.activeCat : ""}`}
+              onClick={() => setCategory(cat === category ? "All" : cat)}
+            >
+              <FontAwesomeIcon icon={categoryIcons[cat] || faBoxOpen} className={styles.catIcon} />
+              <span className={styles.catName}>{cat}</span>
+              <span className={styles.catCount}>{countFor(cat)}</span>
+            </button>
+          ))}
         </div>
       </div>
 
-      {/* Secondary Filters */}
-      <div className={styles.filters}>
-        <div className={styles.filterGroup}>
-          <label className={styles.filterLabel}>Price</label>
-          <select
-            className={styles.filterSelect}
-            value={priceRange || "all"}
-            onChange={(e) => setPriceRange(e.target.value)}
-          >
-            <option value="all">All Prices</option>
-            {PRICE_RANGES.slice(1).map((r) => (
-              <option key={r.label} value={r.label}>
-                {r.label}
-              </option>
-            ))}
-          </select>
+      {/* Price */}
+      <div className={styles.section}>
+        <h4 className={styles.sectionTitle}>Price</h4>
+        <div className={styles.radioList}>
+          {PRICE_RANGES.map((r) => (
+            <label key={r.label} className={styles.radioItem}>
+              <input
+                type="radio"
+                name="price"
+                checked={(priceRange || "all") === (r.label === "All Prices" ? "all" : r.label)}
+                onChange={() => setPriceRange(r.label === "All Prices" ? "all" : r.label)}
+              />
+              <span>{r.label}</span>
+            </label>
+          ))}
         </div>
+      </div>
 
-        <div className={styles.filterGroup}>
-          <label className={styles.filterLabel}>Brand</label>
+      {/* Brand */}
+      <div className={styles.section}>
+        <h4 className={styles.sectionTitle}>Brand</h4>
+        <label className={styles.selectWrap}>
           <select
-            className={styles.filterSelect}
+            className={styles.select}
             value={brand || ""}
             onChange={(e) => setBrand(e.target.value)}
           >
@@ -131,12 +151,16 @@ const FilterBar = ({
               </option>
             ))}
           </select>
-        </div>
+          <FontAwesomeIcon icon={faChevronDown} className={styles.selectChevron} />
+        </label>
+      </div>
 
-        <div className={styles.filterGroup}>
-          <label className={styles.filterLabel}>Sort</label>
+      {/* Sort */}
+      <div className={styles.section}>
+        <h4 className={styles.sectionTitle}>Sort By</h4>
+        <label className={styles.selectWrap}>
           <select
-            className={styles.filterSelect}
+            className={styles.select}
             value={sortBy || ""}
             onChange={(e) => setSortBy(e.target.value)}
           >
@@ -146,34 +170,49 @@ const FilterBar = ({
               </option>
             ))}
           </select>
-        </div>
+          <FontAwesomeIcon icon={faChevronDown} className={styles.selectChevron} />
+        </label>
+      </div>
 
-        <div className={styles.filterGroup}>
-          <label className={styles.filterCheck}>
+      {/* Availability */}
+      <div className={styles.section}>
+        <h4 className={styles.sectionTitle}>Availability</h4>
+        <div className={styles.checkList}>
+          <label className={styles.checkItem}>
             <input
               type="checkbox"
               checked={showInStockOnly}
               onChange={(e) => setShowInStockOnly(e.target.checked)}
             />
-            <span>✅ In Stock Only</span>
+            <FontAwesomeIcon icon={faCheckCircle} />
+            <span>In Stock Only</span>
+          </label>
+          <label className={styles.checkItem}>
+            <input
+              type="checkbox"
+              checked={showRxOnly}
+              onChange={(e) => setShowRxOnly(e.target.checked)}
+            />
+            <span>Prescription only (Rx)</span>
           </label>
         </div>
-
-        {activeFilters > 0 && (
-          <button className={styles.clearBtn} onClick={clearAllFilters}>
-            ✕ Clear ({activeFilters})
-          </button>
-        )}
       </div>
+
+      {/* Active filter count + clear */}
+      {activeFilters > 0 && (
+        <div className={styles.activeRow}>
+          <span className={styles.activeBadge}>
+            {activeFilters} filter{activeFilters > 1 ? "s" : ""} active
+          </span>
+          <button className={styles.clearBtn} onClick={clearAllFilters}>
+            <FontAwesomeIcon icon={faTimes} /> Clear all
+          </button>
+        </div>
+      )}
 
       {/* Results count */}
       <div className={styles.resultsCount}>
         Showing <strong>{filteredCount}</strong> of {totalProducts} products
-        {activeFilters > 0 && (
-          <span className={styles.filterBadge}>
-            {activeFilters} filter{activeFilters > 1 ? "s" : ""} active
-          </span>
-        )}
       </div>
     </div>
   );

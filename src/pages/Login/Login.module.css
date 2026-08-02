@@ -13,7 +13,9 @@
 /* ── Left Brand Panel ── */
 .brandPanel {
   flex: 1;
-  background: linear-gradient(135deg, #005abc 0%, #007a1b 100%);
+  background:
+    linear-gradient(135deg, rgba(0, 90, 188, 0.88) 0%, rgba(0, 122, 27, 0.88) 100%),
+    url('/images/auth/pharmacy.jpg') center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
