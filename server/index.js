@@ -16,6 +16,7 @@ import adminRoutes from './routes/admin.js';
 import webhookRoutes from './routes/webhooks.js';
 import wishlistRoutes from './routes/wishlist.js';
 import reviewRoutes from './routes/reviews.js';
+import notificationRoutes from './routes/notifications.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -80,6 +81,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/webhooks', webhookRoutes);
 app.use('/api/wishlist', wishlistRoutes);
 app.use('/api/reviews', reviewRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 // =============================================
 // ERROR HANDLING

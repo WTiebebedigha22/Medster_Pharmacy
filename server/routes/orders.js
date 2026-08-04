@@ -5,6 +5,7 @@ import { asyncHandler } from '../middleware/errorHandler.js';
 import { supabase } from '../db/supabase.js';
 import irecService from '../services/irecService.js';
 import paymentService from '../services/paymentService.js';
+import notificationService from '../services/notificationService.js';
 
 const router = Router();
 router.use(authenticate);
@@ -202,6 +203,17 @@ router.post(
       status: 'initiated',
     });
 
+    // Send order confirmation notification (in-app + email)
+    notificationService
+      .notifyOrderConfirmation({
+        userId: req.user.id,
+        orderId: order.id,
+        orderNumber,
+        total,
+        items: orderItems,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Order confirmation failed:', err.message));
+
     res.status(201).json({
       order,
       payment: {
@@ -220,7 +232,7 @@ router.post(
 
     const { data: order } = await supabase
       .from('orders')
-      .select('id, status')
+      .select('id, status, order_number')
       .eq('id', id)
       .eq('user_id', req.user.id)
       .single();
@@ -239,6 +251,15 @@ router.post(
       .from('orders')
       .update({ status: 'cancelled' })
       .eq('id', id);
+
+    // Send order cancellation notification (in-app + email)
+    notificationService
+      .notifyOrderCancellation({
+        userId: req.user.id,
+        orderId: order.id,
+        orderNumber: order.order_number,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Order cancellation failed:', err.message));
 
     res.json({ message: 'Order cancelled successfully' });
   })

@@ -3,6 +3,7 @@ import { authenticate, requireRole } from '../middleware/auth.js';
 import { asyncHandler } from '../middleware/errorHandler.js';
 import { supabase } from '../db/supabase.js';
 import irecService from '../services/irecService.js';
+import notificationService from '../services/notificationService.js';
 
 const router = Router();
 
@@ -784,7 +785,19 @@ router.put(
       return res.status(400).json({ message: 'Order cannot be shipped or not found' });
     }
 
-    await logAudit(req, 'ship_order', 'orders', id);
+await logAudit(req, 'ship_order', 'orders', id);
+
+    // Send delivery notice (shipped)
+    notificationService
+      .notifyDeliveryNotice({
+        userId: order.user_id,
+        orderId: order.id,
+        orderNumber: order.order_number,
+        status: 'shipped',
+        trackingNumber: order.tracking_number,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Ship notice failed:', err.message));
+
     res.json({ order });
   })
 );
@@ -803,11 +816,32 @@ router.put(
       .select()
       .single();
 
-    if (error || !order) {
+if (error || !order) {
       return res.status(400).json({ message: 'Order cannot be delivered or not found' });
     }
 
     await logAudit(req, 'deliver_order', 'orders', id);
+
+    // Send delivery notice (delivered)
+    notificationService
+      .notifyDeliveryNotice({
+        userId: order.user_id,
+        orderId: order.id,
+        orderNumber: order.order_number,
+        status: 'delivered',
+        trackingNumber: order.tracking_number,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Deliver notice failed:', err.message));
+
+    // Send return window reminder
+    notificationService
+      .notifyReturnWarning({
+        userId: order.user_id,
+        orderId: order.id,
+        orderNumber: order.order_number,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Return warning failed:', err.message));
+
     res.json({ order });
   })
 );
@@ -842,9 +876,20 @@ router.put(
       .select()
       .single();
 
-    if (error) return res.status(500).json({ message: 'Failed to cancel order' });
+if (error) return res.status(500).json({ message: 'Failed to cancel order' });
 
     await logAudit(req, 'cancel_order', 'orders', id, { reason });
+
+    // Send order cancellation notification (in-app + email)
+    notificationService
+      .notifyOrderCancellation({
+        userId: updated.user_id,
+        orderId: updated.id,
+        orderNumber: updated.order_number,
+        reason,
+      })
+      .catch((err) => console.error('[NOTIFICATION] Cancel notice failed:', err.message));
+
     res.json({ order: updated });
   })
 );
@@ -1874,6 +1919,107 @@ router.get(
       format,
       count: data.length,
       data,
+    });
+  })
+);
+
+// =============================================
+// SYNC MANAGEMENT
+// =============================================
+
+// =============================================
+// NOTIFICATION MANAGEMENT
+// =============================================
+
+// POST /api/admin/notifications/broadcast - Send promotion to all customers
+router.post(
+  '/notifications/broadcast',
+  asyncHandler(async (req, res) => {
+    const { title, message, sendEmail = true, data = {} } = req.body;
+
+    if (!title || !message) {
+      return res.status(400).json({ message: 'Title and message are required' });
+    }
+
+    // Get all active customers
+    const { data: customers, error } = await supabase
+      .from('users')
+      .select('id, email, full_name')
+      .eq('role', 'customer')
+      .eq('is_active', true);
+
+    if (error) {
+      return res.status(500).json({ message: 'Failed to fetch customers' });
+    }
+
+    if (!customers || customers.length === 0) {
+      return res.status(400).json({ message: 'No active customers found' });
+    }
+
+    // Send promotion notification to each customer
+    let sent = 0;
+    let failed = 0;
+    const errors = [];
+
+    await Promise.all(
+      customers.map(async (customer) => {
+        try {
+          await notificationService.notifyPromotion({
+            userId: customer.id,
+            title,
+            message,
+            data: { ...data, broadcastBy: req.user.id },
+            sendEmail,
+          });
+          sent++;
+        } catch (err) {
+          failed++;
+          errors.push({ userId: customer.id, error: err.message });
+        }
+      })
+    );
+
+    await logAudit(req, 'broadcast_notification', 'notifications', null, {
+      title,
+      recipients: customers.length,
+      sent,
+      failed,
+    });
+
+    res.json({
+      message: `Promotion broadcast to ${sent} customer(s)`,
+      recipients: customers.length,
+      sent,
+      failed,
+      errors: errors.slice(0, 20),
+    });
+  })
+);
+
+// GET /api/admin/notifications - Get sent notifications (for admin view)
+router.get(
+  '/notifications',
+  asyncHandler(async (req, res) => {
+    const { type, page = 1, limit = 20 } = req.query;
+
+    let query = supabase
+      .from('notifications')
+      .select('*, users!notifications_user_id_fkey(id, email, full_name)', { count: 'exact' })
+      .order('created_at', { ascending: false });
+
+    if (type) query = query.eq('type', type);
+
+    const offset = (parseInt(page) - 1) * parseInt(limit);
+    query = query.range(offset, offset + parseInt(limit) - 1);
+
+    const { data: notifications, count, error } = await query;
+    if (error) return res.status(500).json({ message: 'Failed to fetch notifications' });
+
+    res.json({
+      notifications: notifications || [],
+      total: count || 0,
+      page: parseInt(page),
+      totalPages: Math.ceil((count || 0) / parseInt(limit)),
     });
   })
 );

@@ -15,6 +15,7 @@ import Shop from "./pages/Shop/Shop";
 import ProductPage from "./pages/Product/ProductPage";
 import CheckoutPage from "./pages/Checkout/CheckoutPage";
 import OrdersPage from "./pages/Orders/OrdersPage";
+import NotificationsPage from "./pages/Notifications/Notifications";
 import AddPrescription from "./pages/Prescriptions/AddPrescription";
 import Consult from "./pages/Consult/Consult";
 import FAQs from "./pages/FAQs/FAQs";
@@ -141,6 +142,14 @@ function App() {
           element={
             <ProtectedRoute>
               <NavBar /><OrdersPage /><Footer />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/notifications" 
+          element={
+            <ProtectedRoute>
+              <NavBar /><NotificationsPage /><Footer />
             </ProtectedRoute>
           } 
         />

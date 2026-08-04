@@ -49,9 +49,21 @@ const config = {
     apiSecret: process.env.CLOUDINARY_API_SECRET || '',
   },
 
-  // CORS
+// CORS
   cors: {
     origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+  },
+
+  // Email (SMTP - free providers: Gmail, SendGrid, Mailgun, etc.)
+  mail: {
+    enabled: process.env.MAIL_ENABLED === 'true',
+    host: process.env.MAIL_HOST || '',
+    port: parseInt(process.env.MAIL_PORT || '587', 10),
+    secure: process.env.MAIL_SECURE === 'true',
+    user: process.env.MAIL_USER || '',
+    pass: process.env.MAIL_PASS || '',
+    from: process.env.MAIL_FROM || 'no-reply@medsterpharmacy.com',
+    fromName: process.env.MAIL_FROM_NAME || 'Medster Pharmacy',
   },
 };
 

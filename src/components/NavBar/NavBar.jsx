@@ -14,6 +14,7 @@ import {
 import Hamburger from 'hamburger-react';
 import { useCart } from "../../context/CartContext";
 import { useAuth } from "../../context/AuthContext";
+import NotificationBell from "../NotificationBell/NotificationBell";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -107,6 +108,9 @@ const NavBar = () => {
                             </div>
                         )}
                     </div>
+
+                    {/* NOTIFICATION BELL */}
+                    <NotificationBell />
 
                     {/* CART */}
                     <NavLink to="/cart" className={styles["action__item"]}>

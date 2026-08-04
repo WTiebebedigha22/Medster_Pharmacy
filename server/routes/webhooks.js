@@ -4,15 +4,14 @@ import { asyncHandler } from '../middleware/errorHandler.js';
 import { supabase } from '../db/supabase.js';
 import paymentService from '../services/paymentService.js';
 import irecService from '../services/irecService.js';
+import notificationService from '../services/notificationService.js';
 import config from '../config/index.js';
 
 const router = Router();
 
-// POST /api/webhooks/paystack - Paystack payment webhook
 router.post(
   '/paystack',
   asyncHandler(async (req, res) => {
-    // Verify webhook signature
     const signature = req.headers['x-paystack-signature'];
     
     if (config.paystack.webhookSecret) {
@@ -45,6 +44,18 @@ router.post(
         .single();
 
       if (order) {
+        // Send payment success notification (in-app + email)
+        notificationService
+          .createNotification({
+            userId: order.user_id,
+            type: 'payment_update',
+            title: 'Payment Successful ✅',
+            message: `Your payment of ${parseFloat(order.total || 0).toLocaleString(undefined, { minimumFractionDigits: 2 })} for order ${order.order_number} has been received. Your order is now being processed.`,
+            data: { orderId: order.id, orderNumber: order.order_number, status: 'paid' },
+            channel: 'both',
+          })
+          .catch((err) => console.error('[NOTIFICATION] Payment success notify failed:', err.message));
+
         // Update payment log
         await supabase
           .from('payment_logs')
@@ -122,7 +133,6 @@ router.post(
         .eq('paystack_reference', result.reference);
     }
 
-    // Always acknowledge Paystack webhook
     res.json({ status: 'received' });
   })
 );
